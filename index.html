@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1BB Founder Dashboard — 90 Days</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script src="data.js"></script>
+<style>
+:root{
+  --bg:#0E1116; --panel:#151A21; --panel2:#1A2029; --line:#262B33;
+  --gold:#E3B458; --blue:#4A7FB5; --cream:#F5F1E8; --muted:#8A919C; --win:#7FB069;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--cream);font-family:-apple-system,"SF Pro Text","Helvetica Neue",Arial,sans-serif;font-size:14px;line-height:1.45}
+header{padding:22px 26px 14px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:14px;align-items:baseline;justify-content:space-between}
+h1{font-size:20px;font-weight:700;letter-spacing:.02em}
+h1 .d{color:var(--gold)} h1 .k{color:var(--blue)}
+.src{color:var(--muted);font-size:11.5px;width:100%}
+.toggle{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.toggle button{background:var(--panel);color:var(--muted);border:0;padding:9px 22px;font-size:13px;font-weight:600;cursor:pointer;min-height:44px}
+.toggle button.on{background:var(--gold);color:#0E1116}
+.grid{display:grid;grid-template-columns:1fr 340px 1fr;gap:14px;padding:16px 20px 30px}
+@media(max-width:1080px){.grid{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.panel h2{font-size:15px;font-weight:700;margin-bottom:2px}
+.panel h2.drey{color:var(--gold)} .panel h2.kevin{color:var(--blue)}
+.sub{color:var(--muted);font-size:11.5px;margin-bottom:12px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
+.stat{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:9px 10px}
+.stat .v{font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}
+.stat .l{color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em}
+.chart-box{position:relative;height:190px;margin-bottom:14px}
+.chart-box.tall{height:230px}
+h3{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:14px 0 8px}
+.top-post{display:block;text-decoration:none;color:var(--cream);padding:9px 10px;border:1px solid var(--line);border-radius:8px;margin-bottom:7px;background:var(--panel2)}
+.top-post:hover{border-color:var(--gold)}
+.top-post .m{display:flex;gap:10px;color:var(--muted);font-size:11px;margin-top:4px;flex-wrap:wrap}
+.top-post .m b{color:var(--cream);font-variant-numeric:tabular-nums}
+.top-post .cap{font-size:12.5px}
+/* center compare column */
+.vs h2{text-align:center;font-size:13px;letter-spacing:.12em;color:var(--cream);text-transform:uppercase}
+.vs .sub{text-align:center}
+.row{margin-bottom:13px}
+.row .lbl{display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted);margin-bottom:5px}
+.row .lbl .val{font-weight:700;font-size:12.5px;font-variant-numeric:tabular-nums}
+.row .lbl .val.wd{color:var(--gold)} .row .lbl .val.wk{color:var(--blue)}
+.bars{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.bars .b{height:9px;background:var(--panel2);border-radius:5px;overflow:hidden;display:flex}
+.bars .b.left{justify-content:flex-end}
+.bars .fill{height:100%}
+.bars .fill.gd{background:var(--gold)} .bars .fill.bl{background:var(--blue)}
+.mname{text-align:center;color:var(--cream);font-size:12px;font-weight:600;margin-bottom:3px}
+.verdict{border-top:1px solid var(--line);margin-top:16px;padding-top:12px;font-size:12.5px;color:var(--muted)}
+.verdict b{color:var(--cream)}
+footer{padding:0 26px 24px;color:var(--muted);font-size:11px}
+.na{color:var(--muted);font-style:italic}
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="d">DREY</span> vs <span class="k">KEVIN</span> — 90-Day Content Board</h1>
+  <div style="display:flex;gap:10px;align-items:center">
+    <span style="color:var(--muted);font-size:11px">CHART RANGE</span>
+    <div class="toggle" id="rangeToggle">
+      <button data-r="7" onclick="setRange(7)">7d</button>
+      <button data-r="30" onclick="setRange(30)">30d</button>
+      <button data-r="90" class="on" onclick="setRange(90)">90d</button>
+    </div>
+    <div class="toggle">
+      <button id="btnIG" class="on" onclick="setPlatform('ig')">Instagram</button>
+      <button id="btnTT" onclick="setPlatform('tt')">TikTok</button>
+    </div>
+  </div>
+  <div class="src" id="srcLine"></div>
+</header>
+
+<div class="grid">
+  <!-- DREY -->
+  <section class="panel">
+    <h2 class="drey" id="dreyName">Drey — @itisdrey</h2>
+    <div class="sub" id="dreySub"></div>
+    <div class="stats" id="dreyStats"></div>
+    <h3>Views per post</h3>
+    <div class="chart-box"><canvas id="dreyChart"></canvas></div>
+    <h3>Top 5 posts</h3>
+    <div id="dreyTop"></div>
+  </section>
+
+  <!-- COMPARE -->
+  <section class="panel vs">
+    <h2>Head to Head</h2>
+    <div class="sub" id="vsSub"></div>
+    <div id="compareRows"></div>
+    <h3>Weekly median views — overlay</h3>
+    <div class="chart-box tall"><canvas id="weeklyChart"></canvas></div>
+    <div class="verdict" id="verdict"></div>
+  </section>
+
+  <!-- KEVIN -->
+  <section class="panel">
+    <h2 class="kevin" id="kevinName">Kevin — @kclavier</h2>
+    <div class="sub" id="kevinSub"></div>
+    <div class="stats" id="kevinStats"></div>
+    <h3>Views per post</h3>
+    <div class="chart-box"><canvas id="kevinChart"></canvas></div>
+    <div id="followerBlock">
+      <h3>Follower trend</h3>
+      <div class="chart-box"><canvas id="followerChart"></canvas></div>
+    </div>
+    <h3>Top 5 posts</h3>
+    <div id="kevinTop"></div>
+  </section>
+</div>
+
+<footer>Chauncey · Content &amp; Growth Direction · Never leave growth to chance. TikTok reach/watch-time and Drey IG follower history are unavailable via API and are not shown as zero.</footer>
+
+<script>
+const D = window.DATA;
+const GOLD='#E3B458', BLUE='#4A7FB5', MUT='#8A919C', GRID='#262B33';
+let platform='ig', range=90, charts={};
+Chart.defaults.color=MUT; Chart.defaults.borderColor=GRID; Chart.defaults.font.size=10.5;
+
+function fmt(n){return n==null?'—':n.toLocaleString()}
+function stat(label,val){return `<div class="stat"><div class="v">${val}</div><div class="l">${label}</div></div>`}
+function statsHTML(a){
+  return stat('Median views',fmt(a.medianViews))+stat('Best post',fmt(a.maxViews))+stat('Median ER',a.medianER+'%')
+        +stat('Posts / wk',a.perWeek)+stat('Reel completion',a.completion==null?'<span class="na">n/a</span>':a.completion+'%')
+        +stat('Skip rate',a.skip==null?'<span class="na">n/a</span>':a.skip+'%');
+}
+function topHTML(a){
+  return a.top.map(p=>`<a class="top-post" href="${p.url}" target="_blank" rel="noopener">
+    <div class="cap">${p.t}…</div>
+    <div class="m"><span><b>${fmt(p.v)}</b> views</span><span><b>${p.s}</b> saves</span><span><b>${p.sh}</b> shares</span><span><b>${p.c}</b> comments</span><span>${p.d}</span></div>
+  </a>`).join('');
+}
+function lineChart(id, series, color){
+  if(charts[id]) charts[id].destroy();
+  charts[id]=new Chart(document.getElementById(id),{type:'line',
+    data:{labels:series.map(p=>p.d),datasets:[{data:series.map(p=>p.v),borderColor:color,backgroundColor:color+'22',
+      pointRadius:2.5,pointBackgroundColor:color,borderWidth:1.8,tension:.25,fill:true}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},
+      tooltip:{callbacks:{title:i=>series[i[0].dataIndex].d,label:i=>` ${fmt(i.parsed.y)} views`}}},
+      scales:{x:{ticks:{maxTicksLimit:6},grid:{display:false}},y:{beginAtZero:true}}}});
+}
+function row(name, dv, kv, lowerBetter=false, suffix=''){
+  const dWin = lowerBetter ? dv<kv : dv>kv, tie = dv===kv;
+  const tot = (dv||0)+(kv||0)||1;
+  return `<div class="row"><div class="mname">${name}</div>
+    <div class="lbl"><span class="val ${(!tie&&dWin)?'wd':''}">${fmt(dv)}${suffix}</span><span class="val ${(!tie&&!dWin)?'wk':''}">${fmt(kv)}${suffix}</span></div>
+    <div class="bars"><div class="b left"><div class="fill gd" style="width:${Math.max(3,dv/tot*100)}%"></div></div>
+    <div class="b"><div class="fill bl" style="width:${Math.max(3,kv/tot*100)}%"></div></div></div></div>`;
+}
+function render(){
+  const d=D['drey_'+platform], k=D['kevin_'+platform];
+  document.getElementById('btnIG').classList.toggle('on',platform==='ig');
+  document.getElementById('btnTT').classList.toggle('on',platform==='tt');
+  document.getElementById('srcLine').textContent = D.source + (platform==='tt' ? ' · TikTok reach/watch-time unavailable via API' : '');
+  document.getElementById('dreyName').textContent = platform==='ig'?'Drey — @itisdrey':'Drey — @dreydrey9000';
+  document.getElementById('kevinName').textContent = platform==='ig'?'Kevin — @kclavier':'Kevin — @kevin.clavier';
+  document.getElementById('dreySub').textContent = `${d.posts} posts in 90 days`;
+  document.getElementById('kevinSub').textContent = `${k.posts} posts in 90 days`;
+  document.getElementById('vsSub').textContent = platform==='ig'?'Instagram · Jun 3 – Sep 1':'TikTok · Jun 3 – Sep 1';
+  document.getElementById('dreyStats').innerHTML = statsHTML(d);
+  document.getElementById('kevinStats').innerHTML = statsHTML(k);
+  document.getElementById('dreyTop').innerHTML = topHTML(d);
+  document.getElementById('kevinTop').innerHTML = topHTML(k);
+  document.getElementById('compareRows').innerHTML =
+      row('Median views / post',d.medianViews,k.medianViews)
+    + row('Median engagement rate',d.medianER,k.medianER,false,'%')
+    + row('Posting cadence / wk',d.perWeek,k.perWeek)
+    + (d.completion!=null?row('Reel completion (median)',d.completion,k.completion,false,'%'):'')
+    + (d.skip!=null?row('Skip rate — lower wins',d.skip,k.skip,true,'%'):'')
+    + row('Total saves (90d)',d.totalSaves,k.totalSaves)
+    + row('Total comments (90d)',d.totalComments,k.totalComments);
+  const maxT=Math.max(...d.series.map(p=>+new Date(p.d)),...k.series.map(p=>+new Date(p.d)));
+  const cut=new Date(maxT); cut.setDate(cut.getDate()-range);
+  const ds=d.series.filter(p=>+new Date(p.d)>=+cut), ks=k.series.filter(p=>+new Date(p.d)>=+cut);
+  lineChart('dreyChart',ds,GOLD);
+  lineChart('kevinChart',ks,BLUE);
+  document.querySelectorAll('#rangeToggle button').forEach(b=>b.classList.toggle('on',+b.dataset.r===range));
+  // weekly overlay
+  const weeks=[...new Set([...d.weekly.map(w=>w.w),...k.weekly.map(w=>w.w)])].sort();
+  const dm=Object.fromEntries(d.weekly.map(w=>[w.w,w.mv])), km=Object.fromEntries(k.weekly.map(w=>[w.w,w.mv]));
+  if(charts.weekly) charts.weekly.destroy();
+  charts.weekly=new Chart(document.getElementById('weeklyChart'),{type:'line',
+    data:{labels:weeks,datasets:[
+      {label:'Drey',data:weeks.map(w=>dm[w]??null),borderColor:GOLD,pointRadius:2,borderWidth:2,tension:.3,spanGaps:true},
+      {label:'Kevin',data:weeks.map(w=>km[w]??null),borderColor:BLUE,pointRadius:2,borderWidth:2,tension:.3,spanGaps:true}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{boxWidth:10}}},
+      scales:{x:{ticks:{maxTicksLimit:5},grid:{display:false}},y:{beginAtZero:true}}}});
+  // follower chart: IG only, Kevin has trend
+  const fb=document.getElementById('followerBlock');
+  if(platform==='ig'){
+    fb.style.display='block';
+    if(charts.fol) charts.fol.destroy();
+    charts.fol=new Chart(document.getElementById('followerChart'),{type:'line',
+      data:{labels:D.kevinFollowers.map(p=>p[0]),datasets:[{data:D.kevinFollowers.map(p=>p[1]),borderColor:BLUE,backgroundColor:BLUE+'22',pointRadius:2,borderWidth:2,tension:.25,fill:true}]},
+      options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:i=>` ${fmt(i.parsed.y)} followers`}}},
+        scales:{x:{ticks:{maxTicksLimit:5},grid:{display:false}},y:{min:14700}}}});
+  } else fb.style.display='none';
+  // verdict
+  const lines=[];
+  if(platform==='ig'){
+    lines.push(`<b>Reach:</b> Kevin leads — ${fmt(k.medianViews)} vs ${fmt(d.medianViews)} median views, driven by identity/family/room posts.`);
+    lines.push(`<b>Craft:</b> Drey leads reel retention — ${d.completion}% completion vs ${k.completion}%. Kevin's fix: shorter reels, hook in frame one.`);
+    lines.push(`<b>Trust:</b> Kevin ${fmt(k.totalSaves)} saves vs Drey ${fmt(d.totalSaves)} — saves predict business. Drey's confession format is his best trust lever.`);
+  } else {
+    lines.push(`<b>TikTok:</b> Kevin leads every metric — ${fmt(k.medianViews)} vs ${fmt(d.medianViews)} median views, ${k.medianER}% vs ${d.medianER}% ER.`);
+    lines.push(`<b>Call:</b> Kevin keeps feeding TT identity/discipline content. Drey's TT shows no signal in 90 days — repurpose-only, no native production.`);
+  }
+  document.getElementById('verdict').innerHTML = lines.map(l=>`<p style="margin-bottom:8px">${l}</p>`).join('');
+}
+function setPlatform(p){platform=p;render()}
+function setRange(r){range=r;render()}
+render();
+</script>
+</body>
+</html>

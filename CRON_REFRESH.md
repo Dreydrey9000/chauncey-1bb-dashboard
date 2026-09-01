@@ -22,8 +22,10 @@ Data honesty rules: unavailable metrics are reported as unavailable, never as ze
    - Expected output ends with `data.js rebuilt <timestamp> — posts: {...}`. If counts drop sharply for an account vs the previous day, suspect a failed pull and say so.
 5. Commit and push:
    `git add -A && git -c user.name=Chauncey -c user.email=chauncey@1bb.local commit -m "data refresh $(date +%F)" && git push`
-   - This auto-deploys to https://dreydrey9000.github.io/chauncey-1bb-dashboard/
-6. Verify the live site responds: `curl -s -o /dev/null -w '%{http_code}' https://dreydrey9000.github.io/chauncey-1bb-dashboard/data.js` should return 200 (allow a minute for deploy).
+6. Deploy to Cloudflare Pages (PRIMARY LINK — https://1bb-dashboard.pages.dev/):
+   `wrangler pages deploy site --project-name=1bb-dashboard --commit-dirty=true`
+   (git push keeps history + the legacy GitHub Pages mirror; wrangler updates the live Cloudflare site.)
+7. Verify the live site: `curl -s -o /dev/null -w '%{http_code}' https://1bb-dashboard.pages.dev/data.js` should return 200 (allow a minute for deploy).
 
 ## Final reply format (max 4 lines)
 - Sync timestamp + post counts per account.

@@ -7,6 +7,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 <script src="data.js"></script>
 <script src="lookalikes.js"></script>
+<script src="inspire.js"></script>
 <style>
 :root{
   --bg:#0B0E13; --panel:#12161D; --panel2:#171C25; --line:#232A35; --line2:#2E3745;
@@ -108,6 +109,16 @@ h3.sec::before{content:'';width:14px;height:2px;background:var(--gold)}
 .xbtn{float:right;background:var(--panel2);border:1px solid var(--line);color:var(--muted);border-radius:8px;width:34px;height:34px;cursor:pointer;font-size:15px}
 .golink{display:inline-block;background:var(--gold);color:#0B0E13;font-weight:700;text-decoration:none;padding:10px 18px;border-radius:9px;font-size:13px}
 /* ---------- lookalikes ---------- */
+/* ---------- inspiration ---------- */
+.insp{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.insp .rl{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;font-size:12px;color:var(--muted);margin-bottom:6px}
+.insp .rl b{color:var(--cream);font-size:13.5px}
+.insp p{font-size:12.5px;opacity:.88;margin-bottom:7px}
+.insp .tweak{background:#1b1607;border:1px solid var(--gold-dim);border-radius:9px;padding:10px 13px;font-size:12.5px;margin:8px 0}
+.insp .tweak b{color:var(--gold)}
+.insp.kevin .tweak{background:#0e1a29;border-color:#27436b}
+.insp.kevin .tweak b{color:var(--blue)}
+.insp li{font-size:12.5px;opacity:.88;margin:4px 0 4px 16px}
 .lk{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
 .lk .lh{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px}
 .lk .lh b{font-size:14px}
@@ -224,6 +235,31 @@ function lookalikesHTML(founder){
     ${profs}<h3 class="sec">The fixes</h3>${fixes}
     <div class="prov">Public research only — follower counts and engagement from public pages, outcomes labeled as inference where not provable. Sources linked on each profile.</div>`;
 }
+function inspireHTML(founder){
+  const I = window.INSPIRE;
+  if(!I) return '';
+  const one = f => { const s = I[f]; return `<div class="insp ${f}">
+    <div class="rl"><b>IMITATE: <a href="${s.reel.url}" target="_blank" rel="noopener">${s.reel.who}</a></b><span>${s.reel.views} views · ${fmt(s.reel.comments)} comments</span></div>
+    <p><b style="color:var(--cream)">Why this one:</b> ${s.reel.why}</p>
+    <div class="tweak"><b>The tweak:</b> ${s.tweak}</div>
+    <p style="margin-bottom:2px"><b style="color:var(--cream)">Post next (data-backed):</b></p>
+    <ul style="list-style:none;padding:0">${s.postIdeas.map(x=>`<li>→ ${x}</li>`).join('')}</ul></div>`; };
+  const inner = founder==='both' ? one('drey')+one('kevin') : one(founder);
+  return `<h3 class="sec">Today's study + imitate brief — ${I.date}</h3>${inner}
+    ${I.note?`<div class="prov">${I.note}</div>`:''}`;
+}
+function clubHTML(){
+  const cf = D.clubFollowers||{}, c = D.club_ig;
+  const bits = [];
+  bits.push(`<b>${cf.current!=null?fmt(cf.current):'—'}</b> followers`);
+  if(c){ bits.push(`<b>${c.posts}</b> posts · median <b>${fmt(c.medianViews)}</b> views`); }
+  else { bits.push(`<b>0</b> posts — new account, no content yet`); }
+  return `<section class="panel" style="margin-top:14px;border-color:#3a3320">
+    <h3 class="sec" style="margin-top:0">1BB Owners Club — @1bbownersclub (Destination lane)</h3>
+    <div style="font-size:13px;color:var(--muted)">${bits.join(' · ')}</div>
+    ${!c?`<div style="font-size:12.5px;margin-top:8px;color:var(--cream);opacity:.85">Club job: member proof, podcast moments, outcomes, and one clear next step — <a href="https://1bbcommunity.com/apply" target="_blank" rel="noopener">1bbcommunity.com/apply</a>. First posts should be the founders' proven formats re-voiced for the club, not fresh experiments.</div>`:''}
+  </section>`;
+}
 function filmHTML(founder){
   return `<h3 class="sec">Film this week — ${founder==='drey'?'Drey':'Kevin'}</h3>
     <div class="vd who-${founder}"><span class="conf medium">Chauncey recommendation</span><br>${D.film[founder]}</div>`;
@@ -289,7 +325,9 @@ function renderCombined(){
   <section class="panel" style="margin-top:14px">
     <h3 class="sec" style="margin-top:0">Chauncey's read — every opinion the data supports</h3>
     <div class="verdicts">${verdictsHTML('both')}</div>
-  </section>`;
+  </section>
+  <section class="panel" style="margin-top:14px">${inspireHTML('both')}</section>
+  ${clubHTML()}`;
   document.getElementById('viewFounder').innerHTML='';
   drawLines(d,k); drawWeekly(d,k);
 }
@@ -308,6 +346,7 @@ function renderFounder(f){
     <section class="panel"><h3 class="sec" style="margin-top:0">Themes — what performs for ${isK?'Kevin':'Drey'}</h3>${themeBars(a,color(f))}${filmHTML(f)}</section>
   </div>
   <section class="panel" style="margin-top:14px"><h3 class="sec" style="margin-top:0">Chauncey's read</h3><div class="verdicts">${verdictsHTML(f)}</div></section>
+  <section class="panel" style="margin-top:14px">${inspireHTML(f)}</section>
   <section class="panel" style="margin-top:14px"><h3 class="sec" style="margin-top:0">Every post — click to drill in</h3>${postRows(a.all)}</section>
   <section class="panel" style="margin-top:14px">${lookalikesHTML(f)||'<span class="na">Lookalike research loading…</span>'}</section>`;
   document.getElementById('viewCombined').innerHTML='';

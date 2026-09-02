@@ -248,6 +248,18 @@ function inspireHTML(founder){
   return `<h3 class="sec">Today's study + imitate brief — ${I.date}</h3>${inner}
     ${I.note?`<div class="prov">${I.note}</div>`:''}`;
 }
+function clubHTML(){
+  const cf = D.clubFollowers||{}, c = D.club_ig;
+  const bits = [];
+  bits.push(`<b>${cf.current!=null?fmt(cf.current):'—'}</b> followers`);
+  if(c){ bits.push(`<b>${c.posts}</b> posts · median <b>${fmt(c.medianViews)}</b> views`); }
+  else { bits.push(`<b>0</b> posts — new account, no content yet`); }
+  return `<section class="panel" style="margin-top:14px;border-color:#3a3320">
+    <h3 class="sec" style="margin-top:0">1BB Owners Club — @1bbownersclub (Destination lane)</h3>
+    <div style="font-size:13px;color:var(--muted)">${bits.join(' · ')}</div>
+    ${!c?`<div style="font-size:12.5px;margin-top:8px;color:var(--cream);opacity:.85">Club job: member proof, podcast moments, outcomes, and one clear next step — <a href="https://1bbcommunity.com/apply" target="_blank" rel="noopener">1bbcommunity.com/apply</a>. First posts should be the founders' proven formats re-voiced for the club, not fresh experiments.</div>`:''}
+  </section>`;
+}
 function filmHTML(founder){
   return `<h3 class="sec">Film this week — ${founder==='drey'?'Drey':'Kevin'}</h3>
     <div class="vd who-${founder}"><span class="conf medium">Chauncey recommendation</span><br>${D.film[founder]}</div>`;
@@ -314,7 +326,8 @@ function renderCombined(){
     <h3 class="sec" style="margin-top:0">Chauncey's read — every opinion the data supports</h3>
     <div class="verdicts">${verdictsHTML('both')}</div>
   </section>
-  <section class="panel" style="margin-top:14px">${inspireHTML('both')}</section>`;
+  <section class="panel" style="margin-top:14px">${inspireHTML('both')}</section>
+  ${clubHTML()}`;
   document.getElementById('viewFounder').innerHTML='';
   drawLines(d,k); drawWeekly(d,k);
 }

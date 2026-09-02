@@ -13,9 +13,11 @@ SITE = os.path.join(BASE, 'site')
 os.makedirs(SITE, exist_ok=True)
 
 USER_KEY = {'itisdrey': 'drey_ig', 'kclavier': 'kevin_ig',
-            'dreydrey9000': 'drey_tt', 'kevin.clavier': 'kevin_tt'}
+            'dreydrey9000': 'drey_tt', 'kevin.clavier': 'kevin_tt',
+            '1bbownersclub': 'club_ig'}
 DREY_IG_ID = '6a1c7e1e2b2567671a7f25ee'
 KEVIN_IG_ID = '6a1c97b22b2567671a7ff845'
+CLUB_IG_ID = '6a97cdbf77555aae01be704a'
 
 THEMES = [  # priority order: first max-score wins ties
     ('confession', 'Vulnerable Confession',
@@ -193,6 +195,7 @@ if data_drey_tt and data_kevin_tt:
 
 # followers
 kevin_followers, drey_followers = [], {'current': None, 'trend': None}
+club_followers = {'current': None, 'trend': None}
 fpath = os.path.join(RAW, 'followers.json')
 if os.path.exists(fpath):
     try:
@@ -205,6 +208,9 @@ if os.path.exists(fpath):
         dpts = stats.get(DREY_IG_ID, [])
         cur = int(dpts[-1]['followers']) if dpts else None
         drey_followers = {'current': cur, 'trend': [[p['date'], int(p['followers'])] for p in dpts] if len(dpts) > 1 else None}
+        cpts = stats.get(CLUB_IG_ID, [])
+        ccur = int(cpts[-1]['followers']) if cpts else None
+        club_followers = {'current': ccur, 'trend': [[p['date'], int(p['followers'])] for p in cpts] if len(cpts) > 1 else None}
         if len(kevin_followers) > 1:
             v(f"Kevin's followers: {kevin_followers[0][1]:,} → {kevin_followers[-1][1]:,} (+{kevin_followers[-1][1]-kevin_followers[0][1]:,} in the window). The July surge tracked launch + family content, not promos.", 'kevin', 'high')
     except Exception as e:
@@ -218,6 +224,8 @@ data = {
     'drey_tt': data_drey_tt, 'kevin_tt': data_kevin_tt,
     'kevinFollowers': kevin_followers,
     'dreyFollowers': drey_followers,
+    'clubFollowers': club_followers,
+    'club_ig': pack('club_ig'),
     'verdicts': V,
     'decision': {'drey': decision(data_drey, 'drey') if data_drey else None,
                  'kevin': decision(data_kevin, 'kevin') if data_kevin else None},

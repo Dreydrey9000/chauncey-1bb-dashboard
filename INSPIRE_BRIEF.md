@@ -17,6 +17,11 @@ Read `/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/posts_all.csv` fo
 4. Add 1-2 post ideas per founder grounded in the CSV (cite the median/theme numbers that justify them).
 5. If the lookalike pull fails or shows nothing new: say "no new signal" and recycle the best standing recommendation instead of forcing noise.
 
+## Site update (required every run)
+6. Rewrite `/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/site/inspire.js` with the SAME content as the Telegram brief, in the existing `window.INSPIRE = {date, drey:{reel:{url,who,views,comments,why},tweak,postIdeas[]}, kevin:{...}, note}` shape. Escape single quotes in JS strings. Only real URLs from tool output.
+7. Deploy: `cd /Users/andrethomas/.hermes/workspaces/chauncey/dashboard && git add -A && git -c user.name=Chauncey -c user.email=chauncey@1bb.local commit -m "inspire brief <date> <am|pm>" && git push && wrangler pages deploy site --project-name=1bb-dashboard --commit-dirty=true`
+8. Verify: `curl -s https://1bb-dashboard.pages.dev/inspire.js` contains today's date string.
+
 ## Format (compact, Telegram-friendly)
 - DREY: imitation reel (link + views + why) → tweak → post idea w/ data reason
 - KEVIN: same

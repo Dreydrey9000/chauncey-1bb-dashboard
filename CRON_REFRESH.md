@@ -9,7 +9,7 @@ Data honesty rules: unavailable metrics are reported as unavailable, never as ze
 | drey_ig | instagram | 6a1c7e1e2b2567671a7f25ee |
 | kevin_ig | instagram | 6a1c97b22b2567671a7ff845 |
 | drey_tt | tiktok | 6a1c7f242b2567671a7f30a4 |
-| kevin_tt | tiktok | 6a1c97a12b2567671a7f6ff |
+| kevin_tt | tiktok | 6a1c97a12b2567671a7ff6ff |
 | club_ig | instagram | 6a97cdbf77555aae01be704a |
 
 ## Steps

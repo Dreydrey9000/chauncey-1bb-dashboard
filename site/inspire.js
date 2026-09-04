@@ -8,7 +8,7 @@ window.INSPIRE = {
       why: 'NEW today: a cloud-seeding startup says seven drone flights produced roughly 19 million gallons of extra precipitation. Mechanic = one concrete real-world result, specific numbers, then the technology. Treat Rowan as a contrast profile: borrow the specificity, not the broad-news lane.' },
     tweak: 'Make this reel, Drey version: show one real operator job your system completed and put the pain plus result in sentence one. Use a plain analogy, show the on-screen receipt, and close with what the owner no longer had to do. Never substitute a tool tour for builder proof.',
     postIdeas: [
-      'Confession-to-system static: name the work you were still carrying, then show the system that removed it. Confession median is 3,414 views versus 633 overall; room median is 1,086. Use a verified personal detail only.',
+      'Confession-to-system static: name the work you were still carrying, then show the system that removed it. Confession median is 1,792 views and room is 1,086 versus 611 for AI-tool content. Use a verified personal detail only.',
     ],
   },
   kevin: {

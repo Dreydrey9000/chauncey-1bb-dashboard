@@ -3,22 +3,30 @@
 window.INSPIRE = {
   date: '2026-09-05 (PM edition)',
   drey: {
-    reel: { url: 'https://www.instagram.com/reel/Dc4OnuBtPAX/', who: 'Rowan Cheung — @rowancheung',
-      views: '56,079', comments: 17,
-      why: 'Posted yesterday, not today. The mechanic is concrete scale first — roughly 19 million gallons from one storm — then the system and observed outcome. Rowan had no new reel dated today in this pull, so this is the freshest standing Drey-lane reference, not a fresh trend.' },
-    tweak: 'TOMORROW — steal the proof structure, not the science-news topic. Open with one verified number from a system you built, show what produced it, and close on the operator job it removed. Use a plain analogy and an on-screen receipt; do not make a tool tour.',
+    reel: {
+      url: 'https://www.instagram.com/reel/Dc4OnuBtPAX/',
+      who: 'Rowan Cheung — @rowancheung',
+      views: '56,079',
+      comments: 17,
+      why: 'NO NEW SIGNAL TODAY in the latest-12 pulls for Liam Ottley or Rowan Cheung. Recycle Rowan\'s freshest standing reference from Sept 4: lead with a concrete scale number, explain the system, then show the observed outcome.'
+    },
+    tweak: 'TOMORROW — use the proof structure, not the news topic: open with one verified system number, show the receipt, and name the operator task it removed. Add a plain analogy; do not make another generic tool tour.',
     postIdeas: [
-      'Proof-first builder post: “This system handled [verified volume/task] while I did [higher-value work].” Drey\'s standing medians are confession 1,792 views and room 1,086 versus 611 for AI-tool content; attach the system to a real operator pain and verified result.'
-    ],
+      'Builder-proof post tied to a real founder pain: “This system handled [verified task/volume], so I could [verified higher-value action].” The required standing baseline favors Drey confession (1,792 median views) and room (1,086) over AI-tool content (611), so make the system serve a lived operator story.'
+    ]
   },
   kevin: {
-    reel: { url: 'https://www.instagram.com/reel/Dc6LZd7Oj0k/', who: 'Gerard Adams — @gerardadams',
-      views: '1,771', comments: 6,
-      why: 'Posted today. It reframes a giant public number as a character issue: not politics, leadership. Mechanic = familiar event, unexpected values frame, then the standard leaders avoid.' },
-    tweak: 'TOMORROW — make the calm personal version: open with one real founder pattern you have witnessed, reframe it from a tactics problem into a standards problem, then give one next step. Keep it grounded in people and the room, not politics.',
+    reel: {
+      url: 'https://www.instagram.com/reel/Dc6LZd7Oj0k/',
+      who: 'Gerard Adams — @gerardadams',
+      views: '1,771',
+      comments: 6,
+      why: 'Posted today. It opens on a concrete public fact, rejects the obvious political frame, and turns it into a leadership-standard lesson.'
+    },
+    tweak: 'TOMORROW — make the calm personal version: open with one real founder behavior you have witnessed, reframe the tactics problem as a standards problem, then give one clear next step. Keep it about people and the room, not politics.',
     postIdeas: [
-      'Identity-first static: one real photo, one standard, one concrete action. Kevin\'s static posts have historically beaten reels about 2:1; identity posts have a 2,648-view median versus 1,344 overall.'
-    ],
+      'Identity-first static: one real photo, one standard, one concrete action. In the current CSV, Kevin identity posts have a 2,650-view median versus 1,339.5 overall; static is 1,460 versus 1,050.5 for reels.'
+    ]
   },
-  note: 'PM DELTA — Today\'s five-handle public scan found one reel dated today: Gerard Adams at 1,771 views / 6 comments. Liam Ottley, Rowan Cheung, Bedros Keuilian, and David Meltzer showed no reel dated today in their latest-12 pulls. OWN POSTS — posts_all.csv ends 2026-09-04, with no Drey or Kevin Instagram row dated 2026-09-05; therefore there is no today post to grade against either founder\'s median. This means unavailable, not zero, and the official feed may lag. ONE ADJUSTMENT — tomorrow, both founders should lead with one specific observed fact before interpretation: Drey turns it into builder proof; Kevin turns it into a people/standards lesson. PREDICTION — specificity-first posts clear each founder\'s relevant standing median; confidence LOW until a verified fact/photo and fresh official results exist. NO SIGNAL — HOLD COURSE on format changes. Provenance: lookalike stats PUBLIC_PROXY; founder stats OFFICIAL_API.',
+  note: 'PM DELTA — Of today\'s rotated three-profile scan, Gerard Adams supplied the only reel dated Sept 5: 1,771 views / 6 comments. Liam Ottley and Rowan Cheung had no reel dated today in their latest-12 pulls. OWN POSTS — posts_all.csv ends Sept 4 and contains no Drey or Kevin Instagram row dated Sept 5, so there is nothing to grade as a beat or miss. Unavailable is not zero; the official feed may lag. ONE ADJUSTMENT — lead tomorrow with one specific observed fact before interpretation: Drey turns it into builder proof; Kevin turns it into a people/standards lesson. PREDICTION — a specificity-first post will clear each founder\'s relevant standing median; confidence LOW until the proof/photo is verified and fresh official results arrive. MEDIAN CHECK — current full-CSV overall medians are Drey 634 and Kevin 1,339.5 views; the fixed historical content baselines in the runbook are retained only where explicitly labeled. Provenance: lookalike stats PUBLIC_PROXY; founder stats OFFICIAL_API.'
 };

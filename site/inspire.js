@@ -8,7 +8,7 @@ window.INSPIRE = {
       who: 'Liam Ottley — @liamottley',
       views: '30,719',
       comments: 48,
-      why: 'No new Drey-lane reel appeared in today\'s successful Liam pull, so hold the standing recommendation: personal stakes first, then the AI system and the proof it produced.'
+      why: 'NO NEW SIGNAL in today\'s successful Drey-lane pull, so recycle the standing recommendation. This Liam reel had 30,719 public views and 48 comments; its mechanic is personal stakes first, then the AI system and the proof it produced.'
     },
     tweak: 'Tomorrow: open with one real operator problem you personally handed to AI, show the screen receipt, and explain the result with one plain analogy. Use [verified result] until the proof is supplied.',
     postIdeas: [

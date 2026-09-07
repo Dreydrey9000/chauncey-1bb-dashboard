@@ -1,32 +1,32 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API.
 window.INSPIRE = {
-  date: '2026-09-06 (PM edition)',
+  date: '2026-09-07 (PM edition)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DW7l671AUYN/',
-      who: 'Liam Ottley — @liamottley',
-      views: '30,719',
-      comments: 48,
-      why: 'NO NEW SIGNAL in today\'s successful Drey-lane pull, so recycle the standing recommendation. This Liam reel had 30,719 public views and 48 comments; its mechanic is personal stakes first, then the AI system and the proof it produced.'
+      url: 'https://www.instagram.com/reel/DZddnLvOmMC/',
+      who: 'Rowan Cheung — @rowancheung',
+      views: '14,543',
+      comments: 4,
+      why: 'Posted today. The useful mechanic is outcome first: microscopic robots pull microplastics from soil and water. Do not copy the broad-news topic; copy the immediate, visible job-to-be-done.'
     },
-    tweak: 'Tomorrow: open with one real operator problem you personally handed to AI, show the screen receipt, and explain the result with one plain analogy. Use [verified result] until the proof is supplied.',
+    tweak: 'Make this reel, but add Drey: name one repetitive operator job, show the system doing it on screen, then give the plain analogy and one verified receipt. Use [verified result] until proof is supplied.',
     postIdeas: [
-      'Confession-led builder proof: “I kept [real burden] on my plate because I didn\'t trust a system with it. Here is what changed.” The standing confession median is 1,792 views versus 611 for AI-tool content.'
+      'Confession-led builder proof: “I kept [real burden] on my plate because I did not trust a system with it. Here is what changed.” The brief baseline says Drey confession/room content beats AI-tool content: 1,792/1,086 versus a 611-view AI-tool median.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/Dc9DPkIM1eK/',
-      who: 'Bedros Keuilian — @bedroskeuilian',
-      views: '436,444',
-      comments: 112,
-      why: 'Posted today and already the only clear new signal in the successful scan. It uses humor to make a hard relationship standard easier to hear.'
+      url: 'https://www.instagram.com/reel/DCzV_dyy4pT/',
+      who: 'Gerard Adams — @gerardadams',
+      views: '5,268,956',
+      comments: 1068,
+      why: 'Gerard posted a broad AI/robots reel today, but its early 532 views and 1 comment are no winning signal. Recycle the strongest returned mechanic instead: one personal fatherhood standard, grounded in the person he wants to be.'
     },
-    tweak: 'Tomorrow: make the calm coach version—name one relationship standard without attacking anyone, ground it in one verified faith, family, or founder-life moment, then give one next step: decide who gets more access to you.',
+    tweak: 'Make this reel, but add Kevin: one calm founder-life standard, one verified faith or family moment, and one clear next step. Keep it personal rather than turning it into a generic quote.',
     postIdeas: [
-      'Use one real photo and one clear relationship standard. Kevin\'s identity/room themes lead, and static has historically outperformed reels about 2:1; avoid a generic quote card.'
+      'Use a real photo plus one lived standard. Kevin identity/room themes lead, and static has historically outperformed reels about 2:1; the working reel-completion baseline is 25%.'
     ]
   },
-  note: 'EVENING DELTA — Bedros posted the only confirmed new lookalike reel today: 436,444 public views and 112 comments. Liam had no Sept 6 reel in the returned set; Rowan and Gerard pulls timed out, and David Meltzer was rate-limited, so coverage is incomplete. posts_all.csv ends Sept 5 and contains no Sept 6 Drey or Kevin post; nothing can be graded against either founder\'s median yet. Tomorrow\'s one adjustment: lead with a human stake or standard before the lesson. PREDICTION — this should beat Drey\'s 611-view AI-tool median when paired with real proof, and improve Kevin\'s 25% reel-completion baseline when kept under 30 seconds (confidence MEDIUM; grade after official data arrives). Provenance: lookalike stats PUBLIC_PROXY from today\'s TokScript pull; founder stats OFFICIAL_API in posts_all.csv.'
+  note: 'EVENING DELTA — Today Rowan posted a science/automation reel (14,543 public views, 4 comments) and Gerard posted a broad AI/robots reel (532 views, 1 comment); David Meltzer had no Sept 7 reel in the returned set. No clear lookalike winner yet. Founder check: posts_all.csv ends Sept 5, so it contains no Sept 7 Drey or Kevin rows; neither can be graded yet against the current account medians of 634 and 1,354 views. This is missing data, not zero. Tomorrow\'s one adjustment: put a lived human stake before the lesson—Drey shows the operator job plus receipt; Kevin anchors the standard in a real moment. PREDICTION — those versions beat each founder\'s current median (confidence MEDIUM; grade when official data lands). Provenance: lookalike stats PUBLIC_PROXY from today\'s TokScript pull; founder stats OFFICIAL_API in posts_all.csv/data.js, last generated Sept 6.'
 };

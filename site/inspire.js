@@ -4,29 +4,29 @@ window.INSPIRE = {
   date: '2026-09-11 (PM edition)',
   drey: {
     reel: {
-      url: '',
-      who: 'No verified lookalike reel tonight',
-      views: 'unavailable',
-      comments: null,
-      why: 'TokScript rate-limited the Rowan Cheung, David Meltzer, Gerard Adams, Liam Ottley, and Bedros Keuilian checks, so today\'s lookalike posts and winning metrics could not be verified. No reel link is included.'
+      url: 'https://www.instagram.com/reel/DdFVrzOBZLm/',
+      who: 'STANDING PICK — Rowan Cheung / WindBorne founder story',
+      views: '87,409',
+      comments: 23,
+      why: 'No verified 9/11 lookalike activity: the PM TokScript pull was rate-limited, then unreachable. Per the fallback rule, keep the morning-verified pick rather than force noise. Its mechanic is founder proof: a scrappy balloon system beats incumbent weather infrastructure.'
     },
-    tweak: 'TOMORROW\'S ONE ADJUSTMENT — Give Drey the post slot for a sequel to the 9/9 room reel. Name one drowning-operator bottleneck first, show the system second, and include one real receipt [verified result]. Kevin holds rather than adding a separate test.',
+    tweak: 'TOMORROW\'S ONE ADJUSTMENT — Film the sequel to Drey\'s 9/9 room reel. Open with one Drowning Operator bottleneck, use one plain analogy, show the system, and include one real receipt [verified result].',
     postIdeas: [
-      'Room-sequel reel: one owner bottleneck, one plain analogy, one builder receipt [verified result]. Prediction: beats Drey\'s 693-view account median; MEDIUM confidence. Evidence: the 9/9 room reel is at 1,492 views versus a 464 reel median.'
+      'Drey backlog: one owner, one bottleneck, one scrappy system, one verified number. Data reason: the 9/9 room reel is at 1,492 views versus Drey\'s 693 account median and 464 reel median. Prediction: the sequel beats 693 views — MEDIUM confidence.'
     ]
   },
   kevin: {
     reel: {
-      url: '',
-      who: 'No verified lookalike reel tonight',
-      views: 'unavailable',
-      comments: null,
-      why: 'TokScript rate-limited the lookalike scan. No fresh reel, post, or metric is treated as verified, and no link is included.'
+      url: 'https://www.instagram.com/reel/Dc4f7iqkZHK/',
+      who: 'STANDING PICK — David Meltzer / three-tries thesis',
+      views: '28,508',
+      comments: 8,
+      why: 'No verified 9/11 lookalike activity: the PM TokScript pull failed. Keep the morning-verified pick. Its mechanic is a decisive thesis in under 15 seconds with no warm-up.'
     },
-    tweak: 'HOLD — no separate Kevin test tomorrow. Preserve the one-adjustment decision: use the slot for Drey\'s proven room-sequel format, then grade it against Drey\'s own median.',
+    tweak: 'HOLD TOMORROW — no separate Kevin test. Preserve one adjustment: use the slot for Drey\'s room-sequel format, then grade it against Drey\'s own median.',
     postIdeas: [
-      'No new Kevin assignment from tonight\'s data. The CSV has no Kevin post dated 9/11, so there is nothing new to grade against his 1,356 account, 1,625 static, or 1,017 reel medians.'
+      'Kevin backlog: adapt the three-tries thesis into a calm identity/room static with one clear next step. Data reason: Kevin\'s static median is 1,625.5 versus 1,017 for reels.'
     ]
   },
-  note: 'EVENING DELTA — LOOKALIKES: today\'s posts could not be verified because TokScript returned provider rate limits and then an unreachable-server response across all five study profiles. No new signal; no URLs recycled. OWN POSTS: posts_all.csv was generated at 8:00 AM ET and contains zero Drey IG rows and zero Kevin IG rows dated 2026-09-11; latest Drey IG row is 9/9 and latest Kevin IG row is 9/10. Therefore nothing posted today can honestly be called a beat or miss. Current medians from the CSV: Drey 693 overall / 464 reels; Kevin 1,356 overall / 1,625 statics / 1,017 reels. Provenance: lookalike availability PUBLIC_PROXY (TokScript); founder dates and medians OFFICIAL_API (posts_all.csv, synced 2026-09-11 8:00 AM ET).'
+  note: 'EVENING DELTA — LOOKALIKES: no verified posts dated 9/11; the PM scan was rate-limited and then unreachable, so no new links or performance claims were added. No new signal; morning-verified standing picks retained. OWN POSTS: posts_all.csv contains zero Drey IG rows and zero Kevin IG rows dated 2026-09-11, so there is nothing from today to grade as a beat or miss. Latest recorded dates are Drey 9/9 and Kevin 9/10. Current medians: Drey 693 overall / 464 reels; Kevin 1,356 overall / 1,625.5 statics / 1,017 reels. The CSV was synced at 8:00 AM ET, so later posts may be missing. Provenance: lookalikes PUBLIC_PROXY (TokScript); founder dates and medians OFFICIAL_API (posts_all.csv).'
 };

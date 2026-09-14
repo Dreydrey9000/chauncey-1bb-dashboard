@@ -17,16 +17,16 @@ window.INSPIRE = {
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdMONIwM5FC/',
-      who: 'Bedros Keuilian — Christen went from gym-floor coach to location owner',
-      views: '438,701',
-      comments: 71,
-      why: 'Posted 9/12 and the largest of Bedros\'s latest three reels. The mechanic is person first, transformation second, offer last. The audience meets Christen before it meets the franchise.'
+      url: 'https://www.instagram.com/reel/DdRdr5-kXwA/',
+      who: 'David Meltzer — reframing a $100 million bankruptcy as protection and promotion',
+      views: '9,609',
+      comments: 18,
+      why: 'Posted today. It is an early count, not a declared winner. The usable mechanic is immediate stakes, a specific loss, and one clean identity reframe: the event stayed the same, but the meaning changed.'
     },
-    tweak: 'Make this reel, but in Kevin\'s calm-coach register and under 30 seconds: “[verified member arc] started with [verified struggle]. The room helped them [verified change].” Add the standard or identity shift, not a program feature list. One next step: “If you are building alone, come sit in the room once.”',
+    tweak: 'Make this in Kevin\'s calm-coach register with verified stakes: “I thought [verified setback] meant [old belief]. It actually taught me [new standard].” Keep it under 30 seconds and end on the identity shift—not a program pitch.',
     postIdeas: [
-      'Tomorrow: person-first room static using a verified founder/member story. Data reason: Kevin\'s 9/9 isolation confession static reached 2,000 versus 853 for the 9/10 client/program frame; his static median is 1,682 and statics beat reels about 2:1. Prediction: beats 1,682 — MEDIUM confidence.'
+      'Tomorrow: person-first room static using a verified founder/member setback and reframe. Data reason: Kevin\'s 9/9 isolation confession static reached 2,000 versus 853 for the 9/10 client/program frame; his static median is 1,682 versus a 1,020.5 reel median. Prediction: beats 1,682 — MEDIUM confidence.'
     ]
   },
-  note: 'EVENING DELTA 9/14 — LOOKALIKES (PUBLIC_PROXY): Rowan posted one reel today, the $499 Dyson CameraJet story, at 13,463 views / 4 comments when pulled. Bedros had no 9/14 reel in his latest 12; his newest were two 9/13 reels at 96,844 / 30 and 100,256 / 39. David Meltzer\'s pull was rate-limited, so today\'s status is unverified — not “no post.” OWN POSTS (OFFICIAL_API, posts_all.csv synced 6:33AM ET): Drey had one 9/14-dated reel at 144, below his 203 reel median — PROVISIONAL MISS because the snapshot was early and is stale by evening. Kevin had no 9/14-dated Instagram row, so there is nothing to grade. ONE ADJUSTMENT FOR TOMORROW: lead with a person and concrete proof, not a concept — Drey shows one operator job + artifact; Kevin tells one verified person-first room story.'
+  note: 'EVENING DELTA 9/14 — LOOKALIKES (PUBLIC_PROXY): Rowan posted the $499 Dyson CameraJet reel today, at 13,463 views / 4 comments when pulled. David Meltzer posted a $100 million bankruptcy-reframe reel today, at 9,609 / 18. Both are early counts, not declared winners. Bedros had no 9/14 reel in his latest 12; his newest were two 9/13 reels at 96,844 / 30 and 100,256 / 39. OWN POSTS (OFFICIAL_API, posts_all.csv synced 6:33AM ET): the CSV date field contains one 9/14 Drey reel at 144, below his 203 reel median — PROVISIONAL MISS because the available count is from the early snapshot. Kevin has no 9/14 Instagram row, so there is nothing to grade. ONE ADJUSTMENT FOR TOMORROW: put a specific stake in the first line, then prove the change — Drey shows one hated operator job plus the real artifact; Kevin tells one verified setback-to-standard story.'
 };

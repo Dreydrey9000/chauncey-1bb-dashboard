@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API.
 window.INSPIRE = {
-  date: '2026-09-13 (AM edition)',
+  date: '2026-09-14 (AM edition)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DZddnLvOmMC/',
-      who: 'Rowan Cheung — the Hokkaido broccoli farmer who automated his 100-hectare operation with ChatGPT, no engineering background',
-      views: '1,286,376',
-      comments: 334,
-      why: 'His all-time outlier — 10-25x his recent baseline (his last 6 reels ran 27.9k-130.8k). The mechanic: one ordinary operator, no tech background, lets AI run the whole operation. That is the Drowning Operator story at massive scale — proof the frame travels far beyond the AI-news audience.'
+      url: 'https://www.instagram.com/reel/DW7l671AUYN/',
+      who: 'Liam Ottley — I used Claude Code to analyze my entire genome to find out whether I have the genetic condition my Dad has',
+      views: '30,888',
+      comments: 49,
+      why: 'His newest reel (4/10 — he has gone quiet since, so this is the standing pick, not fresh) and his best comment ratio of the last year: 49 comments on 30.9k views. The mechanic: a personal, slightly scary problem, one AI tool, a concrete answer on camera. Proof over hype — exactly Drey\'s lane. Note: his Feb AI operating systems that run our businesses reel holds 86,840 views, his recent outlier — the AI runs the business frame pops when it is personal.'
     },
-    tweak: 'TODAY\'S DELTA — Cheung\'s newest reel (9/11, AI in brain surgery, 53,567 views) is below his baseline; the standing winner is the operator story. Film Drey\'s version: one real Drowning Operator, one job that ran without him, one verified number [verified result]. Plain analogy: the farmer did not learn to code — he hired AI the way you would hire a hand. Name the pain in the first line: doing the job of five people with the hours of one.',
+    tweak: 'Make this reel, but for the Drowning Operator. Open with the pain in the first line: you are doing the job of five people with the hours of one. Then Drey\'s version: I pointed a system I built at the one job that was eating my week — inbox, lead follow-up, quoting — and here is what came back. Show the real artifact on screen, before and after, one verified number [verified result]. Plain analogy: Ottley did not build a research lab, he handed one file to a tool and got his answer. You do not need an AI department — you need one job off your plate. Builder proof, no hype, no urgency.',
     postIdeas: [
-      'Break the 4-day gap with a confession/room reel. Data reason: Drey\'s 9/9 room reel sits at 1,534 views = 2.2x his 702 IG median, and nothing has posted since 9/9 — the highest-confidence format is going stale. Prediction: beats 702 — MEDIUM confidence.',
-      'Operator-story reel (Cheung mechanic): a real owner who automated one job with no tech background, told as proof not news. Data reason: Drey\'s ai_systems reels sit near his 464 reel median, but wrapping the system in a human operator story is exactly what separated 1,792/1,086 confession-room posts from the 611 tool-content median.'
+      'Room/confession reel sequel to 9/9. Data reason: the 9/9 room reel sits at 1,549 views = 2.3x his 667 IG median, while his 9/14 abstract-AI reel opened at 144 and tool-content historically runs at the 611 median vs 1,792/1,086 for confession-room. Prediction: beats 667 — MEDIUM confidence.',
+      'Genome-mechanic build reel: one personal operator problem, one system, one real artifact on screen. Data reason: pure AI-tool reels sit near his 203 reel median, but wrapping the same system in a first-person confession is what separated 1,792/1,086 from 611 — the story carries the tool.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdMONIwM5FC/',
-      who: 'Bedros Keuilian — Christen\'s story: started as a coach on the gym floor, became a location owner',
-      views: '96,975',
-      comments: 19,
-      why: 'Posted YESTERDAY (9/12) — the freshest reel in his feed, already at ~97k views with 1,952 likes in under a day against a 296k account-wide average. The mechanic: a real member transformation told as celebration — coach on the floor to owner — with a soft next step at the end. Zero hype about the guru; all spotlight on the person in the room.'
+      url: 'https://www.instagram.com/reel/DdKovJCFK5-/',
+      who: 'David Meltzer — I was more afraid of what people would think about me losing everything than of the loss itself; years later it became why people trusted me more',
+      views: '16,706',
+      comments: 29,
+      why: 'Posted 9/11 — the winner of his last nine reels (10k-16.7k range, next best 14.5k) and the freshest strong signal in Kevin\'s lane this morning. The mechanic: failure confession reframed as credibility. No lesson-list, no hype — one defining moment, one reframe, done.'
     },
-    tweak: 'TODAY\'S DELTA — Kevin\'s version in the calm-coach register: tell one real 1BB member story [verified member story] the way Bedros told Christen\'s — where they started, what the room changed, who they became. Add what Bedros cannot: the faith/family note (who they get to be at home now). One clear next step: if you are building alone, come sit in the room once. Kevin\'s 9/10 client-story static stalled at 801 — the story is right, the frame needs the person first and the program second.',
+    tweak: 'Kevin\'s version in the calm-coach register: the season he was grinding solo and burning out — the thing he least wanted to admit — told as the reason owners trust him now. He already proved the frame: his 9/9 isolation confession static hit 2,000 vs his 1,682 static median. Add what Meltzer cannot: the faith/family note — who he gets to be at home because of it — and the room as the place that honesty happens. One clear next step: if you are building alone, come sit in the room once.',
     postIdeas: [
-      'Faith/identity static sequel to 9/12. Data reason: his 9/12 identity static is at 3,437 views / 107 likes / 7 saves = 2.1x his 1,607 static median — his best static in weeks. The theme (stopped asking how, started asking what) earned saves, so run the next chapter as a static, not a reel.',
-      'Member-story reel under 20 seconds (Bedros mechanic): person, starting point, one change, one next step. Data reason: Kevin\'s reel completion runs 25% and his reels median 1,017 vs 1,607 statics — so keep it one sentence of thesis, one story beat, and let the static carry depth.'
+      'Faith/identity static, chapter 3. Data reason: his 9/12 identity static is at 3,781 views = 2.2x his 1,682 static median — his best post in weeks — while the same-day habits reel stalled at 728 vs his 1,020 reel median. Statics beat reels ~2:1 and reel completion runs 25%, so keep the next chapter a static.',
+      'Person-first member story static. Data reason: 9/9 personal confession static 2,000 vs 9/10 client-frame static 853 — same room theme, but leading with the person doubled the number. Tell the member story as confession, not case study; the program stays in the last line.'
     ]
   },
-  note: 'MORNING SCAN 9/13 — LOOKALIKES (PUBLIC_PROXY, TokScript): rowancheung newest is 9/11 (AI-guided brain surgery, 53,567 views — below his recent baseline); his all-time outlier remains the 6/11 broccoli-farmer operator story at 1,286,376. gerardadams posted nothing since 9/10 and is stuck at 1.3k-5.5k views per reel — keep him on watch, downgrade as a source this week. bedroskeuilian posted 9/12 (member-story reel, 96,975 views in under a day) and his 9/8 zero-to-scale reel holds at 245,345 with 167 comments. OWN POSTS vs MEDIANS (OFFICIAL_API, posts_all.csv): Kevin\'s 9/12 identity static at 3,437 views = 2.1x his 1,607 static median (WIN); same-day habits reel 616 and AI-care static 499 both landed under median; Drey silent since 9/9 (room reel holds 1,534 = 2.2x his 702 median). ONE ADJUSTMENT TODAY: Drey films the operator-story reel to break the gap; Kevin doubles down on faith/identity statics while the 9/12 win compounds. Medians: Drey IG 702 / reels 464; Kevin IG statics 1,607 / reels 1,017.'
+  note: 'MORNING SCAN 9/14 — LOOKALIKES (PUBLIC_PROXY, TokScript): liamottley has posted nothing since 4/10 (genome reel 30,888 views his last; Feb AI-operating-systems reel 86,840 his recent outlier) — keep him as mechanic source, not freshness source. gerardadams grinding at 1.4k-5.5k per reel; best recent is 9/3 at 5,553 views / 87 comments — downgrade as a primary source this week. davidmeltzer steady at 10k-17k with failure-confession reels winning (16,706 on 9/11). OWN POSTS vs MEDIANS (OFFICIAL_API, posts_all.csv): Kevin\'s 9/12 identity static at 3,781 = 2.2x his 1,682 static median (WIN, still compounding); his 9/12 habits reel 728 under his 1,020 reel median. Drey\'s 9/9 room reel holds 1,549 = 2.3x his 667 IG median; his 9/14 abstract-AI reel opened at 144 — too early to grade. ONE ADJUSTMENT TODAY: Drey films the genome-mechanic build reel (confession wrapper on a real system); Kevin stays on faith/identity statics while 3,781 compounds. Medians computed today: Drey IG 667 / reels 203 / statics 824; Kevin statics 1,682 / reels 1,020.'
 };

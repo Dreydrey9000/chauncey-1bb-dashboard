@@ -1,32 +1,32 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API.
 window.INSPIRE = {
-  date: '2026-09-14 (PM edition)',
+  date: '2026-09-15 (AM edition)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdSA_jqx0XN/',
-      who: 'Rowan Cheung — Dyson\'s $499 CameraJet toothbrush combines brushing, flossing, rinsing, and camera analysis',
-      views: '13,463',
-      comments: 4,
-      why: 'Posted today. It is an early count, not a declared winner. The usable mechanic is a familiar brand, one strange concrete object, a specific price, and several jobs collapsed into one. That specificity is the opposite of broad AI forecasting.'
+      url: 'https://www.instagram.com/reel/DW7l671AUYN/',
+      who: 'Liam Ottley — using Claude Code on his own genome to investigate a family health question',
+      views: '30,903',
+      comments: 49,
+      why: 'No new Drey-lane reel signal: this is Liam\'s newest reel in the 12 returned, posted April 10. Recycle the useful mechanic, not the topic: personal stakes, your own evidence, one consequential question, and a visible AI-assisted investigation. Transcript extraction remained unavailable after two retries, so this read uses only the public caption and stats.'
     },
-    tweak: 'Make this reel, but replace gadget news with builder proof for the Drowning Operator. Open: “[operator task] was costing me [verified time], so I built one system to handle it.” Show the input, the system, the output, and [verified result]. Plain analogy: a Swiss Army knife only matters when it replaces tools you were actually carrying.',
+    tweak: 'FILMING DECISION: record one 25-second confession + screen-proof reel today, not another AI forecast. Open: “I was still the final answer for [real recurring task], so I put our own [real input] through this system.” Show the input, workflow, and output. End with what changed using [verified result] only. Prediction: this proof-led reel beats Drey\'s 611-view AI-tool median — MEDIUM confidence, because confession and room themes have reached 1,792 and 1,086 versus 611 for AI-tool content.',
     postIdeas: [
-      'Tomorrow: confession + artifact reel. Show one real system removing one hated job, then name what changed. Data reason: today\'s abstract-AI reel was at 144 views in the 6:33AM ET snapshot, below Drey\'s 203 reel median; his 9/9 room reel reached 1,549, or 2.3x his 666 all-post median. Prediction: beats 666 views — MEDIUM confidence, provided the proof is real and visible.'
+      'Post idea: “The AI test that matters is whether the owner still has to touch the job.” Show one real before → system → after artifact. Data reason: Drey\'s confession/room benchmarks are 1,792/1,086 views versus a 611 AI-tool median. Prediction: beats 611 views — MEDIUM confidence if the artifact and verified outcome are visible.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdRdr5-kXwA/',
-      who: 'David Meltzer — reframing a $100 million bankruptcy as protection and promotion',
-      views: '9,609',
-      comments: 18,
-      why: 'Posted today. It is an early count, not a declared winner. The usable mechanic is immediate stakes, a specific loss, and one clean identity reframe: the event stayed the same, but the meaning changed.'
+      url: 'https://www.instagram.com/reel/DdReQ2pukno/',
+      who: 'Gerard Adams — “your family is watching” leadership standard',
+      views: '11,559',
+      comments: 7,
+      why: 'Posted September 14 and the clearest fresh Kevin-lane signal. It opens with a repeated family roll call, then turns leadership from a title into promises kept and standards lived. At pull time it led Gerard\'s latest 12 reels; the next-highest had 5,595 views.'
     },
-    tweak: 'Make this in Kevin\'s calm-coach register with verified stakes: “I thought [verified setback] meant [old belief]. It actually taught me [new standard].” Keep it under 30 seconds and end on the identity shift—not a program pitch.',
+    tweak: 'FILMING DECISION: record one calm, under-30-second direct-to-camera reel. First frame: “Your team hears what you say. Your family sees what the business costs.” Name one real standard you protect, one verified personal consequence, and one next step: choose the promise you will keep today. Prediction: completion rises above Kevin\'s 25% reel baseline — MEDIUM confidence, because the hook lands in frame one and the cut stays short.',
     postIdeas: [
-      'Tomorrow: person-first room static using a verified founder/member setback and reframe. Data reason: Kevin\'s 9/9 isolation confession static reached 2,000 versus 853 for the 9/10 client/program frame; his static median is 1,682 versus a 1,020.5 reel median. Prediction: beats 1,682 — MEDIUM confidence.'
+      'Post idea: a 5-slide static titled “What the people closest to you learn from how you lead.” Keep it person-first; no program pitch. Data reason: Kevin\'s static posts have run about 2:1 over reels, while identity and room themes lead. Prediction: this static outperforms his next reel on views — MEDIUM confidence.'
     ]
   },
-  note: 'EVENING DELTA 9/14 — LOOKALIKES (PUBLIC_PROXY): Rowan posted the $499 Dyson CameraJet reel today, at 13,463 views / 4 comments when pulled. David Meltzer posted a $100 million bankruptcy-reframe reel today, at 9,609 / 18. Both are early counts, not declared winners. Bedros had no 9/14 reel in his latest 12; his newest were two 9/13 reels at 96,844 / 30 and 100,256 / 39. OWN POSTS (OFFICIAL_API, posts_all.csv synced 6:33AM ET): the CSV date field contains one 9/14 Drey reel at 144, below his 203 reel median — PROVISIONAL MISS because the available count is from the early snapshot. Kevin has no 9/14 Instagram row, so there is nothing to grade. ONE ADJUSTMENT FOR TOMORROW: put a specific stake in the first line, then prove the change — Drey shows one hated operator job plus the real artifact; Kevin tells one verified setback-to-standard story.'
+  note: 'MORNING SCAN 9/15 — Gerard supplied the only fresh useful signal: his September 14 family-and-standards reel had 11,559 views / 7 comments, versus 5,595 for the next-highest reel in his latest 12. Liam had no new reel after April 10 in the returned set; Rowan and Bedros were temporarily rate-limited. Own-data anchor: Drey confession/room 1,792/1,086 vs 611 AI-tool median; Kevin static > reels about 2:1, 25% reel completion, identity/room strongest. PROVENANCE: lookalike stats PUBLIC_PROXY; founder stats OFFICIAL_API. NEXT MOVE: film the two short reels above before making more abstract content.'
 };

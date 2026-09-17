@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API.
 window.INSPIRE = {
-  date: '2026-09-16 (PM edition)',
+  date: '2026-09-17 (AM edition)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DW7l671AUYN/',
-      who: 'Liam Ottley — used Claude Code to analyze his own genome for a hereditary condition',
-      views: '30,956',
-      comments: 49,
-      why: 'Liam\'s most recent reel (Apr 10, 2026 — his account is quiet; nothing new today). Mechanic: he runs the AI on HIMSELF, a personal high-stakes problem, and shows the actual output. No tool tour, no hype — one concrete proof demo. That is builder proof, Drey\'s exact lane, and 49 comments on 31k views says it started conversations.'
+      url: 'https://www.instagram.com/reel/DZddnLvOmMC/',
+      who: 'Rowan Cheung — a broccoli farmer in Hokkaido with no engineering background automated his 100-hectare farm with ChatGPT/Codex',
+      views: '1,288,845',
+      comments: 334,
+      why: 'Rowan\'s biggest reel in the scan by 10x (posted Jun 11; his fresh daily news reels run 20k-119k). Mechanic: the 1BB promise in one story — a non-technical operator automates the work he hates with AI. Not AI news, an operator proof story. That is Drey\'s lane exactly, and 334 comments says it started conversations, not just views.'
     },
-    tweak: 'FILMING DECISION: make this reel, but the genome is your business. One 25-second reel: “I pointed an AI agent at my own company\'s data for a week — here\'s what it caught that I missed.” Show the real screen and one real finding, plain analogy, name the operator pain in line one (“you can\'t see the leaks when you\'re inside the boat”). Close with [verified result] only — no invented numbers. Prediction: beats Drey\'s 608-view ai_systems median — MEDIUM confidence, because proof-on-self outpulls tool content and Drey\'s room/confession benchmarks (1,096/3,464) show his audience pays for the personal angle.',
+    tweak: 'FILMING DECISION: make this reel, but you are the case study. 30 seconds: “A broccoli farmer with zero engineering background automated his farm with AI. Here is the same pattern in a 7-figure founder\'s week.” Then YOUR screen, YOUR system, one real artifact, plain analogy, and name the operator pain in line one (“the busywork is the job you never hired for”). Close with [verified result] only — no invented numbers. Prediction: beats Drey\'s 465 reel median — MEDIUM confidence, because operator-proof outpulls tool demos and his last two room reels ran 1,587/1,096.',
     postIdeas: [
-      'Post idea: “I let an agent audit my week. It found [X hours] of work I should never have touched.” Screen receipt, one artifact. Data reason: Drey\'s ai_systems median is 608 views but confession/room run 3,464/1,096 — frame the system as a confession, not a demo. Prediction: tops 608 — MEDIUM confidence.',
-      'Post idea: Drey has not posted since Sep 14 (that reel landed 144 views vs his 203 reel median). Tomorrow: one confession-theme post — a mistake the business made that a system now catches. Data reason: confession is his strongest theme at 3,464 median views. Prediction: above reel median 203 — MEDIUM confidence.'
+      'Post idea (today): one room reel to break the silence — Drey has not posted since Sep 14 (that ai_systems reel landed 144 vs his 712 median). Data reason: room is his reliable winner — 1,096 median over 13 posts, and the last two room reels ran 1,096 and 1,587 while ai_systems sits at 608. Prediction: above 712 account median — MEDIUM confidence.',
+      'Post idea (this week): a confession piece — one mistake the business made that a system now catches. Data reason: confession is Drey\'s top theme at 3,465 median views, but n=2 so the sample is thin. Prediction: above 712 median — LOW-MEDIUM confidence on sample size.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdUiPFiSwNR/',
-      who: 'Bedros Keuilian — “active reading”: how to actually retain and apply a book, holding his mentor Dan Kennedy\'s book',
-      views: '86,288',
-      comments: 40,
-      why: 'Posted yesterday (Sep 15, 4:10p ET) — the freshest reel in today\'s scan. Mechanic: a simple how-to with a physical prop and a mentor callback, delivered as standards not hype. Calm authority teaching one usable habit is Kevin\'s register exactly.'
+      url: 'https://www.instagram.com/reel/Dc4MSUDpIkn/',
+      who: 'Bedros Keuilian — “your conscience demands you become congruent with the man you want to be”',
+      views: '574,984',
+      comments: 126,
+      why: 'Bedros\'s biggest reel of the last two weeks (Sep 4). Mechanic: direct-to-camera conviction monologue about the gap between who you are and who you are becoming. Identity mechanic — Kevin\'s exact lane — delivered drill-sergeant loud, which is the part to keep and the part to change.'
     },
-    tweak: 'FILMING DECISION: Kevin\'s version — calm, sub-30 seconds, journal or Bible in hand: “How I actually keep a promise I make to myself.” One habit, one standard, told in coach register with faith/family in the frame, ending in one clear next step the viewer can do tonight. No urgency, no pitch. Prediction: completion above Kevin\'s 25% reel baseline — MEDIUM confidence, because the mechanic just ran 86k fresh in-lane and Kevin\'s identity theme is his top performer (2,500 median views).',
+    tweak: 'FILMING DECISION: same monologue, Kevin register. Seated, calm, sub-40 seconds: “The man you want to be and the man you are today — the gap between them is the work.” Faith/family in the frame, end with one clear next step the viewer can do tonight. No hype. Then publish it STATIC-first (carousel with the monologue as caption); the reel cut is optional. Data reason: Kevin\'s last 5 reels all missed his 1,005 median (19/0/457/9/239), statics beat reels 1,610 vs 1,005, and identity is his top theme at 2,502 median. Prediction: static version tops 1,610 — MEDIUM confidence.',
     postIdeas: [
-      'Post idea (priority): tomorrow, post a STATIC identity/room post, not a reel. Data reason: Kevin\'s statics median 1,627 views vs reels 1,007 — and his last three reels (Sep 15) landed 19, 0, and 393 views, all far under median. His Sep 15 static (“Expect greatness”, identity) hit 1,025 and his Sep 12 identity static hit 4,245. Prediction: a static identity post beats his next reel on views — MEDIUM-HIGH confidence.',
-      'Post idea: 5-slide static — “The version of you your family gets is the real one.” Identity + room standard, person-first. Data reason: identity is Kevin\'s top theme (2,500 median) and statics run roughly 2:1 over reels. Prediction: above 1,627 static median — MEDIUM confidence.'
+      'Post idea (priority): static identity post tomorrow morning — the format is what is working right now. Data reason: Sep 15 identity static hit 1,384 and Sep 12 identity static hit 4,245 while every recent reel missed median. Prediction: above 1,610 static median — MEDIUM confidence.',
+      'Post idea: 5-slide room carousel — one standard the room holds, person-first. Data reason: room is Kevin\'s most-proven volume theme at 1,723 median over 33 posts. Prediction: above 1,357 account median — MEDIUM confidence.'
     ]
   },
-  note: 'PM delta: no founder posted today (Sep 16) — Drey silent since Sep 14, Kevin since Sep 15. Kevin\'s last three reels all missed his 1,007 median (19/0/393); his statics keep beating his reels. Lookalikes: Bedros posted one fresh reel yesterday (active reading, 86k); Liam Ottley quiet since April. ONE adjustment for tomorrow: Kevin posts static not reel; Drey breaks the silence with a confession/room piece, not a tool demo. Provenance: lookalike stats PUBLIC_PROXY (TokScript), founder stats OFFICIAL_API.'
+  note: 'AM scan: Rowan Cheung is posting daily again (fresh: World Labs Atlas 3D world model, Dyson\'s $499 AI toothbrush at 119k) — but his giant is the operator-proof broccoli farmer story. Bedros\'s conviction monologues are his top format (3 of his last 12 reels cleared 400k). Liam Ottley still quiet since April. Founders: Drey silent since Sep 14 — post a room reel today; Kevin\'s reels are cold (5 straight under median) — go static-first. Provenance: lookalike stats PUBLIC_PROXY (TokScript, pulled this morning), founder stats OFFICIAL_API (posts_all.csv through Sep 16).'
 };

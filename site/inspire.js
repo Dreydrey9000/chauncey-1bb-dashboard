@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API.
 window.INSPIRE = {
-  date: '2026-09-19 (AM edition)',
+  date: '2026-09-19 (PM edition)',
   drey: {
     reel: {
       url: 'https://www.instagram.com/reel/DdcoYROAjjk/',
-      who: 'Liam Ottley — "AI Automation Agencies / AI services businesses are still my top pick for getting into online business. Becoming technical is the foundation of the next era of work — a ticket to billions at best and an insurance policy at worst."',
-      views: '14,583',
-      comments: 7,
-      why: 'Posted YESTERDAY (Sep 18) — Liam is back after five months dark, and he returned with Drey\'s exact thesis: AI services for businesses, becoming technical as insurance. 14,583 views in under a day against his recent baseline (31k April, 87k February for "AI operating systems running our businesses"). Mechanic: direct-to-camera conviction + a two-sided stakes frame ("ticket to billions at best, insurance policy at worst"). No fluff, one opinion, plainly stated.'
+      who: 'Liam Ottley — "AI Automation Agencies / AI services businesses are still my top pick for getting into online business. Becoming technical is the foundation of the next era of work."',
+      views: '17,869',
+      comments: 16,
+      why: 'PM delta: the thesis reel from this morning kept climbing — 14,583 to 17,869 views and 7 to 16 comments since the AM pull. Liam also posted AGAIN today (Sep 19, 20:01 UTC): a weekend run + audiobook lifestyle reel (https://www.instagram.com/reel/Dde0WMpiE_g/ — 4,992 views, 8 comments in ~2h). Two posts in two days after five months dark: he is back to daily. The lifestyle one is off Drey\'s lane; the thesis reel is still the imitation target.'
     },
-    tweak: 'FILMING DECISION (today): make Liam\'s reel, but as the guy who actually builds it. Liam sells the thesis; Drey IS the proof. Drey version: "Everyone argues about whether AI agencies are a good business. I stopped arguing and built one — here is the workflow that replaced [operator pain: the follow-ups / the content / the admin] for a real founder." Plain analogy, one screen recording or whiteboard, name the Drowning Operator by his day (100 tabs, half-set-up tools). Close on [verified result] only — no invented numbers. Prediction: above the 633 ai_systems median — MEDIUM confidence (ai_systems talk tracks have been landing 130-179 lately; the builder-proof frame is the fix being tested).',
+    tweak: 'STANDING FILMING DECISION (not yet filmed — carry to tomorrow): Liam sells the thesis; Drey IS the proof. "Everyone argues about whether AI agencies are a good business. I stopped arguing and built one — here is the workflow that replaced [operator pain: the follow-ups / the content / the admin] for a real founder." Plain analogy, one screen recording or whiteboard, name the Drowning Operator by his day. Close on [verified result] only. Prediction: above the 612 IG reel median — MEDIUM confidence (non-room reels stuck at 125-179; builder-proof frame is the fix under test).',
     postIdeas: [
-      'Post idea (this weekend): room reel — still the reliable winner. Data reason: room runs a 1,096 median over n=13 and the last one (Sep 9) hit 1,608 while ai_systems reels sit at 144-179. Prediction: above 749 account median — MEDIUM confidence.',
-      'Post idea (next week): confession — one mistake the business made that a system now catches. Data reason: confession is Drey\'s top theme at 3,467 median, but n=2, thin sample. Prediction: above 749 median — LOW-MEDIUM confidence.'
+      'TODAY vs MEDIAN: Drey\'s podcast reel "If she offers you this, run away" opened at 125 views on IG vs a 612 reel median — MISSED. Same clip on TikTok opened at 92 vs a 186 TT median. Early reads (captured minutes after posting), but they extend the cold streak: non-room reels have run 125-179 since Sep 3 while room reels ran 860-1,608.',
+      'ADJUSTMENT (tomorrow): zero food-moment podcast clips on the founder feeds. One Drey post tomorrow: the Liam-style builder-proof reel. Data reason: podcast theme median is 357 (n=2) and the last four non-room reels all missed the 612 median; room is the only theme reliably beating it (1,096 median, n=13).'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdReQ2pukno/',
-      who: 'Gerard Adams — "Your son is watching. Your daughter is watching. Leadership starts long before anyone calls you a leader — in the promises you keep, in the standards you refuse to compromise."',
-      views: '15,083',
-      comments: 11,
-      why: 'Posted Sep 14 — 15,083 views against Gerard\'s 4,668 12-reel average and a recent baseline of 1,500-5,700. That is 3-10x his norm on pure talk track, no gimmick. Mechanic: identity stakes through who is watching — family first, standards second, no ask until the end. This is Kevin\'s exact register: calm, faith-adjacent, standards, the room.'
+      url: 'https://www.instagram.com/reel/DdbuSOtzxUM/',
+      who: 'Gerard Adams — "Send this to a brother who keeps you sharp, motivated, and committed to greatness. Our next men\'s gathering is October 7 in North Carolina. If you want info, dm me \'Brotherhood.\'"',
+      views: '12,843',
+      comments: 25,
+      why: 'Posted Sep 18 — 12,843 views and 25 comments against Gerard\'s 2,200-3,000 baseline for everything except the "who is watching" reel (now 15,186). That is roughly 4x his norm, and the mechanic is new: identity hook + send-this share prompt + DM keyword straight into his room. This is the attention-to-application bridge Kevin\'s lane needs.'
     },
-    tweak: 'FILMING DECISION (today): static-first identity post borrowing the "who is watching" mechanic. Kevin\'s version, calm coach: "Your team is watching how you handle the hard week. Your kids are watching whether the business gets the best of you or the rest of you. The standard you keep when nobody claps is the one that compounds." One clear next step: comment or DM one word for the next 1BB room. Publish STATIC on IG (monologue as caption) — reel cut optional and TikTok-only. Data reason: Kevin\'s statics run a 1,611 median vs 1,007 on reels, identity is his top theme at 2,779, and recent reels keep missing (475 on Sep 18). Prediction: above 1,611 static median — MEDIUM confidence.',
+    tweak: 'STANDING DECISION (not yet shipped — carry to tomorrow): the "who is watching" identity static from this morning. Kevin\'s version, calm coach: "Your team is watching how you handle the hard week. Your kids are watching whether the business gets the best of you or the rest of you. The standard you keep when nobody claps is the one that compounds." Publish STATIC on IG. Optional add borrowed from Gerard\'s Sep 18 reel: one clear next step — comment or DM one word for the next 1BB room. Prediction: above the 1,611 static median — MEDIUM confidence.',
     postIdeas: [
-      'Post idea (today, priority): the identity static above. Data reason: identity is Kevin\'s top theme at 2,779 median (n=19) and statics beat reels 1,611 to 1,007. Prediction: above 1,611 — MEDIUM confidence.',
-      'Post idea (this week): room static — member-energy post from a real moment in the club. Data reason: room is his most reliable volume theme, 1,723 median over n=35. Prediction: above 1,375 account median — MEDIUM confidence.'
+      'TODAY vs MEDIAN: Kevin\'s static "When you know you know." opened at 541 views vs a 1,611 static median — MISSED by ~3x. Early read (~1.7h after posting at the 6:30a refresh), but it is a generic "other"-theme caption with no identity or room hook, and identity is his top theme at 2,779 median (n=19).',
+      'Post idea (this week): room static with a DM keyword, borrowed from Gerard\'s mechanic — a real moment from the club, one word to comment for the next room. Data reason: room is Kevin\'s most reliable volume theme, 1,723 median over n=35. Prediction: above the 1,376 account median — MEDIUM confidence.'
     ]
   },
-  note: 'AM scan: Liam Ottley is BACK — posted yesterday after five months dark, and it is Drey\'s exact thesis (AI services businesses, becoming technical as insurance; 14,583 views in <24h). Gerard Adams\\ "who is watching" identity reel ran 15,083, roughly 3-10x his recent baseline — identity-with-stakes is winning in Kevin\'s lane. Bedros\\ member-story format still printing (449k on a coach-to-owner story Sep 12). Founders: Drey posted yesterday (podcast reel, 125 views — ai_systems/podcast talk tracks still cold); Kevin posted Sep 18-19 (759 room static, 475 reel, 541 static — statics still carrying). ONE DECISION EACH: Drey films the builder-proof version of Liam\'s reel today; Kevin ships the "who is watching" identity static today. Provenance: lookalike stats PUBLIC_PROXY (TokScript, pulled this morning), founder stats OFFICIAL_API (posts_all.csv through Sep 19 07:25 UTC).'
+  note: 'PM delta: Liam Ottley posted a SECOND reel today (weekend run + audiobook, 4,992 views in ~2h) — two posts in two days after five months dark; his thesis reel climbed to 17,869. Gerard Adams\' new room-CTA reel ("dm me Brotherhood") ran 12,843, ~4x his baseline — the share-prompt + DM-keyword mechanic is the bridge from identity content to room applications. Rowan Cheung and Bedros Keuilian posted nothing today (Bedros\' Sep 18 distractions reel at 217k is below his 287k 12-reel average). Founders today: all three posts opened below median — Drey IG podcast reel 125 vs 612, Drey TT 92 vs 186, Kevin static 541 vs 1,611 (early reads, but on-trend). ONE ADJUSTMENT for tomorrow: kill food-moment podcast clips; Drey\'s single post is the Liam-style builder-proof reel, Kevin ships the "who is watching" identity static. Provenance: lookalike stats PUBLIC_PROXY (TokScript, pulled this evening), founder stats OFFICIAL_API (posts_all.csv through Sep 19 07:25 UTC).'
 };

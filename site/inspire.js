@@ -1,32 +1,32 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API.
 window.INSPIRE = {
-  date: '2026-09-20 (PM edition)',
+  date: '2026-09-21 (AM edition)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdXVicFBYb1/',
-      who: 'Rowan Cheung — AI records a lab experiment step by step to explain why the same process succeeds in one lab and fails in another.',
-      views: '1,428,544',
-      comments: 417,
-      why: 'No Drey-lane lookalike posted today in the successful scans, so this is the strongest standing proof frame from Rowan’s latest 12. The public caption pairs a painful repeatability problem with a visible system; it is not evidence that broad AI-news framing will work for Drey.'
+      url: 'https://www.instagram.com/reel/Ddh21wGAabF/',
+      who: 'Liam Ottley — “Do I miss New Zealand?” personal-question reel.',
+      views: '13,547',
+      comments: 9,
+      why: 'Newest reel in today\'s Liam pull. The mechanic is one personal question that opens a founder-life confession instead of another tool lesson.'
     },
-    tweak: 'HOLD COURSE tomorrow: use the repeatability frame on one real founder workflow — “Why does this task work when you do it, then break when somebody else tries?” Show the handoff, the failure point, and one verified before/after result. Prediction: a personal builder-proof version can beat Drey’s 612.5 IG reel median — MEDIUM confidence; proof still needs to be supplied.',
+    tweak: 'FILMING DECISION: film “Do I miss doing everything myself?” Start with the honest answer, name the Drowning Operator pain, then show one real workflow you built and one verified before/after result. Keep the result as [verified result] until supplied. Prediction: this confession + builder-proof frame beats Drey\'s 611 AI-tool median — MEDIUM confidence, because Drey confession/room content has reached 1,792/1,086 versus 611 for AI-tool content.',
     postIdeas: [
-      'No post dated Sep 20 appears for Drey in posts_all.csv, so there is no beat/miss call tonight. Latest captured Drey IG post is Sep 19 at 140 views, below his 612.5 reel median, but that is yesterday’s early read — not today’s result.'
+      'Post idea: “The AI was not the hard part. Admitting I had built a business that needed me for everything was.” Then show the handoff you fixed. Data reason: Drey confession/room content (1,792/1,086) has outperformed AI-tool content (611 median).'
     ]
   },
   kevin: {
     reel: {
       url: 'https://www.instagram.com/reel/DdhXSYoTFTU/',
       who: 'Gerard Adams — “As iron sharpens iron, so one man sharpens another.”',
-      views: '2,406',
+      views: '4,579',
       comments: 4,
-      why: 'This was the only Sep 20 post found across the four successful lookalike scans. It is too early to call a winner, but the brotherhood/standards frame fits Kevin’s people lane.'
+      why: 'The reel rose from 2,406 views in last night\'s pull to 4,579 this morning. Its mechanic is a very short faith-led line tied to brotherhood; the growth is directional, not proof of a winner.'
     },
-    tweak: 'TOMORROW’S ONE ADJUSTMENT: publish the idea as a STATIC, not a reel, and replace the generic proverb with one specific 1BB room moment: who challenged Kevin, what standard changed, and the next action. Prediction: above Kevin’s 1,611 static median — MEDIUM confidence, grounded in his static > reel pattern; use only a verified moment.',
+    tweak: 'FILMING DECISION: film one 8–12 second room clip with a single line: “The right room does not just support you. It raises the standard you keep when nobody is watching.” Use one real Kevin/Drey or 1BB moment only if verified; end with one next step: “Choose one person who makes you keep your word and call them today.” Prediction: the identity + room framing beats Kevin\'s current reel baseline — MEDIUM confidence; Kevin\'s identity/room themes lead, but his static posts still outperform reels about 2:1 and reel completion is about 25%.',
     postIdeas: [
-      'No post dated Sep 20 appears for Kevin in posts_all.csv, so there is no beat/miss call tonight. Latest captured Kevin IG post is Sep 19 at 1,820 views, above his 1,611 static median, but that is yesterday’s post — not today’s result.'
+      'Post idea: make the deeper version a STATIC: one verified moment when somebody in the room raised Kevin\'s standard, what changed, and the decision that followed. Data reason: Kevin static posts outperform reels about 2:1; identity/room themes are strongest.'
     ]
   },
-  note: 'PM delta: Gerard Adams posted one reel today at 19:44 UTC; current public read is 2,406 views / 4 comments. No Sep 20 post appeared in the latest 12 for Rowan Cheung, David Meltzer, or Bedros Keuilian. Liam Ottley’s pull failed, so his today-status is unknown. Working: posts_all.csv ends Sep 19; Drey today rows = 0 and Kevin today rows = 0. Therefore neither founder can be graded against median tonight. Adjustment: Kevin goes static + specific room proof tomorrow; Drey holds the builder-proof test. Founder CSV may lag an actual post, so “none captured” is not proof none was published. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulled Sep 20 PM); founder stats OFFICIAL_API (posts_all.csv through Sep 19).'
+  note: 'NEW SIGNAL: Liam Ottley posted the personal-question reel on Sep 21 (13,547 views / 9 comments). Gerard Adams\' brotherhood reel moved from 2,406 views last night to 4,579 this morning / 4 comments. Bedros Keuilian had no newer reel than Sep 18 in the latest 12. Working: all three 12-reel scans succeeded; 35 unique reel URLs were submitted for transcript extraction and all 35 completed with transcripts. Founder CSV is current through Sep 20 for Kevin and Sep 19 for Drey; it may lag live posting. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulled Sep 21 AM); founder stats OFFICIAL_API (posts_all.csv).'
 };

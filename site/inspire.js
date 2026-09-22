@@ -27,7 +27,7 @@ window.INSPIRE = {
     tweak: 'ONE FILMING DECISION: record one true moment that felt like a setback but clarified who you serve. Open with the moment, name the lesson calmly, then give one next step: “Ask what this is preparing you to give.” Keep it under 30 seconds to address Kevin\'s roughly 25% reel completion. Prediction: lived identity + service framing beats Kevin\'s 1,285 overall median — MEDIUM confidence; identity/room themes lead his account.',
     postIdeas: [
       'Post idea: turn the same true story into a 4-slide static: what happened → what it exposed → the standard it changed → what to do next. Data reason: Kevin\'s static posts outperform reels about 2:1.',
-      'Kevin\'s Sep 21 Instagram posts logged 665, 546, and 388 views, all below the 1,285 overall median. Do not add more generic self-investment advice today; use one lived moment instead.'
+      'Kevin\'s Sep 21 Instagram posts currently show 665, 546, and 388 views, all below the 1,285 overall median. This is an early directional read, not a final verdict; today, test one lived moment instead of another generic self-investment post.'
     ]
   },
   note: 'MORNING SCAN: no Sep 22 reel appeared in the latest pulls. The freshest usable signals remain Liam Ottley\'s Sep 21 personal-question reel (16,823 views / 11 comments) and David Meltzer\'s Sep 21 setback-to-service reel (14,951 / 14). Rowan Cheung had no reel newer than Sep 19; Gerard Adams had none newer than Sep 20. Transcript extraction succeeded for the David reel; the Liam reel remained unavailable after two retries, so its mechanic is based only on the public caption/question and stats. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulled Sep 22 AM); founder stats OFFICIAL_API (posts_all.csv).'

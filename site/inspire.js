@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
-// PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API.
+// PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-09-22 (AM edition)',
+  date: '2026-09-22 (PM delta)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/Ddh21wGAabF/',
-      who: 'Liam Ottley — “Do I miss New Zealand?” personal-question reel, posted Sep 21.',
-      views: '16,823',
-      comments: 11,
-      why: 'IMITATE TODAY: a plain personal question gives a founder-led reel a human doorway instead of another AI-tool lesson. The transcript was unavailable, so copy the question-led framing—not presumed story details. That fits Drey\'s own signal: confession/room content reached 1,792/1,086 views versus a 611 AI-tool median.'
+      url: 'https://www.instagram.com/reel/DdmHUfqBY22/',
+      who: 'Rowan Cheung — Stryker AR hip arthroscopy at Duke Health, posted Sep 22.',
+      views: '49,908',
+      comments: 15,
+      why: 'EVENING SCAN: the strongest lookalike post today is a real-world AI proof story — AI inside an actual operation, not another tool review. That is Drey\'s builder-proof lane.'
     },
-    tweak: 'ONE FILMING DECISION: record “Do I miss doing everything myself?” Lead with one true moment from before the system, name the Drowning Operator pain, then show one real workflow and [verified result]. Keep it to one problem and one proof. Prediction: confession + builder proof beats the 611 AI-tool median — MEDIUM confidence, based on Drey\'s 1,792/1,086 confession/room results.',
+    tweak: 'No Drey post today, so the AM assignment is still open: film the confession reel (one true before moment, name the Drowning Operator pain, one workflow, [verified result]). His last three IG posts (1,653 room / 144 ai_systems / 140 podcast) sit around a 787 overall median and a 637 reel median — the confession format is the highest-upside swing. Prediction unchanged: confession + builder proof beats the 637 reel median — MEDIUM confidence.',
     postIdeas: [
-      'Post idea: “The job I refused to automate for too long.” Use one true before moment, the workflow now, and [verified result]. Data reason: Drey\'s confession/room framing has outperformed AI-tool content.',
-      'Latest Drey Instagram row in posts_all.csv is Sep 19, so there is no Sep 21/22 result to grade. NO SIGNAL — HOLD COURSE.'
+      'Post idea: imitate Rowan\'s mechanic with a 1BB-flavored proof story — "AI running inside a real business operation" — one named workflow, [verified result]. Data reason: Drey\'s confession/room reels hit 1,792/1,086 vs the 611 AI-tool median.',
+      'NO SIGNAL yet on today: Drey posted nothing Sep 22 (OFFICIAL_API, zero posts). Hold course.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdjcoKAmTGZ/',
-      who: 'David Meltzer — a setback reframed as a gift that deepened service, posted Sep 21.',
-      views: '14,951',
-      comments: 14,
-      why: 'IMITATE TODAY: the reel moves from apparent loss to meaning to service in about 25 seconds. It is a clean identity arc, not generic motivation, and stays inside Kevin\'s people-and-standards lane.'
+      url: 'https://www.instagram.com/reel/DdmIeeFTXFD/',
+      who: 'Gerard Adams — direct event promo ("DM BROTHERHOOD"), posted Sep 22.',
+      views: '906',
+      comments: 3,
+      why: 'CONTRAST LESSON: Gerard\'s pure event pitch today is his weakest recent reel, while his Sep 18 relationship-first reel ("send this to a brother", https://www.instagram.com/reel/DdbuSOtzxUM/) did 16,870 views / 32 comments. Relationship framing beats the direct ask.'
     },
-    tweak: 'ONE FILMING DECISION: record one true moment that felt like a setback but clarified who you serve. Open with the moment, name the lesson calmly, then give one next step: “Ask what this is preparing you to give.” Keep it under 30 seconds to address Kevin\'s roughly 25% reel completion. Prediction: lived identity + service framing beats Kevin\'s 1,285 overall median — MEDIUM confidence; identity/room themes lead his account.',
+    tweak: 'Kevin\'s Sep 22 static ("belief before the plan", https://www.instagram.com/p/DdmGqnWl5a7/) is at 264 views ~5.5h in — currently missing his 1,615 static median, but too early for a verdict. Pattern to watch: his last three statics are all abstract statements (665, 546, 264 early), while his Sep 20 story post did 1,403 — right at his 1,395 overall median.',
     postIdeas: [
-      'Post idea: turn the same true story into a 4-slide static: what happened → what it exposed → the standard it changed → what to do next. Data reason: Kevin\'s static posts outperform reels about 2:1.',
-      'Kevin\'s Sep 21 Instagram posts currently show 665, 546, and 388 views, all below the 1,285 overall median. This is an early directional read, not a final verdict; today, test one lived moment instead of another generic self-investment post.'
+      'Post idea: make tomorrow\'s static story-specific — one named moment, what it exposed, the standard it set — instead of an abstract statement. Data reason: Sep 20 story post 1,403 vs 665/546 for the abstract statics that followed.',
+      'Prediction: a story-specific static beats the abstract-statement format — MEDIUM confidence; graded in the weekly review.'
     ]
   },
-  note: 'MORNING SCAN: no Sep 22 reel appeared in the latest pulls. The freshest usable signals remain Liam Ottley\'s Sep 21 personal-question reel (16,823 views / 11 comments) and David Meltzer\'s Sep 21 setback-to-service reel (14,951 / 14). Rowan Cheung had no reel newer than Sep 19; Gerard Adams had none newer than Sep 20. Transcript extraction succeeded for the David reel; the Liam reel remained unavailable after two retries, so its mechanic is based only on the public caption/question and stats. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulled Sep 22 AM); founder stats OFFICIAL_API (posts_all.csv).'
+  note: 'PM SCAN: two lookalikes posted today — Rowan Cheung (49,908 views, AI-in-surgery proof) and Gerard Adams (906 views, direct event promo flopped). Bedros Keuilian pull rate-limited; retry tomorrow. Founders: Drey 0 posts Sep 22; Kevin 1 static, early read. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulled Sep 22 PM); founder stats OFFICIAL_API (Zernio today-pull + posts_all.csv medians: Kevin static 1,615 / reels 1,008; Drey overall 787 / reels 637).'
 };

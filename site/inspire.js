@@ -8,7 +8,7 @@ window.INSPIRE = {
       who: 'Liam Ottley — “Do I miss New Zealand?” personal-question reel, posted Sep 21.',
       views: '16,823',
       comments: 11,
-      why: 'IMITATE TODAY: a plain personal question opens a founder confession instead of another tool lesson. That fits Drey\'s own signal: confession/room content reached 1,792/1,086 views versus a 611 AI-tool median.'
+      why: 'IMITATE TODAY: a plain personal question gives a founder-led reel a human doorway instead of another AI-tool lesson. The transcript was unavailable, so copy the question-led framing—not presumed story details. That fits Drey\'s own signal: confession/room content reached 1,792/1,086 views versus a 611 AI-tool median.'
     },
     tweak: 'ONE FILMING DECISION: record “Do I miss doing everything myself?” Lead with one true moment from before the system, name the Drowning Operator pain, then show one real workflow and [verified result]. Keep it to one problem and one proof. Prediction: confession + builder proof beats the 611 AI-tool median — MEDIUM confidence, based on Drey\'s 1,792/1,086 confession/room results.',
     postIdeas: [

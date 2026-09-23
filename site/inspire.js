@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-09-22 (PM delta)',
+  date: '2026-09-23 (AM)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdmHUfqBY22/',
-      who: 'Rowan Cheung — Stryker AR hip arthroscopy at Duke Health, posted Sep 22.',
-      views: '49,908',
-      comments: 15,
-      why: 'EVENING SCAN: the strongest lookalike post today is a real-world AI proof story — AI inside an actual operation, not another tool review. That is Drey\'s builder-proof lane.'
+      url: 'https://www.instagram.com/reel/DdcoYROAjjk/',
+      who: 'Liam Ottley — "AI services businesses are still my top pick... becoming technical is a ticket to billions at best, an insurance policy at worst," posted Sep 18.',
+      views: '21,509',
+      comments: 17,
+      why: 'His best business-topic reel of the week (his two newer lifestyle reels sit at 15.4k/17.6k). Mechanic: direct-to-camera strong opinion plus one-sentence stakes. Bigger proof of the same mechanic: his Feb "AI operating systems running our businesses" build-in-public reel did 87,622 views — opinion backed by a real build is his ceiling format.'
     },
-    tweak: 'No Drey post today, so the AM assignment is still open: film the confession reel (one true before moment, name the Drowning Operator pain, one workflow, [verified result]). His last three IG posts (1,653 room / 144 ai_systems / 140 podcast) sit around a 787 overall median and a 637 reel median — the confession format is the highest-upside swing. Prediction unchanged: confession + builder proof beats the 637 reel median — MEDIUM confidence.',
+    tweak: 'Make the same strong-opinion reel, but PROVE it instead of asserting it: open with the claim, then screen-record the 1BB engine doing one real operator task end-to-end. Plain analogy, name the Drowning Operator pain ("you are not behind on AI because you are slow — you are behind because you are busy running payroll"). Any result number stays [verified result] until real. FILMING DECISION: this is today\'s shoot — the confession+proof reel is still unshot from Monday.',
     postIdeas: [
-      'Post idea: imitate Rowan\'s mechanic with a 1BB-flavored proof story — "AI running inside a real business operation" — one named workflow, [verified result]. Data reason: Drey\'s confession/room reels hit 1,792/1,086 vs the 611 AI-tool median.',
-      'NO SIGNAL yet on today: Drey posted nothing Sep 22 (OFFICIAL_API, zero posts). Hold course.'
+      'Post idea 1: builder confession post. Data reason: confession is Drey\'s top theme at a 3,474 median (n=2) vs an 815 account median (OFFICIAL_API, posts_all.csv).',
+      'Post idea 2: room/proof post showing one workflow done for a founder, start to finish. Data reason: room theme median 1,099 (n=13) vs ai_systems 627 (n=15) — proof about people beats proof about tools.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdmIeeFTXFD/',
-      who: 'Gerard Adams — direct event promo ("DM BROTHERHOOD"), posted Sep 22.',
-      views: '906',
-      comments: 3,
-      why: 'CONTRAST LESSON: Gerard\'s pure event pitch today is his weakest recent reel, while his Sep 18 relationship-first reel ("send this to a brother", https://www.instagram.com/reel/DdbuSOtzxUM/) did 16,870 views / 32 comments. Relationship framing beats the direct ask.'
+      url: 'https://www.instagram.com/reel/DdHMuSfvmGJ/',
+      who: 'Gerard Adams — "Real strength is not pretending you are never struggling. It is having the courage to be honest when you are," posted Sep 10.',
+      views: '92,936',
+      comments: 55,
+      why: 'Outlier: roughly 7x his 12-reel average (12,763). Mechanic: slow vulnerability confession, no ask until the final line — "someone who reminds you that you do not have to carry it alone." That is Kevin\'s exact register, already validated on his own account (his room confession reel is his top reel at 3,686 views).'
     },
-    tweak: 'Kevin\'s Sep 22 static ("belief before the plan", https://www.instagram.com/p/DdmGqnWl5a7/) is at 264 views ~5.5h in — currently missing his 1,615 static median, but too early for a verdict. Pattern to watch: his last three statics are all abstract statements (665, 546, 264 early), while his Sep 20 story post did 1,403 — right at his 1,395 overall median.',
+    tweak: 'Kevin does it in the calm coach register: one true moment from the 1BB build where he was running on fumes, then the pivot — "you do not have to carry it alone, that is why we built the room" — one clear next step (comment OWNERS). Keep it under 40 seconds: his reel completion median is 25.3%. FILMING DECISION: today\'s static stays story-specific (one named moment, the standard it set) — that test is live; bank this confession reel for the next reel session.',
     postIdeas: [
-      'Post idea: make tomorrow\'s static story-specific — one named moment, what it exposed, the standard it set — instead of an abstract statement. Data reason: Sep 20 story post 1,403 vs 665/546 for the abstract statics that followed.',
-      'Prediction: a story-specific static beats the abstract-statement format — MEDIUM confidence; graded in the weekly review.'
+      'Post idea 1: identity static (faith/family/gratitude). Data reason: identity is Kevin\'s top theme at a 2,732 median (n=20), and statics beat reels 1,615 vs 1,013 (OFFICIAL_API, posts_all.csv).',
+      'Post idea 2: sub-40s room reel, one idea plus one next step. Data reason: room median 1,738 (n=35) but reel completion is only 25.3% — shorter is the fix, not more reels.'
     ]
   },
-  note: 'PM SCAN: two lookalikes posted today — Rowan Cheung (49,908 views, AI-in-surgery proof) and Gerard Adams (906 views, direct event promo flopped). Bedros Keuilian pull rate-limited; retry tomorrow. Founders: Drey 0 posts Sep 22; Kevin 1 static, early read. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulled Sep 22 PM); founder stats OFFICIAL_API (Zernio today-pull + posts_all.csv medians: Kevin static 1,615 / reels 1,008; Drey overall 787 / reels 637).'
+  note: 'AM SCAN: confession mechanics are winning in both lanes — Gerard Adams\' vulnerability reel did 92,936 (~7x his average) and Bedros Keuilian\'s top reels this month are identity/relationship, not tactics (263,951 views / 11,194 likes on "never let a woman become your entire identity"). Liam Ottley\'s business-opinion reel (21,509) is his best work post of the week. Founders: no Sep 23 posts yet at pull time. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulled Sep 23 AM); founder stats OFFICIAL_API (posts_all.csv medians: Drey overall 815 / reels 637; Kevin overall 1,389 / static 1,615 / reels 1,013 / completion 25.3%).'
 };

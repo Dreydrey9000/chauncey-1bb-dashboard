@@ -1,36 +1,36 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-09-24 (AM)',
+  date: '2026-09-24 (PM)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdXVicFBYb1/',
-      who: 'Rowan Cheung — Transfyr, a startup using AI to capture why the same lab experiment works in one lab and fails in another, posted Sep 16.',
-      views: '1,541,952',
-      comments: 439,
-      likes: '75,588',
-      why: 'His biggest reel of the month and the clearest signal in his last 12: physical-world AI proof beats lab news by ~25x on his account (AI-drug, math-claim and robotics reels ran 20k-57k). Same ceiling pattern as his June broccoli-farmer reel (1,292,463 views): a NON-technical operator plus AI doing one concrete real-world task. That is Drey\'s exact lane — the Drowning Operator, not the researcher.'
+      url: 'https://www.instagram.com/reel/DdcoYROAjjk/',
+      who: 'Liam Ottley — "AI Automation Agencies / AI services businesses are still my top pick for getting into online business. Becoming technical is the foundation of the next era of work," posted Sep 18.',
+      views: '22,118',
+      comments: 18,
+      likes: '497',
+      why: 'The on-lane winner of his recent run (Sep 19-21 reels ran 15.8k-18.3k). Mechanic: one clear opinion, stated as a stake in the ground — "ticket to billions at best, insurance policy at worst." No newsjacking, no spectacle. He says the thing; he does not show the thing. That gap is Drey\'s opening.'
     },
-    tweak: 'Make the operator version: "You can\'t SOP what you can\'t see." Open on the pain — the whole business runs in the founder\'s head because they were too busy doing the work to ever write it down — then screen-record the 1BB engine capturing and doing ONE real operator task end-to-end. Plain analogy: the recipe never got written because the chef was too busy cooking. Any result number stays [verified result] until real. FILMING DECISION: shoot the confession+proof reel today — it has been the standing pick since Monday and Drey has not posted since Sep 19.',
+    tweak: 'Make the proof version Liam never makes: same stake ("becoming technical is the insurance policy"), then screen-record ONE real 1BB workflow doing an operator task end-to-end while you narrate the pain it kills — the founder who was the whole SOP because they were too busy doing the work to write it down. Plain analogy: the recipe never got written because the chef was too busy cooking. Result numbers stay [verified result] until real. FILMING DECISION: unchanged from AM — shoot the confession+proof reel tomorrow; Drey has been quiet since Sep 19 and the last two reels settled at 140-144 views vs an 826 median.',
     postIdeas: [
-      'Post idea 1: builder confession reel. Data reason: confession is Drey\'s top theme at a 3,474 median (n=2) vs an 815 account median; his podcast clips are his weakest lane at a 366 median — stop feeding the weak lane (OFFICIAL_API, posts_all.csv).',
-      'Post idea 2: room/proof post — one workflow done for a founder, start to finish. Data reason: room theme median 1,099 (n=13) vs ai_systems 627 (n=15) — proof about people beats proof about tools.'
+      'Post idea 1: builder confession reel — "I went quiet for 5 days and let the systems run. Here is what actually happened." Data reason: confession/room is Drey\'s proven lane (1,792/1,086 medians) vs AI-tool content at 611; his Sep 14 ai_systems reel settled at 144 and Sep 19 podcast clip at 140, both far under the 826 account median (OFFICIAL_API, posts_all.csv).',
+      'Post idea 2: room/proof post — one workflow done for one founder, start to finish, with the operator pain named. Data reason: same lane evidence; stop feeding the podcast-clip lane until a clip beats the median.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdXmC_oCGMI/',
-      who: 'David Meltzer — "It\'s easy to love the parts of the work that come naturally. The advantage comes when you learn to appreciate the parts you would normally avoid," posted Sep 17.',
-      views: '30,569',
-      comments: 22,
-      likes: '1,272',
-      why: 'His best reel of the last 12 against a 11.6k-18.5k baseline — the reframe did ~2x his norm with zero spectacle. Mechanic: calm inversion (the avoided work IS the advantage), no shouting, no setup. That register is Kevin\'s native voice; it maps 1:1 onto his evidence-builds-identity material.'
+      url: 'https://www.instagram.com/reel/Ddo1oaCMLKL/',
+      who: 'Bedros Keuilian — "Showing up is half the battle. WRONG! Showing up is exactly none of the battle. The fight and the win is the battle," posted Sep 23.',
+      views: '122,980',
+      comments: 45,
+      likes: '3,268',
+      why: 'A cliche-flip running at roughly his account norm (his last 8 average ~198k) with a strong comment count. Mechanic: take a slogan everyone repeats and overturn it in the first 3 seconds. The structure is portable; the volume is not Kevin\'s — his register is calm, not combative.'
     },
-    tweak: 'Kevin does it calm, not loud: "The rep you avoid is the rep that builds you." One gym-to-business line, one room/faith frame — the room notices who keeps showing up for the boring work — and one clear next step. Keep it under 40 seconds; completion is the weak point on his reels. FILMING DECISION: today\'s slot stays the identity static — the Sep 20 identity static already proved the lane (1,494 views, above his 1,389 median, 3.48% ER). Bank this Meltzer reel for the next reel session.',
+    tweak: 'Kevin runs the same flip in coach register: "Showing up gets you to the door. What you do once you are in the room is the standard." One calm line tying identity to standards — who you are when nobody claps — then one clear next step. Under 40 seconds; his reel completion sits at 25%, so shorter is the fix, not louder. No shout, no call-to-comment. FILMING DECISION: tomorrow\'s slot is the identity static, not this reel — his two Sep 23 reels both missed the 1,389 median (653 confession, 1,126 discipline) while statics keep beating reels ~2:1. Bank this flip for the next reel session.',
     postIdeas: [
-      'Post idea 1: identity static (faith/family/gratitude), one named moment plus one clear next step. Data reason: identity is Kevin\'s top theme at a 2,732 median (n=20), statics beat reels 1,615 vs 1,014, and the Sep 20 identity static hit 1,494 — above his 1,389 account median (OFFICIAL_API, posts_all.csv).',
-      'Post idea 2: sub-40s room reel, one idea plus one next step. Data reason: room median 1,738 (n=35) but reel completion is weak — shorter is the fix, not more reels.'
+      'Post idea 1: identity static — one named moment, one standard, one clear next step. Data reason: statics beat reels ~2:1 on Kevin\'s account and identity/room themes are his top lane; his Sep 20 identity static landed 1,494, above the 1,389 median (OFFICIAL_API, posts_all.csv).',
+      'Post idea 2: sub-40s room reel using the cliche-flip structure above. Data reason: room is a top theme but reel completion is 25% — shorter, one idea, one next step.'
     ]
   },
-  note: 'AM SCAN: Rowan Cheung\'s ceiling is physical-world AI proof — Transfyr lab reel 1,541,952 views (Sep 16) and his Sep 22 Stryker AR-surgery reel already at 181,930; his lab-news reels run 20k-57k, so "ordinary pro + AI + real task" beats news by ~25x on his account. David Meltzer posts daily at an 11.6k-30.6k band; newest (Sep 23, "interference — let it take minutes, not days") at 13,791. FOUNDERS: Kevin\'s Sep 20 identity static landed 1,494 (above his 1,389 median) — the identity-static call worked; his Sep 21-22 generic posts (356-803) did not. Drey quiet since Sep 19; the confession+proof reel is still the shoot. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulled Sep 24 AM); founder stats OFFICIAL_API (posts_all.csv medians: Drey overall 815 / confession 3,474 / room 1,099 / ai_systems 627 / podcast 366; Kevin overall 1,389 / identity 2,732 / room 1,738 / statics 1,615 / reels 1,014).'
+  note: 'PM DELTA Sep 24: LOOKALIKES — gerardadams posted today (community prompt on healthy masculinity, 3,283 views / 20 comments in ~2h, a high comment-to-view ratio; we do not copy comment-bait, but "hand the room the mic" is a usable Kevin mechanic in coach register). liamottley and bedroskeuilian quiet today; Bedros\' Sep 23 cliche-flip is at 122,980. FOUNDERS — nobody posted today. Kevin\'s two Sep 23 reels both missed his 1,389 IG median (653 confession, 1,126 discipline); his Sep 23 TikToks split (349 under, 437 over the 388 median). Drey quiet since Sep 19; last two reels settled at 140-144 vs an 826 median. ONE ADJUSTMENT FOR TOMORROW: Drey shoots the standing confession+proof reel (5 days quiet, weak lanes confirmed); Kevin runs an identity static, not another reel. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulled Sep 24 PM); founder stats OFFICIAL_API (posts_all.csv medians: Drey IG 826; Kevin IG 1,389, Kevin TT 388).'
 };

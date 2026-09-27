@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-09-27 (AM)',
+  date: '2026-09-27 (PM)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdtozFhD5Qv/',
-      who: 'Liam Ottley — "I tried Alex Becker\'s dopamine detox method: Work / Read / Stare at a wall. Working great so far!" posted Sep 25.',
-      views: '26,854',
-      comments: '22',
-      why: 'Top of his last-five band (17k-27k) with 887 likes — a 3.3% like rate, best of his recent reels. The mechanic: a deadpan self-experiment told as a three-line list with a self-aware punchline. No hype, no editing tricks — the flatness IS the format, and the specificity of the list makes it believable.'
+      url: 'https://www.instagram.com/reel/DdZS25ABxSl/',
+      who: 'Rowan Cheung — "I gave GPT-6 Astra our video production workflow: find the day’s top AI stories, verify sources, assess impact, produce a research brief and a script in my voice." posted Sep 17. Rowan has posted nothing new since Sep 23 (PUBLIC_PROXY), so this is the standing recommendation recycled, not a new find.',
+      views: '28,667',
+      comments: '8',
+      why: 'Bottom of his Sep 16-23 band (28k-61k) but the ONLY recent reel where a builder shows his own system doing real work instead of reporting AI news. That is your lane, not his news lane — the format is camera-on-the-workflow, output on screen, zero hype.'
     },
-    tweak: 'Make this reel, but the experiment is builder proof with receipts: "I let an AI system run my follow-ups for 30 days: - 0 leads dropped - 4 hours a week back - I checked it twice. Working great so far." Same deadpan list, flat delivery — then hold the screen recording of the system log up as the proof layer Liam cannot show. Line one names the operator pain: if you are the follow-up department, this is your way out.',
+    tweak: 'Make this reel, but the system is one drowning operators feel: your AI follow-up desk. "I gave it the job I hated most — chasing invoices, reviving dead leads, confirming calls." The screen recording of the log IS the reel; you narrate once, and open by naming the operator pain: "If you are still the follow-up department, watch this." No claims without the log on screen — [verified result] placeholder stays until you paste a real number.',
     postIdeas: [
-      'Confession-led static: "I used to be the follow-up department." Your confession median is 3,478 views vs ai_systems at 632 — the system goes inside the confession, never as the headline. Friday\'s ai_systems static did 720 vs your 826 median; that is two straight sub-median tool-first posts.',
-      'Room-prompt reel in the 9/9 format (1,667 views, 4 shares — one of your best this month): one question to a room of owners, you silent while they answer. Room median 1,101 vs ai_systems 632 — people carry the reach, tools ride along.'
+      'Tomorrow’s one post should be room or confession, NOT tool-first. Your room median is 1,101 (n=13) vs ai_systems 632 (n=16), and your last four tool-first posts all missed the 826 overall median: 179, 144, 140, 720. The 9/9 room reel (1,667) is your only recent win — people carry reach, tools ride along.',
+      'Confession static: "I used to be the follow-up department." Small sample but your two confession posts did 3,109 and 3,848 — the system goes inside the confession, never as the headline.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdbuSOtzxUM/',
-      who: 'Gerard Adams — "Send this to a brother who keeps you sharp, motivated, and committed to greatness" + DM BROTHERHOOD for his Oct 7 men\'s gathering, posted Sep 18.',
-      views: '18,144',
-      comments: '34',
-      why: '908 likes on 18.1k views — a 5.0% like rate, his best recent reel by engagement (his next-best this week is 12.1k views). The mechanic: direct-address "send this to" + brotherhood identity + ONE keyword DM funnel into a real room. It is the 1BB apply loop wearing a caption.'
+      url: 'https://www.instagram.com/reel/Ddy7G_Mstov/',
+      who: 'Bedros Keuilian — "When life squeezes you, what comes out of you is already what’s inside you. If you’re not happy with what comes out under pressure, do something about it." posted TODAY Sep 27, ~6 hours old.',
+      views: '197,695',
+      comments: '43',
+      why: 'Already his second-highest reel of the week in ~6 hours (his Sep 21 relationship reel leads at 319k after 6 days) — this pace makes it his likely week-winner. The mechanic: one short truth-statement about pressure, gym-shirt direct-to-camera, then a single actionable close. No funnel, no keyword DM — pure identity conviction.'
     },
-    tweak: 'Make this reel, but calm coach register — no intensity, no hype: "Send this to the founder who has been building alone." Say it like you are telling one person at coffee, not a crowd. Name what the room actually is in one sentence, then one clear next step: DM me "owners" and we will see if it is a fit. Gerard sells the gathering; you are inviting them into something that stays.',
+    tweak: 'Make this, but in your calm coach register — same idea, a third of the heat. The confession IS the pressure: "A call went sideways Thursday. What came out of me was on me." Then ONE next step, not a sermon: write down what came out of you this week before you open the laptop tomorrow. Close by sending it to the founder who is white-knuckling a hard season right now — your audience sends; Bedros’ audience argues.',
     postIdeas: [
-      'Identity static tomorrow: "The version of you your family gets at 7pm is the real KPI." Identity is your top theme (2,685 median) and statics beat reels 1,585 vs 1,005 — put this where the format and theme compound.',
-      'Hold the second reel again. Your 9/25 reels did 586 and 407 against a 1,005 reel median, and yesterday\'s discipline static (897) is still maturing. One good static out-earns two filler reels every week this month.'
+      'Identity static tomorrow morning: identity is your top theme at 2,685 median (n=19) and statics beat reels 1,603 vs 1,025. "The version of you your family gets at 7pm is the real KPI" puts format and theme where they compound.',
+      'Hold the reels again. Your last three reels went 556, 589, 410 against a 1,025 reel median — all misses. Yesterday’s discipline static (930) is still maturing against the 1,603 static median; one good static out-earns two filler reels every week this month.'
     ]
   },
-  note: 'AM scan (PUBLIC_PROXY): Bedros\' Sep 21 relationship reel is his week-winner at 319k; his Sep 25 "entrepreneurship builds you" flattened at 102k. Gerard\'s Sep 10 honesty-about-struggling reel (93k) is still his standing outlier; his Sep 24 masculinity comment-bait pulled 37 comments on 8.3k views — conversation mechanics working. Liam\'s US-move reel hit 17k in under 24h, tracking above band. Founders (OFFICIAL_API, CSV through 9/26): Kevin posted yesterday (discipline static, 897, maturing); Drey quiet since 9/25. Filming today: Drey shoots the 30-day AI follow-up experiment reel; Kevin shoots the send-this room reel. One reel each, statics fill the rest.'
+  note: 'PM delta (Sep 27): Founders dark today — CSV shows no posts dated 9/27 for either account (OFFICIAL_API, through 9/26). Yesterday’s grades: Kevin 9/26 discipline static 930 vs 1,603 static median — below, maturing; Drey 9/25 static 720 vs 826 — below, maturing, and his last three reels (179/144/140) all missed the 693 reel median. Lookalikes today (PUBLIC_PROXY): Bedros’ pressure reel 197k in ~6h — the day’s real signal; Meltzer posted a patience/timeline reel ~2h ago (1.1k views, too early to grade); Rowan dark since 9/23; Liam not scanned tonight (AM rotation covered him). One adjustment for tomorrow: both founders ship ONE post each — Drey room/confession, Kevin identity static — and both skip tool-first angles until something beats median.'
 };

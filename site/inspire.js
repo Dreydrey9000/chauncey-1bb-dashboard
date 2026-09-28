@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-09-28 (AM)',
+  date: '2026-09-28 (PM)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/Ddv4YQMAWrh/',
-      who: 'Liam Ottley — “Moving to the US is one of the hardest things I’ve ever done.” posted Sep 26 (PUBLIC_PROXY).',
-      views: '18,474',
-      comments: '18',
-      why: 'His specific, human confession nearly doubled his generic one from Sunday (“My biggest challenge since starting my AI business journey” — 8,079 views). Same creator, same week: the named story beat the generic prompt 2x. That is your lane math too — confession median 3,478 (n=2) vs 632 for AI-tool posts (OFFICIAL_API).'
+      url: 'https://www.instagram.com/reel/DdXVicFBYb1/',
+      who: 'Rowan Cheung (contrast profile) — Transfyr: AI records researchers second-by-second to learn why the same experiment works in one lab and fails in another. Posted Sep 16 (PUBLIC_PROXY).',
+      views: '1,624,675',
+      comments: '460',
+      why: 'The biggest reel on his feed by 4x. The pattern: his two monster reels are both "AI learns an ORDINARY person\x27s real work" (this + the Hokkaido broccoli farmer, 1.29M) while his AI-news updates do 29k-65k. Named operator + real operation beats news 25-50x. That is your frame, not his news register.'
     },
-    tweak: 'Make this reel, but it is a builder’s confession: “The hardest part of building this business was never the tech. It was ___.” Name the one moment you almost quit — plain talk, camera on you, no screen recording. Open on the operator pain, land on what it cost and what it bought. The system goes inside the story, never the headline.',
+    tweak: 'Make this, but the operation is YOURS: show one real chore inside your business that AI now does — the actual screen, the actual time it took before vs after. Plain analogy, name the operator pain in sentence one. "A farmer in Hokkaido" becomes "me, at 1am, copying numbers between two tabs." Proof, not news.',
     postIdeas: [
-      'ONE decision today: film that confession reel. You have been reel-silent since 9/19 and your last two reels went 144 and 140 — statics cannot carry the account alone.',
-      'If filming is impossible: room static (room median 1,101, n=13). Your 9/25 “just be yourself” static did 751 at 5.06% ER vs your 1.9 median ER — opinion statics are earning; keep that thread.'
+      'Fuse the AM assignment with tonight\x27s data: film ONE confession reel framed as "the moment I stopped trying to be an AI channel." Confession median 3,478 vs 632 for AI-tool posts, and you are 9 days reel-silent — last two reels went 144 and 140 (OFFICIAL_API).',
+      'If tomorrow AM allows only a static: opinion static like 9/25 (774 views, ~5% ER vs 1.9 median ER) — but the reel is the assignment; statics are the floor, not the plan.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdHMuSfvmGJ/',
-      who: 'Gerard Adams — “Real strength isn’t pretending you’re never struggling. It’s having the courage to be honest when you are.” posted Sep 10 (PUBLIC_PROXY).',
-      views: '92,995',
-      comments: '55',
-      why: 'His month’s outlier — 5x his next-best reel (18,288). Calm direct-to-camera vulnerability, then “send this to someone who can hold space for you.” Same territory as your 9/23 great-at-giving post (776 views, 4.64% ER) with the share mechanic added. And your own breaking-bread reel (Sep 27, 9:29p ET) is at 1,972 views in ~10 hours — about 2x your 1,015 reel median, so presence/family material is already moving (OFFICIAL_API).'
+      url: 'https://www.instagram.com/reel/Dd1dXMMgS_a/',
+      who: 'David Meltzer — "Before you think about real estate, stocks, crypto... understand yourself first. Know your timing. Know your risk tolerance." Posted TODAY 11:01a ET (PUBLIC_PROXY).',
+      views: '7,958 (~7h old)',
+      comments: '6',
+      why: 'Same calm coach register, same self-knowledge-first move you already win with — identity is your top theme (median 2,687, n=21). His 524 likes on 7,958 views is a 6.6% like rate: this register converts viewers into endorsers even at modest reach.'
     },
-    tweak: 'Make this, but end it inside the room: “…you don’t need a therapist on speed dial, you need two founders who have been there.” One next step: send this to the owner white-knuckling a hard season right now. Coach register — half the heat, all the heart. No keyword DM.',
+    tweak: 'Make this, but aim it at the Drowning Operator: "Before you buy the next tool, hire, or course — know what you\x27re actually trying to escape." The purchase is never the problem; the unowned identity behind it is. One next step: send this to a founder about to spend money to solve an identity problem. Coach register, no pressure.',
     postIdeas: [
-      'ONE decision today: companion identity STATIC this morning while the breaking-bread reel is hot. Statics median 1,602 vs reels 1,015, and identity is your top theme at 2,528 (n=21).',
-      'Film the Gerard-style reel Thursday. Your hustle-register reels keep missing (455, 588, 634 recent) while family/presence/standards material clears median — the lane is chosen, the calendar is the only variable.'
+      'The breaking-bread reel BEAT: 2,687 views (+715 since morning), 13 shares — your most-shared post in weeks (recent max was 5). Tomorrow: pin it, answer all 12 comments tonight, then run a room/table companion static. Shares say send-ability — give senders a target.',
+      'Today\x27s 8:32a confession static is at 989 vs your 1,587 static median — too early to grade, statics mature over days. Hold, do not judge it before Wednesday.'
     ]
   },
-  note: 'AM scan (PUBLIC_PROXY): Bedros’ pressure reel — yesterday’s pick — held overnight to ~200k; the read was right. Vulnerability won in both lanes scanned today: Gerard’s 93k outlier and Liam’s confession 2x his generic. Founder side (OFFICIAL_API, synced 6:32a ET): Kevin posted two straight days — 9/27 identity static 1,332 (maturing vs the 1,602 static median) and the 9/28 breaking-bread reel at 1,972, his best in weeks. Drey silent on IG since 9/25 (751, 5.06% ER) and reel-silent since 9/19 — today’s confession reel is the whole assignment.'
+  note: 'PM scan (PUBLIC_PROXY): the "ordinary operator + AI does the real work" frame is the biggest-view mechanic on the contrast feed (1.62M and 1.29M vs 29-65k for news) — that is Drey\x27s lane math written by someone else\x27s account. Bedros\x27 pressure reel held at 200k; his week\x27s true outlier was a client story (495k) — proof beats motivation there too. Founder side (OFFICIAL_API, synced 6:17p ET): Kevin\x27s breaking-bread reel 2,687 = 2.6x his 1,022 reel median, 13 shares; new confession static too early to grade. Drey: no post today, reel-silent 9 days — tomorrow\x27s confession reel is still the whole assignment.'
 };

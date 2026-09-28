@@ -3,7 +3,7 @@
 import urllib.request, time
 
 url = 'https://1bb-dashboard.pages.dev/inspire.js'
-markers = ['2026-09-28 (AM)', 'Ddv4YQMAWrh', 'DdHMuSfvmGJ']
+markers = ['2026-09-28 (PM)', 'DdXVicFBYb1', 'Dd1dXMMgS_a']
 for attempt in range(1, 4):
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)'})

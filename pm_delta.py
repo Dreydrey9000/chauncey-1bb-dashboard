@@ -1,82 +1,55 @@
-# PM delta analysis for evening inspire brief — reads posts_all.csv, prints today's/yesterday's posts vs medians
-import csv, os, statistics as st
+#!/usr/bin/env python3
+"""Evening delta analysis for inspire brief — today's posts vs medians."""
+import csv, statistics
 from collections import defaultdict
-from datetime import datetime, timezone
 
-P = '/Users/andrethomas/.hermes/workspaces/chauncey/dashboard'
-rows = list(csv.DictReader(open(os.path.join(P, 'posts_all.csv'), encoding='utf-8')))
-print('total rows:', len(rows))
+PATH = '/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/posts_all.csv'
+TODAY = '2026-09-30'
 
-def iv(s):
+rows = []
+with open(PATH, newline='', encoding='utf-8') as f:
+    for r in csv.DictReader(f):
+        rows.append(r)
+
+def to_int(v):
     try:
-        return int(float(s or 0))
-    except ValueError:
+        return int(float(v))
+    except (TypeError, ValueError):
         return None
 
-TODAY = '2026-09-29'
-print('=== posts dated', TODAY, '===')
-n = 0
-for r in rows:
-    if r['date'] == TODAY:
-        n += 1
-        print(f"{r['account']} {r['url']} views={r['views']} likes={r['likes']} comments={r['comments']} shares={r['shares']} saves={r['saves']} theme={r['theme']} reel={r['is_reel']}")
-        print('   ', r['content'][:120].replace('\n', ' '))
-if n == 0:
-    print('(none — no posts dated today in synced CSV)')
+# --- 1. Posts dated today ---
+tod = [r for r in rows if (r.get('date') or '').strip() == TODAY]
+print(f"=== POSTS DATED {TODAY}: {len(tod)} ===")
+for r in tod:
+    print(f"{r['account']} | views={r['views']} likes={r['likes']} comments={r['comments']} | theme={r['theme']} reel={r['is_reel']} | {r['url']}")
 
-print('=== posts dated 2026-09-28 (ET evening boundary) ===')
+# --- 2. Per-account medians + last post date ---
+byacct_v = defaultdict(list)
 for r in rows:
-    if r['date'] == '2026-09-28':
-        print(f"{r['account']} ts={r['ts'][:16]} {r['url']} views={r['views']} likes={r['likes']} comments={r['comments']} shares={r['shares']} saves={r['saves']} theme={r['theme']} reel={r['is_reel']}")
-
-print('=== medians by account ===')
-med = defaultdict(list)
-for r in rows:
-    v = iv(r['views'])
+    v = to_int(r['views'])
     if v is not None:
-        med[r['account']].append(v)
-for k, v in sorted(med.items()):
-    print(f'{k}: n={len(v)} median_views={st.median(v):.0f}')
+        byacct_v[r['account']].append(v)
+print("\n=== ACCOUNT MEDIANS ===")
+for a, vs in sorted(byacct_v.items()):
+    dates = [(r['date'] or '') for r in rows if r['account'] == a]
+    print(f"{a}: n={len(vs)} median_views={statistics.median(vs):.0f} max={max(vs)} last_date={max(dates)}")
 
-print('=== drey_ig reels only: median + last 4 reels ===')
-dreel = [r for r in rows if r['account'] == 'drey_ig' and r['is_reel'] == 'True' and iv(r['views']) is not None]
-dv = [iv(r['views']) for r in dreel]
-print('drey_ig reels n=%d median=%.0f' % (len(dv), st.median(dv)))
-for r in dreel[-4:]:
-    print(f"  {r['date']} views={r['views']} theme={r['theme']} {r['url']}")
+# --- 3. Theme medians for the two IG lanes ---
+for acct in ['drey_ig', 'kevin_ig']:
+    bytheme = defaultdict(list)
+    for r in rows:
+        if r['account'] == acct:
+            v = to_int(r['views'])
+            if v is not None:
+                bytheme[r['theme']].append(v)
+    parts = [f"{t}: {statistics.median(v):.0f} (n={len(v)})" for t, v in
+             sorted(bytheme.items(), key=lambda kv: -statistics.median(kv[1]))]
+    print(f"\n=== {acct} THEME MEDIANS === " + '; '.join(parts))
 
-print('=== drey_ig reel medians by theme ===')
-tmed = defaultdict(list)
-for r in dreel:
-    tmed[r['theme']].append(iv(r['views']))
-for k, v in sorted(tmed.items(), key=lambda x: -st.median(x[1])):
-    print(f'  {k}: n={len(v)} median={st.median(v):.0f}')
-
-print('=== kevin_ig: reels vs statics + theme medians ===')
-kig = [r for r in rows if r['account'] == 'kevin_ig' and iv(r['views']) is not None]
-kr = [iv(r['views']) for r in kig if r['is_reel'] == 'True']
-ks = [iv(r['views']) for r in kig if r['is_reel'] == 'False']
-print(f'kevin_ig reels n={len(kr)} median={st.median(kr):.0f} | statics n={len(ks)} median={st.median(ks):.0f}')
-kt = defaultdict(list)
-for r in kig:
-    kt[r['theme']].append(iv(r['views']))
-for k, v in sorted(kt.items(), key=lambda x: -st.median(x[1])):
-    print(f'  {k}: n={len(v)} median={st.median(v):.0f}')
-
-print('=== last post per founder account ===')
-for acc in ('drey_ig', 'drey_tt', 'kevin_ig', 'kevin_tt'):
-    mine = [r for r in rows if r['account'] == acc]
-    if mine:
-        r = mine[-1]
-        print(f"{acc}: last {r['date']} views={r['views']} theme={r['theme']} reel={r['is_reel']}")
-
-print('=== sync freshness ===')
-for f in ('posts_all.csv', 'site/data.js', 'gen_data.py'):
-    fp = os.path.join(P, f)
-    if os.path.exists(fp):
-        print(f, datetime.fromtimestamp(os.path.getmtime(fp), tz=timezone.utc).strftime('%Y-%m-%d %H:%M UTC'))
-rawd = os.path.join(P, 'raw')
-if os.path.isdir(rawd):
-    fs = sorted((os.path.getmtime(os.path.join(rawd, f)), f) for f in os.listdir(rawd))
-    for mt, f in fs[-4:]:
-        print('raw/', f, datetime.fromtimestamp(mt, tz=timezone.utc).strftime('%Y-%m-%d %H:%M UTC'))
+# --- 4. Last 5 posts per IG account (recency check for evening delta) ---
+for acct in ['drey_ig', 'drey_tt', 'kevin_ig', 'kevin_tt']:
+    sub = [r for r in rows if r['account'] == acct]
+    sub.sort(key=lambda r: (r['ts'] or ''), reverse=True)
+    print(f"\n=== LAST 3 {acct} ===")
+    for r in sub[:3]:
+        print(f"{r['date']} views={r['views']} comments={r['comments']} theme={r['theme']} | {(r['content'] or '')[:70].replace(chr(10),' ')}")

@@ -63,7 +63,9 @@ def rpc(method, params=None, notif=False, accept='application/json, text/event-s
 rpc('initialize', {'protocolVersion': '2024-11-05', 'capabilities': {}, 'clientInfo': {'name': 'chauncey-brief', 'version': '1.0'}})
 rpc('notifications/initialized', notif=True)
 
-for user in ('rowancheung', 'bedroskeuilian', 'davidmeltzer'):
+import sys
+USERS = sys.argv[1:] or ['liamottley', 'gerardadams', 'bedroskeuilian']
+for user in USERS:
     print('=' * 20, user, '=' * 20)
     try:
         res = rpc('tools/call', {'name': 'get_instagram_user_reels', 'arguments': {'username': user, 'count': 12}})

@@ -64,8 +64,8 @@ def series(o):
     return out
 
 try:
-    pf = unwrap(json.loads(git_file('HEAD~1', 'raw/followers.json')))
-    cf = unwrap(json.loads(git_file('HEAD', 'raw/followers.json')))
+    pf = unwrap(json.loads(git_file(PREV_REV, 'raw/followers.json')))
+    cf = unwrap(json.loads(git_file(CUR_REV, 'raw/followers.json')))
     sp, sc = series(pf), series(cf)
     for name in sc:
         if name in sp and sp[name] and sc[name]:

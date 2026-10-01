@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-09-30 (PM)',
+  date: '2026-10-01 (AM)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DZddnLvOmMC/',
-      who: 'Rowan Cheung — the Hokkaido broccoli farmer who automated his 100-hectare farm. Posted Jun 11, his #1 reel of the past year (PUBLIC_PROXY).',
-      views: '1,294,389',
-      comments: '335 (90,564 likes)',
-      why: 'Rowan posts AI news daily (30k-270k views), but his year\u0027s biggest hit by 4x is a specific operator + automation story — not news, not tools. That\u0027s your exact lane: your room reel 4,539 and confession 3,852 both beat your ai_systems median of 633 (OFFICIAL_API). The operator story is the format that travels.'
+      url: 'https://www.instagram.com/reel/Ddv4YQMAWrh/',
+      who: 'Liam Ottley — "Moving to the US is one of the hardest things I\u0027ve ever done" (Sep 26). PUBLIC_PROXY.',
+      views: '19,745',
+      comments: '18 (635 likes)',
+      why: 'His confession frames hold at 19-29k while his straight AI-business advice idles at 9-16k (PUBLIC_PROXY) — on 41.6k followers that is ~48% follower reach. Same shape as your feed: room median 853 vs ai_systems 308, and your Aug 30 confession is your comment record — 3,852 views, 33 comments (OFFICIAL_API).'
     },
-    tweak: 'THE TWEAK — make the farmer you. One real chore you killed with a system: what it cost you per week in hours, what the system does now, what you did with the time. Phone camera, one plain analogy, name the operator pain in the first line. No tool tour.',
+    tweak: 'THE TWEAK — make the hardship yours. Not a move abroad: the moment the business nearly broke you — what it cost, what you carried alone, what you built so it can\u0027t repeat. One plain analogy, phone camera, name the operator pain in line one. You\u0027re 12 days reel-silent (last reel Sep 19, 140 views) — film this before anything else today. Day 3 of the assignment.',
     postIdeas: [
-      'Day 2 of the confession reel assignment — you\u0027re 16 days reel-silent (last reel Sep 14, 144 views; last post Sep 25). Your Aug 30 confession is still your comment record: 3,852 views, 33 comments (OFFICIAL_API). Film before anything else tomorrow.',
-      'Second slot: the operator-automation story above. Proof it works on small accounts too: your Aug 28 room reel (4,539) used the same story-first structure.'
+      'The confession reel, today, no more delay. Anchor: Liam\u0027s confession out-reached his AI content ~2x on a small account; your confession lane already owns your comment record (OFFICIAL_API). Nothing ships before it.',
+      'Second slot: the operator-automation story. Rowan\u0027s house-robot startup reel did 204,638 on Sep 25 — a specific story beating his news posts (PUBLIC_PROXY). Your version: one real chore you killed with a system, hours back per week, what you did with the time.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/Dd5YakesocC/',
-      who: 'Bedros Keuilian — lone wolf / tribe reel, day-1 final (PUBLIC_PROXY).',
-      views: '154,754',
-      comments: '38 (3,101 likes)',
-      why: 'Day-1 finish for this morning\u0027s pick: 154,754 views in ~15 hours — his catalog norm (89k-506k), so the frame has legs. Your room median 1,666 and identity 2,746 say the same theme works on your feed (OFFICIAL_API).'
+      url: 'https://www.instagram.com/reel/Ddy7G_Mstov/',
+      who: 'Bedros Keuilian — "When life squeezes you and gives you pressure, what comes out of you is already what\u0027s inside" (Sep 27). PUBLIC_PROXY.',
+      views: '201,319',
+      comments: '47 (3,183 likes)',
+      why: 'Pressure/refinement frame inside his 100-320k band (PUBLIC_PROXY). Your identity median 2,091 is your best lane (OFFICIAL_API), and your two shortest recent reels — 39s discipline (1,945 views, 41% skip) and 22s "big calling" (982) — are your two best; the 81s Mark 4:24 reel skipped 65% and did 360.'
     },
-    tweak: 'THE TWEAK — unchanged from this morning, now with a length cap: Bedros\u0027s directness, your calm register, one next step. \u0027Lone wolf sounds strong until you\u0027re alone at 2am with the decision that decides the year. I built the room I couldn\u0027t find.\u0027 DM \u0027Owners\u0027. Keep it under 40 seconds — see the note.'
-    ,postIdeas: [
-      'Platform split, starting tomorrow: your IG statics averaged 1,803 views this week vs 538 for reels (Sep 24-30, n=5 vs 6, OFFICIAL_API). Ship the lone-wolf piece on IG as a static; put the reel cut on TikTok only — your last two TT posts beat median (1,065 and 491 vs 405).',
-      'Today\u0027s TT beat proves the humility lane: \u0027you don\u0027t need a big calling\u0027 hit 1,065 views + 102 likes, 2.6x TT median — your best TikTok in weeks. One more in that register this week: ordinary faithfulness over big mission.'
+    tweak: 'THE TWEAK — Bedros shouts it; you say it quiet. Pressure doesn\u0027t change you, it names you. Name one thing a recent hard season revealed in you, and the room you built so no one carries it alone. One next step: DM "Owners". Cap at 40 seconds — the data says short.',
+    postIdeas: [
+      'Ship the pressure piece as an IG static too — your statics median 1,512 vs reels 715 since 9/17 (n=11 vs 12, OFFICIAL_API), and your top post of the window was the family-table identity static: 3,030 views, 13 shares.',
+      'TikTok gets the reel cut — "big calling" did 1,149 there with 108 likes and 7 comments vs 982 on IG; your TT room is the warmer one (OFFICIAL_API). Also queue Meltzer\u0027s invisible-progress frame as a static: "frustration comes from expecting progress to be obvious" pulled 776 likes on just 7,683 views (PUBLIC_PROXY) — patience with unseen growth, in your register.'
     ]
   },
-  note: 'PM scan (PUBLIC_PROXY): nothing new from Liam (last post Sep 27, confession frames holding at 19.6k). Rowan\u0027s only fresh post is OpenAI DevDay news (33,988) — his farmer story stays the lesson. Meltzer and Gerard Adams returned stats but no dates/captions (partial payload, 2nd day) — can\u0027t verify \u0027posted today\u0027, excluded. Founder data OFFICIAL_API (Zernio, per-post updated 5:15p ET): Kevin\u0027s new Mark 4:24 reel (11:57a, 81 seconds) is his lowest-view reel of the run — 242 IG, 65% skip; but his \u0027big calling\u0027 piece is beating on TikTok (1,065 views, 102 likes, 2.6x median) while sitting at 724 on IG (0.5x). Drey: no posts today, silent since Sep 25. TOMORROW\u0027S ONE ADJUSTMENT: Kevin — IG statics + TikTok reels, cap reels at 40s (81s = 65% skip); Drey — film the confession reel, day 2.'
+  note: 'AM scan (PUBLIC_PROXY, pulled 7a ET): Liam quiet since Sep 27 — his Sep 26 US-move confession (19,745) is today\u0027s Drey model. Bedros\u0027s lone-wolf reel finished at 154,693 (norm); the Sep 27 pressure reel is the fresh Kevin model. Meltzer returned full payloads for the first time in 3 days — his daily reels now run 4-15k views (far off his cached averages) but with like ratios up to 10%; strong frame, modest reach. Gerard Adams failed again (partial payload, 3rd straight day) — excluded. Rowan comment-gated his DevDay reel ("comment dots" → 79 comments on 35,791 views); it works, it\u0027s not our style. Founder data OFFICIAL_API (Zernio → posts_all.csv, refreshed 6:31a ET). TODAY\u0027S ONE DECISION EACH — Drey: film the confession reel (day 3). Kevin: one sub-40s pressure reel, static twin on IG, reel cut on TikTok.'
 };

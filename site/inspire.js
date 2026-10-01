@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-01 (AM)',
+  date: '2026-10-01 (PM) — evening delta',
   drey: {
     reel: {
       url: 'https://www.instagram.com/reel/Ddv4YQMAWrh/',
-      who: 'Liam Ottley — "Moving to the US is one of the hardest things I\u0027ve ever done" (Sep 26). PUBLIC_PROXY.',
-      views: '19,745',
-      comments: '18 (635 likes)',
-      why: 'His confession frames hold at 19-29k while his straight AI-business advice idles at 9-16k (PUBLIC_PROXY) — on 41.6k followers that is ~48% follower reach. Same shape as your feed: room median 853 vs ai_systems 308, and your Aug 30 confession is your comment record — 3,852 views, 33 comments (OFFICIAL_API).'
+      who: 'Liam Ottley — US-move confession, his #2 recent reel. PUBLIC_PROXY (stats re-verified tonight; no new Liam post confirmed).',
+      views: '19,842',
+      comments: '18 (637 likes)',
+      why: 'Liam\'s payload came back dateless tonight, so no new-post call — the standing model holds. His confession frames sit at 19-30k while his advice idles at 9-17k. Your mirror: room reels median 1,105 vs AI-tool reels ~155 (OFFICIAL_API). This confession reel is now a day-3 assignment — that is the whole Drey story tonight.'
     },
-    tweak: 'THE TWEAK — make the hardship yours. Not a move abroad: the moment the business nearly broke you — what it cost, what you carried alone, what you built so it can\u0027t repeat. One plain analogy, phone camera, name the operator pain in line one. You\u0027re 12 days reel-silent (last reel Sep 19, 140 views) — film this before anything else today. Day 3 of the assignment.',
+    tweak: 'THE TWEAK — unchanged, and that is the point. The hardship you carried alone building this, one plain analogy, phone camera, operator pain in line one. ADJUSTMENT: film it raw tonight so tomorrow\'s only job is pressing post 7-9a. The barrier has been starting, not the idea.',
     postIdeas: [
-      'The confession reel, today, no more delay. Anchor: Liam\u0027s confession out-reached his AI content ~2x on a small account; your confession lane already owns your comment record (OFFICIAL_API). Nothing ships before it.',
-      'Second slot: the operator-automation story. Rowan\u0027s house-robot startup reel did 204,638 on Sep 25 — a specific story beating his news posts (PUBLIC_PROXY). Your version: one real chore you killed with a system, hours back per week, what you did with the time.'
+      'Confession reel, first slot, no alternative. 13 days reel-silent (last reel Sep 19, 140 views); room reels run 1,105-1,688 while AI-tool reels run 130-179 (OFFICIAL_API, n=13/16). Nothing ships before it.',
+      'Second slot unchanged: one chore you killed with a system. Tonight\'s evidence — Rowan\'s application stories (house-robot 207,207; Stryker surgery 299,127) run 5-10x his news recaps (30-70k, PUBLIC_PROXY). Specific beats broad. Your version: the chore, the hours back, what you did with them.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/Ddy7G_Mstov/',
-      who: 'Bedros Keuilian — "When life squeezes you and gives you pressure, what comes out of you is already what\u0027s inside" (Sep 27). PUBLIC_PROXY.',
-      views: '201,319',
-      comments: '47 (3,183 likes)',
-      why: 'Pressure/refinement frame inside his 100-320k band (PUBLIC_PROXY). Your identity median 2,091 is your best lane (OFFICIAL_API), and your two shortest recent reels — 39s discipline (1,945 views, 41% skip) and 22s "big calling" (982) — are your two best; the 81s Mark 4:24 reel skipped 65% and did 360.'
+      url: 'https://www.instagram.com/reel/Dd9TX4Cse4B/',
+      who: 'Bedros Keuilian — "Start betting on yourself more! You give way too much credit to others" — posted TODAY 12:14p ET. PUBLIC_PROXY.',
+      views: '81,448 (2h old)',
+      comments: '22 (2,127 likes)',
+      why: 'Fresh today and squarely your best lane: identity is your top IG theme (median 2,748, n=20, OFFICIAL_API) vs ai_systems 1,025. Early pace puts it inside his 81k-495k band by tonight.'
     },
-    tweak: 'THE TWEAK — Bedros shouts it; you say it quiet. Pressure doesn\u0027t change you, it names you. Name one thing a recent hard season revealed in you, and the room you built so no one carries it alone. One next step: DM "Owners". Cap at 40 seconds — the data says short.',
+    tweak: 'THE TWEAK — Bedros shouts it; you say it quiet, coach to operator: "You credit everyone else for what you built. Read your own scoreboard." One thing you backed yourself on when others doubted, the room that made it easier, one next step: DM "Owners." Cap at 40 seconds — your 39s discipline reel (1,967 views) and 22s calling reel (982) are your two best recent; the 81s one skipped 65% (OFFICIAL_API).',
     postIdeas: [
-      'Ship the pressure piece as an IG static too — your statics median 1,512 vs reels 715 since 9/17 (n=11 vs 12, OFFICIAL_API), and your top post of the window was the family-table identity static: 3,030 views, 13 shares.',
-      'TikTok gets the reel cut — "big calling" did 1,149 there with 108 likes and 7 comments vs 982 on IG; your TT room is the warmer one (OFFICIAL_API). Also queue Meltzer\u0027s invisible-progress frame as a static: "frustration comes from expecting progress to be obvious" pulled 776 likes on just 7,683 views (PUBLIC_PROXY) — patience with unseen growth, in your register.'
+      'Identity reel as above — your top lane by median (2,748, n=20, OFFICIAL_API). Nothing else outranks it tomorrow.',
+      'Static twin on IG + reel cut on TikTok: your statics median 1,541 vs reels 679 since 9/17 (n=11/12), and your last TT reel did 1,153 with 108 likes vs 982 on IG (OFFICIAL_API). Two surfaces, one film.'
     ]
   },
-  note: 'AM scan (PUBLIC_PROXY, pulled 7a ET): Liam quiet since Sep 27 — his Sep 26 US-move confession (19,745) is today\u0027s Drey model. Bedros\u0027s lone-wolf reel finished at 154,693 (norm); the Sep 27 pressure reel is the fresh Kevin model. Meltzer returned full payloads for the first time in 3 days — his daily reels now run 4-15k views (far off his cached averages) but with like ratios up to 10%; strong frame, modest reach. Gerard Adams failed again (partial payload, 3rd straight day) — excluded. Rowan comment-gated his DevDay reel ("comment dots" → 79 comments on 35,791 views); it works, it\u0027s not our style. Founder data OFFICIAL_API (Zernio → posts_all.csv, refreshed 6:31a ET). TODAY\u0027S ONE DECISION EACH — Drey: film the confession reel (day 3). Kevin: one sub-40s pressure reel, static twin on IG, reel cut on TikTok.'
+  note: 'PM scan (PUBLIC_PROXY, pulled ~6:15p ET): Bedros and Rowan both posted today. Bedros\'s bet-on-yourself (81k in 2h) is the fresh Kevin model; Rowan\'s brain-implant news reel is idling at 14,501 views / 3 comments — his application stories run 5-20x that, which re-confirms specific-beats-broad for Drey\'s second slot. Liam, Meltzer, Gerard returned dateless payloads tonight (stats only, no new-post calls) — Bedros + Rowan carried the scan. Founder data OFFICIAL_API (refreshed 6:02p ET, CSV max date Sep 30): neither of you posted today, so nothing to grade vs medians. Drey: 13 days reel-silent. Kevin: last posted Sep 30 (2 posts). TOMORROW — Drey: confession reel, filmed tonight, posted 7-9a (day 3, final). Kevin: quiet bet-on-yourself identity reel, sub-40s, static twin + TikTok cut.'
 };

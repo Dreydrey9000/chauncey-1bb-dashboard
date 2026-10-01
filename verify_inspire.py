@@ -33,7 +33,7 @@ reel_urls = sorted(set(re.findall(r'https://www\.instagram\.com/reel/[A-Za-z0-9_
 checks = {
     f'date marker ({marker})': marker != '' and marker in body,
     'all local reel URLs deployed': bool(reel_urls) and all(u in body for u in reel_urls),
-    'structural quotes even': body.split('window.INSPIRE')[1].count("'") % 2 == 0,
+    'structural quotes even': len(re.findall(r"(?<!\\)'", body.split('window.INSPIRE')[1])) % 2 == 0,
     'deployed == local (sha256, stripped)': remote_hash == local_hash,
 }
 print('HTTP OK, chars:', len(body), '| local chars:', len(local))

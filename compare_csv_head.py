@@ -1,16 +1,27 @@
 #!/usr/bin/env python3
-"""Compare posts_all.csv (HEAD) vs HEAD~1 — biggest per-post view movers + new posts."""
+"""Compare posts_all.csv across latest two `data refresh` commits — biggest view movers + new posts.
+Rev resolution: newest two 'data refresh' commits (robust to script-only commits on top)."""
 import csv, io, subprocess
 
 BASE = '/Users/andrethomas/.hermes/workspaces/chauncey/dashboard'
+
+def refresh_revs():
+    log = subprocess.run(['git', '-C', BASE, 'log', '--format=%h %s', '--grep=^data refresh', '-n', '5'],
+                         capture_output=True, text=True, check=True).stdout.strip().splitlines()
+    revs = [l.split(' ', 1)[0] for l in log]
+    if len(revs) < 2:
+        raise SystemExit(f'need two data-refresh commits, found: {revs}')
+    return revs[0], revs[1]
+
+CUR_REV, PREV_REV = refresh_revs()
+print(f'comparing {PREV_REV} (prev refresh) -> {CUR_REV} (current refresh)')
 
 def git_csv(rev):
     src = subprocess.run(['git', '-C', BASE, 'show', f'{rev}:posts_all.csv'],
                          capture_output=True, text=True, check=True).stdout
     return list(csv.DictReader(io.StringIO(src)))
 
-prev, cur = git_csv('HEAD~1'), git_csv('HEAD')
-print('DEBUG csv cols:', list(cur[0].keys()) if cur else 'empty')
+prev, cur = git_csv(PREV_REV), git_csv(CUR_REV)
 
 def key(r):
     return (r.get('platform') or r.get('account') or '?', r.get('id') or r.get('post_id') or r.get('url') or r.get('permalink') or '')

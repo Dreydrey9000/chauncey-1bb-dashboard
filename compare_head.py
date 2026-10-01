@@ -1,8 +1,21 @@
 #!/usr/bin/env python3
-"""One-off: compare HEAD (today) vs HEAD~1 (yesterday) data.js — followers + post-view movers."""
+"""One-off: compare latest two `data refresh` commits' data.js — followers + post-view movers.
+Rev resolution: newest two commits matching 'data refresh' (robust to script-only commits on top)."""
 import json, re, subprocess
 
 BASE = '/Users/andrethomas/.hermes/workspaces/chauncey/dashboard'
+
+def refresh_revs():
+    """Return (current_rev, previous_rev) = newest two 'data refresh' commits."""
+    log = subprocess.run(['git', '-C', BASE, 'log', '--format=%h %s', '--grep=^data refresh', '-n', '5'],
+                         capture_output=True, text=True, check=True).stdout.strip().splitlines()
+    revs = [l.split(' ', 1)[0] for l in log]
+    if len(revs) < 2:
+        raise SystemExit(f'need two data-refresh commits, found: {revs}')
+    return revs[0], revs[1]
+
+CUR_REV, PREV_REV = refresh_revs()
+print(f'comparing {PREV_REV} (prev refresh) -> {CUR_REV} (current refresh)')
 
 def git_file(rev, path):
     return subprocess.run(['git', '-C', BASE, 'show', f'{rev}:{path}'],
@@ -13,8 +26,8 @@ def load_data(src):
     body = m.group(1) if m else src[src.index('{'):src.rindex('}') + 1]
     return json.loads(body)
 
-prev = load_data(git_file('HEAD~1', 'site/data.js'))
-cur = load_data(git_file('HEAD', 'site/data.js'))
+prev = load_data(git_file(PREV_REV, 'site/data.js'))
+cur = load_data(git_file(CUR_REV, 'site/data.js'))
 
 def unwrap(o):
     if isinstance(o, dict) and isinstance(o.get('result'), str):
@@ -80,7 +93,6 @@ def post_map(data):
     return out
 
 pp, pc = post_map(prev), post_map(cur)
-print('DEBUG cur data.js top keys:', sorted(cur.keys())[:12])
 movers = []
 for k, p in pc.items():
     v = p.get('views') or p.get('viewCount') or (p.get('stats') or {}).get('views')

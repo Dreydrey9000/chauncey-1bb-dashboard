@@ -13,7 +13,7 @@ window.INSPIRE = {
     tweak: 'THE TWEAK — unchanged, and that is the point. The hardship you carried alone building this, one plain analogy, phone camera, operator pain in line one. ADJUSTMENT: film it raw tonight so tomorrow\'s only job is pressing post 7-9a. The barrier has been starting, not the idea.',
     postIdeas: [
       'Confession reel, first slot, no alternative. 13 days reel-silent (last reel Sep 19, 140 views); room reels run 1,105-1,688 while AI-tool reels run 130-179 (OFFICIAL_API, n=13/16). Nothing ships before it.',
-      'Second slot unchanged: one chore you killed with a system. Tonight\'s evidence — Rowan\'s application stories (house-robot 207,207; Stryker surgery 299,127) run 5-10x his news recaps (30-70k, PUBLIC_PROXY). Specific beats broad. Your version: the chore, the hours back, what you did with them.'
+      'Second slot unchanged: one chore you killed with a system. Tonight\'s evidence — Rowan\'s application stories run 5-10x his news recaps (house-robot 207,207: https://www.instagram.com/reel/DduW32TB8aV/ vs brain-implant news 14,501 today, PUBLIC_PROXY). Specific beats broad. Your version: the chore, the hours back, what you did with them.'
     ]
   },
   kevin: {

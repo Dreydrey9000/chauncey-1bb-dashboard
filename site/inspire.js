@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-02 (AM) — filming day',
+  date: '2026-10-02 (PM) — evening delta',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdykBqIDUPi/',
-      who: 'Liam Ottley — "My biggest challenge since starting my AI business journey" — posted Sunday 9/27, holding 9,511 views. First morning we could confirm it (yesterday\'s pull was dateless). PUBLIC_PROXY.',
-      views: '9,511',
-      comments: '2 (203 likes)',
-      why: 'Confession lane again: 9.5k in five days while his fresh overnight advice post ("Don\'t be this guy," 9:32p ET) sits at 7.9k with a 5-day head start of recency — his confessions run 9.5-30k, advice idles lower. Your own data is louder: your last two confession reels did 3,853 (8/30) and 3,114 (8/25) while your AI-tool reels median 147 (n=7, OFFICIAL_API). You are 14 days reel-silent today.'
+      url: 'https://www.instagram.com/reel/DdtozFhD5Qv/',
+      who: 'Liam Ottley — "I tried Alex Becker\'s dopamine detox method" — 29,895 views, 991 likes, 27 comments (9/25). Third-best of his recent twelve. PUBLIC_PROXY.',
+      views: '29,895',
+      comments: '27 (991 likes)',
+      why: 'Personal-experiment confession is his advice-proof: it beats everything on his page except the moving-van story (20,044) and it double-matches your own lane — your confession/room reels run 1,105-13,174 while your recent AI-tool reels median 161.5 (n=6, OFFICIAL_API). Same assignment as this morning, now with his format proof.'
     },
-    tweak: 'THE TWEAK — same assignment as the last two evenings, escalated to filming day: a BUILDER\'S confession, not an influencer\'s. The moment carrying it alone almost sank the business, one plain analogy for what it felt like, the system that got you out. Phone camera, 30-45 seconds, no screen-share. Film before noon; post before 6p ET. The 7-9a window is gone — today the bar is shipped, not perfect.',
+    tweak: 'THE TWEAK — builder\'s version of "I tried X": "I tried being my own ops department for a year. Here\'s what it cost me." Name the hours it ate, name the system that gave them back, one plain analogy. 30-45s, phone camera, no screen-share.',
     postIdeas: [
-      'First slot is the confession reel above — it IS today\'s decision. Nothing else ships before it (14 days reel-silent; last reel 9/19 did 140 views, OFFICIAL_API).',
-      'Second slot: one chore you killed with a system. Evidence — Rowan\'s application stories run 5-10x his news recaps (house-robot 209,392: https://www.instagram.com/reel/DduW32TB8aV/ vs brain-implant news 22,211 yesterday, PUBLIC_PROXY). Your version: the chore, the hours back, what you did with them.'
+      'TOMORROW\'S ONE ADJUSTMENT — ship a streak, not a reel. Your entire top-5 posts came from one six-day window (8/25-8/30: 13,174 / 4,539 / 3,853 / 3,544 / 3,114, OFFICIAL_API). Film confession + room reel back-to-back in one sitting; post the room one first — that\'s your proven ceiling format (13,174, best ever).',
+      'Prediction P2 (75%): your next confession/room reel clears 1,000 views — 7 of your last 8 in those lanes did (low 1,105, high 13,174). Grade it next week.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/Dd5YakesocC/',
-      who: 'Bedros Keuilian — "The lone wolf mentality is the most dangerous way a man can live. We are tribal by design" — posted Wed night, now 155,319 views. PUBLIC_PROXY.',
-      views: '155,319',
-      comments: '39 (3,097 likes)',
-      why: 'Bedros\'s #2 of his last dozen, and it is your room thesis in another man\'s voice. Your room posts run a 715 median since 9/2 (n=19, OFFICIAL_API) with a 3,229 ceiling — the gap is format, not message.'
+      url: 'https://www.instagram.com/reel/Ddy7G_Mstov/',
+      who: 'Bedros Keuilian — "When life squeezes you and gives you pressure, what comes out of you is already what\'s inside" — 201,781 views, 3,205 likes, 48 comments (9/27). Top of his recent twelve. PUBLIC_PROXY.',
+      views: '201,781',
+      comments: '48 (3,205 likes)',
+      why: 'Not the lone-wolf shout — this one is already interior, which is your register. Your room message is proven (10/1 static climbing 715 -> 1,062 with 6 comments today, OFFICIAL_API); this mechanic adds the inner-pressure frame the room solves.'
     },
-    tweak: 'THE TWEAK — Bedros shouts it from a stage; you say it quiet, coach to operator: the year you tried to carry the business alone vs the season the right room showed up. One story, one next step: DM "Owners". Cap at 40 seconds — your 39s discipline reel (1,967) is your best since 9/20 and the 81s one (432) is your worst; even 22s pulled 1,094 (OFFICIAL_API).',
+    tweak: 'THE TWEAK — Bedros preaches it from a stage; you say it quiet, coach to operator: the quarter that squeezed the business, and what you found was inside you when it did — the room is where you get filled before you need it. Under 45s. One next step: DM "Owners".',
     postIdeas: [
-      'The lone-wolf reel above is today\'s single film. Room is steady but mid-pack for you (median 715) — the win is pairing the room message with your best-performing format: short.',
-      'Cut it three ways from one film: IG reel + IG static twin + TikTok. Your statics median 1,551 vs reels 626 since 9/2 (n=30/20, OFFICIAL_API), and your 9/30 TikTok did 1,178 views with 108 likes vs 1,094/37 on IG — one film, three surfaces.'
+      'TOMORROW\'S ONE ADJUSTMENT — drop AI-systems from the reel calendar. Your three ai_systems reels since 9/15 (644, 528, 442) all sit at or below your recent reel median (630) while discipline did 1,978 and light posts did 1,100/1,056 (OFFICIAL_API). Reels = discipline/room/light; statics = identity — your two best since 9/2 are identity statics (15,731 and 7,037).',
+      'Prediction P2 (70%): your next non-AI reel beats your recent reel median — 6 of your last 9 non-AI reels did. Grade it next week.'
     ]
   },
-  note: 'AM scan (PUBLIC_PROXY, ~6:50a ET): Liam posted twice since Sunday — the challenge confession (9/27) now at 9,511 and a fresh overnight advice post ("Don\'t be this guy," 9:32p ET) at 7,927. Confession keeps outpacing advice on his page too. Bedros\'s bet-on-yourself from yesterday finished at 82,855; his Wed lone-wolf at 155,319 is still the better model. Rowan\'s news recap idles at 22,211 while his application stories run 50k-319k — specific beats broad, again. Meltzer\'s overnight patience reel (8k) is a borrowable quiet frame for Kevin: progress is rarely obvious right away. Gerard Adams failed twice (partial payload) — excluded, not verified. Founder data OFFICIAL_API (refreshed 6:31a ET, through Oct 1): Kevin posted 10/1 (715-view room static) plus two on 9/30; Drey 14 days reel-silent, last post of any kind 9/25. TODAY — Drey: film the confession reel before noon, post before 6p ET. Kevin: lone-wolf reel sub-40s, cut three ways.'
+  note: 'PM scan 6:05p ET (PUBLIC_PROXY): Rowan posted ~6p ET today — DoorDash\'s new AI tools with a "comment dash" CTA, already 1,514 views; his 10/1 brain-implant news grew 22,211 -> 25,311. Liam\'s overnight "Don\'t be this guy" advice post is the day\'s mover (7,927 -> 10,105); his confession holds 9,554. Bedros quiet — lone wolf 155,544, bet-on-yourself 83,504. Gerard Adams not scanned this run (rotation). Founder data OFFICIAL_API, fresh pull 6:03p ET: NEITHER page posted today — Drey 7 days silent (last post 9/25, last reel 9/19), Kevin\'s 10/1 room static still climbing (715 -> 1,062, 3 -> 6 comments, under his 1,551 recent static median so far). The morning assignment did not ship — tomorrow\'s fix is streak-over-single for Drey and AI-out-of-reels for Kevin.'
 };

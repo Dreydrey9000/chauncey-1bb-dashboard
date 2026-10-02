@@ -1,49 +1,55 @@
-# Compute founder stats from posts_all.csv for the inspire brief (chauncey cron)
-import csv, statistics, collections
+# Morning brief: founder CSV medians + gaps (chauncey, 2026-10-02 AM)
+import csv, statistics as st
+from collections import defaultdict
+from datetime import date
 
-path = "/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/posts_all.csv"
-rows = []
-with open(path) as f:
-    for r in csv.DictReader(f):
-        try:
-            r["views_i"] = int(r["views"]) if r["views"] else None
-        except ValueError:
-            r["views_i"] = None
-        rows.append(r)
+rows = list(csv.DictReader(open('posts_all.csv')))
+for r in rows:
+    r['views'] = int(r['views'] or 0)
+
+print("CSV max date:", max(r['date'] for r in rows))
 
 def med(vals):
-    vals = [v for v in vals if v is not None]
-    return round(statistics.median(vals)) if vals else None
+    vals = sorted(vals)
+    return st.median(vals) if vals else None
 
-print("== median views by founder/theme (n>=3) ==")
-agg = collections.defaultdict(list)
-for r in rows:
-    who = r["account"].split("_")[0]
-    if r["views_i"] is not None:
-        agg[(who, r["theme"])].append(r["views_i"])
-for (who, theme), vals in sorted(agg.items()):
-    if len(vals) >= 3:
-        print(f"{who:6s} {theme:12s} n={len(vals):3d} median={med(vals)}")
-
-print("\n== reel vs static median views per founder ==")
-for who in ("drey", "kevin"):
-    for is_reel in ("True", "False"):
-        vals = [r["views_i"] for r in rows if r["account"].startswith(who) and r["is_reel"] == is_reel and r["views_i"]]
-        print(f"{who} reel={is_reel}: n={len(vals)} median={med(vals)}")
-
-print("\n== posts since 2026-09-23 (last 7 days) ==")
-recent = sorted([r for r in rows if r["date"] >= "2026-09-23"], key=lambda r: (r["date"], r["account"]))
-for r in recent:
-    print(f"{r['date']} {r['account']:9s} v={r['views_i']} likes={r['likes']} com={r['comments']} shares={r['shares']} saves={r['saves']} reel={r['is_reel']} theme={r['theme']}")
-    print(f"   cap: {r['content'][:100].replace(chr(10),' ')}")
-    print(f"   url: {r['url']}")
-
-print("\n== latest 3 posts per founder ==")
-for who in ("drey", "kevin"):
-    sub = sorted([r for r in rows if r["account"].startswith(who)], key=lambda r: r["date"], reverse=True)[:3]
+for who, prefix in [('DREY', 'drey'), ('KEVIN', 'kevin')]:
+    sub = [r for r in rows if r['account'].startswith(prefix) and r['date'] >= '2026-09-02']
+    ig = [r for r in sub if r['account'].endswith('_ig')]
+    tt = [r for r in sub if r['account'].endswith('_tt')]
+    reels = [r for r in ig if r['is_reel'] == 'True']
+    statics = [r for r in ig if r['is_reel'] == 'False']
+    print(f"\n=== {who} since 9/2 (n={len(sub)}; IG {len(ig)}, TT {len(tt)}) ===")
+    print(f"IG reels n={len(reels)} median views={med([r['views'] for r in reels])}")
+    print(f"IG statics n={len(statics)} median views={med([r['views'] for r in statics])}")
+    themes = defaultdict(list)
     for r in sub:
-        print(f"{who}: {r['date']} v={r['views_i']} reel={r['is_reel']} theme={r['theme']} url={r['url'][:70]}")
+        themes[r['theme']].append(r['views'])
+    for t, v in sorted(themes.items(), key=lambda kv: -med(kv[1])):
+        print(f"  theme {t}: n={len(v)} median={med(v)} max={max(v)}")
+    print("last 5 posts:")
+    for r in sorted(sub, key=lambda r: r['ts'])[-5:]:
+        print(f"  {r['date']} {r['account']} reel={r['is_reel']} theme={r['theme']} "
+              f"views={r['views']} likes={r['likes']} comments={r['comments']}")
 
-print("\n== overall date range ==")
-dates = sorted(r["date"] for r in rows if r["date"])
-print(f"{dates[0]} .. {dates[-1]}  total_rows={len(rows)}")
+drey_ig = sorted([r for r in rows if r['account'] == 'drey_ig'], key=lambda r: r['ts'])
+last_reel = [r for r in drey_ig if r['is_reel'] == 'True'][-1]
+print(f"\nDrey last IG reel: {last_reel['date']} ({last_reel['views']} views, "
+      f"theme={last_reel['theme']}, url={last_reel['url']})")
+print(f"Drey last IG post any kind: {drey_ig[-1]['date']} ({drey_ig[-1]['views']} views)")
+print("Days reel-silent to 10/2:",
+      (date(2026, 10, 2) - date(*map(int, last_reel['date'].split('-')))).days)
+print("Days fully IG-silent to 10/2:",
+      (date(2026, 10, 2) - date(*map(int, drey_ig[-1]['date'].split('-')))).days)
+for theme in ['room', 'confession', 'ai_systems', 'lifestyle', 'other', 'podcast']:
+    v = [int(r['views']) for r in drey_ig
+         if r['is_reel'] == 'True' and r['theme'] == theme and r['date'] >= '2026-08-20']
+    if v:
+        print(f"Drey reels {theme} since 8/20: {sorted(v)}")
+kr = [r for r in rows if r['account'] == 'kevin_ig' and r['is_reel'] == 'True'
+      and r['date'] >= '2026-09-20' and r['dur_s']]
+print("\nKevin reels since 9/20 (dur, views, theme):",
+      [(r['dur_s'], r['views'], r['theme']) for r in kr])
+kev_tt = sorted([r for r in rows if r['account'] == 'kevin_tt'], key=lambda r: r['ts'])
+print("Kevin last posts overall:",
+      [(r['date'], r['account'], r['views'], r['theme']) for r in kev_tt[-2:]])

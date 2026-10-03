@@ -1,36 +1,6 @@
 {
  "dailyData": [
   {
-   "date": "2026-09-28",
-   "postCount": 4,
-   "platforms": {
-    "instagram": 4
-   },
-   "platformMetrics": {
-    "instagram": {
-     "impressions": 7400,
-     "reach": 4475,
-     "likes": 153,
-     "comments": 12,
-     "shares": 13,
-     "saves": 17,
-     "clicks": 0,
-     "views": 7400,
-     "postCount": 4
-    }
-   },
-   "metrics": {
-    "impressions": 7400,
-    "reach": 4475,
-    "likes": 153,
-    "comments": 12,
-    "shares": 13,
-    "saves": 17,
-    "clicks": 0,
-    "views": 7400
-   }
-  },
-  {
    "date": "2026-09-29",
    "postCount": 2,
    "platforms": {
@@ -128,41 +98,71 @@
    },
    "platformMetrics": {
     "instagram": {
-     "impressions": 2074,
-     "reach": 1174,
-     "likes": 28,
+     "impressions": 2159,
+     "reach": 1227,
+     "likes": 29,
      "comments": 7,
      "shares": 0,
      "saves": 2,
      "clicks": 0,
-     "views": 2074,
+     "views": 2159,
      "postCount": 0
     }
    },
    "metrics": {
-    "impressions": 2074,
-    "reach": 1174,
-    "likes": 28,
+    "impressions": 2159,
+    "reach": 1227,
+    "likes": 29,
     "comments": 7,
     "shares": 0,
     "saves": 2,
     "clicks": 0,
-    "views": 2074
+    "views": 2159
+   }
+  },
+  {
+   "date": "2026-10-03",
+   "postCount": 1,
+   "platforms": {
+    "instagram": 1
+   },
+   "platformMetrics": {
+    "instagram": {
+     "impressions": 1910,
+     "reach": 946,
+     "likes": 47,
+     "comments": 8,
+     "shares": 1,
+     "saves": 2,
+     "clicks": 0,
+     "views": 1910,
+     "postCount": 1
+    }
+   },
+   "metrics": {
+    "impressions": 1910,
+    "reach": 946,
+    "likes": 47,
+    "comments": 8,
+    "shares": 1,
+    "saves": 2,
+    "clicks": 0,
+    "views": 1910
    }
   }
  ],
  "platformBreakdown": [
   {
    "platform": "instagram",
-   "postCount": 9,
-   "impressions": 16026,
-   "reach": 9935,
-   "likes": 308,
-   "comments": 23,
-   "shares": 20,
-   "saves": 28,
+   "postCount": 6,
+   "impressions": 10621,
+   "reach": 6459,
+   "likes": 203,
+   "comments": 19,
+   "shares": 8,
+   "saves": 13,
    "clicks": 0,
-   "views": 16026
+   "views": 10621
   }
  ]
 }

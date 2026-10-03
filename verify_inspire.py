@@ -3,10 +3,10 @@ import urllib.request, re, hashlib
 
 LOCAL = "/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/site/inspire.js"
 URL = "https://1bb-dashboard.pages.dev/inspire.js"
-MARKER = "2026-10-03 (AM)"
+MARKER = "2026-10-03 (PM)"
 REELS = [
-    "https://www.instagram.com/reel/DdykBqIDUPi/",
-    "https://www.instagram.com/reel/DeAlMDpjXqs/",
+    "https://www.instagram.com/reel/DeCA3aoD4VT/",
+    "https://www.instagram.com/reel/DeCsZeRst3H/",
 ]
 
 req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"})

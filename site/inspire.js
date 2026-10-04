@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-03 (PM) — evening delta',
+  date: '2026-10-04 (AM) — morning brief',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeCA3aoD4VT/',
-      who: 'Liam Ottley — "How to start an AI business with $120" — 10,117 views, 259 likes, 4 comments (posted TODAY 8:03a ET). PUBLIC_PROXY.',
-      views: '10,117',
-      comments: '4 (259 likes)',
-      why: 'Concrete entry-price opener on an AI-business how-to — his how-to baseline (~10k), while his personal experiments still out-draw it (30k dopamine detox, 20k moving country). The play for you is the hybrid: AI-business topic, confession spine. Your ai_systems median is 309 vs confession 3,484 (OFFICIAL_API).'
+      url: 'https://www.instagram.com/reel/DdcoYROAjjk/',
+      who: 'Liam Ottley — "AI Automation Agencies / AI services businesses are still my top pick for getting into onl…" — 23,734 views, 512 likes, 19 comments (posted 9/18). PUBLIC_PROXY.',
+      views: '23,734',
+      comments: '19 (512 likes)',
+      why: 'A conviction position, not a tutorial — roughly 2x his how-to baseline (~10-12k). Your ai_systems median is 309 vs room 853 (OFFICIAL_API, n=22/20): your AI content so far has been observations. The position format ("still my top pick") is the mechanic that fits you — you have the real builds to stand behind it.'
     },
-    tweak: 'THE TWEAK — "How I\'d start an AI business today with $0." You already own this story (your real $0-in-the-bank quit, 9/04). Name the exact first 3 moves you actually made. Phone camera, 45 seconds, the number in the first sentence does the hook work.',
+    tweak: 'THE TWEAK — "AI agents are still the first system I’d build for a 7-figure operator. Here’s the exact one." Name the operator pain in sentence one (the follow-up nobody does, the report nobody reads), one plain analogy, point at a real build. One take, 45 seconds, phone camera, conviction register.',
     postIdeas: [
-      'The $0 restart: "if it all vanished tomorrow, here\'s what I\'d do first" — confession median 3,484 vs 309 for AI-tool content is the whole argument (n=2, direction not law).',
-      'One-system teardown: "the exact automation that saved a client [verified result] hours" — builder proof with a real named outcome, not a tool tour.'
+      'Room reel #2 — your 9/09 one-question-to-a-room reel (1,690) is still your 30-day best; room median 853 vs ai_systems 309 says the room is where your audience already is.',
+      'Opinion static — your 9/25 "just be yourself" static did 864, near your recent best; taking a position as text out-draws your AI reels (median 309).'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeCsZeRst3H/',
-      who: 'Bedros Keuilian — "Business is a lot like Jiu Jitsu… fear and adrenaline can motivate you to start, but you c…" — 94,173 views, 2,108 likes, 18 comments in ~4 hours (posted TODAY 2:39p ET), tracking toward his usual 100–200k. PUBLIC_PROXY.',
-      views: '94,173',
-      comments: '18 (2,108 likes)',
-      why: 'Physical-practice analogy for business pressure — his bread and butter, posted today and already mid-six-figures of pace. Your identity theme (median 1,874, n=25) is your top lane; same mechanic, your register (OFFICIAL_API).'
+      url: 'https://www.instagram.com/reel/Dd5YakesocC/',
+      who: 'Bedros Keuilian — "The lone-wolf mentality is the most dangerous way a man can live. We are tribal by des…" — 155,978 views, 3,116 likes, 39 comments (posted 9/30). PUBLIC_PROXY.',
+      views: '155,978',
+      comments: '39 (3,116 likes)',
+      why: 'Second-best of his last 12 (only the 9/21 relationship reel beat it, 326k). Anti-isolation is YOUR lane and it’s hot in your own data right now: your 10/03 "1BB Family" club static did 3,793 views — your best since 9/15, 3.5x your static median of 1,084 (OFFICIAL_API).'
     },
-    tweak: 'THE TWEAK — keep the analogy, swap the register: "Pressure doesn\'t build you, it reveals you." Calm coach voice, faith framing — what you actually pray/say to yourself when the month squeezes. End with ONE clear next step for the man carrying it alone. No adrenaline edit.',
+    tweak: 'THE TWEAK — same position, your register: calm coach, not drill sergeant. "You were never meant to build this alone." What the room actually does for a man — standards, a mirror, shoulders. Faith-adjacent is fine. ONE next step: come sit at a table → 1bbcommunity.com/apply.',
     postIdeas: [
-      'Static identity card following your 9/30 "measure you use gets measured back" reel — identity median 1,874 leads all your themes.',
-      'Room post: one question you\'d ask a table of 10 owners — room median 1,180 with real comment replies; matches your 1BB "Connect" rhythm.'
+      'Follow the 10/03 club static within 48h — room median 1,275 and the club post nearly tripled it; strike again while the algorithm has you profiled for belonging content.',
+      'Static identity card — identity is your top theme (median 1,904, n=25); format barely matters for you (static 1,084 ≈ reel 1,035), theme is the lever.'
     ]
   },
-  note: 'SCAN: Rowan (contrast lane) posted nothing today; his 10/02 DoorDash news recap sits at 14.1k — weakest in two weeks vs a 214k personal-experiment reel on 9/25. News-recap fatigue; experiment/confession wins. Gerard Adams excluded again (partial payload, 2nd run — not verified). OWN-DATA DELTA: neither founder posted today. Latest: Kevin 10/01 static at 1,213 views — beat his 1,060 median; Drey\'s last post is 9/25 (8 days). Kevin\'s static-vs-reel gap has closed to 1.1x (1,084 vs 1,025) — theme, not format, is the lever now. TOMORROW: one post each before noon — Drey the $0-entry confession reel, Kevin one static identity card.'
+  note: 'SCAN: Bedros’s belonging/inner-life reels (lone wolf 156k, pressure-reveals 202k) out-drew his discipline how-tos — belonging > tactics for him too. Liam’s personal/experiment reels still beat his AI how-tos (30k, 20k vs ~11k). Gerard Adams excluded again (partial payload twice — not verified). OWN-DATA DELTA: Kevin’s 10/03 "1BB Family" static = 3,793 views, best since 9/15, 3.5x static median. Drey silent 9 days (10 posts since 9/04 vs Kevin’s 83). FILM TODAY: Drey — the position reel, post before noon; Kevin — the lone-wolf reel, then a club follow-up static within 48h.'
 };

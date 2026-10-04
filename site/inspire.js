@@ -1,34 +1,35 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-04 (AM) — morning brief',
+  date: '2026-10-04 (PM) — evening delta',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DdcoYROAjjk/',
-      who: 'Liam Ottley — "AI Automation Agencies / AI services businesses are still my top pick for getting into onl…" — 23,734 views, 512 likes, 19 comments (posted 9/18). PUBLIC_PROXY.',
-      views: '23,734',
-      comments: '19 (512 likes)',
-      why: 'A conviction position, not a tutorial — roughly 2x his how-to baseline (~10-12k). Your ai_systems median is 309 vs room 853 (OFFICIAL_API, n=22/20): your AI content so far has been observations. The position format ("still my top pick") is the mechanic that fits you — you have the real builds to stand behind it.'
+      url: 'https://www.instagram.com/reel/DeCsZeRst3H/',
+      who: 'Bedros Keuilian — “Business is a lot like Jiu Jitsu… fear and adrenaline can motivate you to start, but you c…” — 98,703 views, 2,188 likes, 23 comments (posted 10/03, new since this morning). PUBLIC_PROXY.',
+      views: '98,703',
+      comments: '23 (2,188 likes)',
+      why: 'One metaphor carried all the way through — fear → adrenaline → you can’t operate there — applied to business. That is literally your format (plain analogy), at his biggest fresh numbers. Note the thin comments: this reel travels, it doesn’t converse — good for reach, pair it with your own comment prompt.'
     },
-    tweak: 'THE TWEAK — "AI agents are still the first system I’d build for a 7-figure operator. Here’s the exact one." Name the operator pain in sentence one (the follow-up nobody does, the report nobody reads), one plain analogy, point at a real build. One take, 45 seconds, phone camera, conviction register.',
+    tweak: 'THE TWEAK — “Business is a lot like [one thing from your actual world].” A jammed button, a wired panel, the follow-up nobody does — carry ONE metaphor start to finish onto the operator’s life, land on the system that removes the adrenaline. 45 seconds, phone camera, one take, conviction register.'
+    ,
     postIdeas: [
-      'Room reel #2 — your 9/09 one-question-to-a-room reel (1,690) is still your 30-day best; room median 853 vs ai_systems 309 says the room is where your audience already is.',
-      'Opinion static — your 9/25 "just be yourself" static did 864, near your recent best; taking a position as text out-draws your AI reels (median 309).'
+      'Return post = confession or opinion, not a tool demo: your confession median is 3,484 (n=2) vs ai_systems 635 (n=16) — OFFICIAL_API. Even your 9/25 opinion static (864) beat your AI-reel median.',
+      'The metaphor reel above is your confession lane in disguise — a strong opinion about how operators live, proven by a build, not a tool walkthrough.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/Dd5YakesocC/',
-      who: 'Bedros Keuilian — "The lone-wolf mentality is the most dangerous way a man can live. We are tribal by des…" — 155,978 views, 3,116 likes, 39 comments (posted 9/30). PUBLIC_PROXY.',
-      views: '155,978',
-      comments: '39 (3,116 likes)',
-      why: 'Second-best of his last 12 (only the 9/21 relationship reel beat it, 326k). Anti-isolation is YOUR lane and it’s hot in your own data right now: your 10/03 "1BB Family" club static did 3,793 views — your best since 9/15, 3.5x your static median of 1,084 (OFFICIAL_API).'
+      url: 'https://www.instagram.com/reel/DeCfP_BCEeH/',
+      who: 'David Meltzer — “When someone hurts me, one of the first things I ask myself is, ‘Have I ever done that bef…” — 8,165 views, 424 likes, 11 comments (posted 10/03, new since this morning). PUBLIC_PROXY.',
+      views: '8,165',
+      comments: '11 (424 likes)',
+      why: 'The calm self-examination register — your exact voice, and his steadiest format (posts daily, 8–13k every time). Same mechanic as Bedros’s pressure reel but as reflection instead of volume. For you the pause IS the punch.'
     },
-    tweak: 'THE TWEAK — same position, your register: calm coach, not drill sergeant. "You were never meant to build this alone." What the room actually does for a man — standards, a mirror, shoulders. Faith-adjacent is fine. ONE next step: come sit at a table → 1bbcommunity.com/apply.',
+    tweak: 'THE TWEAK — same question, your frame: when a member or client disappoints you, ask “have I done that?” before you correct. Faith-adjacent honesty (the log in your own eye first), calm coach register, ONE next step: bring it to the room → 1bbcommunity.com/apply.',
     postIdeas: [
-      'Follow the 10/03 club static within 48h — room median 1,275 and the club post nearly tripled it; strike again while the algorithm has you profiled for belonging content.',
-      'Static identity card — identity is your top theme (median 1,904, n=25); format barely matters for you (static 1,084 ≈ reel 1,035), theme is the lever.'
+      'Identity/room static within 48h of your 10/03 club post — the window closes tomorrow night. Your 10/03 hit 3,939 views = 2.4x your static median (1,646, n=95) and identity is your top theme (median 2,701, n=19) — OFFICIAL_API.',
+      'If you film instead: the self-examination reel above in one take — your reels hold a 25% completion rate when the theme is identity/room, not tactics.'
     ]
   },
-  note: 'SCAN: Bedros’s belonging/inner-life reels (lone wolf 156k, pressure-reveals 202k) out-drew his discipline how-tos — belonging > tactics for him too. Liam’s personal/experiment reels still beat his AI how-tos (30k, 20k vs ~11k). Gerard Adams excluded again (partial payload twice — not verified). OWN-DATA DELTA: Kevin’s 10/03 "1BB Family" static = 3,793 views, best since 9/15, 3.5x static median. Drey silent 9 days (10 posts since 9/04 vs Kevin’s 83). FILM TODAY: Drey — the position reel, post before noon; Kevin — the lone-wolf reel, then a club follow-up static within 48h.'
+  note: 'SCAN: Bedros posted TODAY (10/03) — already 98k. Rowan’s fresh reels (10/01–10/02, 18–28k) are quiet by his standards vs his 200–400k spikes — news-recap consistency, nothing to copy tonight. Meltzer’s daily calm reels sit at 8–13k — register match, not reach match. OWN-DATA DELTA: no founder posts today (10/04). Kevin’s 10/03 “1BB Family” static held at 3,939 views (best since 9/15, 2.4x static median) — beat median. Drey: 9 days dark, nothing to grade. TOMORROW: Drey films the metaphor reel + posts a confession/opinion static (his median winner); Kevin posts the room/identity static before tomorrow night to ride the 10/03 spike.'
 };

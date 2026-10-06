@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-05 (AM) — morning study',
+  date: '2026-10-06 (AM) — morning study',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/Dd5YakesocC/',
-      who: 'Bedros Keuilian — “The ‘lone wolf’ mentality is the most dangerous way a man can live. We are tribal by des…” — 156,307 views, 3,133 likes, 39 comments (posted 9/30, still climbing). PUBLIC_PROXY.',
-      views: '156,307',
-      comments: '39 (3,133 likes)',
-      why: 'His biggest reel of the week — a people/identity argument (you are not built to carry it alone) made in the proof register. That is the Drey×Kevin crossover move your lane never makes: you argue loneliness from a builder’s seat — “I built alone for years; here is the exact moment it broke and the system that fixed it.” 156k on an anti-lone-wolf message is your ICP talking back.'
+      url: 'https://www.instagram.com/reel/DeHeVdHM1Mb/',
+      who: 'Bedros Keuilian — “Average societal standards encourage you to fit in and to not rock the boat. But winners…” — 195,164 views, 2,313 likes, 18 comments (posted 10/05 11:00a ET, ~19h old). PUBLIC_PROXY.',
+      views: '195,164',
+      comments: '18 (2,313 likes)',
+      why: 'Fastest reel in today’s scan — 195k in under a day, already past his 9/30 lone-wolf (156,464, now plateaued). And it is not tactics: it is a STANDARDS argument, one take, straight to camera. That is the crossover your own numbers keep proving — your room/confession lane (1,105 median, n=13; 1,792/1,086 in the launch-window baseline) beats your AI-tool median (636, n=16). Bedros is running your play in front of 1M followers and it is his biggest reel of the week.'
     },
-    tweak: 'THE TWEAK — one take, phone camera, 45s: “Everyone tells you to grind alone. Worst advice I ever took.” Confession register (your 3,484 median lane), land on the room + the system that made it possible → one next step: 1bbcommunity.com/apply.',
+    tweak: 'THE TWEAK — make this reel, but add the builder proof. One take, phone camera, ~40s: “Every piece of advice that kept my business average had one thing in common — it told me to fit in.” Then the part only you add: name the operator pain (you built a company that doesn’t look like anyone else’s, then market it like everyone else’s), one plain analogy (fitting in = running the same playbook as every competitor and wondering why the margins shrink), and the turn — the standard you refuse to lower is why the right clients find you. Close on the room: “I stopped trying to fit in the day I found people building weird too.” One next step: 1bbcommunity.com/apply.',
     postIdeas: [
-      'Return post today — day 10 dark. Make it the confession/opinion lane (median 3,484, n=2) not a tool demo (ai_systems median 309, n=22; 611 in the brief baseline) — OFFICIAL_API. Even your 9/25 opinion static (878) out-performed your AI-reel median.',
-      'The lone-wolf reel above IS a confession post in disguise — an opinion about how operators live, proven by a build, not a walkthrough.'
+      'Day 11 dark (last post 9/25). Post a STATIC today — opinion/confession lane, not a tool demo. Your 9/25 opinion static did 901 views + 41 likes (best like-count in weeks) vs ai_systems median 636 (n=16) — OFFICIAL_API. Format: “The advice that keeps good operators average,” 3 bullets in your Motown-teacher voice. Static today, reel tomorrow.',
+      'P2 expires tonight (the “first system I’d build” position reel, due 10/06). If it isn’t filmed, the standards reel above replaces it — either way, day 11 ends with a post.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeFzz0wAN__/',
-      who: 'David Meltzer — “When I feel down, I know there is usually fear underneath it somewhere. Instead of trying…” — 6,460 views, 410 likes, 8 comments (posted 10/04 7:25p ET — new since last night’s pull). PUBLIC_PROXY.',
-      views: '6,460',
-      comments: '8 (410 likes)',
-      why: 'Fresh overnight drop in his exact calm self-examination register — your voice twin, third steady 6–13k in a row. Mechanic: name a feeling every owner knows (the Sunday-night dread), trace it one layer down to fear, hand back one gentle move. For you the pause IS the punch.'
+      url: 'https://www.instagram.com/reel/DeHgVjrD8iN/',
+      who: 'David Meltzer — “A brand carries the energy of the people behind it. The more truthful, aligned, and authentic…” — 7,699 views, 395 likes, 16 comments (posted 10/05 11:14a ET). PUBLIC_PROXY.',
+      views: '7,699',
+      comments: '16 (395 likes)',
+      why: 'His steadiest register — seventh straight drop in the 7–13k band — and the highest comment count of his recent run (16 vs his usual 5–12): the “people behind the brand” frame invites responses, not just nods. It is also the cleanest bridge between his coach voice and the club: the brand IS the energy of who’s in the room.'
     },
-    tweak: 'THE TWEAK — same skeleton, your frame: “When a business owner tells me they feel overwhelmed, I ask what they’re afraid of.” Faith-adjacent (fear vs faith is your biblical register), calm coach voice, ONE next step: name it in the room → 1bbcommunity.com/apply.',
+    tweak: 'THE TWEAK — same skeleton, your register: “Your business is carrying your energy right now — every owner’s is.” Calm coach voice: what people feel when they walk into your business is the brand; you can’t out-market the energy you’re running on. Faith-adjacent turn: guarding your peace is stewardship, not selfishness. ONE next step: look at the five people you talk to most — that’s the brand your business is carrying. Room close → 1bbcommunity.com/apply.',
     postIdeas: [
-      'Fear-post within 48h — identity is your top theme (median 1,894, n=24) and your 10/03 “1BB Family” static is still climbing: 5,275 views now (was 3,939 last night), 3.4x your static median (1,557, n=84) — OFFICIAL_API. A static with a confession opener riding that momentum beats another tactics reel.',
-      'If you film instead: the fear reel above in one take — your reels hold 25% completion when the theme is identity/room, not tactics (ai_systems median 844, n=35).'
+      'Your last three posts are all room-themed (419 poem reel, 633 screens-vs-rooms static, 1,993 artist static) and the 14-day numbers say rest the well: room median 1,074 vs identity 1,943 — OFFICIAL_API. Identity is your all-time #1 (2,702, n=19) and static beats reel for you (1,622 vs 1,002). Next post: identity static in the register of your 9/27 “two ways to live” (1,943). Skip the poem format for now.',
+      'You posted 21 times in 14 days — the cadence is a machine. One adjustment only: today identity, tomorrow the brand-energy reel in one calm take.'
     ]
   },
-  note: 'SCAN: Bedros’s 10/03 Jiu Jitsu metaphor reel (98,703 → 99,313 overnight) plateaued — fine to leave behind. His 9/30 lone-wolf reel is the week’s winner at 156,307. Liam posted twice since yesterday (10/04 “You’re not the special sunflower” 7,040 / 10/03 “How to start an AI business with $120” 12,922) — starter-offer framing, quiet numbers, nothing to copy for your proof lane. Meltzer dropped a new calm reel overnight (10/04, 6,460). gerardadams excluded, not verified (partial payload, second consecutive failure — known issue). OWN-DATA: no founder posts 10/04→10/05 yet. Kevin’s 10/03 club static GREW overnight 3,939→5,275 (+34%) — the room lane is compounding; feed it. Drey: day 10 dark, nothing to grade. TODAY: Drey films the anti-lone-wolf confession reel; Kevin posts fear-static or films the fear reel while the 10/03 spike is live.'
+  note: 'SCAN: Bedros’s new 10/05 standards reel is the winner (195,164 in ~19h; his 9/30 lone-wolf plateaued at 156,464). Meltzer dropped two fresh calm reels 10/05 (brand-energy 7,699 / “keep going” 7,732). Liam quiet since 10/04, Rowan since 10/02 — no new signal. gerardadams not in today’s rotation. OWN-DATA (CSV refreshed 6:31a ET): Drey day 11 dark — P2 expires tonight; Kevin’s 10/05 room static at 633 vs 1,084 static median (P1 early read: below target, still climbing — his room statics grow late). TODAY: Drey films the standards confession reel + posts a static; Kevin posts identity static, films brand-energy reel for tomorrow.'
 };

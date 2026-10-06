@@ -3,9 +3,9 @@ import urllib.request, re, hashlib
 
 LOCAL = "/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/site/inspire.js"
 URL = "https://1bb-dashboard.pages.dev/inspire.js"
-MARKER = "2026-10-06 (AM)"
+MARKER = "2026-10-06 (PM)"
 REELS = [
-    "https://www.instagram.com/reel/DeHeVdHM1Mb/",
+    "https://www.instagram.com/reel/DeCA3aoD4VT/",
     "https://www.instagram.com/reel/DeHgVjrD8iN/",
 ]
 

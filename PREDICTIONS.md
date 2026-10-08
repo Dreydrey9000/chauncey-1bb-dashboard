@@ -1,19 +1,7 @@
-# Chauncey predictions log — graded in the weekly review (Sun 9a)
+# Predictions ledger — Chauncey (graded in the weekly review)
 
-| ID | Date | Prediction (measurable) | Confidence | Logged by | Outcome |
-|----|------|--------------------------|------------|-----------|---------|
-| P1 | 2026-10-04 | Kevin posts a room/belonging follow-up within 48h of the 10/03 club static (by 10/05) → it beats his static median (1,084 views) | HIGH | inspire AM 10/04 | pending |
-| P2 | 2026-10-04 | Drey films/posts the position reel ("first system I'd build") by 10/06 → beats his ai_systems median (309) and lands >600 views | MEDIUM | inspire AM 10/04 | pending |
-| P3 | 2026-10-04 | Drey room-reel #2 (one question to a room) reaches ≥1,000 views within 7 days | LOW-MED | inspire AM 10/04 | pending |
-| P4 | 2026-10-06 | Drey ends the 11-day dark streak TODAY (10/06) with a confession/standards post (reel or static) → beats his ai_systems median (636, n=16) | MEDIUM | inspire AM 10/06 | pending |
-| P5 | 2026-10-06 | Kevin's next post is identity-themed (not room, not ai_systems) → ≥1,500 views (his October median) | MEDIUM | inspire AM 10/06 | pending |
-| P6 | 2026-10-08 | Drey posts one reel today (10/08) → its day reach beats his dark-day floor (56) by 5x+ (≥280) | HIGH | morning brief 10/08 | pending |
-| P7 | 2026-10-08 | Kevin's next film runs the personal "open door / providence" lane → interactions ≥ his 9/28 spike week (his top post hit 234 likes) | MED-HIGH | morning brief 10/08 | pending |
+Format: date | prediction | confidence | status
 
-## Early reads (not final grades — Sunday 9a grades on final numbers)
-- 2026-10-06 AM — P1: Kevin's 10/05 room static ("Screens connect you to people, rooms connect you with them") sits at 633 vs the 1,084 static median. Below target but ~16h old and his room statics climb late (10/03 club static went 3,939→5,275 overnight at the same age). HOLD.
-- 2026-10-06 AM — P2: Drey still dark as of the 6:31a ET CSV refresh; expires tonight 10/06. Trending MISS unless he posts today.
-- 2026-10-06 AM — P3: blocked — no room reel #2 filmed yet.
-
-## Graded
-(none yet)
+- 2026-10-08 PM | Kevin films and posts the anger→fear flip reel (Meltzer imitation) by 10/9 EOD → beats his IG reel median (1,027 views) within 48h of posting | confidence: medium — mechanic validated at 76.7k (PUBLIC_PROXY) and his emotional-admission reels over-index (10/6 faith reel 3,024, OFFICIAL_API) | status: open
+- 2026-10-08 PM | Drey ends the posting gap by 10/9 noon with the operator take → lands above his 846 IG median within 48h | confidence: low-medium — room/confession register over-indexes but n is small and the account is cold after 13 days dark | status: open
+- 2026-10-08 PM | If Drey is still dark through 10/9, hold all other Drey recommendations — the gap is the constraint, not content quality | confidence: high | status: standing rule

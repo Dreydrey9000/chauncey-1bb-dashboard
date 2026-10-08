@@ -7,6 +7,8 @@
 | P3 | 2026-10-04 | Drey room-reel #2 (one question to a room) reaches ≥1,000 views within 7 days | LOW-MED | inspire AM 10/04 | pending |
 | P4 | 2026-10-06 | Drey ends the 11-day dark streak TODAY (10/06) with a confession/standards post (reel or static) → beats his ai_systems median (636, n=16) | MEDIUM | inspire AM 10/06 | pending |
 | P5 | 2026-10-06 | Kevin's next post is identity-themed (not room, not ai_systems) → ≥1,500 views (his October median) | MEDIUM | inspire AM 10/06 | pending |
+| P6 | 2026-10-08 | Drey posts one reel today (10/08) → its day reach beats his dark-day floor (56) by 5x+ (≥280) | HIGH | morning brief 10/08 | pending |
+| P7 | 2026-10-08 | Kevin's next film runs the personal "open door / providence" lane → interactions ≥ his 9/28 spike week (his top post hit 234 likes) | MED-HIGH | morning brief 10/08 | pending |
 
 ## Early reads (not final grades — Sunday 9a grades on final numbers)
 - 2026-10-06 AM — P1: Kevin's 10/05 room static ("Screens connect you to people, rooms connect you with them") sits at 633 vs the 1,084 static median. Below target but ~16h old and his room statics climb late (10/03 club static went 3,939→5,275 overnight at the same age). HOLD.

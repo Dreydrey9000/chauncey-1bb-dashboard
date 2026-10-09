@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-08 (PM) — evening delta: what moved today, beat/miss, and the one adjustment for tomorrow',
+  date: '2026-10-09 (PM) — evening delta: lookalike scan, beat/miss vs medians, one adjustment for tomorrow',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/Dd-TxEgCYFr/',
-      who: 'Liam Ottley — “Don’t be this guy.” — 12,167 views, 369 likes, 94 comments (posted 10/2, finished and crawling). PUBLIC_PROXY.',
-      views: '12,167',
-      comments: '94 (369 likes)',
-      why: 'Carried from this morning — still his best un-imitated confession-register reel. The evening scan adds the tell: his confession reels (this one, sunflower, biggest-challenge, moving-to-the-US) pull 92–121 comments; his tool reels pull 10–30. Same audience, roughly ten times the replies when the register is self-recognition. His fresh n8n reel sits at 6.4k — tool lane confirmed soft again.'
+      url: 'https://www.instagram.com/reel/DeCA3aoD4VT/',
+      who: 'Liam Ottley — “How to start an AI business with $120.” — 14,433 views, 384 likes, 106 comments (posted 10/3). PUBLIC_PROXY.',
+      views: '14,433',
+      comments: '106 (384 likes)',
+      why: 'New pick, new reason: it is his second-best reach of the last month AND it pulled 106 replies — a concrete dollar figure in the hook earns both. His confession reels still out-view it, but this format films in one take with a whiteboard. After 14 days dark, shippable beats perfect.'
     },
-    tweak: 'THE TWEAK (unchanged — film it): “Don’t be this operator.” The founder with six AI subscriptions and zero systems — bought tools, called it a build. Name the three pipes (intake, follow-up, books), one line of your own proof of the time one pipe got automated [verified result]. Phone camera, one take. Close with: “Which pipe is drowning you?”',
+    tweak: 'THE TWEAK: “The $120 that unbogged a 6-figure operator.” Whiteboard, one take: the three pipes (intake, follow-up, books), what each cost, the hours one gave back [verified result]. Open on the operator pain, keep the tool second. Close: “Which pipe would you buy back first?”',
     postIdeas: [
-      'DELTA: day 13 dark on IG and TT (since 9/25) — nothing posted today, nothing to grade. The gap is the number: it hits 14 days tomorrow. Post before noon.',
-      'Register evidence (OFFICIAL_API): room framing median 1,105 views (n=13) vs ai_systems 638 (n=16); confession n=2 median 3,485. Open on your face, name the operator pain, keep the tool second.'
+      'Day 14 dark (nothing since 9/25, median 924). Ship the $120 reel before noon tomorrow — the streak is now the whole game.',
+      'Register evidence (OFFICIAL_API, last 40 reels): room 2,346 median (n=6), confession 3,486 (n=2), ai_systems 162 (n=7). Liam’s n8n reel inching 6.4k→7.2k in 24h confirms it on his side too: tools as the hook under-perform; tools as the second beat work.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeNDOdIjtvf/',
-      who: 'David Meltzer — “Sometimes the anger we feel is really fear underneath.” — 76,688 views, 3,035 likes, 19 comments (posted 10/7 ~2:55p ET). PUBLIC_PROXY.',
-      views: '76,688',
-      comments: '19 (3,035 likes)',
-      why: 'MORNING PICK VALIDATED: 18.6k at the 7a scan → 76.7k by 6p (+58k in ~11 hours), roughly 9x his recent 8–10k norm. The mechanic held all day: name the emotion, flip it (anger→fear), one “I almost reacted” admission, calm reframe. His other new reel (“Quality never comes first”) sat at 5.6k — the flip is the difference, not the posting time.'
+      url: 'https://www.instagram.com/reel/DeMxqjCsUom/',
+      who: 'Bedros Keuilian — “This is why I don’t argue with people on social media.” — 117,046 views, 4,138 likes, 74 comments (posted 10/7). PUBLIC_PROXY.',
+      views: '117,046',
+      comments: '74 (4,138 likes)',
+      why: 'Finished mid-band for him (his last 12 run 85k–327k) and plateauing (+2.1k in the last day), but the mechanic is exactly your register: contrarian opener, “the bigger lesson is this” pivot, closes on a standard instead of a win.'
     },
-    tweak: 'THE TWEAK (now with proof): “The frustration you feel with your business is usually fear underneath — fear that it only runs because you’re holding it up.” One short almost-reacted story (client, team, family), the pause, the reframe, then one clear next step: 1bbcommunity.com/apply.',
+    tweak: 'THE TWEAK: “Why I stopped arguing about AI taking jobs.” Calm coach register — one almost-argued story, the pause, the identity reframe (you don’t win the room by winning the argument), one clear next step: 1bbcommunity.com/apply.',
     postIdeas: [
-      '10/7 graded vs medians (OFFICIAL_API, 6:30a snapshot): discipline reel MISSED on IG — 323 vs your 1,027 reel median — but BEAT TikTok 2.4x (1,002 vs 412). The robot-shoulder static ran 1,112 vs your 1,629 static median: the message over-performed (4 comments), the format under-performed. Split read: the lecture register travels on TT; IG wants identity/room face-to-camera — identity is your top theme at 2,619 median (n=18).',
-      'Convert the proven line: close the anger→fear reel with “A robot can say the right words. It will never put a hand on your shoulder.” — it already worked in your worst format.'
+      'Today graded (OFFICIAL_API, pulled 6:20p ET): 9a anchoring static 1,773 vs 1,668 static median = AT MEDIAN (49 likes, 0 comments — add a question to the caption to convert likers). 11a room reel MISSED both (IG 462 vs 705; TT 171 vs 440). 3:29p dinner-alone confession MISSED hardest on IG (129) — only ~2.5h old, provisional — but pulled 13.4% ER on TT from tiny reach.',
+      'Placement split, grounded: confession is your weakest IG lane at 683 median views (n=5) vs identity 1,980 and room 1,414 — yet confession posts run 9–13% ER on TikTok. Tomorrow: confession to TT only; IG gets face-to-camera identity/room.'
     ]
   },
-  note: 'SCAN (6p ET): Meltzer anger→fear is the story of the day — 76.7k and climbing; morning pick confirmed. Bedros posted “Why I don’t argue on social media” — 114.9k in ~30h, mid-band for him (his last 12 run 85k–327k), same flip mechanic behind a contrarian opener. Rowan steady in his 10–50k band (robot-hand crawler 23.7k, Claude rant 10.3k) — contrast profile, no operator lesson tonight. Founders: nothing dated today in the 6:30a refresh — Drey day 13 dark; Kevin 10/7 split (IG miss / TT beat). ONE ADJUSTMENT FOR TOMORROW: film-first morning — Drey posts the operator take before noon; Kevin films the anger→fear flip with the robot-shoulder closer. Provenance: lookalike stats PUBLIC_PROXY (TokScript); founder stats OFFICIAL_API (Zernio → posts_all.csv, refreshed 6:30a ET today).'
+  note: 'SCAN (6p ET): nothing new from the lookalikes today — Bedros and Liam both last posted 10/7 (~48h quiet). Bedros’s argue reel finished at 117k (mid-band); Liam’s n8n reel crawled 6.4k→7.2k, tool lane soft again. gerardadams excluded tonight (2 failed pulls, not verified). Founders: Drey day 14 dark; Kevin 5 posts — 1 at median, 4 misses (2 provisional, posted ~2.5h before snapshot). ONE ADJUSTMENT FOR TOMORROW: split Kevin’s registers by platform (confession → TikTok, identity/room → IG) and Drey ships the $120 whiteboard reel before noon — after 14 days, shipped-and-plain beats perfect-and-absent. PREDICTION (P2, 70%): TT-only confession clears Kevin’s 440 TT median within a week — grade Fri. OPS FLAG: this morning’s 6:30a data refresh and 7:00a brief did not run (no commits after 10/8 6:05p); data here is a fresh 6:20p ET pull, FAILURES: none. Provenance: lookalike stats PUBLIC_PROXY (TokScript); founder stats OFFICIAL_API (Zernio → posts_all.csv).'
 };

@@ -24,8 +24,8 @@ Data honesty rules: unavailable metrics are reported as unavailable, never as ze
 4. Commit and push:
    `git add -A && git -c user.name=Chauncey -c user.email=chauncey@1bb.local commit -m "data refresh $(date +%F)" && git push`
 5. Deploy to Cloudflare Pages (PRIMARY LINK — https://1bb-dashboard.pages.dev/):
-   `wrangler pages deploy site --project-name=1bb-dashboard --commit-dirty=true`
-   (git push keeps history + the legacy GitHub Pages mirror; wrangler updates the live Cloudflare site.)
+   `NODE_OPTIONS="--no-network-family-autoselection" wrangler pages deploy site --project-name=1bb-dashboard --commit-dirty=true`
+   (The NODE_OPTIONS flag is required 2026-10-10+: Node 22 fetch times out reaching api.cloudflare.com when IPv6 is dead locally; flag forces sequential-family connect and fixes it. git push keeps history + the legacy GitHub Pages mirror; wrangler updates the live Cloudflare site.)
 6. Verify the live site with `/opt/homebrew/bin/python3 verify_deploy.py` (must show HTTP 200 + `fresh: True` + today's generation stamp; allow a minute for deploy). Plain `curl` is blocked in cron runs.
 
 ## Final reply format (max 4 lines)

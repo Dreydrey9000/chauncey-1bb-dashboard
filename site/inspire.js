@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-09 (PM) — evening delta: lookalike scan, beat/miss vs medians, one adjustment for tomorrow',
+  date: '2026-10-12 (AM) — morning edition: today’s imitation reels + one filming decision per founder',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeCA3aoD4VT/',
-      who: 'Liam Ottley — “How to start an AI business with $120.” — 14,433 views, 384 likes, 106 comments (posted 10/3). PUBLIC_PROXY.',
-      views: '14,433',
-      comments: '106 (384 likes)',
-      why: 'New pick, new reason: it is his second-best reach of the last month AND it pulled 106 replies — a concrete dollar figure in the hook earns both. His confession reels still out-view it, but this format films in one take with a whiteboard. After 14 days dark, shippable beats perfect.'
+      url: 'https://www.instagram.com/reel/DeVj-Ijk9Eq/',
+      who: 'Liam Ottley — “The 5 tools I use in every AI makeover” (comment-gated: comment TOOLS, get the links) — 19,474 views, 584 likes, 98 comments, posted Friday night. PUBLIC_PROXY.',
+      views: '19,474',
+      comments: '98 (584 likes)',
+      why: 'Already at his trailing-12 median (18.3k) in under 48 hours, while every older reel had weeks to accumulate — and 98 comments is the fastest comment velocity of his last 12 (third-highest count in two days). The mechanic is the new part: the comment gate turns a tools reel into DM-able leads. Contrast: his straight tool-comparison reel (n8n, 8.2k views) is the floor of his last 12. Concrete + gated works; abstract tool talk doesn’t.'
     },
-    tweak: 'THE TWEAK: “The $120 that unbogged a 6-figure operator.” Whiteboard, one take: the three pipes (intake, follow-up, books), what each cost, the hours one gave back [verified result]. Open on the operator pain, keep the tool second. Close: “Which pipe would you buy back first?”',
+    tweak: 'THE TWEAK: “The 3 things I’d install first in a drowning operator’s business.” Same whiteboard, one take. Open on the operator pain — you became the intake clerk, the follow-up guy, and the bookkeeper — THEN the three installs and what each gave back [verified result]. Close with the gate: “Comment PIPES and I’ll send the one-page version.” Tools stay second: your ai_systems median is 639 views vs confession 3,487, so the pain carries the hook, not the software.',
     postIdeas: [
-      'Day 14 dark (nothing since 9/25, median 924). Ship the $120 reel before noon tomorrow — the streak is now the whole game.',
-      'Register evidence (OFFICIAL_API, last 40 reels): room 2,346 median (n=6), confession 3,486 (n=2), ai_systems 162 (n=7). Liam’s n8n reel inching 6.4k→7.2k in 24h confirms it on his side too: tools as the hook under-perform; tools as the second beat work.'
+      'FILMING DECISION — day 17 dark (nothing since 9/25). One filming block TODAY, two reels out of it: (1) the $120 / 3-pipes whiteboard reel spec’d Thursday and still unshipped, (2) this comment-gated one. Same setup, 10 extra minutes. Shipped-and-plain has beaten perfect-and-absent for two straight weeks.',
+      'Why the gate matters for 1BB: Liam converted 19.5k views into 98 identifiable commenters he can DM (PUBLIC_PROXY). Your apply door (1bbcommunity.com/apply) is the same move one step higher. Test “comment PIPES” once this week before wiring anything automatic.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeMxqjCsUom/',
-      who: 'Bedros Keuilian — “This is why I don’t argue with people on social media.” — 117,046 views, 4,138 likes, 74 comments (posted 10/7). PUBLIC_PROXY.',
-      views: '117,046',
-      comments: '74 (4,138 likes)',
-      why: 'Finished mid-band for him (his last 12 run 85k–327k) and plateauing (+2.1k in the last day), but the mechanic is exactly your register: contrarian opener, “the bigger lesson is this” pivot, closes on a standard instead of a win.'
+      url: 'https://www.instagram.com/reel/DeSMpf2TqjI/',
+      who: 'Gerard Adams — Dec 7–9 Brotherhood event invitation (who it’s for, when, where, DM BROTHERHOOD) — 28,856 views, 422 likes, 130 comments, posted 10/9. PUBLIC_PROXY.',
+      views: '28,856',
+      comments: '130 (422 likes)',
+      why: '4.3x his trailing-12 average (28.9k vs 6.6k) and roughly 9x his adjacent organic posts (1.5k–5.4k). The difference isn’t production — the reel IS an invitation: who it’s for (faith-driven 7–8 figure founders), when, where, one action. His second-biggest of the month (12.9k) is also an event post. For your account, where room medians 1,500 and identity 2,621 on IG, the explicit “you’re invited” frame is the one lever you haven’t pulled.'
     },
-    tweak: 'THE TWEAK: “Why I stopped arguing about AI taking jobs.” Calm coach register — one almost-argued story, the pause, the identity reframe (you don’t win the room by winning the argument), one clear next step: 1bbcommunity.com/apply.',
+    tweak: 'THE TWEAK: “The room you keep waiting for.” Calm coach register, one take: who it’s for — the operator who built the business and lost the people — one honest sentence on what a room of peers actually costs and returns, then ONE clear next step: 1bbcommunity.com/apply. Honest specificity (naming who it’s for) replaces countdown urgency. No hashtags.',
     postIdeas: [
-      'Today graded (OFFICIAL_API, pulled 6:20p ET): 9a anchoring static 1,773 vs 1,668 static median = AT MEDIAN (49 likes, 0 comments — add a question to the caption to convert likers). 11a room reel MISSED both (IG 462 vs 705; TT 171 vs 440). 3:29p dinner-alone confession MISSED hardest on IG (129) — only ~2.5h old, provisional — but pulled 13.4% ER on TT from tiny reach.',
-      'Placement split, grounded: confession is your weakest IG lane at 683 median views (n=5) vs identity 1,980 and room 1,414 — yet confession posts run 9–13% ER on TikTok. Tomorrow: confession to TT only; IG gets face-to-camera identity/room.'
+      'Your 10/9 1pm framing static (price-anchoring) hit 12,006 views — biggest in the current window, ~7x the 1,668 static median (OFFICIAL_API) — but only 2 comments on 12k views (231 likes, 12 saves). Keep the framing statics coming; add one real question to the caption to convert the likers.',
+      'Prediction graded (10/9 PM, P2): HIT — confession-to-TikTok confirmed. Dinner-alone confession: 883 TT views vs 646 TT confession median, 13.4% ER, 113 likes. Keep confession on TT; IG keeps identity/room (identity median 2,621 is still your IG ceiling).'
     ]
   },
-  note: 'SCAN (6p ET): nothing new from the lookalikes today — Bedros and Liam both last posted 10/7 (~48h quiet). Bedros’s argue reel finished at 117k (mid-band); Liam’s n8n reel crawled 6.4k→7.2k, tool lane soft again. gerardadams excluded tonight (2 failed pulls, not verified). Founders: Drey day 14 dark; Kevin 5 posts — 1 at median, 4 misses (2 provisional, posted ~2.5h before snapshot). ONE ADJUSTMENT FOR TOMORROW: split Kevin’s registers by platform (confession → TikTok, identity/room → IG) and Drey ships the $120 whiteboard reel before noon — after 14 days, shipped-and-plain beats perfect-and-absent. PREDICTION (P2, 70%): TT-only confession clears Kevin’s 440 TT median within a week — grade Fri. OPS FLAG: this morning’s 6:30a data refresh and 7:00a brief did not run (no commits after 10/8 6:05p); data here is a fresh 6:20p ET pull, FAILURES: none. Provenance: lookalike stats PUBLIC_PROXY (TokScript); founder stats OFFICIAL_API (Zernio → posts_all.csv).'
+  note: 'SCAN (first since Thu night): Liam shipped a comment-gated tools reel Friday — new mechanic, copied above. Gerard’s Dec 7–9 invite is his biggest reel of the month at 4.3x average: invitation framing beats motivation for his audience, and that is the 1BB lesson of the week. Bedros + rowancheung not scanned this run (rotation); gregisenberg / mckaywrigley / sabrina ramonov still not publicly verifiable. OPS FLAG: four brief editions were missed (10/10 + 10/11, AM and PM) — data refreshes still ran 10/10 and 10/12; this edition resumes the cadence. PREDICTIONS: (P2, 75%) Kevin’s invitation reel clears his IG room median of 1,500 within 7 days of posting — grade next Mon. (P2, 70%) If Drey ships the gated reel today, it clears his ai_systems median of 639 within 7 days — shipping is the constraint, not the idea. Provenance: lookalike stats PUBLIC_PROXY (TokScript); founder stats OFFICIAL_API (Zernio → posts_all.csv, refreshed 6:31a ET today).'
 };

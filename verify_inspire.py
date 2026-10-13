@@ -7,7 +7,7 @@ req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Macintosh
 with urllib.request.urlopen(req, timeout=30) as r:
     body = r.read().decode('utf-8', 'replace')
 print('HTTP', r.status, '| bytes:', len(body))
-print('PM edition live:', '2026-10-12 (PM)' in body)
-print('drey reel url live:', 'Dd4UT-POMub' in body)
-print('kevin reel url live:', 'DeUQ4aJsUbE' in body)
+print('AM edition live:', '2026-10-13 (AM)' in body)
+print('drey reel url live:', 'DeVj-Ijk9Eq' in body)
+print('kevin reel url live:', 'Ddy7G_Mstov' in body)
 print('window.INSPIRE shape ok:', body.lstrip().startswith('// Daily inspiration brief'))

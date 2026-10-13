@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-12 (PM) — evening delta: lookalike scan + founders-vs-medians + one adjustment for tomorrow',
+  date: '2026-10-13 (AM) — morning edition: today’s imitation reels + one filming decision per founder',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/Dd4UT-POMub/',
-      who: 'Rowan Cheung — OpenAI “dots” at DevDay, caption-gated: comment “dots” for a link — 346,066 views, 2,043 likes, 177 comments, posted 9/29. PUBLIC_PROXY.',
-      views: '346,066',
-      comments: '177 (2,043 likes)',
-      why: '7.3x his trailing-12 median (47,685) and the single biggest reel of his last 12 — and the caption gate (“comment dots”) is the mechanic, same one Liam used Friday (19.5k views, 98 comments). Two lanes, one pattern: the gate converts a news reel into a comment magnet. His ungated “weird science” reels sit at 25–75k; gated ones took the top comment counts in his window (177 and 30). Note: rowan is the contrast profile — copy the GATE, not the news-anchor format.'
+      url: 'https://www.instagram.com/reel/DeVj-Ijk9Eq/',
+      who: 'Liam Ottley (41.6k, systems proof — your lane twin) — captions and dates came back empty in this pull (known TokScript quirk), so the read is on the numbers: 21,451 views, 675 likes, 131 comments. PUBLIC_PROXY.',
+      views: '21,451',
+      comments: '131 (675 likes)',
+      why: 'Above his trailing-12 views median (18,637) — but the real signal is comments: 131 is the top count of his last 12 (median 71), and 4 of 12 pulled 94 or more. His lane is shifting from views-first to conversation-first: systems reels that end by making people answer. Rowan’s gated DevDay reel is the same pattern at 10x scale — 388,041 views and 182 comments as of this morning’s pull, up from 346k yesterday. Two lanes, one mechanic: give the audience a line to say back.'
     },
-    tweak: 'THE TWEAK (unchanged from this morning, now twice-validated): one whiteboard reel — “The 3 things I’d install first in a drowning operator’s business.” Open on the operator pain, name the three installs, close with “Comment PIPES and I’ll send the one-page version.” Your confession median is 3,487 and ai_systems is 639, so the pain carries the hook, not the software. Comment-gating has now won in both scanned lanes — it is the highest-confidence unshipped mechanic on your board.',
+    tweak: 'THE TWEAK — today’s filming decision (carried, now backed by a third lane): ONE reel, not two. Whiteboard, talking head: “The 3 things I’d install first in a drowning operator’s business.” Open on the operator pain (you’re not short ideas, you’re short hands), name the three installs in plain words, close with the gate: “Comment PIPES and I’ll send the one-page version.” Your confession median is 3,487 and your ai_systems median is 636 — the pain carries the hook, the software is the payoff, not the opener. No hashtags, no urgency.',
     postIdeas: [
-      'DELTA ON YOUR DATA: day 17 dark (nothing since 9/25; last CSV refresh 6:31a ET today, so anything posted after that shows tomorrow). No median to grade. The morning filming block didn’t make it into the data — tomorrow the ask shrinks to ONE reel, not two.',
-      'Why one: shipping is the proven constraint, not ideas. A single gated whiteboard reel at your ai_systems median (639) still beats a perfect two-reel plan that ships nothing — shipped-and-plain has won two straight weekly grades.'
+      'Day 18 dark as of the 6:31a ET refresh — the gap, not the idea, is the constraint, so the ask stays at one reel. Your last ship (9/25 static) did 980 views, 1.5x your ai_systems median, with 6 comments: shipped-and-plain keeps beating perfect-and-unshipped.',
+      'Queue for reel #2 once PIPES ships: your best post ever is a room reel — 13,177 views on 8/26 (“the environment you’re in is always working on you”), and your room median (1,110) beats your ai median (636). Same whiteboard energy, aimed at the room: what happens to a good operator who builds alone. That’s the bridge from proof to club.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeUQ4aJsUbE/',
-      who: 'Bedros Keuilian — “Last week I spoke to 300 Armenian entrepreneurs… build your personal brand; people buy from people they know, like and trust” — 166,323 views, 2,793 likes, 48 comments, posted 10/10. PUBLIC_PROXY.',
-      views: '166,323',
-      comments: '48 (2,793 likes)',
-      why: 'Above his trailing-12 median (141,390) in under 48 hours, and the frame is the point: one real room, one number (300), one repeatable message. It mirrors Gerard’s Dec 7–9 invitation hit from this morning (28.9k, 4.3x his average) — two lanes now confirm room-proof + invitation beats generic motivation. His “ladies” relationship reels (256k, 327k) are his ceiling, but that’s his lane, not yours.'
+      url: 'https://www.instagram.com/reel/Ddy7G_Mstov/',
+      who: 'Bedros Keuilian (1.0M, discipline + application) — “When life squeezes you and gives you pressure, what comes out of you is already what’s inside” — 202,828 views, 3,196 likes, 49 comments, posted 9/27. PUBLIC_PROXY.',
+      views: '202,828',
+      comments: '49 (3,196 likes)',
+      why: '1.4x his trailing-12 median (141,420) and his best reel in the window outside his “ladies” relationship reels (256k / 327k — his lane, not yours). The mechanic is an identity reframe under pressure: one metaphor, one claim about who you are when it gets hard. Identity is your best theme by the numbers — your median there is 2,621 vs 933 for your reels overall. He plays it loud; you play it calm. Same skeleton.'
     },
-    tweak: 'THE TWEAK: “The room you keep waiting for” — same assignment as this morning, one addition from Bedros: put a REAL number in the first line. “[verified count] owners at our last dinner” — who it’s for (the operator who built the business and lost the people), one honest sentence on what a peer room costs and returns, one next step: 1bbcommunity.com/apply. Calm coach register, no countdown urgency, no hashtags. Never invent the count — pull it from a real event recap or leave the placeholder.',
+    tweak: 'THE TWEAK — today’s filming decision (unchanged): the invitation reel, with Bedros’ opening move. First line names the pressure your operator already feels — “The fastest way out of stuck isn’t a new strategy” — then turn it to people: the room, the real number (“[verified count] owners at our last dinner” — pull the real count from an event recap, never invent it), one honest line on what a peer room costs and returns, one next step: 1bbcommunity.com/apply. Calm coach register, no countdown, no hashtags. You already put a real number in line one last night (“8 people in the room”) — same habit, aimed at the club.',
     postIdeas: [
-      'DELTA ON YOUR DATA: no posts today or yesterday as of the 6:31a ET refresh; last post is the 10/10 room static — 1,734 views vs your 1,668 static median (at median, +4%), 62 likes, 1 comment. Two quiet days is fine; three starts a pattern given the morning assigned the invitation reel.',
-      'Standing prediction (P2, 75%) from this morning, still open: your invitation reel clears the IG room median of 1,500 within 7 days of posting — grade next Mon. Bedros’ 10/10 reel is added evidence for it. Ship it tomorrow and the clock starts.'
+      'Overnight grade-in-progress: the Bible-study reel is at 698 views on the 6:31a refresh (11 likes, 1 comment) — already above the final counts of your last two confession reels (374 and 129). Grade it against the 933 reel median tomorrow, not today. Ignore any 150% “completion” readout — that’s loop replay, a tracking artifact, not a win.',
+      'Your static median (1,723) still beats reels (933) 2:1, and your 10/9 anchor-price static hit 13,326 — best since 9/15. Same-day companion to the invitation reel: an identity static — “You don’t need a bigger plan. You need a bigger room.” Identity is your top theme (2,621 median, n=18) and it bridges straight to the apply link.'
     ]
   },
-  note: 'SCAN (rowan + bedros, rotation): the comment-gate mechanic is now confirmed in BOTH scanned lanes — rowan’s gated “dots” (346k, 7.3x median, 177 comments) and his gated DoorDash post (30 comments on 25.5k) alongside Liam’s from Friday. It is the clearest cross-lane signal in weeks. Bedros doubles the room-proof pattern with Gerard from this morning. FOUNDERS: neither posted today (as of the 6:31a ET data refresh — evening posts appear tomorrow); Kevin 2 days quiet, Drey day 17. ONE ADJUSTMENT FOR TOMORROW: cut Drey’s ask from two reels to ONE — the comment-gated pipes whiteboard; the barrier is the size of the ask, not the idea. Kevin films the invitation reel with a real room number. NEW PREDICTIONS: (P2, 70%, carried) Drey’s gated reel clears his ai_systems median of 639 within 7 days IF shipped 10/13; (P3, 60%) Kevin’s room-number invitation reel clears room median 1,500 within 7 days of posting. Provenance: lookalike stats PUBLIC_PROXY (TokScript public API); founder stats OFFICIAL_API (Zernio → posts_all.csv, refreshed 6:31a ET today).'
+  note: 'SCAN (rotation: liam + bedros, rowan + meltzer spot-checked): the throughline across lanes is conversation density — Liam’s reel pulled 131 comments (top of his 12, median 71) and Rowan’s gated DevDay reel keeps climbing (388k, 182 comments). gerardadams failed on the known partial-payload issue — excluded, not verified this run. Meltzer’s views render as unavailable in the API — not used for picks. FOUNDERS: Drey is day 18 dark; Kevin posted overnight (Bible study, 698 by 6:31a). DECISIONS TODAY: Drey films the ONE gated pipes whiteboard — prediction (P2, 70%) says it clears his ai_systems median 636 within 7 days if it ships tonight; it dies unshipped otherwise. Kevin films the room invitation reel with a real number — (P3, 60%) it clears the room median 1,611 within 7 days of posting. New: (P3, 55%) Kevin’s Bible-study reel finishes above the 933 reel median by tomorrow’s refresh. Provenance: lookalike stats PUBLIC_PROXY (TokScript public API); founder stats OFFICIAL_API (Zernio → posts_all.csv, refreshed 6:31a ET today).'
 };

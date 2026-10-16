@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-16 (AM) — morning: one imitation reel + one filming decision per founder',
+  date: '2026-10-16 (PM) — evening delta: what lookalikes posted today, beat/miss on today’s posts, one adjustment for tomorrow',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeVj-Ijk9Eq/',
-      who: 'Liam Ottley (41.6k, systems proof). Posted 10/11: “The 5 tools I use in every AI makeover — comment TOOLS and I’ll send you all the links.” PUBLIC_PROXY.',
-      views: '24,472',
-      comments: '144 (759 likes)',
-      why: 'The views are half the story — 144 comments is 5-17x his normal comment count (his non-keyword reels get 13-25). His comment-keyword list reels are a pattern: this one at 144 comments, the 10/4 lists post at 99, while his straight-advice reels the same week did 13. The mechanic is a list he ACTUALLY uses, gated by one keyword, value really delivered in DMs. At 41.6k followers, 24.4k views means half his audience shows up for proof-lists.'
+      url: 'https://www.instagram.com/reel/Dejtbpos_HZ/',
+      who: 'Bedros Keuilian (1.0M, discipline + application funnel). Posted TODAY 10:09a ET: “The two BIGGEST determining factors of success or failure in your life are… 1) The thoughts you keep…” PUBLIC_PROXY.',
+      views: '126,379',
+      comments: '32 (2,766 likes) — in 8 hours',
+      why: 'The freshest big number in the scan and a structural proof: a numbered strong-opinion list, delivered straight to camera. That is the exact mechanic that won for Liam (his TOOLS list: 24,674 views, 146 comments vs 13–25 comments on plain advice), now at 1.0M-follower scale. List + opinion travels; abstract advice does not. Bedros has posted 7 reels in 10 days and every one cleared 59k except the reposted clip — volume plus structure, not perfection.'
     },
-    tweak: 'THE TWEAK — his comment-keyword list, your confession frame: 45 seconds, phone-only. “The 3 systems I installed first when the business was drowning me.” Operator pain up front (you did not build a business, you built a job with your name on it), one plain analogy per system, then: “Comment SYSTEMS and I’ll send you the exact build.” The mechanic only works if the DM send is real — build the one-pager first, gate it second. Ship today, not when it is polished.',
+    tweak: 'THE TWEAK — his numbered-factors list, your builder proof: 45 seconds, phone only. “The 2 systems that decide whether your business owns you: 1) how work gets IN, 2) how it gets DONE without you.” Operator pain up front (you did not build a business, you built a job with your name on it), one plain analogy per system, end on the line “most operators fix neither and call it work ethic.” Confession frame + list structure = your best median (3,487) fused with his reach mechanic.',
     postIdeas: [
-      'FILM TODAY (the one decision): the confession list reel above. Data: your confession median is 3,487 (n=2) and room 1,110 (n=13) vs 636 for straight ai_systems (n=15) — the list gives it reach, the confession frame gives it your best median. Prediction P2: beats 636 within 7 days; target 1,100+.',
-      'Second post this week: a one-question room reel (“what is the one rule that got you further?”) — your 9/9 room reel did 1,711, 2.7x your ai_systems median. The overnight 10/15 reel settled at 37 views vs your 836 median: the miss was the 20-day gap, not the effort. Two posts this week beats one perfect one — Bedros ships daily and does 90-250k per post.'
+      'FILM BY 10a TOMORROW (carried from this morning, still open): the confession-list reel above. It is the only open prediction this week — P2: beats your ai_systems median of 636 (n=15), target 1,100+. You posted nothing today; two quiet days in a row is the actual risk, not imperfection. Bedros ships daily at 90–250k per post.',
+      'Second post this week: the one-question room reel (“what is the one rule that got you further?”) — your room median is 1,110 (n=13) vs 636 for ai_systems; the 9/9 room reel did 1,711. Two posts this week beats one perfect one.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeSMpf2TqjI/',
-      who: 'Gerard Adams (549k, faith + room + events). Posted 10/9: the room invite — “Dec 7-9, faith-driven 7-8 figure founders” gathering, North Carolina. PUBLIC_PROXY.',
-      views: '29,244',
-      comments: '136 (429 likes)',
-      why: '10x his daily baseline in the same week his standard reels did 1.9k-3.7k. The same mechanic won at Bedros (1.0M) the same week: his Toronto city+date mastermind invite did 250,205 views while his reposted clip the next morning did 5.2k. The invite frame — who this room is for, when, why it matters — beats advice in both accounts. And it is aimed at exactly your room: faith-driven 7-8 figure founders.'
+      url: 'https://www.instagram.com/reel/DefFO30kpP4/',
+      who: 'David Meltzer (767k, faith + business coach). Posted 10/14: “There are moments as a parent when love has to be very clear. You tell them what you know…” PUBLIC_PROXY.',
+      views: '40,146',
+      comments: '8 (772 likes)',
+      why: 'His October breakout: 4–10x his baseline (his other recent reels sit at 397–10,278). The formula is a specific family moment fused to ONE hard standard, told calmly. That is your register exactly — and it is the frame today’s grandfather reel needed. Note he posted again 20 minutes before this scan (397 views — too fresh to grade, excluded from calls).'
     },
-    tweak: 'THE TWEAK — his room invite, your register: film the next table as an INVITATION, not a recap. Who the room is for (the founder carrying everything solo), the standard of the conversation, one line on what happens in the room — calm coach voice, faith/family/room, then ONE clear next step: the apply link in the caption. No hashtags, no countdown. If a real date and venue exist, name them; if not, say “the room we are building” — never a filler date.',
+    tweak: 'THE TWEAK — his family-moment frame on the story you already told today: re-cut the grandfather origin story as a STATIC tomorrow. The specific moment, the standard he set for you, then the turn: “that is the standard I hold the founders in my room to.” Calm coach voice, no hashtags, one clear next step in the caption. Do not repost the reel — rescue the story: today’s reel version is pacing to a miss (305 views at 9h vs your 917 reel median), and your statics beat reels 2:1 (1,722 vs 917 median; identity statics 2,541, n=19; yesterday’s dinner static just settled at 2,621, +52%).',
     postIdeas: [
-      'Keep the identity static line: yesterday’s 10/15 static (AI writes emails, it cannot sit across at dinner) settled at 2,339 vs your 1,729 static median (+35%) — yesterday’s P3 is MET and beaten. Identity is your best theme at 2,541 median (n=19). Ship one identity static today: a standard you hold, one sentence of story behind it.',
-      'FILM THIS WEEK (the one decision): the room-invite reel above at the next table, posted within 48h. Your 10/13 room recap is your best recent reel at 1,668 vs the 950 reel median (+75%) — recaps already win for you; the invite frame is the upgrade both lookalikes just proved. Prediction P2: beats 950, target 1,400+. Reels are for the room; identity and standards stay statics.'
+      'TOMORROW (the adjustment): grandfather story as an identity STATIC — your identity median is 2,541 (n=19) and yesterday’s static beat at 2,621. Prediction P3: clears the 1,722 static median. Reels are not the place for solo monologues anymore: your last three — 264 (10/14), 506 (10/15), and today’s pacing ~305 — all missed the 917 reel median, while the 10/13 room recap beat it at 1,685 (+84%).',
+      'Reels = the room only. Film the room-INVITE reel this weekend (standing recommendation from this morning): who the room is for, the standard of the conversation, the apply link. Gerard’s invite did 29,244 (10x his baseline); Bedros’ Toronto invite settled at 253,661. Prediction P2: beats 917, target 1,400+.'
     ]
   },
-  note: 'SCAN: the room-invite mechanic won in BOTH Kevin-lane lookalikes this week — Gerard 29.2k/136 comments (10x baseline), Bedros 250k on a city+date invite vs 5.2k for a reposted clip. Liam’s comment-keyword lists pull 99-144 comments vs 13-25 normal. Rowan’s 2-day cadence holds (42-78k every post; yesterday’s E-MAP pick settled at 45.6k). GRADES: Kevin P3 MET (10/15 static 2,339 vs 969 reel median); Drey P2 still open — the overnight reel was other-framed, 37 views vs 836 median (CSV per-post counter still reads 0; number from yesterday evening’s Zernio daily-metrics). Provenance: lookalike stats PUBLIC_PROXY (TokScript pull 8:30a ET today); founder stats OFFICIAL_API (posts_all.csv, today’s 6:30a Zernio refresh).'
+  note: 'SCAN (6:03p ET pull): Bedros posted TODAY — 126,379 views in 8h on a numbered-factors list; his Toronto invite settled at 253,661. Meltzer’s 10/14 parenting-standard reel is his month’s breakout at 40,146 (4–10x baseline); he posted again 20 min ago, too fresh to grade. Rowan: nothing today, 4 straight daily posts 10/12–10/15 at 53–75k. Liam: quiet since 10/11 (TOOLS list settled at 24,674, 146 comments). OWN DATA (official API): Kevin BEAT — yesterday’s dinner static 2,621 vs 1,722 static median (+52%); Kevin LIKELY MISS — today 8:59a grandfather reel 305 views at 9h vs 917 reel median (P3, grade at 7a); Drey — no post today, yesterday’s overnight reel still near-zero in per-post analytics (daily-metrics reach 19). ONE ADJUSTMENT FOR TOMORROW: Kevin freezes bare monologue reels (0-for-3) — stories and standards go to statics, reels go to the room; Drey ships the confession-list reel by 10a. Provenance: lookalike stats PUBLIC_PROXY (TokScript); founder stats OFFICIAL_API (Zernio REST + posts_all.csv, today’s 6:30a refresh).'
 };

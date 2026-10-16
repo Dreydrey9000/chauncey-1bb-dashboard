@@ -7,7 +7,10 @@ req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Macintosh
 with urllib.request.urlopen(req, timeout=30) as r:
     body = r.read().decode('utf-8', 'replace')
 print('HTTP', r.status, '| bytes:', len(body))
-print('PM edition live:', '2026-10-15 (PM)' in body)
-print('drey reel url live:', 'Deh1otjOwdT' in body)
-print('kevin reel url live:', 'DefFO30kpP4' in body)
+print('AM edition live:', '2026-10-16 (AM)' in body)
+print('drey reel url live:', 'DeVj-Ijk9Eq' in body)
+print('kevin reel url live:', 'DeSMpf2TqjI' in body)
 print('window.INSPIRE shape ok:', body.lstrip().startswith('// Daily inspiration brief'))
+import hashlib, os
+local = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'site', 'inspire.js'), 'rb').read()
+print('sha256 parity:', hashlib.sha256(local).hexdigest() == hashlib.sha256(body.encode()).hexdigest())

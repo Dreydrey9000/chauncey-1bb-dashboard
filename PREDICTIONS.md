@@ -10,3 +10,7 @@ Format: date | prediction | confidence | status
 - 2026-10-15 PM | Drey ships exactly one reel by 10/16 EOD, confession/room-framed → clears 636 views within 7 days of posting | confidence: medium-high (70%) — gap broken 10/15, confession median 3,487 (n=2), room 1,110 (n=13), account warm again | status: open
 - 2026-10-15 PM | Kevin's 10/15 identity static (DehfzxhDSVc) settles at or above his 1,721 static median by 10/22 | confidence: medium (55%) — 1,326 in <5h, needs +30% more | status: open
 - 2026-10-15 PM | Standing rule: Kevin's identity/standards lines ship as statics; reels reserved for room recaps (static-vs-reel split now a 5-post pattern: 1,326/1,721 statics vs 399/167 identity reels) | confidence: high | status: standing rule
+
+## 2026-10-17 AM (Chauncey)
+- [ ] DREY: Two Proof reels this weekend will lift daily reach above the 12–62 baseline band by Mon 10-19. Confidence: high. Grade: P1.
+- [ ] KEVIN: A named weekly personal-proof slot + carousel bias keeps weekly reach ≥20k next week (vs 25.2k this week). Confidence: medium-high. Grade: P2.

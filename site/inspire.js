@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-18 (AM) — morning: today’s imitation reels + one filming decision per founder',
+  date: '2026-10-18 (PM) — evening delta: lookalike posts today, beat/miss vs medians, one adjustment for tomorrow',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeVj-Ijk9Eq/',
-      who: 'Liam Ottley (41.6k, systems proof — your lane). Nothing new since 10/11, so this is a recycled pick with settled numbers: “The 5 tools I use in every AI makeover: Comment TOOLS and I’ll send you all the links.” PUBLIC_PROXY.',
-      views: '25,374 (settled, +220 overnight)',
-      comments: '149 (793 likes)',
-      why: 'The mechanic is the keyword gate: 149 comments on 25,374 views (0.59% comment rate) — lead capture built into the reel. NEW from this scan: Liam’s two biggest recent reels are story, not tools — the dopamine-detox story at 31,219 and moving-to-the-US at 21,236, vs his tool explainers around 9,000. Same law your account already shows: confession median 3,488 (n=2) and room 1,110 (n=13) vs ai_systems 617 (n=16). Story opens, systems payload, gate closes.'
+      url: 'https://www.instagram.com/reel/Deh1otjOwdT/',
+      who: 'Rowan Cheung (489k, broad AI news — the contrast profile in tonight’s rotation). The E-MAP robotic-lab reel from 10/15 — still his biggest of the week. PUBLIC_PROXY.',
+      views: '103,595',
+      comments: '23 (3,042 likes)',
+      why: 'Contrast lesson, not a copy: his week ranks by specificity. The named concrete system (“scientists in Germany built E-MAP, it prepares semiconductor inks”) did 103,595 while his general antibody-news reel did 20,683. Your own account runs the same law: confession median 3,488 (n=2) and room 1,110 (n=13) vs ai_systems 617 (n=16). The winner is always the reel about ONE named thing that did real work.'
     },
-    tweak: 'THE TWEAK — film it today, phone-only, 45 seconds: open with the confession line (“the biggest lie in business is that hustle is a strategy”), then the 5 systems you replace first in every AI makeover with one plain analogy each, close “Comment SYSTEMS and I’ll send the checklist.” Note: your 8/28–8/29 comment prompts asked for opinions — none has ever delivered an asset on a keyword. This is the first.',
+    tweak: 'THE TWEAK — this is tomorrow morning’s reel, the one you didn’t film today: one named system that did real work in a real business — yours or a client’s, with [verified result] wherever a number belongs — one plain analogy, the operator pain named in the first line. Keep the confession open and the “comment SYSTEMS” keyword gate from the AM brief. Same reel, now with a Monday deadline.',
     postIdeas: [
-      'FILMING DECISION (today): the merged reel above. Logged prediction P2: beats your 653 reel median (n=23), target 1,100+ — your room median is 1,110. Why the pressure is real: yesterday’s AI-lane reel settled at 186 (28% of median) and 10/15 sits near zero — three flat tool posts in a row. This one opens on story, not another tool take.',
-      'Second post this week: a room post. Room median 1,110 (n=13) vs ai_systems 617 (n=16); your 9/25 “just be yourself” static did 1,000. The real constraint is cadence: you have 4 IG posts in the last 30 days vs Kevin’s 51. One more post than last week is the floor.'
+      'DELTA (official API): 0 posts dated 10/18 — nothing from you today. Yesterday’s AI-lane reel crept 186 → 265, still a MISS vs your 653 reel median (41%). The 10/15 reel sits at 0 views — third flat tool post in a row; worth opening that post in-app to check for a distribution problem, not just a content problem.',
+      'Adjustment for tomorrow: ship ONE post before noon — the confession-open + keyword-gate reel. Standing prediction P2: beats 653, target 1,100+ (your room median). You are at 4 IG posts in 30 days; Kevin is at 51. Cadence is the constraint, not ideas.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DefO22WSVl6/',
-      who: 'Bedros Keuilian (1.0M, discipline + application funnel). The Toronto Scale Syndicate mastermind invite — city, date, who it’s for, apply frame. Now fully settled. PUBLIC_PROXY.',
-      views: '264,506 (settled, +3,051 overnight)',
-      comments: '67 (3,251 likes)',
-      why: 'Still the biggest reel in the scan, and it is an INVITE, not advice. Your own account ran the same law this week: the specific family static (“the one by my side for 32 years”) settled at 21,243 views — your #2 post ever — while the aphorism reels sat at 264–606. A named room, a date, a standard, and one next step out-pulls another monologue at any audience size.'
+      url: 'https://www.instagram.com/reel/DefFO30kpP4/',
+      who: 'David Meltzer (767k, faith + business coach — tonight’s rotation). The parent-love reel from 10/14: “moments as a parent when love has to be very clear.” PUBLIC_PROXY.',
+      views: '48,348',
+      comments: '13 (973 likes)',
+      why: 'Cross-validation of your own week: his family-values reel did 48,348 while his business-advice reels this week sit at 1.5k–10k. Your Mom static settled at 23,784 — your #2 post ever — while the aphorism reels sat at 264–606. Two accounts, one law: the specific family/room moment beats advice at any audience size. He also posted THIS morning, 9:02a ET — a business-advice reel at 1,502 views so far (early numbers only).'
     },
-    tweak: 'THE TWEAK — film it this morning while the Sunday window is open, phone-only, under 60 seconds: open on ONE specific room moment (the question you open every room with, or a member’s exact words with permission — not an aphorism), then who the room is for and the standard of the conversation, close on one clear next step: the apply link. Calm coach register.',
+    tweak: 'THE TWEAK — queue the grandfather STATIC for Monday; don’t refilm. The 10/16 grandfather reel (501 vs your 917 reel median) already carries the story. Statics are your format: static median 1,694 (n=96) vs reel 917 (n=65), identity theme 2,541 (n=21). One image from that day, the grandfather’s exact words as the caption, calm register, no lesson forced on it.',
     postIdeas: [
-      'FILMING DECISION (today): the room-invite reel. Standing prediction P2: beats your 840 30-day reel median, target 1,400+ — your room median is 1,732 (n=37). Four straight aphorism-opened reels have missed; specificity is the whole play.',
-      'Queue the grandfather STATIC for Monday: 30-day static median 1,962, and the Mom static settled at 21,243. Also grade at tomorrow’s refresh: yesterday’s “visionary needs an integrator” static sits at 1,189 vs the 2,541 identity median (n=21) — below pace, but statics settle slowly; watch before calling it.'
+      'DELTA (official API): 0 posts dated 10/18. The 10/17 integrator static climbed 1,189 → 1,481 — still below the 2,541 identity median (58%) but statics settle slowly; hold the call until Tuesday’s refresh. Confirmed BEAT: Mom static 23,784, #2 post ever. Quiet beat: the 10/15 “AI can write your emails” static at 3,348, ~2x your 1,694 static median.',
+      'Adjustment for tomorrow: post the grandfather static in the morning window, then stop — 5 posts since Thursday is enough; another same-day post risks cannibalizing the Mom static’s tail. Grade the integrator static Tuesday.'
     ]
   },
-  note: 'SCAN 7:00a ET: Liam quiet since 10/11 — no new signal, recycled pick with settled numbers; Bedros’ 10/16 list settled 132,223 and the Toronto invite is 264,506, still the scan’s biggest; gerardadams returned a dateless payload this pull — excluded, not verified; Meltzer/Rowan not scanned this run. OWN DATA (official API): Drey MISS confirmed — 10/17 AI-lane reel settled 186 vs 653 reel median (3rd flat tool post in a row); 10/15 near zero. Kevin BEAT settled — Mom static 21,243, #2 post ever; watch item — integrator static 1,189 vs 2,541 identity median. Both filming decisions land today: Drey films the confession-open + keyword-gate reel; Kevin films the room-invite reel. Provenance: lookalike stats PUBLIC_PROXY (TokScript public API); founder stats OFFICIAL_API (Zernio REST → posts_all.csv).'
+  note: 'SCAN 6:00p ET (rotation: rowancheung + davidmeltzer; Liam, Bedros, gerardadams not scanned tonight): Rowan posted nothing today — newest is 10/16 at 20,683, and his E-MAP concrete-system reel (103,595) is the week’s winner. Meltzer posted today 9:02a ET (business-advice, 1,502 early) but his 48k parent-love reel is the lesson. OWN DATA (official API): 0 posts dated 10/18 from either founder — both AM filming decisions unexecuted. Drey MISS settled (265 vs 653 reel median); Kevin BEAT settled (Mom static 23,784) plus one watch item (integrator static 1,481 vs 2,541 identity median, still climbing). ONE adjustment for tomorrow: ship the two already-decided posts in the morning — Drey’s confession-open keyword-gate reel, Kevin’s grandfather static — before planning anything new. Provenance: lookalike stats PUBLIC_PROXY (TokScript public API); founder stats OFFICIAL_API (Zernio REST → posts_all.csv).'
 };

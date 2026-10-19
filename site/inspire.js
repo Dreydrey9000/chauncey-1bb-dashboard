@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-19 (AM) — morning: one imitation reel + one filming decision per founder',
+  date: '2026-10-19 (PM) — evening delta: what posted today, beat/miss vs medians, one adjustment each',
   drey: {
     reel: {
       url: 'https://www.instagram.com/reel/DeVj-Ijk9Eq/',
-      who: 'Liam Ottley (41.6k, systems proof — your lane profile). “The 5 tools I use in every AI makeover,” posted 10/11. PUBLIC_PROXY.',
-      views: '25,800',
-      comments: '159 (807 likes)',
-      why: 'His biggest reel since 9/25 and the most-commented reel in his whole 12-reel pull (neighbors run 13–121). The mechanic is the exact one already decided for you: one named system + a comment-keyword gate (“Comment TOOLS and I’ll send you all the links”). Your own account runs the same spread: confession median 3,488 (n=2), room 1,110 (n=13), ai_systems 617 (n=16).'
+      who: 'Liam Ottley (41.6k, systems proof — your lane profile). His 10/11 keyword-gate reel, refreshed tonight: 26,001 views (was 25,800 this morning). Still his biggest reel since 9/25. PUBLIC_PROXY.',
+      views: '26,001',
+      comments: '160 (811 likes)',
+      why: 'Standing pick, re-confirmed: the comment-keyword gate (“Comment TOOLS”) is the most-commented reel in his 12-reel pull while his ungated reels run 13–25 comments. Contrast on your own account tonight: your new reel has 0 comments. Liam has gone quiet for 8 days (nothing since 10/11) — the lane has room while he’s absent.'
     },
-    tweak: 'THE TWEAK — today’s filming decision, now externally confirmed: film the confession-open + keyword-gate reel. One named system that did real work in a real business (yours or a client’s, with [verified result] wherever a number belongs), one plain analogy, the operator pain named in the first line. Gate = “comment SYSTEMS”, and the reply hands over a real artifact — the system map — not link spam.',
+    tweak: 'THE TWEAK — still the unfilmed morning decision: confession-open + keyword-gate. One named system that did real work in a real business (yours or a client’s, [verified result] wherever a number belongs), one plain analogy, operator pain in the first line. Gate = “comment SYSTEMS”, and the reply hands over the real system map.',
     postIdeas: [
-      'FILM ONE REEL TODAY (the one above). Standing prediction P2: beats your 653 reel median (n=23), target 1,100+ (your room median). Context: the 10/17 AI-lane reel settled at 265 → 300 — a miss. Cadence is the constraint, not ideas: 2 IG posts from you in the last 10 days vs 17 from Kevin.',
-      'Watch item: the 10/15 reel still sits at 0 views — third flat tool post in a row. Open that post in-app and check for a distribution problem, not just a content problem.'
+      'TOMORROW’S ONE ADJUSTMENT: film the confession-open + keyword-gate reel BEFORE anything else. Today’s 12:03p reel (“You don’t have time to learn every AI tool…”, 137 views at ~6h, 0 likes, 0 comments) is your third post in a row tracking under median — reel median 653 (n=23), AI-lane 617 (n=16); 10/17 settled at 302. Your confession median is 3,488 (n=2). Standing P2 (beats 653, target 1,100+) stays open until this reel actually ships.',
+      'Watch item hardened: the 10/15 reel is still 0 views at 5 days — that is a distribution problem, not lag. Open it in-app and check for muted/restricted audio before posting anything with trending sound.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/Deo0QiJstQs/',
-      who: 'Bedros Keuilian (1.0M, discipline + application funnel — morning rotation). Posted yesterday 10/18: “Most entrepreneurs are highly delusional and unemployable. I’m definitely one of those…” PUBLIC_PROXY.',
-      views: '132,814',
-      comments: '44 (4,219 likes)',
-      why: 'Freshest big win in the whole scan, and the frame is your best theme: a self-aware identity confession, named in the first line. Your identity median is 2,541 (n=21) — your strongest theme. Cross-validated on your own account overnight: the Mom static climbed 23,784 → 25,119 and is now your #1 tracked post (161 posts since July), past the brothers post (20,831). Specific person beats advice — proven three times on your own account (Mom 25,119; brothers 20,831; anchor static 19,096).'
+      url: 'https://www.instagram.com/reel/DefFO30kpP4/',
+      who: 'David Meltzer (767k, faith + business coach — evening rotation). Posted 10/14: “There are moments as a parent when love has to be very clear…” PUBLIC_PROXY.',
+      views: '49,465',
+      comments: '14 (1,006 likes)',
+      why: 'His only breakout of the fortnight — nearly 13x his best advice reel of these two weeks (advice baseline runs 1,198–3,905). Same law your own account keeps proving: specific person beats advice (your top 3: Mom 26,624, brothers 20,831, anchor 19,096 — all specific people).'
     },
-    tweak: 'THE TWEAK — keep his structure, drop his drill-sergeant energy. Calm-coach register: the label you carried before the business quietly disproved it (faith, family, the room all welcome), one clear next step at the end. Copy the confession-first mechanic, not the tone.',
+    tweak: 'THE TWEAK — his mechanic is yours already: a parenting confession where love sets the standard, calm-coach register, faith/family welcome, one clear next step. Drop his hustle framing. This is the grandfather static, cross-validated from outside for the first time.',
     postIdeas: [
-      'FILM ONE identity-confession reel today (the Bedros mechanic in your voice). Reason: identity median 2,541 (n=21) vs 917 for reels overall (n=65); statics still beat reels 1,696 (n=96) vs 917 — but this one earns a reel because the Mom static just proved specific-person content travels furthest.',
-      'Also today (decided last night, no refilm needed): queue the grandfather STATIC in the morning window — one image, his exact words as the caption. And the integrator static climbed 1,481 → 1,656, still below the 2,541 identity median but statics settle slowly — grade it Tuesday as planned.'
+      'TOMORROW’S ONE ADJUSTMENT: actually ship the grandfather STATIC in the morning window (one image, his exact words as caption). It was queued for this morning and did not go out — no post from you today on IG or TT. Reason: statics 1,696 (n=96) vs reels 917 (n=65); identity theme median 2,541 (n=21); Meltzer’s parenting breakout + your Mom static (still climbing, 25,119 → 26,624 today) both say specific-person wins.',
+      'Integrator static (10/17): 1,481 → 1,656 this morning → 1,765 tonight — crossed your static median (1,696). Modest beat; grade it Tuesday as planned. Notable: 65 likes on 1,765 views = 3.7% like-rate vs Mom static’s 1.6% — the partnership theme holds attention even at low reach.'
     ]
   },
-  note: 'SCAN 7:00a ET (rotation: liamottley + bedroskeuilian + gerardadams; rowancheung + davidmeltzer rest this morning): Bedros’s biggest reel of the month is a room/event announcement — the Toronto Scale Syndicate mastermind, 266,699 views — and Gerard’s Dec 7–9 faith-driven founders event did 29,347 views with 136 comments, ≈10x his advice reels (1.5k–3.9k). Two accounts, one law: the room outpulls the advice. That is 1BB’s lane — a room-announcement beat belongs in this week’s plan. OWN DATA (official API): Drey 2 IG posts in 10 days (10/15 at 0 views, 10/17 at 300 — both misses vs the 653 reel median); Kevin 17 posts, Mom static now #1 tracked post at 25,119. Provenance: lookalike stats PUBLIC_PROXY (TokScript public API); founder stats OFFICIAL_API (Zernio REST → posts_all.csv).'
+  note: 'SCAN 6:00p ET (evening rotation: rowancheung + davidmeltzer, liamottley bonus): Meltzer posted twice today (1,504 + 1,198 — baseline advice pace, nothing new). Rowan posted at 5:19p ET, 5,546 views inside ~45 minutes — normal for him; his fortnight peak is a named-story reel (E-MAP robotic lab, 107,886). Liam has been quiet 8 days. Nothing in tonight’s scan changes strategy; it reinforces it — the specific, named, personal thing outpulls advice and news in every lane we track. OWN DATA (official API): Drey posted one reel today (137 views @ ~6h, tracking under median, 0 comments); Kevin posted nothing today — the queued grandfather static slipped. Provenance: lookalike stats PUBLIC_PROXY (TokScript public API, pulled this run); founder stats OFFICIAL_API (Zernio REST → pm_delta_2026-10-19.json; medians from posts_all.csv @ 6:30a refresh).'
 };

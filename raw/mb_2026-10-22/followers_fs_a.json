@@ -1,0 +1,173 @@
+{
+ "accounts": [
+  {
+   "_id": "6a1c7e1e2b2567671a7f25ee",
+   "profileId": "6a1c7e15ddae9b125c09b44b",
+   "isActive": true,
+   "platform": "instagram",
+   "username": "itisdrey",
+   "displayName": "Drey | AI Tools for Entrepreneurs",
+   "profilePicture": "https://scontent-lhr11-1.xx.fbcdn.net/v/t51.82787-15/763588144_18609759007063883_8729379721618687048_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7d201b&_nc_ohc=KcT2-lnsq_QQ7kNvwEXf2v1&_nc_oc=Adp8LiwRITDxV-sAQeFDSIQX_bEhdMpWSsF7wOHdDkiU9qNAcp-RWVfh-b9kbpTENzg&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=AL-3X8kEAAAA&_nc_gid=i9HU7veN5-HPNdgG0O9Jjw&oh=00_AQNPatSAE3LyQpTjqY6EhKXlyEtNN9D92cMbDdQrO0SyXQ&oe=6ADF5F61",
+   "currentFollowers": 8114,
+   "lastUpdated": "2026-10-22T03:26:56.273Z",
+   "growth": 11,
+   "growthPercentage": 0.14,
+   "dataPoints": 15,
+   "accountStats": {
+    "mediaCount": 201,
+    "followsCount": 4423
+   }
+  },
+  {
+   "_id": "6a1c97b22b2567671a7ff845",
+   "profileId": "6a1c974bef50f100a7678591",
+   "isActive": true,
+   "platform": "instagram",
+   "username": "kclavier",
+   "displayName": "Kevin Clavier",
+   "profilePicture": "https://scontent-cdg4-1.cdninstagram.com/v/t51.82787-19/848696672_18647856076040713_2803462158200255969_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41NjkuQzMifQ%3D%3D&_nc_ohc=ar9r935EQqMQ7kNvwHdKJQm&_nc_oc=AdoOC2cMKdTgeUXTCvcn56attgxH4unr31j4pCqcL5t0lVYh3w0L-RD1qkMNmzn9dzs&_nc_zt=24&_nc_ht=scontent-cdg4-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=KAAxdShLlGEriyOJqW_efA&_nc_tpa=Q5bMBQIKL08Zy65DB3LSOB_78aIISxKg18CcAEtUm0s4VtEstWrPKyIfb6IvAuuIRs8GebooDQ1dUzCY1g&oh=00_AQM3UPjDI9fjtknQicv1tYc_LECC4n4YQCSWRmpXH6Vkkw&oe=6ADF43AC",
+   "currentFollowers": 15473,
+   "lastUpdated": "2026-10-22T03:27:30.216Z",
+   "growth": 186,
+   "growthPercentage": 1.22,
+   "dataPoints": 15,
+   "accountStats": {
+    "mediaCount": 1201,
+    "accountType": "BUSINESS",
+    "followsCount": 835,
+    "instagramScopedId": "17841401221363448"
+   }
+  }
+ ],
+ "stats": {
+  "6a1c7e1e2b2567671a7f25ee": [
+   {
+    "date": "2026-10-08",
+    "followers": 8103
+   },
+   {
+    "date": "2026-10-09",
+    "followers": 8102
+   },
+   {
+    "date": "2026-10-10",
+    "followers": 8105
+   },
+   {
+    "date": "2026-10-11",
+    "followers": 8114
+   },
+   {
+    "date": "2026-10-12",
+    "followers": 8115
+   },
+   {
+    "date": "2026-10-13",
+    "followers": 8114
+   },
+   {
+    "date": "2026-10-14",
+    "followers": 8117
+   },
+   {
+    "date": "2026-10-15",
+    "followers": 8115
+   },
+   {
+    "date": "2026-10-16",
+    "followers": 8116
+   },
+   {
+    "date": "2026-10-17",
+    "followers": 8116
+   },
+   {
+    "date": "2026-10-18",
+    "followers": 8116
+   },
+   {
+    "date": "2026-10-19",
+    "followers": 8117
+   },
+   {
+    "date": "2026-10-20",
+    "followers": 8116
+   },
+   {
+    "date": "2026-10-21",
+    "followers": 8116
+   },
+   {
+    "date": "2026-10-22",
+    "followers": 8114
+   }
+  ],
+  "6a1c97b22b2567671a7ff845": [
+   {
+    "date": "2026-10-08",
+    "followers": 15287
+   },
+   {
+    "date": "2026-10-09",
+    "followers": 15289
+   },
+   {
+    "date": "2026-10-10",
+    "followers": 15319
+   },
+   {
+    "date": "2026-10-11",
+    "followers": 15330
+   },
+   {
+    "date": "2026-10-12",
+    "followers": 15337
+   },
+   {
+    "date": "2026-10-13",
+    "followers": 15352
+   },
+   {
+    "date": "2026-10-14",
+    "followers": 15380
+   },
+   {
+    "date": "2026-10-15",
+    "followers": 15382
+   },
+   {
+    "date": "2026-10-16",
+    "followers": 15396
+   },
+   {
+    "date": "2026-10-17",
+    "followers": 15406
+   },
+   {
+    "date": "2026-10-18",
+    "followers": 15418
+   },
+   {
+    "date": "2026-10-19",
+    "followers": 15437
+   },
+   {
+    "date": "2026-10-20",
+    "followers": 15449
+   },
+   {
+    "date": "2026-10-21",
+    "followers": 15460
+   },
+   {
+    "date": "2026-10-22",
+    "followers": 15473
+   }
+  ]
+ },
+ "dateRange": {
+  "from": "2026-10-08T00:00:00.000Z",
+  "to": "2026-10-22T23:59:59.999Z"
+ },
+ "granularity": "daily"
+}

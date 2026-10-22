@@ -1,0 +1,1672 @@
+{
+ "summary": {
+  "total": 83,
+  "healthy": 79,
+  "warning": 1,
+  "error": 3,
+  "needsReconnect": 3
+ },
+ "accounts": [
+  {
+   "accountId": "6a1c7e1e2b2567671a7f25ee",
+   "platform": "instagram",
+   "username": "itisdrey",
+   "displayName": "Drey | AI Tools for Entrepreneurs",
+   "profileId": "6a1c7e15ddae9b125c09b44b",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:51.765Z"
+   }
+  },
+  {
+   "accountId": "6a1c7ebe2b2567671a7f2ba0",
+   "platform": "youtube",
+   "username": "dreydrey9000",
+   "displayName": "Drey",
+   "profileId": "6a1c7e15ddae9b125c09b44b",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T09:41:31.487Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T08:41:34.099Z"
+   }
+  },
+  {
+   "accountId": "6a1c7f242b2567671a7f30a4",
+   "platform": "tiktok",
+   "username": "dreydrey9000",
+   "displayName": "Drey",
+   "profileId": "6a1c7e15ddae9b125c09b44b",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-23T05:11:30.166Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:31:05.962Z"
+   }
+  },
+  {
+   "accountId": "6a1c97592b2567671a7ff475",
+   "platform": "linkedin",
+   "username": "Kevin Clavier",
+   "displayName": "Kevin Clavier",
+   "profileId": "6a1c974bef50f100a7678591",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-24T18:19:49.390Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:41:10.283Z"
+   }
+  },
+  {
+   "accountId": "6a1c978d2b2567671a7ff63f",
+   "platform": "youtube",
+   "username": "kevinclavier",
+   "displayName": "Kevin Clavier",
+   "profileId": "6a1c974bef50f100a7678591",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T11:19:07.060Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:19:10.365Z"
+   }
+  },
+  {
+   "accountId": "6a1c97a12b2567671a7ff6ff",
+   "platform": "tiktok",
+   "username": "kevin.clavier",
+   "displayName": "Kevin Clavier",
+   "profileId": "6a1c974bef50f100a7678591",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-23T02:28:33.382Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:21:25.132Z"
+   }
+  },
+  {
+   "accountId": "6a1c97b22b2567671a7ff845",
+   "platform": "instagram",
+   "username": "kclavier",
+   "displayName": "Kevin Clavier",
+   "profileId": "6a1c974bef50f100a7678591",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-10T19:32:24.061Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:28:11.883Z"
+   }
+  },
+  {
+   "accountId": "6a1d948b2b2567671a88230d",
+   "platform": "linkedin",
+   "username": "Andre Thomas",
+   "displayName": "Andre Thomas",
+   "profileId": "6a1c7e15ddae9b125c09b44b",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-01T20:01:38.625Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:41:08.202Z"
+   }
+  },
+  {
+   "accountId": "6a20a4062b2567671aba437c",
+   "platform": "twitter",
+   "username": "SocialDrey",
+   "displayName": "Drey",
+   "profileId": "6a1c7e15ddae9b125c09b44b",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T12:10:40.031Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:10:40.294Z"
+   }
+  },
+  {
+   "accountId": "6a22ef3c2b2567671ae5de46",
+   "platform": "threads",
+   "username": "kclavier",
+   "displayName": "kclavier",
+   "profileId": "6a1c974bef50f100a7678591",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-12T15:56:55.934Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:58:49.013Z"
+   }
+  },
+  {
+   "accountId": "6a22ef482b2567671ae5deda",
+   "platform": "twitter",
+   "username": "_KevinClavier",
+   "displayName": "Kevin Clavier",
+   "profileId": "6a1c974bef50f100a7678591",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T12:23:42.544Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-06-05T15:47:08.551Z"
+   }
+  },
+  {
+   "accountId": "6a2326142b2567671aea49f8",
+   "platform": "threads",
+   "username": "itisdrey",
+   "displayName": "itisdrey",
+   "profileId": "6a1c7e15ddae9b125c09b44b",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-04T23:47:41.840Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:21:24.629Z"
+   }
+  },
+  {
+   "accountId": "6a2326702b2567671aea4d08",
+   "platform": "facebook",
+   "username": "Drey",
+   "displayName": "Drey",
+   "profileId": "6a1c7e15ddae9b125c09b44b",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-20T18:42:57.223Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:21:26.337Z"
+   }
+  },
+  {
+   "accountId": "6a45c57a9d9472faae4bc126",
+   "platform": "instagram",
+   "username": "coreykingofficial",
+   "displayName": "Corey King | Commercial Real Estate Investing",
+   "profileId": "6a45c566960b001f4203d6aa",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-10T20:57:12.391Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:50.759Z"
+   }
+  },
+  {
+   "accountId": "6a4819969d9472faae6b1a3b",
+   "platform": "twitter",
+   "username": "corey_king",
+   "displayName": "Corey King",
+   "profileId": "6a45c566960b001f4203d6aa",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T05:52:35.531Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-08-17T14:35:35.582Z"
+   }
+  },
+  {
+   "accountId": "6a4819dd9d9472faae6b1e09",
+   "platform": "tiktok",
+   "username": "coreyking.realestate",
+   "displayName": "coreyking.realestate",
+   "profileId": "6a45c566960b001f4203d6aa",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-23T03:52:36.624Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:56.355Z"
+   }
+  },
+  {
+   "accountId": "6a4819fd9d9472faae6b1f53",
+   "platform": "threads",
+   "username": "coreykingofficial",
+   "displayName": "coreykingofficial",
+   "profileId": "6a45c566960b001f4203d6aa",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-10T20:32:08.870Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:32:57.738Z"
+   }
+  },
+  {
+   "accountId": "6a4c11f19d9472faae9cc9a1",
+   "platform": "linkedin",
+   "username": "Corey King",
+   "displayName": "Corey King",
+   "profileId": "6a45c566960b001f4203d6aa",
+   "status": "error",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": false,
+   "tokenExpiresAt": "2026-09-04T20:37:04.634Z",
+   "needsReconnect": true,
+   "issues": [
+    "Token expired",
+    "Account inactive"
+   ],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-09-05T20:19:07.818Z"
+   }
+  },
+  {
+   "accountId": "6a5077d43ecd8aa3448714b0",
+   "platform": "youtube",
+   "username": "kyledsantos",
+   "displayName": "Kyle Santos",
+   "profileId": "6a5077b3175e8a5e1c65b5f7",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T09:42:33.160Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T08:42:35.646Z"
+   }
+  },
+  {
+   "accountId": "6a5078123ecd8aa3448716bc",
+   "platform": "instagram",
+   "username": "kyledsantos",
+   "displayName": "Kyle Darrel Santos",
+   "profileId": "6a5077b3175e8a5e1c65b5f7",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-17T04:51:48.620Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:27:53.707Z"
+   }
+  },
+  {
+   "accountId": "6a50782f3ecd8aa34487180e",
+   "platform": "tiktok",
+   "username": "kyle_darrel",
+   "displayName": "Kyle Darrel Santos",
+   "profileId": "6a5077b3175e8a5e1c65b5f7",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-23T02:29:04.860Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:59.073Z"
+   }
+  },
+  {
+   "accountId": "6a50f7ce3ecd8aa3449a568c",
+   "platform": "linkedin",
+   "username": "Kyle Darrel Santos",
+   "displayName": "Kyle Darrel Santos",
+   "profileId": "6a5077b3175e8a5e1c65b5f7",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-06T18:58:00.262Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T08:32:57.547Z"
+   }
+  },
+  {
+   "accountId": "6a529dca3ecd8aa344b86871",
+   "platform": "linkedin",
+   "username": "Emmitt Yale",
+   "displayName": "Emmitt Yale",
+   "profileId": "6a514c8677107ac0177832a5",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-25T16:00:32.961Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:31:35.433Z"
+   }
+  },
+  {
+   "accountId": "6a52ac4b3ecd8aa344ba1f71",
+   "platform": "instagram",
+   "username": "laviefit4u",
+   "displayName": "Emmitt | LaVieFit | Freedom",
+   "profileId": "6a514c8677107ac0177832a5",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-18T20:56:33.846Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:27:57.983Z"
+   }
+  },
+  {
+   "accountId": "6a52ac823ecd8aa344ba21a8",
+   "platform": "tiktok",
+   "username": "emmittyale",
+   "displayName": "Emmitt Yale",
+   "profileId": "6a514c8677107ac0177832a5",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-23T10:27:50.031Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:59.886Z"
+   }
+  },
+  {
+   "accountId": "6a5409703ecd8aa344d02839",
+   "platform": "youtube",
+   "username": "jennaphillips-paradise",
+   "displayName": "Jenna Phillips",
+   "profileId": "6a540957df7a13e828973a5e",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T09:44:46.676Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T08:44:48.226Z"
+   }
+  },
+  {
+   "accountId": "6a540b2e3ecd8aa344d03836",
+   "platform": "tiktok",
+   "username": "volleyballparadiseclub",
+   "displayName": "Volleyballparadiseclub",
+   "profileId": "6a540957df7a13e828973a5e",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T11:42:55.004Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:57.193Z"
+   }
+  },
+  {
+   "accountId": "6a540b503ecd8aa344d03ab8",
+   "platform": "instagram",
+   "username": "volleyballparadiseclub",
+   "displayName": "Volleyball Paradise Club",
+   "profileId": "6a540957df7a13e828973a5e",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-01T15:01:55.717Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:53.455Z"
+   }
+  },
+  {
+   "accountId": "6a5426783ecd8aa344d1a21a",
+   "platform": "twitter",
+   "username": "kylexsantos",
+   "displayName": "Kyle Darrel Santos",
+   "profileId": "6a5077b3175e8a5e1c65b5f7",
+   "status": "error",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-08-08T00:27:27.486Z",
+   "needsReconnect": true,
+   "issues": [
+    "Token auto-refresh is failing (retrying): Twitter refresh token expired or revoked. Please reconnect your X account.",
+    "Account inactive"
+   ],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-07-12T23:43:01.856Z"
+   }
+  },
+  {
+   "accountId": "6a5426a33ecd8aa344d1a3e1",
+   "platform": "threads",
+   "username": "kyledsantos",
+   "displayName": "kyledsantos",
+   "profileId": "6a5077b3175e8a5e1c65b5f7",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-19T23:52:31.687Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:22:55.548Z"
+   }
+  },
+  {
+   "accountId": "6a54ddfd3ecd8aa344dd22da",
+   "platform": "instagram",
+   "username": "christilynnfit",
+   "displayName": "Christi | Postpartum Weight Loss Coach",
+   "profileId": "6a54ddf45f268e8cb83d1c4e",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-20T12:52:10.645Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:50.488Z"
+   }
+  },
+  {
+   "accountId": "6a54ed1b3ecd8aa344de3798",
+   "platform": "instagram",
+   "username": "vinpetronelli",
+   "displayName": "Vin Petronelli ARNP",
+   "profileId": "6a54ecefd42c71657ca14b24",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-20T13:57:30.177Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:27:43.986Z"
+   }
+  },
+  {
+   "accountId": "6a54ed3c3ecd8aa344de38f6",
+   "platform": "tiktok",
+   "username": "vin.petronelli",
+   "displayName": "Vin Petronelli",
+   "profileId": "6a54ecefd42c71657ca14b24",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T21:09:26.858Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:31:05.746Z"
+   }
+  },
+  {
+   "accountId": "6a54ed5a3ecd8aa344de3a82",
+   "platform": "youtube",
+   "username": "vincentpetronelli",
+   "displayName": "Vincent Petronelli",
+   "profileId": "6a54ecefd42c71657ca14b24",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T11:13:49.461Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:13:50.904Z"
+   }
+  },
+  {
+   "accountId": "6a54ed833ecd8aa344de3d0c",
+   "platform": "linkedin",
+   "username": "Vin Petronelli",
+   "displayName": "Vin Petronelli",
+   "profileId": "6a54ecefd42c71657ca14b24",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-26T03:44:22.654Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:32:58.629Z"
+   }
+  },
+  {
+   "accountId": "6a5691333d50078def7058f9",
+   "platform": "phone",
+   "username": "+19708070217",
+   "displayName": "+19708070217",
+   "profileId": "6a1b3e1cdfb695116d28f508",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": false,
+   "tokenValid": true,
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null
+  },
+  {
+   "accountId": "6a5691583d50078def705aa9",
+   "platform": "sms",
+   "username": "+19708070217",
+   "displayName": "+19708070217",
+   "profileId": "6a1b3e1cdfb695116d28f508",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": false,
+   "tokenValid": true,
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null
+  },
+  {
+   "accountId": "6a5802c83d50078def908f2b",
+   "platform": "threads",
+   "username": "dr.shannonrussell",
+   "displayName": "dr.shannonrussell",
+   "profileId": "6a5802be75fcda77df6ef15d",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-02T22:02:19.233Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:02:17.961Z"
+   }
+  },
+  {
+   "accountId": "6a5802ec3d50078def9090d6",
+   "platform": "instagram",
+   "username": "dr.shannonrussell",
+   "displayName": "Dr. Shannon Russell DPT, CSCS, USAW | Women\u2019s Fitness Coach",
+   "profileId": "6a5802be75fcda77df6ef15d",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-02T22:02:58.571Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:28:53.138Z"
+   }
+  },
+  {
+   "accountId": "6a594b0c3d50078defb6ada4",
+   "platform": "instagram",
+   "username": "tiffanydreamlivingfl",
+   "displayName": "Tiffany - Dream Living Florida | St Pete Real-Estate Agent",
+   "profileId": "6a594afc999f0210c7155429",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-03T21:21:55.499Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:28:05.234Z"
+   }
+  },
+  {
+   "accountId": "6a594b423d50078defb6b036",
+   "platform": "youtube",
+   "username": "dreamlivingflorida727",
+   "displayName": "Tiffany McAlister - Dream Living Florida",
+   "profileId": "6a594afc999f0210c7155429",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T09:44:46.462Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T08:44:48.229Z"
+   }
+  },
+  {
+   "accountId": "6a5a714e3d50078defcdb555",
+   "platform": "twitter",
+   "username": "BDHStPete",
+   "displayName": "Vincent Petronelli",
+   "profileId": "6a54ecefd42c71657ca14b24",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T12:27:39.758Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-07-17T18:15:50.054Z"
+   }
+  },
+  {
+   "accountId": "6a5e969a3d50078def118103",
+   "platform": "linkedin",
+   "username": "Shannon Russell, PT, DPT, CSCS, USAW",
+   "displayName": "Shannon Russell, PT, DPT, CSCS, USAW",
+   "profileId": "6a5802be75fcda77df6ef15d",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-21T14:27:51.497Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:22:31.225Z"
+   }
+  },
+  {
+   "accountId": "6a5e96aa3d50078def11820a",
+   "platform": "tiktok",
+   "username": "dr.shannonrussell",
+   "displayName": "dr.shannonrussell",
+   "profileId": "6a5802be75fcda77df6ef15d",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-23T04:11:32.616Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:35.225Z"
+   }
+  },
+  {
+   "accountId": "6a637e88542d8bc5a6e08c1b",
+   "platform": "facebook",
+   "username": "dreamlivingflorida",
+   "displayName": "Tiffany McAlister Dream Living Florida",
+   "profileId": "6a594afc999f0210c7155429",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-01T15:07:57.311Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:15:39.615Z"
+   }
+  },
+  {
+   "accountId": "6a638058542d8bc5a6e0d695",
+   "platform": "twitter",
+   "username": "DLFTiffany",
+   "displayName": "Tiffany McAlister",
+   "profileId": "6a594afc999f0210c7155429",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T05:37:50.996Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-07-24T15:10:19.154Z"
+   }
+  },
+  {
+   "accountId": "6a638422542d8bc5a6e11c3b",
+   "platform": "facebook",
+   "username": "Dr. Shannon Russell",
+   "displayName": "Dr. Shannon Russell",
+   "profileId": "6a5802be75fcda77df6ef15d",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-01T15:27:59.120Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:57:05.574Z"
+   }
+  },
+  {
+   "accountId": "6a6384e0542d8bc5a6e127ae",
+   "platform": "youtube",
+   "username": "dr.shannonrussell",
+   "displayName": "Dr. Shannon Russell PT, DPT, CSCS, USAW",
+   "profileId": "6a5802be75fcda77df6ef15d",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T11:12:45.539Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:12:47.553Z"
+   }
+  },
+  {
+   "accountId": "6a6bdbf0df17280d93008cf2",
+   "platform": "facebook",
+   "username": "Volleyball Paradise Club",
+   "displayName": "Volleyball Paradise Club",
+   "profileId": "6a540957df7a13e828973a5e",
+   "status": "error",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": false,
+   "tokenExpiresAt": "2026-11-07T23:21:35.389Z",
+   "needsReconnect": true,
+   "issues": [
+    "Access token was invalidated by Meta (Meta error 190). Reconnect the account.",
+    "Account inactive",
+    "The platform rejected the stored credentials. Reconnect the account."
+   ],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-01T03:07:40.302Z"
+   }
+  },
+  {
+   "accountId": "6a6bdd7edf17280d93009f30",
+   "platform": "linkedin",
+   "username": "Alana Crumbley, CCIM",
+   "displayName": "Alana Crumbley, CCIM",
+   "profileId": "6a6bdb6eacef40e5b9177abd",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-27T22:36:01.828Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-21T14:02:36.192Z"
+   }
+  },
+  {
+   "accountId": "6a6bdda4df17280d9300a0ed",
+   "platform": "instagram",
+   "username": "crumbdogmillionaire",
+   "displayName": "Alana Crumbley, CCIM",
+   "profileId": "6a6bdb6eacef40e5b9177abd",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-17T23:27:55.677Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:27:36.225Z"
+   }
+  },
+  {
+   "accountId": "6a6cb71bdf17280d931c6da6",
+   "platform": "facebook",
+   "username": "Future Financial",
+   "displayName": "Future Financial",
+   "profileId": "6a5077b3175e8a5e1c65b5f7",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-08T14:57:16.372Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:06:24.260Z"
+   }
+  },
+  {
+   "accountId": "6a6fa443df17280d93e04846",
+   "platform": "linkedin",
+   "username": "JENNA PHILLIPS",
+   "displayName": "JENNA PHILLIPS",
+   "profileId": "6a540957df7a13e828973a5e",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-30T04:34:12.001Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:38:04.584Z"
+   }
+  },
+  {
+   "accountId": "6a6ff546df17280d93ed6471",
+   "platform": "twitter",
+   "username": "vballparadise",
+   "displayName": "Jenna Phillips",
+   "profileId": "6a540957df7a13e828973a5e",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T06:25:34.710Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-08-03T01:56:23.409Z"
+   }
+  },
+  {
+   "accountId": "6a6ff64edf17280d93ed7cbe",
+   "platform": "threads",
+   "username": "volleyballparadiseclub",
+   "displayName": "volleyballparadiseclub",
+   "profileId": "6a540957df7a13e828973a5e",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-21T02:02:50.951Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:38:31.811Z"
+   }
+  },
+  {
+   "accountId": "6a711741df17280d933a9472",
+   "platform": "googlebusiness",
+   "username": "Beef Bootlegger - Farm Raised Local Steak Delivery",
+   "displayName": "Beef Bootlegger - Farm Raised Local Steak Delivery",
+   "profileId": "6a71170eff28da9b128ce789",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T11:19:06.987Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:19:08.741Z"
+   }
+  },
+  {
+   "accountId": "6a712b8eeb10586dadc9fd68",
+   "platform": "youtube",
+   "username": "beefbootlegger",
+   "displayName": "Stuart Hartley",
+   "profileId": "6a71170eff28da9b128ce789",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T11:20:42.395Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:20:45.289Z"
+   }
+  },
+  {
+   "accountId": "6a712bb0eb10586dadc9ff71",
+   "platform": "instagram",
+   "username": "beef_bootlegger",
+   "displayName": "Boss Bootlegger | Luxury Beef",
+   "profileId": "6a71170eff28da9b128ce789",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-22T00:03:06.790Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:40:45.860Z"
+   }
+  },
+  {
+   "accountId": "6a712beaeb10586dadca03b1",
+   "platform": "tiktok",
+   "username": "beefbootlegger",
+   "displayName": "BeefBootlegger",
+   "profileId": "6a71170eff28da9b128ce789",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-23T04:19:08.142Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:40:24.754Z"
+   }
+  },
+  {
+   "accountId": "6a72368fd0fe733d1a193c87",
+   "platform": "instagram",
+   "username": "hunterswellnessclub",
+   "displayName": "Hunter Schaeffer | Hybrid Fitness & Performance Coach",
+   "profileId": "6a7236850a4fe96d8dd661bf",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-22T19:02:32.614Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:28:03.702Z"
+   }
+  },
+  {
+   "accountId": "6a763918d0fe733d1a1ac8c2",
+   "platform": "linkedin",
+   "username": "Tiffany McAlister",
+   "displayName": "Tiffany McAlister",
+   "profileId": "6a594afc999f0210c7155429",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-05T19:01:34.502Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T08:40:47.678Z"
+   }
+  },
+  {
+   "accountId": "6a763941d0fe733d1a1acce4",
+   "platform": "googlebusiness",
+   "username": "Tiffany McAlister, Dream Living Florida, Inc",
+   "displayName": "Tiffany McAlister, Dream Living Florida, Inc",
+   "profileId": "6a594afc999f0210c7155429",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T10:57:26.025Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:04:17.411Z"
+   }
+  },
+  {
+   "accountId": "6a89d4af77555aae0168c19f",
+   "platform": "linkedin",
+   "username": "Amber Stout",
+   "displayName": "Amber Stout",
+   "profileId": "6a89d0f8600ae9f5bc75f8af",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-20T16:03:09.477Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T04:19:07.900Z"
+   }
+  },
+  {
+   "accountId": "6a89d4cb77555aae0168c6d5",
+   "platform": "instagram",
+   "username": "amberstoutmortgage",
+   "displayName": "Amber Stout | Investor Mortgage Broker",
+   "profileId": "6a89d0f8600ae9f5bc75f8af",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-10T17:01:48.094Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:50.952Z"
+   }
+  },
+  {
+   "accountId": "6a89d50f77555aae0168d290",
+   "platform": "linkedin",
+   "username": "Rick Stout",
+   "displayName": "Rick Stout",
+   "profileId": "6a89d4167dadca95d16c0776",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-20T16:02:47.277Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:40:21.191Z"
+   }
+  },
+  {
+   "accountId": "6a89d5ca77555aae016916be",
+   "platform": "instagram",
+   "username": "realrickstout",
+   "displayName": "Rick Stout | Tampa & St. Pete REALTOR \u00ae",
+   "profileId": "6a89d4167dadca95d16c0776",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-10T17:02:55.761Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:19:09.572Z"
+   }
+  },
+  {
+   "accountId": "6a89d69977555aae016a3c06",
+   "platform": "reddit",
+   "username": "amb_leigh",
+   "displayName": "amb_leigh",
+   "profileId": "6a89d0f8600ae9f5bc75f8af",
+   "status": "warning",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-20T12:20:11.719Z",
+   "needsReconnect": false,
+   "issues": [
+    "Analytics sync was requested over 6 hours ago and has not completed"
+   ],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "stalled",
+    "lastSyncedAt": null
+   }
+  },
+  {
+   "accountId": "6a975f0277555aae01bb1e24",
+   "platform": "instagram",
+   "username": "tasteorganic_",
+   "displayName": "Organic Meal Prep",
+   "profileId": "6a975d41c3e718508c74ca55",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-20T23:27:56.967Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:51.653Z"
+   }
+  },
+  {
+   "accountId": "6a975f4677555aae01bb2782",
+   "platform": "facebook",
+   "username": "tasteorganicstpete",
+   "displayName": "Taste Organic",
+   "profileId": "6a975d41c3e718508c74ca55",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-10T23:32:33.774Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:00:48.321Z"
+   }
+  },
+  {
+   "accountId": "6a97cdbf77555aae01be704a",
+   "platform": "instagram",
+   "username": "1bbownersclub",
+   "displayName": "1BB Owners Club | AI Systems",
+   "profileId": "6a964d02b4ef8699072e05ff",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-21T07:22:48.555Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:30:52.321Z"
+   }
+  },
+  {
+   "accountId": "6a98881e77555aae01c77266",
+   "platform": "linkedin",
+   "username": "Taste Organic",
+   "displayName": "Taste Organic",
+   "profileId": "6a975d41c3e718508c74ca55",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-01T20:33:32.830Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T09:52:48.852Z"
+   }
+  },
+  {
+   "accountId": "6a98884577555aae01c77394",
+   "platform": "youtube",
+   "username": "tasteorganic",
+   "displayName": "Taste Organic",
+   "profileId": "6a975d41c3e718508c74ca55",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T05:41:04.957Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T04:41:06.329Z"
+   }
+  },
+  {
+   "accountId": "6a9889dc77555aae01c78349",
+   "platform": "threads",
+   "username": "thekassandrareyes_",
+   "displayName": "thekassandrareyes_",
+   "profileId": "6a975d41c3e718508c74ca55",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-01T20:40:59.690Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:41:07.794Z"
+   }
+  },
+  {
+   "accountId": "6a988b6a77555aae01c79684",
+   "platform": "twitter",
+   "username": "tasteorganic_",
+   "displayName": "Taste Organic",
+   "profileId": "6a975d41c3e718508c74ca55",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T05:37:13.260Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-09-02T20:47:44.748Z"
+   }
+  },
+  {
+   "accountId": "6a988ba077555aae01c799e9",
+   "platform": "googlebusiness",
+   "username": "Taste Organic",
+   "displayName": "Taste Organic",
+   "profileId": "6a975d41c3e718508c74ca55",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T11:41:04.878Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:41:06.291Z"
+   }
+  },
+  {
+   "accountId": "6a988c4077555aae01c79ef4",
+   "platform": "tiktok",
+   "username": "tasteorganic",
+   "displayName": "tasteorganic",
+   "profileId": "6a975d41c3e718508c74ca55",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-23T09:07:34.783Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:00:29.349Z"
+   }
+  },
+  {
+   "accountId": "6a9b33f377555aae01dcfc4a",
+   "platform": "linkedin",
+   "username": "Duston Harper ",
+   "displayName": "Duston Harper ",
+   "profileId": "6a9b32568619ac4b0f5e5c89",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-03T21:16:00.420Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T08:33:25.211Z"
+   }
+  },
+  {
+   "accountId": "6a9b353777555aae01dd024d",
+   "platform": "youtube",
+   "username": "groundplanco",
+   "displayName": "Duston Harper | What's Working in Sales",
+   "profileId": "6a9b32568619ac4b0f5e5c89",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T11:24:33.427Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:24:34.935Z"
+   }
+  },
+  {
+   "accountId": "6a9b35b377555aae01dd041b",
+   "platform": "instagram",
+   "username": "duston_h",
+   "displayName": "Duston Harper",
+   "profileId": "6a9b32568619ac4b0f5e5c89",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-03T21:18:42.631Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:00:49.954Z"
+   }
+  },
+  {
+   "accountId": "6a9b527b77555aae01dd73fa",
+   "platform": "threads",
+   "username": "duston_h",
+   "displayName": "duston_h",
+   "profileId": "6a9b32568619ac4b0f5e5c89",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-11-03T23:21:31.280Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:05:32.407Z"
+   }
+  },
+  {
+   "accountId": "6aa1f9c1726ebfe037d09bc1",
+   "platform": "twitter",
+   "username": "dustonharper_",
+   "displayName": "Duston Harper",
+   "profileId": "6a9b32568619ac4b0f5e5c89",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-22T07:34:47.818Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-09-10T16:30:56.937Z"
+   }
+  },
+  {
+   "accountId": "6aa203c1726ebfe037d0c7b4",
+   "platform": "tiktok",
+   "username": "duston.harper",
+   "displayName": "dustonharper_",
+   "profileId": "6a9b32568619ac4b0f5e5c89",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-10-23T05:35:15.103Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:19:08.645Z"
+   }
+  },
+  {
+   "accountId": "6ad69295d19a1dcad4987027",
+   "platform": "instagram",
+   "username": "heyvexdiamond",
+   "displayName": "Vex Diamond",
+   "profileId": "6ad67663b000c6b771dcc63c",
+   "status": "healthy",
+   "canPost": true,
+   "canFetchAnalytics": true,
+   "analyticsSupported": true,
+   "tokenValid": true,
+   "tokenExpiresAt": "2026-12-18T21:58:45.683Z",
+   "needsReconnect": false,
+   "issues": [],
+   "messagingRestriction": null,
+   "analyticsSync": {
+    "status": "ok",
+    "lastSyncedAt": "2026-10-22T10:19:09.624Z"
+   }
+  }
+ ]
+}

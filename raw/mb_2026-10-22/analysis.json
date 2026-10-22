@@ -1,0 +1,264 @@
+{
+ "drey": {
+  "series": [
+   {
+    "date": "2026-10-08",
+    "reach": 62,
+    "impressions": 75,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-09",
+    "reach": 56,
+    "impressions": 58,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-10",
+    "reach": 37,
+    "impressions": 25,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-11",
+    "reach": 42,
+    "impressions": 45,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-12",
+    "reach": 12,
+    "impressions": 15,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-13",
+    "reach": 31,
+    "impressions": 34,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-14",
+    "reach": 18,
+    "impressions": 28,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-15",
+    "reach": 19,
+    "impressions": 37,
+    "posts": 1
+   },
+   {
+    "date": "2026-10-16",
+    "reach": 22,
+    "impressions": 15,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-17",
+    "reach": 147,
+    "impressions": 174,
+    "posts": 1
+   },
+   {
+    "date": "2026-10-18",
+    "reach": 113,
+    "impressions": 131,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-19",
+    "reach": 161,
+    "impressions": 176,
+    "posts": 1
+   },
+   {
+    "date": "2026-10-20",
+    "reach": 487,
+    "impressions": 737,
+    "posts": 2
+   },
+   {
+    "date": "2026-10-21",
+    "reach": 621,
+    "impressions": 801,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-22",
+    "reach": 208,
+    "impressions": 212,
+    "posts": 0
+   }
+  ],
+  "wow": {
+   "last7": {
+    "reach": 1570,
+    "impressions": 2071,
+    "likes": 48,
+    "comments": 6,
+    "shares": 1,
+    "saves": 1,
+    "interactions": 56,
+    "posts": 0
+   },
+   "prior7": {
+    "reach": 258,
+    "impressions": 280,
+    "likes": 7,
+    "comments": 1,
+    "shares": 0,
+    "saves": 0,
+    "interactions": 8,
+    "posts": 0
+   },
+   "posts_l7": 0,
+   "posts_p7": 0
+  }
+ },
+ "kevin": {
+  "series": [
+   {
+    "date": "2026-10-08",
+    "reach": 2289,
+    "impressions": 3818,
+    "posts": 3
+   },
+   {
+    "date": "2026-10-09",
+    "reach": 3288,
+    "impressions": 5072,
+    "posts": 3
+   },
+   {
+    "date": "2026-10-10",
+    "reach": 7539,
+    "impressions": 12526,
+    "posts": 1
+   },
+   {
+    "date": "2026-10-11",
+    "reach": 2279,
+    "impressions": 4143,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-12",
+    "reach": 2399,
+    "impressions": 3618,
+    "posts": 1
+   },
+   {
+    "date": "2026-10-13",
+    "reach": 3795,
+    "impressions": 5685,
+    "posts": 5
+   },
+   {
+    "date": "2026-10-14",
+    "reach": 2554,
+    "impressions": 3800,
+    "posts": 1
+   },
+   {
+    "date": "2026-10-15",
+    "reach": 3054,
+    "impressions": 5086,
+    "posts": 2
+   },
+   {
+    "date": "2026-10-16",
+    "reach": 3609,
+    "impressions": 6313,
+    "posts": 2
+   },
+   {
+    "date": "2026-10-17",
+    "reach": 13530,
+    "impressions": 21873,
+    "posts": 1
+   },
+   {
+    "date": "2026-10-18",
+    "reach": 4133,
+    "impressions": 7072,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-19",
+    "reach": 3957,
+    "impressions": 5852,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-20",
+    "reach": 1995,
+    "impressions": 3376,
+    "posts": 0
+   },
+   {
+    "date": "2026-10-21",
+    "reach": 4116,
+    "impressions": 7299,
+    "posts": 1
+   },
+   {
+    "date": "2026-10-22",
+    "reach": 1674,
+    "impressions": 2691,
+    "posts": 0
+   }
+  ],
+  "wow": {
+   "last7": {
+    "reach": 34394,
+    "impressions": 56871,
+    "likes": 1030,
+    "comments": 36,
+    "shares": 13,
+    "saves": 46,
+    "interactions": 1125,
+    "posts": 0
+   },
+   "prior7": {
+    "reach": 24143,
+    "impressions": 38662,
+    "likes": 1019,
+    "comments": 49,
+    "shares": 42,
+    "saves": 89,
+    "interactions": 1199,
+    "posts": 0
+   },
+   "posts_l7": 0,
+   "posts_p7": 0
+  }
+ },
+ "followers": {
+  "drey": {
+   "first": {
+    "date": "2026-10-08",
+    "followers": 8103
+   },
+   "last": {
+    "date": "2026-10-22",
+    "followers": 8114
+   },
+   "delta": 11,
+   "current": 8114
+  },
+  "kevin": {
+   "first": {
+    "date": "2026-10-08",
+    "followers": 15287
+   },
+   "last": {
+    "date": "2026-10-22",
+    "followers": 15473
+   },
+   "delta": 186,
+   "current": 15473
+  }
+ }
+}

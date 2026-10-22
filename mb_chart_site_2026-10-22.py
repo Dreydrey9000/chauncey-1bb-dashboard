@@ -123,7 +123,7 @@ kevin_md = f"""# Kevin — Morning Brief {DATE}
 
 ## Why
 - Mom's birthday photo (Oct 16): 32,286 views, 19,001 reach, 507 likes, 19 saves — the single driver of the +42% reach. Personal/family statics keep outrunning reels; third 10k+ static in the baseline.
-- The more interesting signal: Kevin cut volume 14 → 6 posts and reach still rose +42%, with interactions per post up 86 → 188. Fewer, better posts are working — the dip in total interactions is just fewer posts, not weaker posts.
+- The more interesting signal: Kevin cut volume 14 → 6 posts and reach still rose +42%, with interactions per post up 86 → 188 (received attribution, same basis as the WoW totals; per-post lifetime analytics read 83 → 129 — same direction). Fewer, better posts are working — the dip in total interactions is just fewer posts, not weaker posts.
 - Yesterday's LaVida 1%ers carousel (2,744 views, 51 likes, 5 comments) is a solid start.
 
 ## Move

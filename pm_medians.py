@@ -16,7 +16,7 @@ today = datetime.date.today().isoformat()
 print('TODAY:', today)
 
 def med(vals):
-    return statistics.median(vals) if vals else None
+    return statistics.median(vals) if vals else 0
 
 def fmt(m):
     return f'{m:.0f}' if m is not None else 'n/a'

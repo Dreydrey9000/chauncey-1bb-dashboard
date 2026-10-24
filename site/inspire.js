@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-23 (PM) — evening delta: today’s posts vs medians + one adjustment per founder',
+  date: '2026-10-24 (AM) — morning edition: one imitation reel + one filming decision per founder',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DeVj-Ijk9Eq/',
-      who: 'Liam Ottley (41.6k, systems proof — posted 2026-10-11, recycled: no new lookalike posts today): “The 5 tools I use in every AI makeover.” 27,443 views, 858 likes, 176 comments at the 6:00p re-pull — still his top-engagement reel. PUBLIC_PROXY.',
-      views: '27,443',
-      comments: '176 (858 likes)',
-      why: 'Nothing new posted today by Liam or Bedros, so the morning pick stands. The winning mechanic remains the transformation frame (one operator, before → after); the comment-gating (“comment TOOLS”) is his, not yours — skip it.'
+      url: 'https://www.instagram.com/reel/DexApZHEUoB/',
+      who: 'Liam Ottley (41.6k, systems proof — posted 10-21, new to our pick pool; yesterday’s 6p scan reported nothing new from him): “If someone tells you your AI build is almost done, ask how much time is left for testing.” 11,596 views, 325 likes, 8 comments. PUBLIC_PROXY.',
+      views: '11,596',
+      comments: '8 (325 likes)',
+      why: 'Same lane you post in (AI systems), opposite frame: not tool-talk — an operator-side truth that punctures the “almost done” illusion. It wins on trust, not engagement bait (8 comments but ~28% of his followers reached). Your ai_systems reels have 6 of your last 9 at ≤302 views; his version of the same topic lands because it defends the client, not the tool.'
     },
-    tweak: 'THE TWEAK (unchanged): open with the operator pain in your own history (“I used to lose Sundays to invoicing”), close with the build receipt — the actual system running, actual time saved [verified result]. No tool list, no comment-gating. Plain analogy in the middle.',
+    tweak: 'THE TWEAK: confession → receipt. “I used to tell clients ‘almost done’ too — until I started showing the test log.” Open on the drowning-operator pain (Sundons lost to invoicing, chasing updates), one plain analogy (a build without a testing phase is a car with no brakes — you find out on the hill), close on the actual receipt: the system running, hours returned [verified result — real number before filming]. No comment-gating, no tool list.',
     postIdeas: [
-      'DELTA (OFFICIAL_API): today’s dating-app reel (12:02p ET) sits at 51 views at 6p vs your reel median 302 (n=27, all-time) — trending miss, second off-lane topic in two days. Yesterday’s detox reel settled at 224 = 0.74x median — that confirms the opinion lane’s 7th straight miss. Same-day views can lag, so confirm at the 6:30a refresh.',
-      'ADJUSTMENT FOR TOMORROW: film the confession→build-receipt reel FIRST, before any topical or opinion idea — the morning prediction (≥540 views, 2x reel median, medium confidence) is still open; nothing posted today tested it. Weekend static also stands: your statics median 838 (n=21) nearly triples your reels 302 — cut the $0-bank confession as a text static.'
+      'FILM FIRST TODAY (OFFICIAL_API): the confession→build-receipt reel above. The 10-23 prediction (≥540 views = 2x your reel median 270, medium confidence) is still open — nothing posted since has tested it. Your only recent breakout was exactly this shape: the 300-pounds confession reel, 1,511 views = 5.6x median. Meanwhile the dating-app reel settled at 110 = 0.41x median — third off-lane topic in a row (detox 225, dating 110). Pattern: non-business topics are costing you the lane.',
+      'WEEKEND STATIC: cut the $0-bank confession as a text static — your statics median 838 runs 3.1x your reels median 270 (n=21 vs n=28). Confession theme median 3,490 (n=2) is your best theme on the account.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DesoC_Mp_OP/',
-      who: 'Bedros Keuilian (1.0M, discipline+application funnel — posted 2026-10-20, recycled: nothing new from him today): “If you’re in your 20s and 30s this will give you a massive advantage.” 397,699 views, 3,352 likes, 43 comments at the 6:00p re-pull — still his #1 of the last 12. PUBLIC_PROXY.',
-      views: '397,699',
-      comments: '43 (3,352 likes)',
-      why: 'No new Bedros posts today, so the direct-address pick stands: one founder moment, one audience-specific promise. It is the celebrity-scale version of what your calling static is doing on your feed right now.'
+      url: 'https://www.instagram.com/reel/DewwCTtsB4b/',
+      who: 'Bedros Keuilian (1.0M, discipline+application funnel — posted 10-21, new since yesterday’s recycled pick): “Influencers are going broke… the influencer bubble has burst. Your audience…” 186,090 views, 2,354 likes, 57 comments. PUBLIC_PROXY.',
+      views: '186,090',
+      comments: '57 (2,354 likes)',
+      why: 'The mechanic: name a thing that is collapsing that your audience secretly resents, then redirect to the durable version — his route is audience → trust → offer. For you the durable version is the room: real relationships outlast reach. Your room theme median 1,473 and identity median 2,626 say your people already reward this redirect.'
     },
-    tweak: 'THE TWEAK (unchanged): “If you built the business but lost the room you started in — this is for you.” Calm coach voice, faith welcome, land on ONE next step (DM CLUB). No hype cadence.',
+    tweak: 'THE TWEAK: “Reach is rented. The room is owned.” Calm coach register — the man with a million followers and nobody who returns his call vs the man with twelve who do. Faith welcome, family welcome, land on ONE next step (DM CLUB). No hype cadence, no enemy — Bedros punches; you open a door.',
     postIdeas: [
-      'DELTA (OFFICIAL_API): mastermind/room static (1:26p) at 731 views vs your 30d statics median 2,349 (n=20) — under so far, but your statics climb for days; judge at the 6:30a refresh. “3 weeks” discipline reel (2:49p) at 339 in ~3h — too early (reel median 910). The 10-21 calling static climbed 3,733 → 3,899 = 1.7x statics median and still rising — identity/calling is your double-down lane.',
-      'ADJUSTMENT FOR TOMORROW: the grandfather-standards static has now slipped three days — post it before noon. Identity is your best 30d lane (median 2,349, n=6) and the AM prediction (≥2,842) stays open until it ships.'
+      'FILM TODAY (OFFICIAL_API): the direct-address reel above — “If you built the business but lost the room you started in, this is for you.” Your 10-21 calling static (identity lane) climbed to 4,055 = 1.7x your 30d statics median 2,423 — identity/calling is the double-down lane. The 10-23 work-ethics reel settled at 475 = 0.54x reel median 873: the sermon frame underperforms the identity frame.',
+      'SHIP BEFORE NOON: the grandfather-standards static has slipped three days. Identity median 2,626 (n=20) is your best lane and statics outdeliver reels 2.8:1 (1,701 vs 873 median — 2,423 vs 873 over 30d). Post the static first, film the reel second.'
     ]
   },
-  note: 'SCAN 6:00p ET (rotation: liamottley + bedroskeuilian + davidmeltzer — all full payloads; gerardadams still dead since 10-22). NOTHING NEW today from Liam or Bedros. Meltzer posted one reel: 1,040 views on 767k followers (0.14%) — cadence without a lane, re-confirmed. No new signal, so morning imitation picks are recycled with refreshed counts. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulls this run, 6:00p ET); founder stats OFFICIAL_API (Zernio REST 3-day pull this run; medians from posts_all.csv through 2026-10-22). NEXT MOVE: tomorrow morning — Drey films confession→build-receipt first; Kevin ships the grandfather static before noon.'
+  note: 'SCAN 7:00a ET (rotation: liamottley + rowancheung + bedroskeuilian + davidmeltzer — all full dated payloads; gerardadams still dead since 10-22). NEW: Liam 10-21 testing-truth reel and Bedros 10-21 influencer-bubble reel, both picked above. Rowan (contrast profile) keeps printing daily AI-news volume — 94,283 views on a brain-scan story 10-22 — reach without a buying audience; Meltzer shows the opposite failure, 1,320 views on 767k followers. Your lane is neither: it is Liam’s trust frame at Bedros’s clarity. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulls this run, ~8:16a ET); founder stats OFFICIAL_API (posts_all.csv via 6:30a Zernio refresh, through 2026-10-23). NEXT MOVE: Drey films confession→receipt before anything topical; Kevin ships the grandfather static before noon, then films the room direct-address.'
 };

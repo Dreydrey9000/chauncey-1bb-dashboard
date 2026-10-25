@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-25 (AM) — correction: Drey’s ‘miss’ finished 2nd-best; the pattern is confession-first vs tool-first, not lane',
+  date: '2026-10-25 (PM) — evening delta: no new lookalike signal; Drey shipped the receipt but opened advice-frame — re-cut confession-first; Kevin day 2 quiet — ship the identity static',
   drey: {
     reel: {
       url: 'https://www.instagram.com/reel/DeuubqRujjS/',
-      who: 'Rowan Cheung (489k, AI news — contrast profile) — FRESH pick, posted 10-20. “We built an AI Bot to help our team decide where our marketing budget should go”: 20,993 views, 159 likes, 32 comments. PUBLIC_PROXY.',
-      views: '20,993',
-      comments: '32 (159 likes)',
-      why: 'Liam is still dark since 10-21, so this morning’s fresh reel comes from Rowan — but pick his BUILD reel, not his news reels. It is the exact confession→receipt spine in your lane: our problem → we built it → receipt. Honest footnote: even on Rowan’s account the build reel runs at ~1/5 of his news ceiling (Brain-IT did 101k Tuesday) — you cannot win his news game, and you don’t need to. Your own account is the proof: your two confession-openers did 1,523 and 1,358 while your five tool-explainer reels since 10-17 all landed ≤302 with near-zero engagement.'
+      who: 'Rowan Cheung (489k, contrast profile) — STANDING pick, re-verified in tonight’s pull (posted 10-20). “We built an AI Bot to help our team decide where our marketing budget should go”: 21,401 views, 163 likes, 32 comments. PUBLIC_PROXY.',
+      views: '21,401',
+      comments: '32 (163 likes)',
+      why: 'No lookalike posted today — Rowan’s newest is 10-23, Bedros 10-21, Meltzer 10-23, Liam dark since 10-21 — so the standing pick stands, URL and numbers re-pulled tonight. The spine is still the one to steal: our problem → we built it → receipt. Your version opens with the pain you lived, not with “we built.”'
     },
-    tweak: 'THE TWEAK: borrow Rowan’s spine, keep YOUR opener. First person, on camera: “I used to [name the drowning-operator pain]” → one plain analogy → show the thing actually running → close on hours returned [verified result — real number before filming]. Rowan opens with “we built”; you open with the pain you lived. 25–39 seconds — both your winners sat there. No tool list, no comment-gating.',
+    tweak: 'THE ADJUSTMENT FOR TOMORROW: re-cut or refilm today’s reel with the CONFESSION FIRST. You shipped the receipt half (calls you already made → content) but opened “You’re too busy…” — the advice frame, now 0-for-5 above median (111, 226, 128, 238, 302 views vs your 232 30d reel median) while both confession-openers did 1,526 and 1,626 (6.6–7.0x). First person, on camera: “I used to lose Sundays making content” (your real version) → one plain analogy → the thing actually running → hours returned [verified result]. No verdict on today’s reel yet — 146 views at 6h is the same hour yesterday’s read 121 before finishing 1,626.',
     postIdeas: [
-      'FILM THIS MORNING (OFFICIAL_API): the confession→receipt AI reel — the open 10-23 prediction (≥540 views = 2x your 232 30d reel median, medium confidence) is STILL untested and this is the film that tests it. Correction from last night: your stress-eating reel finished at 1,358 (5.9x median, 19 likes, 2 comments, 7,647ms avg watch) after I called it a miss at 121 views six hours in. Refined read: Drey-confessing carries even off-lane; tool-explaining is the failure mode. Confession opener is the requirement; the AI lane supplies the receipt.',
-      'IF YOU ONLY HAVE 30 MINUTES (OFFICIAL_API): cut the confession as a text static instead — statics outdeliver reels on your account (838 vs 302 all-time median), and your one 30d static did 1,026 = 4.4x your reel median. A Sunday static beats a rushed reel.'
+      'GRADE AT 7A (OFFICIAL_API): today’s reel (De7FzMZCM5L, posted 12:02p) — logged prediction: as-cut it finishes 150–400 views (0.6–1.7x median, medium confidence) and misses the ≥540 bar from the 10-23 prediction; a confession-first re-cut is the real test of the pattern. If it still finishes ≥540, the advice frame isn’t dead — confession is just stronger. Do not call it before the refresh.',
+      'YESTERDAY’S WIN, UPDATED (OFFICIAL_API): the stress-eating reel is now 1,626 in the CSV (1,358 at 7a, 121 at 6h yesterday) — 7.0x your 232 30d reel median, best reel of your window, 19 likes, 7,647ms avg watch. Confession-first is your one proven multiplier; everything else runs at median.'
     ]
   },
   kevin: {
     reel: {
       url: 'https://www.instagram.com/reel/DeuRrm_sPRL/',
-      who: 'Bedros Keuilian (1.0M, discipline+application funnel) — FRESH URL this time, posted 10-20. “If you can break these two habits that are killing your success, you can win big in life”: 214,517 views, 2,516 likes, 36 comments — his 2nd-biggest reel of his last 12. He has posted nothing newer since 10-21 (same reel recycled twice already). PUBLIC_PROXY.',
-      views: '214,517',
-      comments: '36 (2,516 likes)',
-      why: 'The two-habits mechanic is standards made concrete — your identity lane (median 2,454, n=6) is exactly this register, and it is your strongest. Yesterday confirmed the advice-frame dip: the 3-weeks reel settled at 574 (0.66x your 876 reel median) and the mastermind ask-questions static at 1,332 (0.52x your 2,588 statics median — the floor of your window). Lesson delivered beats question posed; standard held beats both.'
+      who: 'Bedros Keuilian (1.0M, discipline+application funnel) — STANDING pick, re-verified tonight (posted 10-20). “If you can break these two habits that are killing your success, you can win big in life”: 214,861 views, 2,526 likes, 36 comments — still the 2nd-biggest of his last 12; nothing newer from him since 10-21. PUBLIC_PROXY.',
+      views: '214,861',
+      comments: '36 (2,526 likes)',
+      why: 'Quiet day across your entire scan — nothing new to imitate, so the two-standards reel stands. Your 10-23 pair settled exactly where the morning called them: mastermind static 1,396 = 0.54x your 2,588 30d static median; 3-weeks reel 610 = 0.70x your 876 reel median. The advice frame is confirmed dead on your account; your identity lane (2,454 median, n=6) is still waiting for its post.'
     },
-    tweak: 'THE TWEAK: flip Bedros’s habits into YOUR standards. Calm coach register: “The two standards I won’t negotiate in any room I walk into” — held, not preached. Faith welcome, family welcome, ONE next step (DM CLUB). You open a door; you don’t punch. Bedros yells two habits; you quietly hold two standards — that contrast IS the Kevin version.',
+    tweak: 'THE ADJUSTMENT FOR TOMORROW: ship the grandfather-standards identity STATIC before any filming — day 2 of no posts puts it on day 6 of slipping, and it sits in your highest-median lane (identity 2,454) on your best format (statics outdeliver reels 2.96:1). Then, if filming: Bedros’s two habits flipped into YOUR two standards — calm coach register, faith/family welcome, ONE next step (DM CLUB). He yells two habits; you quietly hold two standards. That contrast is the Kevin version.',
     postIdeas: [
-      'SHIP FIRST, FILM SECOND (OFFICIAL_API): the grandfather-standards identity static is on day 5 of slipping — post it today before anything else. Statics outdeliver your reels 2.96:1 (2,588 vs 876 median) and identity is your top lane (2,454, n=6). Prediction: it lands 2,000+ (medium confidence) if it ships as a standard-you-hold, not a lesson-you-teach.',
-      'THEN FILM (OFFICIAL_API): the Bedros two-standards reel above in your room register — room is your second lane (median 1,983, n=10, max 7,100). Avoid the sermon/discipline frame: that lane runs 969, your weakest.'
+      'QUEUE AFTER TWO-STANDARDS (PUBLIC_PROXY): Bedros’s 10-21 “Influencers are going broke… your audience trusts you” (187,373 views, 2,372 likes, 57 comments) is the audience-trust mechanic — the closest thing to your room lane anyone in the scan has posted this month. Kevin version: “The room trusts the operator, not the influencer.”',
+      'DATA REMINDER (OFFICIAL_API): room is your #2 lane (median 1,985, n=10, max 7,106); keep avoiding the discipline/sermon frame (969 median, n=7, your weakest).'
     ]
   },
-  note: 'SCAN 7:01a ET: both your primary lanes are quiet — Liam and Bedros newest 10-21, so fresh picks came from Rowan’s build reel (only builder-lane reel posted this week by any profile) and Bedros’s 10-20 reel. Meltzer posts daily but tops out ~6k views on 767k followers — reach-without-room in one number, and the reason Kevin’s room lane is the counter-position. Corrections graded from last night: Drey’s stress-eating 121→1,358 (my miss-call reversed — the win pattern is confession-first, not AI-lane-only); Kevin’s two advice-frame posts confirmed sub-median. Provenance: lookalike stats PUBLIC_PROXY (TokScript pull this run); founder stats OFFICIAL_API (posts_all.csv 6:31a refresh through 2026-10-24).'
+  note: 'EVENING DELTA 6:00p ET: every lookalike quiet since the 7a scan — no new signal, so both standing picks were re-pulled and re-verified tonight rather than swapped. Drey posted at 12:02p — the receipt half of the confession→receipt reel, opened advice-frame: 146 views at 6h, no verdict until the 7a refresh (yesterday: 121 at this hour → 1,626 final). Kevin: no post, day 2 — the identity static is the first move tomorrow. Correction carried forward: stress-eating now 1,626 (was 1,358 at 7a). Founder stats OFFICIAL_API (Zernio REST pull 6:00p + posts_all.csv 6:31a refresh); lookalike stats PUBLIC_PROXY (TokScript pull 6:02p). Liam dark since 10-21; gerardadams still dead since 10-22.'
 };

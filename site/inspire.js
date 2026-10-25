@@ -1,35 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-24 (PM) — evening delta: lookalikes silent today, Drey’s 4th off-lane reel trending a miss, Kevin dark; one adjustment each for tomorrow',
+  date: '2026-10-25 (AM) — correction: Drey’s ‘miss’ finished 2nd-best; the pattern is confession-first vs tool-first, not lane',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DexApZHEUoB/',
-      who: 'Liam Ottley (41.6k, systems proof) — RECYCLED from this morning: nothing new posted in your lane today. His 10-21 reel “If someone tells you your AI build is almost done, ask how much time is left for testing” now reads 11,763 views, 328 likes, 8 comments (edged up from 11,596 this morning). PUBLIC_PROXY.',
-      views: '11,763',
-      comments: '8 (328 likes)',
-      why: 'Tonight’s delta makes this pick MORE relevant, not less: your stress-eating reel (posted 12:02p ET today) sits at 121 views after ~6 hours = 0.5x your 225 reel median and tracking below even the dating reel’s 110. That is 4 off-lane reels in a row (detox 225, dating 110, stress-eating 121 trending). Liam’s reel is the exact opposite move: an operator-side truth in the AI-build lane you own. Nothing from Rowan or anyone else displaces it — the morning pick stands.'
+      url: 'https://www.instagram.com/reel/DeuubqRujjS/',
+      who: 'Rowan Cheung (489k, AI news — contrast profile) — FRESH pick, posted 10-20. “We built an AI Bot to help our team decide where our marketing budget should go”: 20,993 views, 159 likes, 32 comments. PUBLIC_PROXY.',
+      views: '20,993',
+      comments: '32 (159 likes)',
+      why: 'Liam is still dark since 10-21, so this morning’s fresh reel comes from Rowan — but pick his BUILD reel, not his news reels. It is the exact confession→receipt spine in your lane: our problem → we built it → receipt. Honest footnote: even on Rowan’s account the build reel runs at ~1/5 of his news ceiling (Brain-IT did 101k Tuesday) — you cannot win his news game, and you don’t need to. Your own account is the proof: your two confession-openers did 1,523 and 1,358 while your five tool-explainer reels since 10-17 all landed ≤302 with near-zero engagement.'
     },
-    tweak: 'THE TWEAK (unchanged from morning, film it tomorrow): confession → receipt. “I used to tell clients ‘almost done’ too — until I started showing the test log.” Open on the drowning-operator pain, one plain analogy (a build without a testing phase is a car with no brakes), close on the system running and hours returned [verified result — real number before filming]. No tool list, no comment-gating.',
+    tweak: 'THE TWEAK: borrow Rowan’s spine, keep YOUR opener. First person, on camera: “I used to [name the drowning-operator pain]” → one plain analogy → show the thing actually running → close on hours returned [verified result — real number before filming]. Rowan opens with “we built”; you open with the pain you lived. 25–39 seconds — both your winners sat there. No tool list, no comment-gating.',
     postIdeas: [
-      'TOMORROW’S ADJUSTMENT (OFFICIAL_API): go back to the lane. Four off-lane reels have averaged ~152 views (225/110/121 + trending) against your 225 30d reel median, while your one lane confession reel did 1,511 = 6.7x that median. The open prediction from 10-23 (confession→receipt ≥540 = 2x median, medium confidence) is still untested — nothing you have posted since has been in shape to test it. Film it first thing.',
-      'WEEKEND BACKSTOP: if you only have 30 minutes, cut the confession as a text static instead — your statics median 838 runs 3.1x your reels median 270 (all-time n=21 vs n=28). Off-lane reels are the one thing NOT to repeat tomorrow.'
+      'FILM THIS MORNING (OFFICIAL_API): the confession→receipt AI reel — the open 10-23 prediction (≥540 views = 2x your 232 30d reel median, medium confidence) is STILL untested and this is the film that tests it. Correction from last night: your stress-eating reel finished at 1,358 (5.9x median, 19 likes, 2 comments, 7,647ms avg watch) after I called it a miss at 121 views six hours in. Refined read: Drey-confessing carries even off-lane; tool-explaining is the failure mode. Confession opener is the requirement; the AI lane supplies the receipt.',
+      'IF YOU ONLY HAVE 30 MINUTES (OFFICIAL_API): cut the confession as a text static instead — statics outdeliver reels on your account (838 vs 302 all-time median), and your one 30d static did 1,026 = 4.4x your reel median. A Sunday static beats a rushed reel.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DewwCTtsB4b/',
-      who: 'Bedros Keuilian (1.0M, discipline+application funnel) — RECYCLED from this morning: he has posted nothing since 10-21. The influencer-bubble reel now reads 186,591 views, 2,366 likes, 57 comments (from 186,090 this morning). PUBLIC_PROXY.',
-      views: '186,591',
-      comments: '57 (2,366 likes)',
-      why: 'You posted nothing today (latest is 10-23), and yesterday both posts missed: the 3-weeks/work reel settled at 475 = 0.56x your 847 30d reel median, and the mastermind static at 1,106 = 0.46x your 2,423 30d statics median. The sermon/patience frame underperforms; your identity lane (median 2,423) and room lane (median 1,886) still lead. Bedros’s collapse-then-redirect mechanic maps straight onto the room.'
+      url: 'https://www.instagram.com/reel/DeuRrm_sPRL/',
+      who: 'Bedros Keuilian (1.0M, discipline+application funnel) — FRESH URL this time, posted 10-20. “If you can break these two habits that are killing your success, you can win big in life”: 214,517 views, 2,516 likes, 36 comments — his 2nd-biggest reel of his last 12. He has posted nothing newer since 10-21 (same reel recycled twice already). PUBLIC_PROXY.',
+      views: '214,517',
+      comments: '36 (2,516 likes)',
+      why: 'The two-habits mechanic is standards made concrete — your identity lane (median 2,454, n=6) is exactly this register, and it is your strongest. Yesterday confirmed the advice-frame dip: the 3-weeks reel settled at 574 (0.66x your 876 reel median) and the mastermind ask-questions static at 1,332 (0.52x your 2,588 statics median — the floor of your window). Lesson delivered beats question posed; standard held beats both.'
     },
-    tweak: 'THE TWEAK (unchanged from morning): “Reach is rented. The room is owned.” Calm coach register — the man with a million followers and nobody who returns his call vs the man with twelve who do. Faith welcome, family welcome, ONE next step (DM CLUB). You open a door; you don’t punch.'
-    ,
+    tweak: 'THE TWEAK: flip Bedros’s habits into YOUR standards. Calm coach register: “The two standards I won’t negotiate in any room I walk into” — held, not preached. Faith welcome, family welcome, ONE next step (DM CLUB). You open a door; you don’t punch. Bedros yells two habits; you quietly hold two standards — that contrast IS the Kevin version.',
     postIdeas: [
-      'TOMORROW’S ADJUSTMENT (OFFICIAL_API): ship the grandfather-standards identity static FIRST — it has now slipped four days. Identity is your best 30d lane (median 2,423, n=6) and statics outdeliver reels 2.9:1 (2,423 vs 847). Yesterday’s discipline-frame reel (475) is the third data point that the sermon frame underperforms the identity frame.',
-      'THEN FILM: the room direct-address reel — “If you built the business but lost the room you started in, this is for you.” Room median 1,886 (n=10, max 7,100) makes it your second-strongest lane and the natural Bedros counter.'
+      'SHIP FIRST, FILM SECOND (OFFICIAL_API): the grandfather-standards identity static is on day 5 of slipping — post it today before anything else. Statics outdeliver your reels 2.96:1 (2,588 vs 876 median) and identity is your top lane (2,454, n=6). Prediction: it lands 2,000+ (medium confidence) if it ships as a standard-you-hold, not a lesson-you-teach.',
+      'THEN FILM (OFFICIAL_API): the Bedros two-standards reel above in your room register — room is your second lane (median 1,983, n=10, max 7,100). Avoid the sermon/discipline frame: that lane runs 969, your weakest.'
     ]
   },
-  note: 'SCAN 6:05p ET: no new signal — Bedros and Liam latest still 10-21, Meltzer newest 10-23 (1,435 views on 767k followers — the reach-without-room failure mode in one number), gerardadams still returning partial payloads (dead since 10-22, excluded). Evening delta: Drey posted a 4th consecutive off-lane reel (121 views, trending 0.5x median); Kevin posted nothing today and the identity static is on day 4 of slipping. ONE ADJUSTMENT FOR TOMORROW: Drey returns to the lane and films confession→receipt; Kevin ships the grandfather identity static before anything else. Provenance: lookalike stats PUBLIC_PROXY (TokScript pulls this run); founder stats OFFICIAL_API (Zernio REST evening pull + posts_all.csv 6:30a refresh, through 2026-10-23; today’s Drey numbers from the live evening pull).'
+  note: 'SCAN 7:01a ET: both your primary lanes are quiet — Liam and Bedros newest 10-21, so fresh picks came from Rowan’s build reel (only builder-lane reel posted this week by any profile) and Bedros’s 10-20 reel. Meltzer posts daily but tops out ~6k views on 767k followers — reach-without-room in one number, and the reason Kevin’s room lane is the counter-position. Corrections graded from last night: Drey’s stress-eating 121→1,358 (my miss-call reversed — the win pattern is confession-first, not AI-lane-only); Kevin’s two advice-frame posts confirmed sub-median. Provenance: lookalike stats PUBLIC_PROXY (TokScript pull this run); founder stats OFFICIAL_API (posts_all.csv 6:31a refresh through 2026-10-24).'
 };

@@ -1,46 +1,52 @@
-# Compare yesterday's data.js (HEAD) with today's: biggest view mover + follower deltas.
-import json, re
+#!/usr/bin/env python3
+"""Compare current site/data.js against a saved previous copy (day-over-day movers)."""
+import json, re, sys
 
 def load(path):
-    s = open(path, encoding='utf-8').read()
-    m = re.search(r'window\.DATA\s*=\s*(\{.*\})\s*;?\s*$', s, re.S)
-    return json.loads(m.group(1) if m else s[s.index('{'):s.rindex('}') + 1])
+    txt = open(path, encoding="utf-8").read()
+    m = re.search(r"window\.DATA\s*=\s*(\{.*\});\s*$", txt, re.S)
+    if not m:
+        raise SystemExit(f"no window.DATA found in {path}")
+    return json.loads(m.group(1))
 
-prev = load('/tmp/data_prev.js')
-cur = load('/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/site/data.js')
-ACCTS = ['drey_ig', 'drey_tt', 'kevin_ig', 'kevin_tt', 'club_ig']
+def num(d, *keys):
+    for k in keys:
+        v = d.get(k) if isinstance(d, dict) else None
+        if isinstance(v, (int, float)):
+            return v
+    return None
 
-def get_all(d, a):
-    node = d.get(a) or {}
-    return node.get('all') or []
+prev = load("/tmp/prev_data.js")
+cur = load(sys.argv[1] if len(sys.argv) > 1 else "site/data.js")
 
-movers, new_posts = [], []
-for a in ACCTS:
-    pi = {r.get('url'): r for r in get_all(prev, a)}
-    for r in get_all(cur, a):
-        k = r.get('url')
-        if k not in pi:
-            new_posts.append((a, r))
-        else:
-            d = (r.get('v') or 0) - (pi[k].get('v') or 0)
-            if d:
-                movers.append((d, a, r))
+print("prev generated:", prev.get("generated"))
+print("cur  generated:", cur.get("generated"))
+for acct in ["drey_ig", "kevin_ig", "drey_tt", "kevin_tt", "club_ig"]:
+    p, c = prev.get(acct, {}), cur.get(acct, {})
+    pposts, cposts = num(p, "posts"), num(c, "posts")
+    print(f"{acct}: posts {pposts} -> {cposts}")
+    for label, keys in [("views90d", ("totalViews", "views90")), ("followers", ("followers",))]:
+        pv, cv = num(p, *keys), num(c, *keys)
+        if pv is not None or cv is not None:
+            print(f"  {label}: {pv} -> {cv}")
 
-print('TOP VIEW MOVERS (delta since yesterday):')
-for d, a, r in sorted(movers, key=lambda x: -x[0])[:6]:
-    print(f"  {d:+7}  {a}  {str(r.get('d'))[:10]}  now={r.get('v'):>7}  {str(r.get('t') or '')[:55]!r}")
+# follower history comparison if present
+for key in ["followerHistory", "followers_history"]:
+    if key in cur or key in prev:
+        ph = prev.get(key) or {}
+        ch = cur.get(key) or {}
+        for user in sorted(set(ph) | set(ch)):
+            pl, cl = ph.get(user), ch.get(user)
+            if isinstance(pl, list) and pl and isinstance(cl, list) and cl:
+                print(f"followers {user}: {pl[-1]} -> {cl[-1]} (last pts)")
 
-print('\nNEW POSTS since yesterday:', len(new_posts))
-for a, r in new_posts:
-    print(f"  {a}  {str(r.get('d'))[:16]}  v={r.get('v')}  {str(r.get('t') or '')[:55]!r}")
-
-def last_trend(node):
-    t = node.get('trend') if isinstance(node, dict) else node
-    return t[-1] if t else (None, None)
-
-print('\nFOLLOWERS (last trend point prev -> cur):')
-for f, name in [('dreyFollowers', 'drey'), ('kevinFollowers', 'kevin'), ('clubFollowers', 'club')]:
-    pd, pv = last_trend(prev.get(f) or {})
-    cd, cv = last_trend(cur.get(f) or {})
-    delta = (cv - pv) if (isinstance(pv, (int, float)) and isinstance(cv, (int, float))) else 'n/a'
-    print(f"  {name}: {pd} {pv} -> {cd} {cv}  (delta {delta})")
+# biggest mover among accounts: delta in totalViews (90d) and followers
+best = None
+for acct in ["drey_ig", "kevin_ig", "drey_tt", "kevin_tt", "club_ig"]:
+    p, c = prev.get(acct, {}), cur.get(acct, {})
+    pv, cv = num(p, "totalViews", "views90"), num(c, "totalViews", "views90")
+    if pv is not None and cv is not None:
+        d = cv - pv
+        if best is None or abs(d) > abs(best[1]):
+            best = (f"{acct} 90d views {pv}->{cv} ({d:+})", d)
+print("BIGGEST MOVER (views):", best[0] if best else "n/a")

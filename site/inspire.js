@@ -1,35 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-26 (PM) — evening: Drey’s 7th straight advice-frame opener is trending sub-300 again (prediction trending HIT); Kevin’s identity static missed views (706 vs 2,750) but pulled 11 comments vs his 2.5 median — conversation is the asset. One adjustment: Drey films the confession-first cut tomorrow, first thing.',
+  date: '2026-10-27 (AM) — morning: Drey films ONE thing today — the confession-first build-truth reel (his confession opens run 1,543/1,873 vs 111–302 for advice frames). Kevin films nothing: he ships a static (statics beat his reels 2:1). Graded yesterday: the sub-300 advice-frame call MISSED — the 10-26 reel compounded 169 → 1,323 overnight; lesson: grade at 24h+, never 6h.',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/De908KGDNBj/',
-      who: 'Liam Ottley (41.6k, systems proof) — posted TODAY 1:34p ET. Comment-gated lead magnet: "Comment ’10K’ and I’ll send it over." 10,707 views, 253 likes, 279 comments at ~4h. PUBLIC_PROXY.',
-      views: '10,707',
-      comments: '279 (253 likes)',
-      why: 'The gate works because it delivers a real artifact — his gated reels (this one, plus the 10-11 TOOLS reel: 28,012 views, 186 comments) pull 10-30x his normal comment count (8-27 on ungated). Comments are your single weakest metric (0-6 per post this month). Freshest reel in your lane today; Rowan quiet since 10-23.'
+      url: 'https://www.instagram.com/reel/DexApZHEUoB/',
+      who: 'Liam Ottley (41.6k, systems proof) — posted 10-21. “If someone tells you your AI build is almost done, ask how much time is left for testing. Anyone can get a demo working in a day now.” 12,485 views, 344 likes at 6 days (mature number). PUBLIC_PROXY.',
+      views: '12,485',
+      comments: '8 (344 likes)',
+      why: 'Unmined and squarely your lane: builder truth, zero tool-talk — demos are cheap, tested systems are the product. Your own October says the OPEN decides the reel: two confession opens did 1,543 and 1,873 views; six mature advice-frame opens finished 111–302. Yesterday’s gated-reel pick (De908KGDNBj) is still compounding: 10,707 → 14,551 views and 279 → 379 comments overnight — the comment gate keeps paying, relevant because comments are your weakest metric (0 on 8 of your last 10 posts).'
     },
-    tweak: 'THE TWEAK: gate something REAL, not a trick — e.g. the actual build checklist you run before trusting an AI build (no invented artifact; ship the real one). And open CONFESSION-FIRST: "I burned cash on an idea because AI called it genius" beats "You don’t have the money…" — your noon reel today is the 7th straight "You…" advice open, all under 310 views, while your two confession opens this month did 1,533 and 1,812. Logged prediction: confession-open + real gated artifact clears 540 views AND 15 comments in 48h. Medium confidence.'
-    ,
+    tweak: 'THE TWEAK: open confession-first, not “You…” — “I shipped a build that ‘worked.’ Then a client touched it.” Name the operator pain (the ‘two-week’ build that runs three months), land one plain analogy: the demo is the menu, the testing is the kitchen. Keep his comment-gate idea in your back pocket for the NEXT reel — one mechanic per post. Logged prediction: confession-open build-truth reel ≥1,000 views in 48h. Medium confidence.',
     postIdeas: [
-      'CONFESSION-OPEN ROOM REEL (OFFICIAL_API): room is your all-time best theme (top posts 13,177 and 4,557 in late Aug) and confession opens are your proven multiplier this month (1,533, 1,812). "I thought networking meant collecting contacts. Then I watched one room rewrite my month." Untested combo in the last 30 days.',
-      'GRADE, TRENDING (OFFICIAL_API): noon reel at 169 views / 0 likes / 0 comments at ~6h vs 226 median — the morning sub-300 advice-frame call is trending HIT; final grade tomorrow 7a. The confession-first ≥540 arm remains UNTESTED — nothing confession-open has shipped since 10-24.'
+      'CONFESSION × ROOM COMBO (OFFICIAL_API): room is your all-time best theme (top reels 13,177 and 4,557) but you have never run it with a confession open — your two confession opens (1,543, 1,873) both beat your 598 AI-systems median 3x. This week: “I thought a room was a room. Then I watched one conversation replace 3 months of trying.”',
+      'GRADE (OFFICIAL_API): yesterday AM’s “advice-frame stays sub-300” call = MISS — the 10-26 reel finished at 1,323 views (169 at the 6h read). Do not grade a reel same-day; 24h+ only. Today’s 10-27 room reel is already at 1,451 — no action needed, keep posting.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/De9sJSCMYHt/',
-      who: 'Bedros Keuilian (1.0M, discipline+application funnel) — posted TODAY 12:18p ET. Two-move framework: "1) Get very specific in who your ideal customer is. 2) Ask who has my ideal customer already." 214,301 views, 2,424 likes, 43 comments at ~6h. PUBLIC_PROXY.',
-      views: '214,301',
-      comments: '43 (2,424 likes)',
-      why: 'His biggest reel of the week — the numbered two-move framework is the mechanic, not the topic. Your lanes say run it as a STATIC: your statics median 2,750 vs reels 969 (2.84:1), and identity (2,545) and room (2,028) are your top themes. Meltzer also posted 4x today (18–7,576 views, volatile volume play).'
+      url: 'https://www.instagram.com/reel/Dejtbpos_HZ/',
+      who: 'Bedros Keuilian (1.0M, discipline+application funnel) — posted 10-16. “The two BIGGEST determining factors of success or failure: 1) The thoughts that occupy your mind. 2) The people you surround yourself with.” 139,203 views, 3,310 likes, 44 comments. PUBLIC_PROXY.',
+      views: '139,203',
+      comments: '44 (3,310 likes)',
+      why: 'This is YOUR board in one frame: identity (2,760 median, your top theme) and room (1,590, your #2) — and Bedros proves the two-item list still travels at scale. Ship it as a STATIC: your statics median 1,707 vs reels 855 (2:1, n=90 vs 59). Swapped in over yesterday’s lead-gen pick because it maps to your proven lanes instead of introducing a new one.'
     },
-    tweak: 'THE TWEAK: ship Bedros’s two-move framework as a STATIC in your calm coach register — "Two moves I give every owner: name your ideal client in one sentence. Then ask who already has their trust." Close with the room (150 owners, nobody raised a hand — your 10-23 moment) and ONE next step. No filming needed; statics are your best format. Logged prediction: clears 2,000. Medium confidence.',
+    tweak: 'THE TWEAK: write it, don’t film it — calm coach register, no gym-volume: “Two things set the ceiling on your next level: the thoughts you rehearse, and the people you sit with. You can outwork the first. The second picks you back up when you can’t.” Close with ONE next step: ask people to name the room they’re sitting in — your 10-26 static pulled 11 comments vs your 3 median; conversation is your asset, keep collecting it. Logged prediction: static ≥1,700 views AND ≥5 comments in 48h. Medium confidence.',
     postIdeas: [
-      'WORK THE 11 COMMENTS TONIGHT (OFFICIAL_API): today’s 10a static (706 views) is only the 4th post of your last 40 to hit 11+ comments (median 2.5; only the 41k post did better at 17). Views missed, conversation didn’t — reply to every comment tonight and follow up while it’s warm; conversation compounds into the room.',
-      'GRADE, TRENDING (OFFICIAL_API): morning call was identity static ≥2,000 — today’s static sits at 706 at ~8h (0.26x the 2,750 static median), trending MISS on views unless it compounds overnight; the 1p reel (342 at ~5h vs 969 reel median) also trending miss. Final grade tomorrow 7a. New evidence: identity/confession statics drive conversation, not just views.'
+      'WORK THE 11 COMMENTS (OFFICIAL_API): your 10-26 discipline static finished at 856 views (miss vs 2,000 call) but 11 comments — 4x your 3.0 static median, one of only a handful of posts to break 10 since September. Reply to every one today while the thread is warm; that thread is the top of your room funnel.',
+      'IDENTITY × FAMILY ANCHOR (OFFICIAL_API): your four biggest posts ever are identity-themed (43,363 / 29,531 / 18,724 / 13,337) — three are personal-story statics. One this week in that register: the standard you set at home and the one you set in the business are the same standard.'
     ]
   },
-  note: 'EVENING 6:00p ET: all three active lookalikes posted today — Bedros 214k two-move framework (12:18p), Liam comment-gated lead magnet with 279 comments (1:34p), Meltzer 4x with volatile numbers (18–7,576); Rowan quiet since 10-23; gerardadams still dead since 10-22 and not pulled. ONE ADJUSTMENT FOR TOMORROW: Drey films the confession-first cut before anything else — the advice frame is 7-for-7 under 310 and the confession arm of the prediction is still untested a week in. Kevin’s move is tonight, not tomorrow: work the 11 comments. Founder stats OFFICIAL_API (Zernio REST 6:01p + posts_all.csv 6:31a refresh); lookalike stats PUBLIC_PROXY (TokScript 6:01p).'
+  note: 'AM 7:00a ET scan: Rowan is back to daily posting — 6 reels since 10-19 at 22k–109k views, engine is the “AI did X in the real world” proof story (public-proxy framing, not your lane to copy directly — it IS the demand signal for real-outcome proof). Bedros dropped 3 reels ≥215k this week; Meltzer posts daily for volatile 1.3k–10.6k — volume without a frame doesn’t compound for him either. gerardadams still dead since 10-22, not pulled. ONE FILMING DECISION EACH: Drey films the confession-first build-truth reel before anything else; Kevin films nothing and ships the static. Founder stats OFFICIAL_API (Zernio REST + posts_all.csv, refreshed 10-27); lookalike stats PUBLIC_PROXY (TokScript public API, pulled 7:00a ET 10-27).'
 };

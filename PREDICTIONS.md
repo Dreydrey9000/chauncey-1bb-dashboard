@@ -14,3 +14,8 @@ Format: date | prediction | confidence | status
 ## 2026-10-17 AM (Chauncey)
 - [ ] DREY: Two Proof reels this weekend will lift daily reach above the 12–62 baseline band by Mon 10-19. Confidence: high. Grade: P1.
 - [ ] KEVIN: A named weekly personal-proof slot + carousel bias keeps weekly reach ≥20k next week (vs 25.2k this week). Confidence: medium-high. Grade: P2.
+
+## 2026-10-27 PM (Chauncey)
+- [ ] DREY: first comment-gated reel by 10-28 EOD → ≥5 comments within 48h (baseline: 0 comments on 8 of his last 10 posts, views running 3x median). Confidence: medium. Grade: P1.
+- [ ] KEVIN: statics-only through 10-30 → next static ≥ his 1,694 static median within 48h (today's 1:11p static: 925 + 19 likes in 5h). Confidence: medium. Grade: P1.
+- [ ] Standing evidence: Kevin reels 10-26→10-27 all six sub-median (454/627/158/88/65/396 vs 832 reel median). Reel lane rested 3 days. Confidence: high (observed).

@@ -1,0 +1,338 @@
+{
+ "drey_ig": {
+  "dailyData": [
+   {
+    "date": "2026-10-23",
+    "postCount": 1,
+    "platforms": {
+     "instagram": 1
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 170,
+      "reach": 141,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saves": 1,
+      "clicks": 0,
+      "views": 170,
+      "postCount": 1
+     }
+    },
+    "metrics": {
+     "impressions": 170,
+     "reach": 141,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 1,
+     "clicks": 0,
+     "views": 170
+    }
+   },
+   {
+    "date": "2026-10-24",
+    "postCount": 1,
+    "platforms": {
+     "instagram": 1
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 223,
+      "reach": 203,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "clicks": 0,
+      "views": 223,
+      "postCount": 1
+     }
+    },
+    "metrics": {
+     "impressions": 223,
+     "reach": 203,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saves": 0,
+     "clicks": 0,
+     "views": 223
+    }
+   },
+   {
+    "date": "2026-10-25",
+    "postCount": 1,
+    "platforms": {
+     "instagram": 1
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 1814,
+      "reach": 1431,
+      "likes": 24,
+      "comments": 3,
+      "shares": 1,
+      "saves": 1,
+      "clicks": 0,
+      "views": 1814,
+      "postCount": 1
+     }
+    },
+    "metrics": {
+     "impressions": 1814,
+     "reach": 1431,
+     "likes": 24,
+     "comments": 3,
+     "shares": 1,
+     "saves": 1,
+     "clicks": 0,
+     "views": 1814
+    }
+   },
+   {
+    "date": "2026-10-26",
+    "postCount": 1,
+    "platforms": {
+     "instagram": 1
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 299,
+      "reach": 229,
+      "likes": 4,
+      "comments": 3,
+      "shares": 0,
+      "saves": 0,
+      "clicks": 0,
+      "views": 299,
+      "postCount": 1
+     }
+    },
+    "metrics": {
+     "impressions": 299,
+     "reach": 229,
+     "likes": 4,
+     "comments": 3,
+     "shares": 0,
+     "saves": 0,
+     "clicks": 0,
+     "views": 299
+    }
+   },
+   {
+    "date": "2026-10-27",
+    "postCount": 2,
+    "platforms": {
+     "instagram": 2
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 4598,
+      "reach": 3527,
+      "likes": 15,
+      "comments": 0,
+      "shares": 1,
+      "saves": 3,
+      "clicks": 0,
+      "views": 4598,
+      "postCount": 2
+     }
+    },
+    "metrics": {
+     "impressions": 4598,
+     "reach": 3527,
+     "likes": 15,
+     "comments": 0,
+     "shares": 1,
+     "saves": 3,
+     "clicks": 0,
+     "views": 4598
+    }
+   }
+  ],
+  "platformBreakdown": [
+   {
+    "platform": "instagram",
+    "postCount": 6,
+    "impressions": 7104,
+    "reach": 5531,
+    "likes": 45,
+    "comments": 6,
+    "shares": 2,
+    "saves": 5,
+    "clicks": 0,
+    "views": 7104
+   }
+  ]
+ },
+ "kevin_ig": {
+  "dailyData": [
+   {
+    "date": "2026-10-23",
+    "postCount": 2,
+    "platforms": {
+     "instagram": 2
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 6074,
+      "reach": 3964,
+      "likes": 102,
+      "comments": 2,
+      "shares": 1,
+      "saves": 9,
+      "clicks": 0,
+      "views": 6074,
+      "postCount": 2
+     }
+    },
+    "metrics": {
+     "impressions": 6074,
+     "reach": 3964,
+     "likes": 102,
+     "comments": 2,
+     "shares": 1,
+     "saves": 9,
+     "clicks": 0,
+     "views": 6074
+    }
+   },
+   {
+    "date": "2026-10-24",
+    "postCount": 0,
+    "platforms": {
+     "instagram": 0
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 5939,
+      "reach": 4065,
+      "likes": 96,
+      "comments": 2,
+      "shares": 0,
+      "saves": 3,
+      "clicks": 0,
+      "views": 5939,
+      "postCount": 0
+     }
+    },
+    "metrics": {
+     "impressions": 5939,
+     "reach": 4065,
+     "likes": 96,
+     "comments": 2,
+     "shares": 0,
+     "saves": 3,
+     "clicks": 0,
+     "views": 5939
+    }
+   },
+   {
+    "date": "2026-10-25",
+    "postCount": 0,
+    "platforms": {
+     "instagram": 0
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 1257,
+      "reach": 978,
+      "likes": 18,
+      "comments": 0,
+      "shares": 0,
+      "saves": 4,
+      "clicks": 0,
+      "views": 1257,
+      "postCount": 0
+     }
+    },
+    "metrics": {
+     "impressions": 1257,
+     "reach": 978,
+     "likes": 18,
+     "comments": 0,
+     "shares": 0,
+     "saves": 4,
+     "clicks": 0,
+     "views": 1257
+    }
+   },
+   {
+    "date": "2026-10-26",
+    "postCount": 4,
+    "platforms": {
+     "instagram": 4
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 8268,
+      "reach": 5491,
+      "likes": 150,
+      "comments": 14,
+      "shares": 4,
+      "saves": 5,
+      "clicks": 0,
+      "views": 8268,
+      "postCount": 4
+     }
+    },
+    "metrics": {
+     "impressions": 8268,
+     "reach": 5491,
+     "likes": 150,
+     "comments": 14,
+     "shares": 4,
+     "saves": 5,
+     "clicks": 0,
+     "views": 8268
+    }
+   },
+   {
+    "date": "2026-10-27",
+    "postCount": 4,
+    "platforms": {
+     "instagram": 4
+    },
+    "platformMetrics": {
+     "instagram": {
+      "impressions": 6509,
+      "reach": 3967,
+      "likes": 119,
+      "comments": 3,
+      "shares": 3,
+      "saves": 10,
+      "clicks": 0,
+      "views": 6509,
+      "postCount": 4
+     }
+    },
+    "metrics": {
+     "impressions": 6509,
+     "reach": 3967,
+     "likes": 119,
+     "comments": 3,
+     "shares": 3,
+     "saves": 10,
+     "clicks": 0,
+     "views": 6509
+    }
+   }
+  ],
+  "platformBreakdown": [
+   {
+    "platform": "instagram",
+    "postCount": 10,
+    "impressions": 28047,
+    "reach": 18465,
+    "likes": 485,
+    "comments": 21,
+    "shares": 8,
+    "saves": 31,
+    "clicks": 0,
+    "views": 28047
+   }
+  ]
+ }
+}

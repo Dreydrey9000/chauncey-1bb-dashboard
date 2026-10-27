@@ -12,7 +12,7 @@ window.INSPIRE = {
     },
     tweak: 'THE TWEAK: keep the confession open, add the gate. “I shipped a build that ‘worked.’ Then a client touched it.” Name the operator pain, land the plain analogy (demo = menu, testing = kitchen), then close: “What broke the first time a real user touched your build? That story is the comment.” Logged: first comment-gated reel by 10-28 EOD → ≥5 comments in 48h. Medium confidence.',
     postIdeas: [
-      'TODAY (OFFICIAL_API): 3:36a straw-gum confession reel → 1,541 views (3.2x your 477.5 reel median); 8:02a Chipotle-pricing reel → 1,776 (3.7x). Both beat. Your room/confession run continues — 1,451 → 1,323 → 1,541 → 1,776 over four days. Only miss: the 10-25 recycling frame died at 151.',
+      'TODAY (OFFICIAL_API): 3:36a straw-gum confession reel → 1,541 views (3.2x your 477.5 reel median) — https://www.instagram.com/reel/De-58dpFku_/ — and 8:02a Chipotle-pricing reel → 1,776 (3.7x) — https://www.instagram.com/reel/De_YYCzAoCq/. Both beat. Your room/confession run continues — 1,451 → 1,323 → 1,541 → 1,776 over four days. Only miss: the 10-25 recycling frame died at 151.',
       'TOMORROW’S SLOT (OFFICIAL_API): ship the Liam-imitation build-truth reel with the comment gate. It is the only mechanic you have never run, and comments are your one flat metric. One mechanic per post — do not stack it with a confession-and-room combo.'
     ]
   },
@@ -26,7 +26,7 @@ window.INSPIRE = {
     },
     tweak: 'THE TWEAK: write it, don’t film it — calm coach register: “Two things set the ceiling on your next level: the thoughts you rehearse, and the people you sit with. You can outwork the first. The second picks you back up when you can’t.” Close with ONE next step: name the room you’re sitting in. Logged: statics-only through 10-30 → next static ≥ 1,694 static median in 48h. Medium confidence.',
     postIdeas: [
-      'TODAY (OFFICIAL_API): 1:11p static “Feelings lie. Facts don’t.” → 925 views + 19 likes in 5h — outperforming every reel he’s posted since 10-25 on both metrics. 3:10p volleyball reel: 88 views. 1:10p force-fit reel: 65. The static-vs-reel gap re-opened to 2:1.',
+      'TODAY (OFFICIAL_API): 1:11p static “Feelings lie. Facts don’t.” → 925 views + 19 likes in 5h — https://www.instagram.com/p/DfAXOVmDk3O/ — already beating every reel he’s posted since 10-25 on both metrics. 3:10p volleyball reel (https://www.instagram.com/reel/DfAJMtLCpLF/): 88 views. 1:10p force-fit reel (https://www.instagram.com/reel/De_7qKjjvuc/): 65. The static-vs-reel gap re-opened to 2:1.',
       'TOMORROW (OFFICIAL_API): statics only through 10-30 — identity or room theme (medians 2,760 / 1,557). The Bedros two-item list ships as the static; the volleyball sand-disconnect story becomes a static caption, not a reel — same admission mechanic as his top four posts, zero reel cost.'
     ]
   },

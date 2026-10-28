@@ -19,3 +19,8 @@ Format: date | prediction | confidence | status
 - [ ] DREY: first comment-gated reel by 10-28 EOD → ≥5 comments within 48h (baseline: 0 comments on 8 of his last 10 posts, views running 3x median). Confidence: medium. Grade: P1.
 - [ ] KEVIN: statics-only through 10-30 → next static ≥ his 1,694 static median within 48h (today's 1:11p static: 925 + 19 likes in 5h). Confidence: medium. Grade: P1.
 - [ ] Standing evidence: Kevin reels 10-26→10-27 all six sub-median (454/627/158/88/65/396 vs 832 reel median). Reel lane rested 3 days. Confidence: high (observed).
+
+## 2026-10-28 AM (Chauncey)
+- [ ] KEVIN (updated bar): 10-27 1:11p "Feelings lie" static (DfAXOVmDk3O) reached 1,705 + 8 comments by the 6:31a 10-28 pull → 10-27 PM bar effectively MET with 34h to spare. Today's Meltzer-bent static ≥ 1,712 (static median, n=90) within 48h. Confidence: medium. Grade: P1.
+- [ ] DREY: gated build-truth reel ships TODAY (10-28) → ≥5 comments in 48h (mechanic now validated at scale by liamottley: 490/450/168 comments on 3 keyword-gate reels in 36h, PUBLIC_PROXY). Confidence: medium-high (raised from medium on lookalike validation). Grade: P1.
+- [ ] DREY watch item: 5:39a plumber static (DfBs6b6kSy0) vs 450 ai_systems theme median (n=22) — if it stalls under 450 by tonight, retire the morning ai_systems slot. Confidence: high (conditional rule). Grade: P2.

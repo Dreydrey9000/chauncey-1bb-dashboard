@@ -24,7 +24,7 @@ def rpc(method, params=None, notif=False, accept='application/json, text/event-s
     hdr = {'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json', 'Accept': accept}
     req = urllib.request.Request(URL, data=json.dumps(body).encode(), headers=hdr)
     try:
-        with urllib.request.urlopen(req, timeout=90) as resp:
+        with urllib.request.urlopen(req, timeout=180) as resp:
             raw = resp.read().decode('utf-8', 'replace')
     except urllib.error.HTTPError as e:
         if e.code == 406 and accept != 'text/event-stream':

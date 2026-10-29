@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio REST + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-10-29 (AM) — morning edition. Founder numbers fresh (Zernio REST, 7:09a ET). Lookalike scan DEAD a 2nd consecutive cycle: TokScript IG-reels endpoint returned “temporarily unavailable” on all 4 profiles (liamottley, bedroskeuilian, davidmeltzer, rowancheung) × 2 attempts this morning — outage now 14h+. No new signal forced; both imitation picks are recycled from Tuesday 6:55a ET’s verified pull and labeled. If tonight’s scan also fails, tomorrow’s AM run rotates in the retry candidates (mckaywrigley, gregisenberg).',
+  date: '2026-10-29 (PM) — evening edition. Scan RECOVERED: TokScript back at 6:04p ET after ~30h dark, all 4 lookalike profiles pulled clean. Founder numbers fresh (Zernio REST, 6:02p ET). Drey’s gate reel is now 3 deadlines deep — tomorrow it ships, first cut, ugly allowed.',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DfAJWDED5hn/',
-      who: 'RECYCLED from the 10-28 6:55a ET verified pull (endpoint down since): Liam Ottley (41.6k, systems proof) — “Comment ‘DEAD’ and I’ll send it over.” 14,998 views, 369 likes, 490 comments in ~20h. His 3 keyword-gate reels in 36h: 490/450/168 comments vs his usual 8–14. PUBLIC_PROXY.',
-      views: '14,998 (10-28 pull)',
-      comments: '490 (369 likes)',
-      why: 'Still the mechanic to copy and you still haven’t shipped your version — the gated reel missed its 2nd straight deadline (nothing shipped 10-28; last post = the 1:39a plumber static at 211 views). The gate works at 41.6k followers; it doesn’t need a bigger account than yours to work.'
+      url: 'https://www.instagram.com/reel/DfFgJlAEnE8/',
+      who: 'Liam Ottley (41.6k, systems proof) — NEW TODAY, posted 1:07p ET: “Comment ‘HORMOZI’ and I’ll send it over.” 5,556 views, 118 likes, 53 comments in ~5h. He ran the gate TWICE today (11:08a “LIVE”: 4,481 views / 22 comments) — 8 keyword-gate reels in 4 days; yesterday’s pair finished 10,784/249c and 10,076/165c, and Tuesday’s “DEAD” (Tuesday’s recycled pick) has kept growing to 19,363/649c. PUBLIC_PROXY.',
+      views: '5,556 in ~5h (posted 1:07p ET today)',
+      comments: '53 (118 likes)',
+      why: 'The gate machine is now running TWICE DAILY at 41.6k — your follower scale, not a celebrity’s. Your version has missed 3 straight deadlines while your own room reels prove the audience is there: both Ryan reels ticked up again overnight to 2,301 each (+83/+59 since 7:09a, zero new posts) — 1.7x your 1,380 7-day reel median (n=7).'
     },
-    tweak: 'THE TWEAK — stop treating the gate reel as a separate project; fold it into what’s already winning. Film it IN THE ROOM, morning, hand-timed — the exact conditions of your two biggest posts this week (straw-gum 2,218, Chipotle 2,242 — both 1.6x your 1,380 7-day reel median, n=7, and still compounding overnight with no new posts). Script: the build that “worked” until a client touched it → plain analogy (demo = menu, tested build = kitchen) → “Comment ‘TESTED’ and I’ll DM the pre-launch checklist I run before anything goes live.” Gate your REAL checklist; any client outcome stays [verified result] until you pull the actual number. 3rd logged deadline is today.',
+    tweak: 'THE TWEAK — same call as 7a, now with a hard rule: the gate reel ships TOMORROW, first cut, ugly allowed. Film it in the room, morning, hand-timed — the exact conditions of your two biggest posts this week. Script: the build that “worked” until a client touched it → plain analogy (demo = menu, tested build = kitchen) → “Comment ‘TESTED’ and I’ll DM the pre-launch checklist I run before anything goes live.” Gate your REAL checklist; any client outcome stays [verified result] until you pull the actual number. Film the next Ryan installment in the same session — one setup, two posts.',
     postIdeas: [
-      'RETIRED (OFFICIAL_API): the plumber static died at 211 vs the 450 bar — morning ai_systems statics are done, and the scheduled 12:02p slot is 2-for-6 clearing 450 this week (1,922 and 1,380 yes; 227/111/151/211 no). Today’s scheduled post flips to room framing with the comment gate — first test of the switch called yesterday PM.',
-      'STILL COMPOUNDING (OFFICIAL_API): the two Ryan room reels grew again overnight — straw-gum 2,218 (+174 since 6:00p), Chipotle 2,242 (+99). Zero new posts since. Room framing owns your reel lane; the Ryan-confession format is a series, not a one-off — film the next installment in the same session as the gate reel.'
+      'TODAY vs MEDIAN (OFFICIAL_API): the 11:32a “Build a Jarvis for your life” static sat at 114 views at 6:02p (~17/hr, 6.5h in) — pacing straight at the dead plumber static’s 211. Yesterday’s retirement of morning ai_systems statics is confirmed; the 12:02p slot goes dark unless it carries room-framed footage.',
+      'STILL COMPOUNDING (OFFICIAL_API): both Ryan room reels landed at 2,301 each — your two biggest reels of the week at 1.7x median, still moving with no new posts. The Ryan format is a series: installment 3 gets filmed in the same morning session as the gate reel.'
     ]
   },
   kevin: {
     reel: {
       url: 'https://www.instagram.com/reel/De9V9j8DWQe/',
-      who: 'RECYCLED from the 10-28 6:55a ET verified pull (endpoint down since): David Meltzer (767k, faith+business coach) — asking/persistence reel, 13,523 views, 230 likes, 13 comments; 4x his week’s reel norm. PUBLIC_PROXY.',
-      views: '13,523 (10-28 pull)',
-      comments: '13 (230 likes)',
-      why: 'No fresh scan, but the pick already paid once in your lane — the static discipline it was bent into (“Feelings lie. Facts don’t.”) just finished at 2,236, your biggest post of the week. The mechanic to keep from Meltzer: one plain conviction line, asked as a question back to the viewer.'
+      who: 'David Meltzer (767k, faith+business coach) — the 10-26 ask/persist reel STILL compounding on day 4: 15,485 views, 259 likes, 13 comments. +14% since Tuesday’s pull and ~5x anything else on his grid this week (his other fresh reels: 1,213–4,763). PUBLIC_PROXY.',
+      views: '15,485 (day 4, still climbing)',
+      comments: '13 (259 likes)',
+      why: 'The line is the whole mechanic — one plain conviction, asked back to the viewer — and it’s the exact shape of your winning statics. You don’t film this one; you write it.'
     },
-    tweak: 'THE TWEAK (write, don’t film): the two-factor static due yesterday never shipped — post it TODAY at midday: “You become the thoughts you rehearse + the people you sit with.” Your two median-topping themes in one post (identity and room), calm coach register, ONE clear next step to close. Statics-only through 10-30 stands — the two 10-28 reels landed at 345 and 171 vs your 1,936 static median (n=4), a 5.6x gap.',
+    tweak: 'THE TWEAK (write, don’t film): bend Meltzer’s line into tomorrow’s static — “Opportunities don’t run out. Most people just stop asking too soon.” + one line in your register (a place you stopped asking, or what asking opened) + ONE clear next step to close. Statics-only through 10-30 stands: today’s reels ran 300 (12:57p, vs your 343 reel median, n=9) and 226 (6:52p, 1h old) while your 4:03p static beat par in 2 hours.',
     postIdeas: [
-      'GRADED — MET (OFFICIAL_API): “Feelings lie. Facts don’t.” finished ~2,236 views + 33 likes + 9 comments — clears the 1,712 bar with ~6h left in its 48h window. Your most-commented static this week. The 10-28 AM prediction grades MET, with a caveat: the specified two-factor static didn’t ship; the win rode Tuesday’s post.',
-      'CHECK ONE THING (OFFICIAL_API): your 4:08p “how you show up” static was at 292 views in under 2h Wednesday (on pace — “Feelings lie” ran ~185/hr) but is GONE from the feed this morning — absent from both the 6:30a refresh and the 7:09a REST pull. If you deleted it on purpose, ignore this. If not, re-ship that line; it was pacing fine.'
+      'TODAY vs MEDIAN (OFFICIAL_API): the 4:03p “show up as a full person” static (horses/gut-guy story) is the beat — 516 views + 10 likes + 1 comment in ~2h (~258/hr), your fastest early static pace of the week; “Feelings lie” ran ~185/hr and finished 2,302. The 12:57p “comment CIRCLE” gate reel sits at 300 vs the 343 reel median — par, with a comment tail forming. The 6:52p scripture reel is too fresh to grade. Final calls at 7a.',
+      'QUEUE FOR TOMORROW: the Meltzer-bent static is the 4th test of the conviction-line static (2,302 / 2,219 / 516-and-climbing). Keep the two-factor idea (“You become the thoughts you rehearse + the people you sit with”) as the backup if the asking line doesn’t feel true tomorrow.'
     ]
   },
-  note: 'AM 7:00a ET. Filming calls: Drey films ONE session — the gated build-truth reel in the room, morning, plus the next Ryan installment while the camera is out; the 12:02p scheduled slot runs room-framed (ai_systems retired there after 211 vs 450). Kevin writes the two-factor static for midday; reels rest through 10-30. Watch item: the vanished 4:08p static (deleted vs data gap). Lookalike scan unavailable — TokScript IG-reels down 2 cycles (4 profiles × 2 attempts; gerardadams still dead since 10-22); imitation picks recycled from the 10-28 6:55a pull and labeled. Founder stats OFFICIAL_API (Zernio REST 7:09a ET; CSV refreshed 6:30a ET); lookalike stats PUBLIC_PROXY (no fresh pull).'
+  note: 'PM 6:00p ET. SCAN BACK after ~30h: Bedros dark today (last post 10-28 at 223,117 views — the biggest number in the whole scan); Meltzer posted twice today (1,213 at 8:21a + a just-born 6:00p reel); Rowan’s wildfire-AI reel did 14,744 in ~4h and his MIT-Claude-desert-island reel remains his week’s best at 70,402. THE ADJUSTMENT for tomorrow: Drey ships the gate reel — first cut, ugly allowed — and the 12:02p slot runs only with room footage; Kevin holds the static engine exactly as-is and adds the Meltzer-bent line to the queue. Watch item: the 6:52p scripture reel’s first-night curve. Provenance: lookalike stats PUBLIC_PROXY (TokScript, 6:04p ET); founder stats OFFICIAL_API (Zernio REST 6:02p ET; medians = posts_all.csv 10-22→10-28).'
 };

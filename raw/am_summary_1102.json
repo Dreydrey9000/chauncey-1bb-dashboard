@@ -1,0 +1,432 @@
+{
+ "drey": {
+  "days": {
+   "2026-10-19": {
+    "posts": 1,
+    "reach": 161,
+    "impressions": 176,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "clicks": 0,
+    "interactions": 0,
+    "eng_rate": 0.0
+   },
+   "2026-10-20": {
+    "posts": 2,
+    "reach": 487,
+    "impressions": 737,
+    "likes": 16,
+    "comments": 3,
+    "shares": 0,
+    "saves": 1,
+    "clicks": 0,
+    "interactions": 20,
+    "eng_rate": 0.0411
+   },
+   "2026-10-21": {
+    "posts": 0,
+    "reach": 621,
+    "impressions": 801,
+    "likes": 32,
+    "comments": 3,
+    "shares": 1,
+    "saves": 0,
+    "clicks": 0,
+    "interactions": 36,
+    "eng_rate": 0.058
+   },
+   "2026-10-22": {
+    "posts": 1,
+    "reach": 397,
+    "impressions": 426,
+    "likes": 3,
+    "comments": 3,
+    "shares": 0,
+    "saves": 1,
+    "clicks": 0,
+    "interactions": 7,
+    "eng_rate": 0.0176
+   },
+   "2026-10-23": {
+    "posts": 1,
+    "reach": 141,
+    "impressions": 170,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saves": 1,
+    "clicks": 0,
+    "interactions": 2,
+    "eng_rate": 0.0142
+   },
+   "2026-10-24": {
+    "posts": 1,
+    "reach": 203,
+    "impressions": 223,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "clicks": 0,
+    "interactions": 1,
+    "eng_rate": 0.0049
+   },
+   "2026-10-25": {
+    "posts": 1,
+    "reach": 1431,
+    "impressions": 1814,
+    "likes": 24,
+    "comments": 3,
+    "shares": 1,
+    "saves": 1,
+    "clicks": 0,
+    "interactions": 29,
+    "eng_rate": 0.0203
+   },
+   "2026-10-26": {
+    "posts": 1,
+    "reach": 229,
+    "impressions": 299,
+    "likes": 4,
+    "comments": 3,
+    "shares": 0,
+    "saves": 0,
+    "clicks": 0,
+    "interactions": 7,
+    "eng_rate": 0.0306
+   },
+   "2026-10-27": {
+    "posts": 2,
+    "reach": 3527,
+    "impressions": 4598,
+    "likes": 15,
+    "comments": 0,
+    "shares": 1,
+    "saves": 3,
+    "clicks": 0,
+    "interactions": 19,
+    "eng_rate": 0.0054
+   },
+   "2026-10-28": {
+    "posts": 1,
+    "reach": 771,
+    "impressions": 1126,
+    "likes": 6,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "clicks": 0,
+    "interactions": 6,
+    "eng_rate": 0.0078
+   },
+   "2026-10-29": {
+    "posts": 1,
+    "reach": 444,
+    "impressions": 660,
+    "likes": 5,
+    "comments": 0,
+    "shares": 1,
+    "saves": 1,
+    "clicks": 0,
+    "interactions": 7,
+    "eng_rate": 0.0158
+   },
+   "2026-10-30": {
+    "posts": 1,
+    "reach": 299,
+    "impressions": 360,
+    "likes": 2,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "clicks": 0,
+    "interactions": 2,
+    "eng_rate": 0.0067
+   },
+   "2026-10-31": {
+    "posts": 0,
+    "reach": 143,
+    "impressions": 187,
+    "likes": 1,
+    "comments": 0,
+    "shares": 1,
+    "saves": 0,
+    "clicks": 0,
+    "interactions": 2,
+    "eng_rate": 0.014
+   },
+   "2026-11-01": {
+    "posts": 0,
+    "reach": 127,
+    "impressions": 158,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "clicks": 0,
+    "interactions": 1,
+    "eng_rate": 0.0079
+   },
+   "2026-11-02": {
+    "posts": 0,
+    "reach": 48,
+    "impressions": 71,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "clicks": 0,
+    "interactions": 0,
+    "eng_rate": 0.0
+   }
+  },
+  "wow": {
+   "this": {
+    "reach": 5359,
+    "inter": 37,
+    "posts": 5,
+    "impr": 7160,
+    "dates": "Oct 27-Nov 2"
+   },
+   "prev": {
+    "reach": 3509,
+    "inter": 102,
+    "posts": 7,
+    "impr": 4470,
+    "dates": "Oct 20-26"
+   },
+   "reach_pct": 52.7,
+   "inter_pct": -63.7
+  },
+  "yesterday": {
+   "posts": 0,
+   "reach": 127,
+   "impressions": 158,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "clicks": 0,
+   "interactions": 1,
+   "eng_rate": 0.0079
+  },
+  "yesterday_date": "2026-11-01"
+ },
+ "kevin": {
+  "days": {
+   "2026-10-19": {
+    "posts": 0,
+    "reach": 3957,
+    "impressions": 5852,
+    "likes": 100,
+    "comments": 3,
+    "shares": 0,
+    "saves": 6,
+    "clicks": 0,
+    "interactions": 109,
+    "eng_rate": 0.0275
+   },
+   "2026-10-20": {
+    "posts": 0,
+    "reach": 1995,
+    "impressions": 3376,
+    "likes": 66,
+    "comments": 4,
+    "shares": 0,
+    "saves": 7,
+    "clicks": 0,
+    "interactions": 77,
+    "eng_rate": 0.0386
+   },
+   "2026-10-21": {
+    "posts": 1,
+    "reach": 4116,
+    "impressions": 7299,
+    "likes": 130,
+    "comments": 4,
+    "shares": 9,
+    "saves": 4,
+    "clicks": 0,
+    "interactions": 147,
+    "eng_rate": 0.0357
+   },
+   "2026-10-22": {
+    "posts": 1,
+    "reach": 4956,
+    "impressions": 8015,
+    "likes": 126,
+    "comments": 4,
+    "shares": 7,
+    "saves": 9,
+    "clicks": 0,
+    "interactions": 146,
+    "eng_rate": 0.0295
+   },
+   "2026-10-23": {
+    "posts": 2,
+    "reach": 3964,
+    "impressions": 6074,
+    "likes": 102,
+    "comments": 2,
+    "shares": 1,
+    "saves": 9,
+    "clicks": 0,
+    "interactions": 114,
+    "eng_rate": 0.0288
+   },
+   "2026-10-24": {
+    "posts": 0,
+    "reach": 4065,
+    "impressions": 5939,
+    "likes": 96,
+    "comments": 2,
+    "shares": 0,
+    "saves": 3,
+    "clicks": 0,
+    "interactions": 101,
+    "eng_rate": 0.0248
+   },
+   "2026-10-25": {
+    "posts": 0,
+    "reach": 978,
+    "impressions": 1257,
+    "likes": 18,
+    "comments": 0,
+    "shares": 0,
+    "saves": 4,
+    "clicks": 0,
+    "interactions": 22,
+    "eng_rate": 0.0225
+   },
+   "2026-10-26": {
+    "posts": 4,
+    "reach": 5500,
+    "impressions": 8273,
+    "likes": 150,
+    "comments": 14,
+    "shares": 4,
+    "saves": 5,
+    "clicks": 0,
+    "interactions": 173,
+    "eng_rate": 0.0315
+   },
+   "2026-10-27": {
+    "posts": 4,
+    "reach": 4296,
+    "impressions": 7078,
+    "likes": 128,
+    "comments": 9,
+    "shares": 3,
+    "saves": 11,
+    "clicks": 0,
+    "interactions": 151,
+    "eng_rate": 0.0351
+   },
+   "2026-10-28": {
+    "posts": 3,
+    "reach": 3914,
+    "impressions": 5074,
+    "likes": 61,
+    "comments": 1,
+    "shares": 1,
+    "saves": 11,
+    "clicks": 0,
+    "interactions": 74,
+    "eng_rate": 0.0189
+   },
+   "2026-10-29": {
+    "posts": 3,
+    "reach": 2756,
+    "impressions": 3753,
+    "likes": 67,
+    "comments": 3,
+    "shares": 1,
+    "saves": 9,
+    "clicks": 0,
+    "interactions": 80,
+    "eng_rate": 0.029
+   },
+   "2026-10-30": {
+    "posts": 3,
+    "reach": 3611,
+    "impressions": 6109,
+    "likes": 110,
+    "comments": 9,
+    "shares": 3,
+    "saves": 7,
+    "clicks": 0,
+    "interactions": 129,
+    "eng_rate": 0.0357
+   },
+   "2026-10-31": {
+    "posts": 3,
+    "reach": 4089,
+    "impressions": 7039,
+    "likes": 95,
+    "comments": 1,
+    "shares": 2,
+    "saves": 10,
+    "clicks": 0,
+    "interactions": 108,
+    "eng_rate": 0.0264
+   },
+   "2026-11-01": {
+    "posts": 2,
+    "reach": 3529,
+    "impressions": 5550,
+    "likes": 74,
+    "comments": 5,
+    "shares": 0,
+    "saves": 4,
+    "clicks": 0,
+    "interactions": 83,
+    "eng_rate": 0.0235
+   },
+   "2026-11-02": {
+    "posts": 0,
+    "reach": 1754,
+    "impressions": 2384,
+    "likes": 43,
+    "comments": 1,
+    "shares": 0,
+    "saves": 3,
+    "clicks": 0,
+    "interactions": 47,
+    "eng_rate": 0.0268
+   }
+  },
+  "wow": {
+   "this": {
+    "reach": 23949,
+    "inter": 672,
+    "posts": 18,
+    "impr": 36987,
+    "dates": "Oct 27-Nov 2"
+   },
+   "prev": {
+    "reach": 25574,
+    "inter": 780,
+    "posts": 8,
+    "impr": 40233,
+    "dates": "Oct 20-26"
+   },
+   "reach_pct": -6.4,
+   "inter_pct": -13.8
+  },
+  "yesterday": {
+   "posts": 2,
+   "reach": 3529,
+   "impressions": 5550,
+   "likes": 74,
+   "comments": 5,
+   "shares": 0,
+   "saves": 4,
+   "clicks": 0,
+   "interactions": 83,
+   "eng_rate": 0.0235
+  },
+  "yesterday_date": "2026-11-01"
+ }
+}

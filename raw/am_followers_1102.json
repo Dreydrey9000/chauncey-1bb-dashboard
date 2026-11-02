@@ -1,0 +1,150 @@
+{
+ "drey": {
+  "series": [
+   {
+    "date": "2026-10-19",
+    "followers": 8117
+   },
+   {
+    "date": "2026-10-20",
+    "followers": 8116
+   },
+   {
+    "date": "2026-10-21",
+    "followers": 8116
+   },
+   {
+    "date": "2026-10-22",
+    "followers": 8114
+   },
+   {
+    "date": "2026-10-23",
+    "followers": 8113
+   },
+   {
+    "date": "2026-10-24",
+    "followers": 8109
+   },
+   {
+    "date": "2026-10-25",
+    "followers": 8107
+   },
+   {
+    "date": "2026-10-26",
+    "followers": 8107
+   },
+   {
+    "date": "2026-10-27",
+    "followers": 8108
+   },
+   {
+    "date": "2026-10-28",
+    "followers": 8107
+   },
+   {
+    "date": "2026-10-29",
+    "followers": 8106
+   },
+   {
+    "date": "2026-10-30",
+    "followers": 8109
+   },
+   {
+    "date": "2026-10-31",
+    "followers": 8107
+   },
+   {
+    "date": "2026-11-01",
+    "followers": 8112
+   },
+   {
+    "date": "2026-11-02",
+    "followers": 8116
+   }
+  ],
+  "first": {
+   "date": "2026-10-19",
+   "followers": 8117
+  },
+  "last": {
+   "date": "2026-11-02",
+   "followers": 8116
+  },
+  "delta": -1,
+  "username": "itisdrey"
+ },
+ "kevin": {
+  "series": [
+   {
+    "date": "2026-10-19",
+    "followers": 15437
+   },
+   {
+    "date": "2026-10-20",
+    "followers": 15449
+   },
+   {
+    "date": "2026-10-21",
+    "followers": 15460
+   },
+   {
+    "date": "2026-10-22",
+    "followers": 15473
+   },
+   {
+    "date": "2026-10-23",
+    "followers": 15470
+   },
+   {
+    "date": "2026-10-24",
+    "followers": 15490
+   },
+   {
+    "date": "2026-10-25",
+    "followers": 15507
+   },
+   {
+    "date": "2026-10-26",
+    "followers": 15522
+   },
+   {
+    "date": "2026-10-27",
+    "followers": 15534
+   },
+   {
+    "date": "2026-10-28",
+    "followers": 15543
+   },
+   {
+    "date": "2026-10-29",
+    "followers": 15547
+   },
+   {
+    "date": "2026-10-30",
+    "followers": 15554
+   },
+   {
+    "date": "2026-10-31",
+    "followers": 15563
+   },
+   {
+    "date": "2026-11-01",
+    "followers": 15579
+   },
+   {
+    "date": "2026-11-02",
+    "followers": 15588
+   }
+  ],
+  "first": {
+   "date": "2026-10-19",
+   "followers": 15437
+  },
+  "last": {
+   "date": "2026-11-02",
+   "followers": 15588
+  },
+  "delta": 151,
+  "username": "kclavier"
+ }
+}

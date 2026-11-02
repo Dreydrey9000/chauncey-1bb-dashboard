@@ -1,8 +1,8 @@
-# Verify inspire.js deploy: date marker + reel URLs + quote parity (2026-11-02 AM edition)
+# Verify inspire.js deploy: date marker + reel URLs + quote parity (2026-11-02 PM edition)
 import hashlib, re, urllib.request
 
-MARKER = '2026-11-02 (AM)'
-REELS = ['DfAJWDED5hn', 'DfN3NqqFJ7A']
+MARKER = '2026-11-02 (PM)'
+REELS = ['DfPl_vDEgHD', 'DfPYWCsR5ig']
 
 local = open('/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/site/inspire.js').read()
 req = urllib.request.Request('https://1bb-dashboard.pages.dev/inspire.js',

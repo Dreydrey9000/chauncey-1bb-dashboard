@@ -17,7 +17,7 @@ Data honesty rules: unavailable metrics are reported as unavailable, never as ze
 2. Run the REST puller (Zernio MCP OAuth was revoked 2026-09-24; this script is the canonical path):
    `/opt/homebrew/bin/python3 refresh_pull.py`
    - It pulls all 5 accounts + follower stats, writes `raw/<key>_p<n>.txt` + `raw/followers.json`, deletes stale files first, and keeps previous raw files on per-account failure (reported in output).
-   - Expected: `FAILURES: none` and post counts per account. club_ig having 0 posts is normal (account still empty).
+   - Expected: `FAILURES: none` and post counts per account. club_ig had 0 posts until 2026-11-03, when its first post appeared; a small, slowly growing count is normal.
    - Key lives at `~/.zernio/config.json` (apiKey), API getlate.dev/api/v1.
 3. Run in terminal: `cd /Users/andrethomas/.hermes/workspaces/chauncey/dashboard && uv run --with pandas python gen_data.py`
    - Expected output ends with `data.js rebuilt <timestamp> — posts: {...}`. If counts drop sharply for an account vs the previous day, suspect a failed pull and say so.

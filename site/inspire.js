@@ -1,34 +1,34 @@
 // Daily inspiration brief — rewritten by the inspire-brief cron jobs (7:00a + 6:00p ET).
 // PROVENANCE: lookalike stats = PUBLIC_PROXY (TokScript public API). Founder stats = OFFICIAL_API (Zernio REST + posts_all.csv).
 window.INSPIRE = {
-  date: '2026-11-02 (PM) — Monday evening. Delta: Drey posted nothing today — deadline #7 expired unposted, third straight dark day since Friday. Kevin shipped 2-for-2: events reel 370 (miss) + Freedom static 806 (early, tracking miss). His 11-01 identity reel matured to 1,785 = best reel of the fortnight. Bedros and Liam both posted new winners.',
+  date: '2026-11-03 (AM) — Tuesday morning. Drey broke the 3-day dark streak: 5 posts shipped overnight. But 4 of 5 went out 10pm–3am ET and sit at 67–181 views; the one 7pm ET reel (S-tier assistant ranking, opinion on camera) is at 816 and climbing = his best tool-lane number since Oct 26. Kevin has not posted yet today; his identity static matured to 1,888 = fortnight best, and the Freedom static verdict landed (806 → 1,169 at 24h).',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DfPl_vDEgHD/',
-      who: 'Liam Ottley (41.6k, systems proof) — NEW since this morning’s scan (dateless payload, PUBLIC_PROXY): 5,301 views / 143 likes / 92 comments. Not his viral tier — that is the point.',
-      views: '5,301 (his quiet tier; set now runs 5.3k–21.4k across all 12 reels)',
-      comments: '92 — even his floor pulls a comment count you’d celebrate',
-      why: 'OFFICIAL_API: you posted nothing today — deadline #7 (this morning’s one decision) expired unposted; Friday’s email reel closed at 123 = 6% of your 1,947 reel median (7d, n=4). Liam’s set proves the gate mechanic prints at EVERY tier: all twelve reels at 5.3k+ views with 42–741 comments each, and his flagship (DfAJWDED5hn) ticked up 21,253 → 21,373 today with 741 comments. Consistency is the mechanic, not virality.'
+      url: 'https://www.instagram.com/reel/DfIFQG5ie_O/',
+      who: 'Liam Ottley (41.6k, systems proof) — PUBLIC_PROXY, dateless set: 5,957 views / 139 likes / 248 comments.',
+      views: '5,957 — bottom-half of his 5.5k–21.5k set',
+      comments: '248 = 4.2% comment rate, highest in his 12-reel set — his 17.4k-view reel pulled only 42',
+      why: 'OFFICIAL_API: your ranking reel (7pm ET, opinion on camera) is at 816 and climbing — 4.5x your ai_systems reel median of 181 (14d, n=9) and your best tool-lane number since Oct 26 (1,381). The four posts that shipped 10pm–3am ET sit at 67–181. Two lessons in one night: the opinionated ranking format earns attention, and the 2am slot buries it. Liam’s pick is the reply mechanic: bottom-half views, top-of-set comments.'
     },
-    tweak: 'THE TWEAK — three deadlines have now died waiting for the polished version. Tomorrow 9a, deadline #8 ships the MINIMUM viable gate reel: 15 seconds, one take, phone, no edit. Build on screen → one plain analogy → “Comment TESTED and I’ll DM the pre-launch checklist.” Gate the REAL checklist; client outcomes stay [verified result] until you pull one.',
+    tweak: 'THE TWEAK — tonight 7–9pm ET, film the S-tier ranking FOLLOW-UP face on camera (same format, one strong opinion: the one assistant you would actually put in a client’s business). End it with one forced-choice question in builder register — Which one are you already paying for? — then answer the first ten comments yourself. Nothing ships after 10pm; if it is not filmed by 9, it posts tomorrow at 7pm, not at midnight.',
     postIdeas: [
-      'ROOM BAND HOLDS (OFFICIAL_API): your room/confession reels sit at 1,380–2,543 while the tool lane died at 123. If tomorrow’s take produces a second idea mid-session, make it a room piece, not a demo.',
-      'RYAN SESSION STILL UNREPEATED (OFFICIAL_API): one 10-27 sitting produced your two best reels of the fortnight (2,543 + 2,514). Book the next one — the pattern is sitting > topic.'
+      'RANKING = THE TOOL LANE’S WINNER, CONFIRM AT 24H (OFFICIAL_API): 816 early vs 181 ai_systems median (n=9, 14d). If it holds above 1,000 at 24h, make Drey Ranks the Tools a fixed weekly 7pm slot.',
+      'ROOM STILL OWNS THE ACCOUNT (OFFICIAL_API): room reels median 2,549 (n=3, 14d) = 14x the tool lane. Keep one room/confession reel per week — the ranking wins inside the lane, the room still wins the account.'
     ]
   },
   kevin: {
     reel: {
       url: 'https://www.instagram.com/reel/DfPYWCsR5ig/',
-      who: 'Bedros Keuilian (1.0M, discipline+application funnel) — NEW today, new set top (PUBLIC_PROXY, dateless): 352,489 views / 11,708 likes / 54 comments. His recent band was 135k–232k; this broke above it.',
-      views: '352,489 (new set top; prior top 201,936)',
-      comments: '54 — a funnel lane: likes and applications carry it, not comments',
-      why: 'OFFICIAL_API: today you went 2-for-2 but both missed — the events reel (“nobody knows why they’re there”) did 370 = 63% of your 586 reel median (7d, n=16), and the Freedom static is at 806 = 66% of your 1,225 static median (n=7) though only ~4 hours old. Meanwhile your 11-01 identity reel matured 1,543 → 1,785 (3.1x median, best reel of the fortnight) and the 11-01 1BB event reel rose 679 → 761. The gap is the lesson: identity framing runs 3x your median, event-promo framing runs under it.'
+      who: 'Bedros Keuilian (1.0M, discipline+application funnel) — HELD from yesterday, matured (PUBLIC_PROXY): 355,029 views / 12,266 likes / 61 comments (was 352,489 at 6p). Still his recent set top.',
+      views: '355,029 (recent set top; his real floor is 136k)',
+      comments: '61 — a funnel lane: likes and applications carry it, not comments',
+      why: 'OFFICIAL_API: you have not posted today yet (your usual slot ~1pm). The framing gap on your own account is now stark: identity piece 1,888 (fortnight best) vs event-promo framing 428–795, under your 501.5 reel median (7d, n=12). Yesterday’s let-it-breathe call on the Freedom static was right: 806 at 4h → 1,169 at 24h = 95% of your static median. Nov 10 is 7 days out — the invite window is open, and it should be led by identity, not logistics.'
     },
-    tweak: 'THE TWEAK — tomorrow’s reel fuses your two lanes instead of picking one: open in the identity register (calm face-cam, one line about who you’re becoming as an owner), THEN close with the Nov 10 room as the single next step. Bedros’s clip is a direct standard-and-call; your version keeps your voice — no hype, one clear door.',
+    tweak: 'THE TWEAK — film the identity-led Nov 10 invite TODAY in your 1pm window: open calm face-cam on who you are becoming as an owner (identity register, no hype), close on the Nov 10 room as the single next step. Bedros’s clip is the standard-and-call spine; your version keeps your voice — one clear door, no logistics list.',
     postIdeas: [
-      'IDENTITY-LED EVENT REEL (OFFICIAL_API): identity 1,785 vs event-promo 370 is a 4.8x gap on your own account. Same room, same invite — led by identity, not logistics.',
-      'LET THE STATIC BREATHE (OFFICIAL_API): Freedom static 806 at 4 hours vs 1,225 static median — your statics often climb late (living-rich photo finished 2,855–2,904). Judge it at 24h; next static from the same identity camera roll.'
+      'IDENTITY-LED INVITE (OFFICIAL_API): identity 1,888 vs event-promo 428–795 is the framing gap on your own account. One reel: identity open, room close, nothing else.',
+      'STATICS ARE THE WORKHORSE (OFFICIAL_API): static median 1,888 (n=7, 7d) vs reels 501.5 = 3.8x. Ship a static from the same identity camera roll the same day as the invite reel.'
     ]
   },
-  note: 'PM 6:00p ET, Monday. SCAN (PUBLIC_PROXY, dateless): Liam NEW 5,301/92c — gate mechanic prints at every tier, all 12 reels now 5.3k–21.4k with 42–741 comments; flagship +124 today. Bedros NEW set top 352k/11.7k likes (prior band 135k–232k). Meltzer split holds: face-cams 1.6k–5.6k vs keynotes 331k–4.6M. Rowan contrast: current band 23.9k–125k. gerardadams still dead since 10-22. FOUNDERS (OFFICIAL_API, 6:00p Zernio pull): Drey 0 posts today, deadline #7 expired, 3rd dark day, Friday email reel final at 123. Kevin 2 posts, both misses vs median (events reel 370 = 63%, Freedom static 806 = 66% but 4h early); identity reel matured to 1,785 = 3.1x median, fortnight best. TOMORROW’S ONE ADJUSTMENT — Drey: deadline #8 at 9a ships the 15-second minimum version; the bar drops, the deadline holds. Kevin: stop promoting the event — lead with identity and close on the Nov 10 room. Provenance: lookalike stats PUBLIC_PROXY (TokScript ~6:00p ET, dateless); founder stats OFFICIAL_API (Zernio REST → raw/pm_delta_2026-11-02.json + posts_all.csv 6:31a; 7d medians: Drey reel 1,947 n=4, Kevin reel 586 n=16, Kevin static 1,225 n=7).'
+  note: 'AM 7:00a ET, Tuesday. SCAN (PUBLIC_PROXY, dateless payloads — deltas vs yesterday’s cached pull, post dates unconfirmed): Liam’s fresh reel matured 5.3k→6.9k overnight (92→130 comments); flagship holds 21.5k/745c. Bedros unchanged on top: 355k/12.3k likes. Meltzer’s split is stark — his CURRENT face-cams run 0.7k–5.8k while reposted keynote clips run 335k–4.6M: the calm coach lane compounds slowly even at 767k followers. Rowan contrast band ~33k–106k current. gerardadams not pulled this run (rotation; dead since 10-22). FOUNDERS (OFFICIAL_API, 6:31a Zernio pull): Drey 5 posts overnight, 4 in dead slots at 67–181, the 7pm ranking reel 816 and climbing — one decision: film tonight’s follow-up in the 7–9pm window, nothing ships after 10pm. Kevin 0 posts so far today, Nov 10 seven days out — one decision: the identity-led invite reel in the 1pm window. Provenance: lookalike stats PUBLIC_PROXY (TokScript ~7:05a ET, dateless); founder stats OFFICIAL_API (Zernio REST → raw 6:31a pull → posts_all.csv; medians: Drey reels 181 n=7 7d (dragged by four overnight posts still maturing), ai_systems 181 n=9 14d, room 2,549 n=3 14d; Kevin reels 501.5 n=12 7d, statics 1,888 n=7 7d).'
 };

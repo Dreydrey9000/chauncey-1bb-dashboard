@@ -11,6 +11,15 @@ Format: date | prediction | confidence | status
 - 2026-10-15 PM | Kevin's 10/15 identity static (DehfzxhDSVc) settles at or above his 1,721 static median by 10/22 | confidence: medium (55%) — 1,326 in <5h, needs +30% more | status: open
 - 2026-10-15 PM | Standing rule: Kevin's identity/standards lines ship as statics; reels reserved for room recaps (static-vs-reel split now a 5-post pattern: 1,326/1,721 statics vs 399/167 identity reels) | confidence: high | status: standing rule
 
+## 2026-11-04 PM (Chauncey)
+- [x] GRADED 11-04 PM: 11-04 AM KEVIN invite reel ships 1pm window (3rd stated deadline) — NOT shipped (2:37p client-quote static + 3:59p values reel instead, neither carries the room close) → MISSED as specified, 4th stated deadline. Rolls to deadline #4 (Thu 3p, values-format + room close).
+- [x] GRADED 11-04 PM: 11-03 PM DREY ranking reel ≥1,000 at 24h — already MET at 7a; 43h settle = 1,666 (+14 over the day, done climbing). Closed.
+- [ ] KEVIN: invite reel deadline #4 = re-run today’s values-reel format (DfVXpaPDdIS: 1,378 at ~2h = 2.5x reel median, 42 likes/6 comments) ending on the Nov 10 room as the single next step; ships by Thu 11-05 3p → beats 561 reel median within 48h. Confidence: medium-high (format working now; only the close changes). Grade: P1.
+- [ ] KEVIN: values reel (DfVXpaPDdIS) settles ≥1,980 (his personal-reel mark) at the 24h mark (~4p Thu). Confidence: medium. Grade: P2.
+- [ ] DREY: ranking #3 + gate (comment your tier letter) deadline #9 — as of the ~6:15p pull NOT shipped (noon reels were invoice/voice content, not the ranking); closes 10pm tonight. If shipped → ≥5 comments in 48h. Confidence: low-medium (0-for-5 gate deadlines is the base rate). Grade: P1.
+- [ ] DREY: one room/confession reel ships Thursday daytime (grandfather story re-cut face-first) → clears 1,000 within 48h (room median 2,580 n=3; the raw reel sits at 136 as a noon standalone). Confidence: medium-high. Grade: P1.
+- [ ] Scan: rowancheung + davidmeltzer returned (dateless) after the AM rate-limit exclusion; meltzer shipped a fresh reel today (stats unprocessed at pull). gerardadams rested this run, still dead since 10-22.
+
 ## 2026-11-04 AM (Chauncey)
 - [x] GRADED 11-04 AM: 11-03 PM DREY ranking reel (DfQi1OCm9fM) holds ≥1,000 at 24h — 1,652 at ~26h → MET, 2nd straight 1,000+ ranking. “Drey Ranks the Tools” fixed Tuesday 7pm ET slot CONFIRMED (now a standing rule).
 - [x] GRADED 11-04 AM: 11-03 PM DREY ranking #2 + folded gate ships by 11-04 10pm ET — NOT shipped as of 7:00a; the overnight ManyChat reel (10:31p, 140) and voice-prompt static (10:56p, 65) were not it → still OPEN, closes 10pm tonight (deadline #9).

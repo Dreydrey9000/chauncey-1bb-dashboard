@@ -8,7 +8,7 @@ with urllib.request.urlopen(req, timeout=30) as r:
     body = r.read().decode('utf-8', 'replace')
 print('HTTP', r.status, '| bytes:', len(body))
 print('edition live:', '2026-11-07 (PM)' in body)
-print('drey reel url live:', 'DfcrqsUkZIl' in body)
+print('drey reel url live:', 'DfcPkBYiRvH' in body)
 print('kevin reel url live:', 'DfaCVCuTpNx' in body)
 print('window.INSPIRE shape ok:', body.lstrip().startswith('// Daily inspiration brief'))
 import hashlib, os

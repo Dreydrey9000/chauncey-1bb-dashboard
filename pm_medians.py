@@ -1,40 +1,27 @@
 #!/usr/bin/env python3
-"""Evening inspire: compute 7-day medians by account + post type from posts_all.csv."""
-import csv, statistics, datetime
-
-BASE = "/Users/andrethomas/.hermes/workspaces/chauncey/dashboard"
-cutoff = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
-
-rows = []
-with open(f"{BASE}/posts_all.csv", newline="") as f:
+"""Recompute 14-day medians used for evening beat/miss calls (reels + statics per founder)."""
+import csv, datetime, statistics, os
+BASE = os.path.dirname(os.path.abspath(__file__))
+CUT = datetime.date(2026, 10, 24)
+rows = {'drey_ig': {'reel': [], 'static': []}, 'kevin_ig': {'reel': [], 'static': []}}
+with open(os.path.join(BASE, 'posts_all.csv')) as f:
     for r in csv.DictReader(f):
-        rows.append(r)
-
-print(f"CSV rows: {len(rows)}, 7d cutoff: {cutoff}")
-
-def med(prefix, label, reel_filter=None):
-    vals = []
-    for r in rows:
-        if r["account"] != prefix:
-            continue
-        if not r["date"] or r["date"] < cutoff:
-            continue
-        is_reel = r.get("is_reel", "")
-        if reel_filter is True and is_reel.strip().lower() not in ("1", "true", "yes"):
-            continue
-        if reel_filter is False and is_reel.strip().lower() in ("1", "true", "yes"):
+        acc = r['account']
+        if acc not in rows:
             continue
         try:
-            v = int(float(r["views"] or 0))
-        except ValueError:
+            d = datetime.date.fromisoformat(r['date'][:10])
+            v = int(float(r['views'] or 0))
+        except Exception:
             continue
-        vals.append(v)
-    if vals:
-        print(f"{prefix} {label} 7d: n={len(vals)} median={statistics.median(vals)} values={sorted(vals)}")
-    else:
-        print(f"{prefix} {label} 7d: n=0")
-
-for acct in ("drey_ig", "drey_tt", "kevin_ig", "kevin_tt"):
-    med(acct, "reels", True)
-    med(acct, "statics", False)
-    med(acct, "all", None)
+        if d < CUT:
+            continue
+        is_reel = str(r.get('is_reel', '')).strip().lower() == 'true' or '/reel/' in (r.get('url') or '')
+        rows[acc]['reel' if is_reel else 'static'].append((d.isoformat(), v, (r.get('content') or '')[:40]))
+for acc, kinds in rows.items():
+    for kind, vals in kinds.items():
+        if vals:
+            vs = [v for _, v, _ in vals]
+            print(f'{acc} {kind}: n={len(vs)} median={statistics.median(vs)} min={min(vs)} max={max(vs)}')
+            for d, v, c in sorted(vals, reverse=True)[:3]:
+                print(f'   {d} {v} | {c}')

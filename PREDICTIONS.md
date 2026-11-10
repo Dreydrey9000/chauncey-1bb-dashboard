@@ -11,6 +11,15 @@ Format: date | prediction | confidence | status
 - 2026-10-15 PM | Kevin's 10/15 identity static (DehfzxhDSVc) settles at or above his 1,721 static median by 10/22 | confidence: medium (55%) — 1,326 in <5h, needs +30% more | status: open
 - 2026-10-15 PM | Standing rule: Kevin's identity/standards lines ship as statics; reels reserved for room recaps (static-vs-reel split now a 5-post pattern: 1,326/1,721 statics vs 399/167 identity reels) | confidence: high | status: standing rule
 
+## 2026-11-10 AM (Chauncey)
+- [x] GRADED 11-10 AM: 11-09 PM DREY prediction (8am confession reel clears 238 and targets the 1,116 room band) — the reel never shipped; two statics ran instead (12:29a: 254 v / 2 c, inside the standing 10pm–6am no-post window; 2:48p: 141 v / 0 c) → MISSED on ship (not graded on views; condition unmet). Deadline rolls to #3-stated: ship by 3p ET today.
+- [x] GRADED 11-10 AM: 11-09 PM KEVIN ceiling static < 900 at 7a → move the static slot earlier — 430 views at 7a pull vs the trigger → FIRED; static slot moves to before 9a from today. Observed, not a prediction.
+- [ ] DREY: confession reel (“the first thing I fired myself from,” one before/after number, comment ask in operator language) ships by 3p ET today → ≥5 comments within 48h. Confidence: medium (mechanic settled overnight at 172c PUBLIC_PROXY; ship deadline is the risk). Grade: P1.
+- [ ] DREY: if the confession reel ships, it clears his 238 reel median (30d n=23) within 48h and targets the 2,691 room-theme band (n=3). Confidence: medium. Grade: P2.
+- [ ] KEVIN: tonight’s St. Pete event gets filmed; the recap reel ships Wed AM → beats his 857 reel median (30d n=28) within 48h (Nov 4 room reel: 4,550 v / 51 c). Confidence: medium (requires filming tonight). Grade: P1.
+- [ ] KEVIN: today’s static ships before 9a (new early slot) → ≥1,000 views in 48h (statics median 1,924.5, n=22; yesterday’s 2:48p static managed 141 → slot move is the test). Confidence: medium. Grade: P2.
+- Scan note 11-10 AM: meltzer fresh overnight (2,699 v / 11 c, ~12h); liamottley nothing new since yesterday noon — his noon reel settled 7,825 v / 172 c (comments > likes at settle); bedroskeuilian quiet since yesterday noon (196,477 settled); rowancheung 4pm settled 12,212 v / 2 c. All four handles returned full dated payloads.
+
 ## 2026-11-04 PM (Chauncey)
 - [x] GRADED 11-04 PM: 11-04 AM KEVIN invite reel ships 1pm window (3rd stated deadline) — NOT shipped (2:37p client-quote static + 3:59p values reel instead, neither carries the room close) → MISSED as specified, 4th stated deadline. Rolls to deadline #4 (Thu 3p, values-format + room close).
 - [x] GRADED 11-04 PM: 11-03 PM DREY ranking reel ≥1,000 at 24h — already MET at 7a; 43h settle = 1,666 (+14 over the day, done climbing). Closed.

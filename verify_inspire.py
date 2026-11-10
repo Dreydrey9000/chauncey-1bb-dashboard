@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify live inspire.js deploy on Cloudflare Pages (browser UA)."""
+"""Verify live inspire.js deploy on Cloudflare Pages (browser UA). Markers: 2026-11-10 PM edition."""
 import urllib.request
 
 url = 'https://1bb-dashboard.pages.dev/inspire.js'
@@ -7,8 +7,8 @@ req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Macintosh
 with urllib.request.urlopen(req, timeout=30) as r:
     body = r.read().decode('utf-8', 'replace')
 print('HTTP', r.status, '| bytes:', len(body))
-print('edition live:', '2026-11-10 (AM)' in body)
-print('drey reel url live:', 'DfhZaOpjC8p' in body)
+print('edition live:', '2026-11-10 (PM)' in body)
+print('drey reel url live:', 'Dfj-DmwGXBr' in body)
 print('kevin reel url live:', 'Dfim9koEX7w' in body)
 print('window.INSPIRE shape ok:', body.lstrip().startswith('// Daily inspiration brief'))
 import hashlib, os

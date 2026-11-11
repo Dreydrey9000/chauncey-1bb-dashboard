@@ -1,36 +1,36 @@
-// Daily inspiration brief — 2026-11-10 (PM)
+// Daily inspiration brief — 2026-11-11 (AM)
 window.INSPIRE = {
-  date: '2026-11-10 (PM)',
+  date: '2026-11-11 (AM)',
   drey: {
     reel: {
       url: 'https://www.instagram.com/reel/Dfj-DmwGXBr/',
       who: 'liamottley',
-      views: '2447',
-      comments: '25',
-      viewsNote: '~5h old (his 1pm ET slot); his second reel today (5pm slot) already 2,157 v / 22 c in ~1h',
-      why: 'Liam went 2-for-2 today — both daily slots produced 20+ comment reels within hours (2,447 v / 25 c and 2,157 v / 22 c). The question-at-the-end mechanic is a repeatable machine, not a one-off: his yesterday-noon reel settled at 8,830 v / 194 c, comments beating likes (163). Drey’s last five reels: 102–187 views, 1 comment total.'
+      views: '3417',
+      comments: '39',
+      viewsNote: 'settled overnight (his 1pm ET slot, ~22h); his same-day 5pm reel: 2,878 v / 28 c at ~19h',
+      why: 'Yesterday’s flagged reel matured 2,447→3,417 views, 25→39 comments — and the six-day sample now shows the slot IS the mechanic: Liam’s 1pm slot medians 6,478 v / 148 c vs 5,048 v / 54 c at 5pm. The early slot earns 2.7x the comments. Drey’s room theme median: 2,709 (30d, n=3) vs 262 on ai_systems (n=22) — a 10x gap on his own account.'
     },
-    tweak: 'THE ADJUSTMENT FOR TOMORROW: reserve Drey’s first slot (8–10a ET) for the confession reel — no AI reel fills it. Today’s noon reel (DfkZY4hCnQi, AI checking on your parents) is tracking a miss: 124 views at ~6h vs his 229 reel median (30d, n=23), 0 comments. The confession reel passed deadline #3 today while the room lane sits at a 2,691 median (30d, n=3) vs 279 on ai_systems (n=22) — a 10x gap. Make Liam’s reel but Drey’s way: open with the confession ("the first thing I fired myself from"), one before/after number in builder language, then the room ask at the end. Prediction: ships by 10a → ≥250 views and ≥3 comments in 48h. Confidence: low-medium (mechanic proven at PUBLIC_PROXY scale; shipping is the risk — 3 deadlines missed).',
+    tweak: 'THE FILMING DECISION: the confession reel films this morning and ships by 3p ET — deadline #4. Four deadlines missed while easy screen-record AI reels keep shipping (yesterday’s noon AI reel settled at 124 v / 0 c vs his 232.5 reel median — confirmed miss). The block is production cost, so cut the cost: phone only, ONE take, no edit. Open with ‘the first thing I fired myself from,’ one before/after number in builder language, close with the room ask. Prediction: ships by 3p → ≥250 views and ≥3 comments in 48h. Confidence: low-medium (mechanic proven at PUBLIC_PROXY scale; shipping is the risk — 0-for-4).',
     postIdeas: [
-      'Confession reel in the reserved 8–10a slot — room median 2,691 (30d, n=3) vs 279 ai_systems (n=22): the single highest-leverage change available tomorrow.',
-      'If no film: same confession as a static with the room ask as the caption question — statics median 289 (30d, n=7) beats his reel median 229 while the camera is down.'
+      'Confession reel in the early-afternoon window — room median 2,709 (30d, n=3) vs ai_systems 262 (n=22): the highest-leverage change left this week.',
+      'If the camera stays down: give the slot the ranking/tier-list format (cleared 1,000+ twice, OFFICIAL_API) — never another screen-recorded tool demo.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/Dfim9koEX7w/',
+      url: 'https://www.instagram.com/reel/DflIGyGjxw4/',
       who: 'davidmeltzer',
-      views: '3857',
-      comments: '18',
-      viewsNote: '~22h matured (overnight slot); this morning’s pull had it at 2,699 v / 11 c',
-      why: 'Matured overnight +42% (2,699→3,857 views) and comments 11→18 — the twice-daily cadence compounds conversation per view, not just reach. That is exactly the job of tomorrow’s recap: the room talking, not a view count.'
+      views: '2158',
+      comments: '7',
+      viewsNote: 'fresh overnight post (11:50p ET slot), ~12h old at pull',
+      why: 'Meltzer ships while his audience sleeps and lets the morning compound it — yesterday’s reel matured 3,857→4,127 v overnight on zero extra posts. That is exactly Kevin’s job today: the St. Pete recap. His room+ask reels are his only comment engine (Nov 4: 4,592 v / 51 c), and statics still beat his reels 2:1 (1,860 vs 858.5 median, 30d).'
     },
-    tweak: 'THE PLAN FOR TOMORROW: tonight’s St. Pete event is the shoot — recap reel ships tomorrow AM. Structure: one moment from the room, one standard you saw upheld, one calm invitation ("bring one person to the next one"). Kevin’s comment engine is the room+ask lane — his Nov 4 reel ran 4,550 views / 51 comments. Today he posted nothing on the feed as of the 6:15p pull; yesterday’s ceiling static settled at 483 views vs his 1,624 statics median (30d, n=14) — confirmed miss, the second soft static in a row after two 1.5k+ room posts. Prediction: recap reel ≥622 views (his 30d reel median, n=16) in 48h, ≥10 comments if the ask is direct. Confidence: medium (requires footage from tonight).',
+    tweak: 'THE FILMING DECISION: the recap reel ships THIS MORNING — it was already due at the 6:31a pull (last post is still Nov 9; 45h dark). One moment from the room, one standard you saw upheld, one calm invitation (‘bring one person to the next one’). If the footage exists this is a 20-minute edit; if it does not, ship an identity static before 9a instead — identity is his top lane at 2,266 median (30d, n=5). Prediction: recap by noon → ≥858 views (his 30d reel median, n=28) in 48h, ≥10 comments if the ask is direct. Confidence: medium (requires footage from last night).',
     postIdeas: [
-      'Event recap reel tomorrow AM — room median 1,138 (30d, n=11), and reels with a direct ask are his only comment engine.',
-      'Identity static in the earlier slot — identity median 1,488 (30d, n=2) tops his other lanes.'
+      'Recap reel by noon — room theme median 1,520 (30d, n=14), and the Nov 4 room reel (4,592 v / 51 c) is proof the format talks back.',
+      'Identity static in the early slot if footage is missing — identity median 2,266 (n=5) tops every other lane he has.'
     ]
   },
-  note: 'Evening scan: Liam 2-for-2 today (both slots 20+ comments within hours — ask-the-room works at 1pm AND 5pm); Meltzer matured to 3.9k v / 18 c on clockwork cadence; Bedros dark today (yesterday’s reel settled 200,432); Rowan midday reel 12,094 v / 3 c — reach without conversation, contrast profile stands. Founder delta: Drey’s noon AI reel tracking a miss (124 v at ~6h) and the confession reel is on deadline #4 tomorrow; Kevin dark today by design — the event room is tonight’s shoot, recap ships tomorrow AM.',
-  provenance: 'Lookalike stats: PUBLIC_PROXY (TokScript public API, pulled 2026-11-10 ~6:15p ET). Founder stats: OFFICIAL_API (Zernio REST pull 6:15p ET; medians from posts_all.csv through 2026-11-09).'
+  note: 'Morning scan: Liam’s 1pm slot out-comments his 5pm slot 2.7x (148 vs 54 median, six days) — the ask mechanic wants the early slot; Meltzer 12h fresh at 2,158 v; Bedros dark since Nov 9 (last settled 201,943 v); Rowan 17.6k v / 4 c — reach without conversation, contrast stands. Founder delta: Kevin +229 followers (+1.51%) to 15,402, Drey +41 to 8,124, 1BB club 64 (+39). Drey’s confession reel is 0-for-4 on deadlines; Kevin 45h dark pending the recap.',
+  provenance: 'Lookalike stats: PUBLIC_PROXY (TokScript public API, pulled 2026-11-11 ~7:05a ET). Founder stats: OFFICIAL_API (Zernio REST refresh 6:31a ET → posts_all.csv; follower counts from Zernio 3:14a snapshot).'
 }

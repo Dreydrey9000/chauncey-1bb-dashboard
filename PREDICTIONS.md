@@ -11,6 +11,15 @@ Format: date | prediction | confidence | status
 - 2026-10-15 PM | Kevin's 10/15 identity static (DehfzxhDSVc) settles at or above his 1,721 static median by 10/22 | confidence: medium (55%) — 1,326 in <5h, needs +30% more | status: open
 - 2026-10-15 PM | Standing rule: Kevin's identity/standards lines ship as statics; reels reserved for room recaps (static-vs-reel split now a 5-post pattern: 1,326/1,721 statics vs 399/167 identity reels) | confidence: high | status: standing rule
 
+## 2026-11-11 AM (Chauncey)
+- [x] GRADED 11-11 AM: 11-10 AM DREY prediction (confession reel ships by 3p ET → ≥5 comments in 48h) — NOT shipped; the 3p–10p window produced only stories (18:18Z, 221 v). Noon went to an AI reel (DfkZY4hCnQi) that settled 124 v / 0 c vs his 232.5 reel median → MISSED on ship, 4th straight. Deadline rolls to #4: ship by 3p ET today (11-11).
+- [x] GRADED 11-11 AM: 11-10 AM KEVIN recap prediction — deadline is TODAY AM; as of the 6:31a refresh Kevin is 45h dark (last post Nov 9 static, 530 v / 2 c) → still OPEN, closes noon. Overnight static prediction (ship before 9a) also still open — nothing shipped yet.
+- [ ] DREY: confession reel (phone, one take, no edit: ‘the first thing I fired myself from,’ one before/after number, room ask close) ships by 3p ET deadline #4 → ≥250 views and ≥3 comments in 48h. Confidence: low-medium (0-for-4 ship base rate is the whole risk). Grade: P1.
+- [ ] KEVIN: St. Pete recap reel ships by noon → ≥858 views (30d reel median, n=28) in 48h, ≥10 comments if the ask is direct. Confidence: medium (requires footage). Grade: P1.
+- [ ] KEVIN: if no footage, identity static ships before 9a → ≥1,000 views in 48h (identity median 2,266, n=5). Confidence: medium. Grade: P2.
+- [ ] Liam 1pm-slot rule (PUBLIC_PROXY): the ask mechanic out-performs at the early slot — 1pm slot median 6,478 v / 148 c vs 5pm 5,048 v / 54 c over six days. Standing guidance: Drey’s room-ask reels take the early-afternoon window, not evening. Confidence: medium. Grade: P3.
+- Scan note 11-11 AM: all four handles full dated payloads. Liam settled 3,417/39 (1pm) + fresh 2,878/28 (5pm); meltzer fresh overnight 2,158 v / 7 c at ~12h; bedros dark 43h (last 201,943); rowan 17,597 v / 4 c (contrast stands). gerardadams rested this run — still dead since 10-22.
+
 ## 2026-11-10 AM (Chauncey)
 - [x] GRADED 11-10 AM: 11-09 PM DREY prediction (8am confession reel clears 238 and targets the 1,116 room band) — the reel never shipped; two statics ran instead (12:29a: 254 v / 2 c, inside the standing 10pm–6am no-post window; 2:48p: 141 v / 0 c) → MISSED on ship (not graded on views; condition unmet). Deadline rolls to #3-stated: ship by 3p ET today.
 - [x] GRADED 11-10 AM: 11-09 PM KEVIN ceiling static < 900 at 7a → move the static slot earlier — 430 views at 7a pull vs the trigger → FIRED; static slot moves to before 9a from today. Observed, not a prediction.

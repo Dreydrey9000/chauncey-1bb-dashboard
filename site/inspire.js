@@ -1,36 +1,36 @@
-// Daily inspiration brief — 2026-11-11 (PM)
+// Daily inspiration brief — 2026-11-12 (AM)
 window.INSPIRE = {
-  date: '2026-11-11 (PM)',
+  date: '2026-11-12 (AM)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DfmjJYKlYYZ/',
+      url: 'https://www.instagram.com/reel/Dfh1KESCtl_/',
       who: 'liamottley',
-      views: '3798',
-      comments: '61',
-      viewsNote: 'posted 8:06a ET today, ~10h old at pull; his second post today (12:08p ET) sits at 1,539 v / 15 c at 5.5h',
-      why: 'Liam posted twice today and the morning reel is the comment engine — 61 comments on 3.8k views. His Nov 9 midday ask reel matured to 9,791 v / 233 c (41.6k-follower account). Every recent Liam reel carries an explicit ask; the ask compounds comments for 48h+. Drey posted nothing to the feed today — deadline #4 (confession by 3p) expired, now 0-for-5. His two pending reels settled as misses: Nov 10 reel 126 v / 0 c and Nov 9 AI reel 187 v / 1 like vs his 232 reel median (30d, n=18).'
+      views: '10038',
+      comments: '242',
+      viewsNote: 'posted 12:07p ET Nov 9 — three days old and still compounding: 9,791 → 10,038 v (+247) and 233 → 242 c overnight',
+      why: 'Liam’s three reels that broke 9k views (10,038 / 9,496 / 9,081) all pulled 240+ comments; his 3-5k reels pull 26-86. Same account, same 2x/day cadence — the difference is the reel, not the audience. Drey shipped his own reel at 10:01p ET last night (first feed post in 34h): the AI-tier-list, 142 v / 0 c / 0 l at ~9h vs his 227 reel median (60d, n=27). The opinion landed; the conversation didn’t.'
     },
-    tweak: 'THE ADJUSTMENT: film the confession reel at the 4a story session — he is provably awake and posting then (story frames at 2:50a, 3:14a, 4:05a ET today) — and ship by 8a ET, Liam’s comment slot. Phone only, one take, no edit, as decided this morning. Open with the thing he fired himself from, one before/after number, close with the room ask. Afternoon deadlines have died five straight times; the deadline moves to morning or it is not real. Prediction: ships by 8a → ≥250 views and ≥3 comments in 48h. Confidence: low (mechanic proven, shipping 0-for-5 — this is the last morning-only attempt before the plan-level flag).',
+    tweak: 'THE TWEAK: keep the tier-list mechanic he already filmed — add the missing half. (1) The ask: one line inviting a comment (“comment RANK and I’ll send my actual list”). Liam’s 9k reels prove the ask does the compounding. (2) The lane: open with the operator pain, not the tool (“I ranked assistants because I was the employee doing everything”). ONE DECISION: film the confession piece at the 4a session as ONE 30-second phone take, post by 8a ET. This is deadline #6 — per last night’s call, the last morning-only attempt before it becomes a plan-level flag at Sunday’s review. Prediction: ships by 8a → ≥250 v and ≥3 c in 48h. Confidence: low (mechanic proven, shipping record 0-for-5).',
     postIdeas: [
-      'Confession/room reel in the 8a–1p ask window — room median 2,709 (30d, n=3) vs ai_systems 288 (n=18): a 9x gap on his own account.',
-      'Retire the screen-recorded tool demo for the week — last two (187 v, 126 v) both landed under the 232 reel median; the Nov 10 relationship reel was also off-lane (that is Kevin’s territory).'
+      'Confession/room reel in the 8a–1p window — room median 2,712 v (60d, n=3) vs ai_systems 238 (n=25): a 9x gap on his own account; only 3 room posts in 60 days.',
+      'Watch the 10p tier-list reel for 48h: if it clears the 227 reel median, the ranking format is the repeatable AI-lane vehicle — then bolt the comment ask onto every future ranking post.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DfnAg7FM4_k/',
+      url: 'https://www.instagram.com/reel/Dfh2UZdsXMb/',
       who: 'bedroskeuilian',
-      views: '179152',
-      comments: '19',
-      viewsNote: 'posted 12:30p ET today, ~5.5h old at pull; 2,752 likes already — on pace with his Nov 9 reel that settled at 203,236 v',
-      why: 'Bedros dropped a midday discipline reel today and it is compounding toward 200k again — daily cadence, same calm standard-setting register. Kevin went feed-dark 60h: no recap reel, no fallback static — both of this morning’s deadlines missed. His pending posts graded: Nov 9 static 569 v = miss vs 1,682 static median (30d, n=14); Nov 8 static 1,685 v / 43 likes = par. The recap is dead — footage aged out; do not chase it.'
+      views: '204156',
+      comments: '53',
+      viewsNote: 'posted Nov 9; yesterday’s Bedros pick (Nov 11, 12:22p ET) matured 179,152 → 180,333 v overnight — his cadence compounds while he sleeps',
+      why: 'Bedros has posted 12 reels in 22 days, ten of them 137k-362k views, mostly 10:30a-3:30p ET, same calm standard-setting register. Kevin went story-only yesterday (8:55a, 2:52p ET) — feed-dark since Nov 9 (~60h+), morning static deadlines 0-for-2. Kevin’s statics beat his reels 2,015 vs 848 median (60d, n=47/51): the format is not the problem, the cadence is.'
     },
-    tweak: 'THE ADJUSTMENT: ship an identity static before 9a tomorrow — no reel required, no footage dependency. One sentence of standard (‘the room does not X’), one line of calm invitation. Bedros proves the standard-set register travels; Kevin’s own data says statics are his lane (1,682 median vs 632 reels, 30d). When the next room event exists on camera, the recap format returns — the Nov 4 room reel (4,592 v / 51 c) is still his best comment proof. Prediction: static by 9a → ≥1,000 views in 48h (his static median 1,682, n=14; last two ran 569–1,685). Confidence: medium.',
+    tweak: 'THE TWEAK: not a reel — a static. Bedros’s mechanic is the daily standard; Kevin’s version is ONE post: a single sentence of standard (“the room doesn’t [X]”), one line of calm invitation. No footage, no edit, no excuse. ONE DECISION: identity static before 9a ET today — attempt #3. If one sentence can’t ship, Sunday’s review escalates it. Prediction: static by 9a → ≥1,000 v in 48h (static median 2,015; last statics ran 626-1,735). Confidence: medium.',
     postIdeas: [
-      'Identity static in the morning slot — identity median 1,510 (30d, n=2) and statics beat his reels 1,682 vs 632 (n=14/16).',
-      'When footage returns: room recap with a direct ‘bring one person’ ask — room median 1,168 (n=11) and the Nov 4 room reel 4,592 v / 51 c is his only comment engine.'
+      'Identity static in the morning slot — identity is his top theme (median 2,344 v, n=10) and statics beat reels 2,015 vs 848.',
+      'Room content without a camera: the Nov 8 room static (1,735 v) held par with zero new footage — the room lane needs a standard, not a camera roll.'
     ]
   },
-  note: 'Evening delta: both founders went feed-dark today while every lookalike posted — Liam 2x (morning reel 61 comments), Bedros midday (179k v in 5.5h), Meltzer 6p ET (27 v — 30 min old, too fresh to judge), Rowan dark since yesterday. AM predictions graded: Drey ship-by-3p FAILED (no post — 0-for-5); Kevin recap-or-static-by-9a FAILED (60h dark). One adjustment tomorrow: ship before noon — Drey’s confession films at the 4a session, ships by 8a; Kevin’s identity static ships by 9a. Afternoon deadlines are cancelled.',
-  provenance: 'Lookalike stats: PUBLIC_PROXY (TokScript public API, pulled 2026-11-11 ~6:05p ET). Founder stats: OFFICIAL_API (Zernio REST analytics, 3-day window pulled ~6:05p ET; medians from posts_all.csv 6:31a refresh, 30-post windows). Follower delta tonight: unavailable (no evening follower pull).'
+  note: 'Overnight grades: Drey HALF — reel shipped at 10:01p ET (deadline met, wrong reel: tier-list, not the confession; 142 v at ~9h, views call still pending). Kevin MISS — stories only, feed-dark since Nov 9. Scan: every lookalike posts daily — Liam 2x/day, Bedros 12 reels/22 days (ten at 137k-362k), Rowan back to earth (16-30k) after his 120k Oct 31, Meltzer ~2x/day landing soft (1.1k-4.9k). The founders’ gap is cadence, not craft.',
+  provenance: 'Lookalike stats: PUBLIC_PROXY (TokScript public API, pulled 2026-11-12 ~7:05a ET). Founder stats: OFFICIAL_API (Zernio REST via posts_all.csv, this morning’s refresh; 60-day windows since 2026-09-14).'
 }

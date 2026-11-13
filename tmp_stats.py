@@ -1,46 +1,61 @@
 #!/usr/bin/env python3
-"""Morning brief stats: medians by founder/theme/format from posts_all.csv."""
-import csv, statistics as st
+"""Morning brief CSV stats: recent-window + theme medians for grounding."""
+import csv, statistics
 from collections import defaultdict
+from datetime import datetime, timedelta
 
-rows = list(csv.DictReader(open('/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/posts_all.csv')))
-for r in rows:
-    r['views'] = int(r['views'] or 0)
-    r['comments'] = int(r['comments'] or 0)
-    r['is_reel'] = r['is_reel'] == 'True'
+PATH = "/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/posts_all.csv"
 
-def med(vals):
-    vals = [v for v in vals if v > 0]
-    return (round(st.median(vals)), len(vals)) if vals else (None, 0)
+def to_int(x):
+    try:
+        return int(float(x))
+    except (TypeError, ValueError):
+        return None
 
-for acct in ('drey_ig', 'kevin_ig'):
-    sub = [r for r in rows if r['account'] == acct]
-    print(f'== {acct} n={len(sub)} ==')
-    bytheme = defaultdict(list)
-    for r in sub:
-        bytheme[r['theme']].append(r['views'])
-    for t, v in sorted(bytheme.items(), key=lambda kv: -st.median([x for x in kv[1] if x > 0] or [0])):
-        m, n = med(v)
-        if m: print(f'  theme {t:12s} median={m:5d} n={n}')
-    reels = [r['views'] for r in sub if r['is_reel'] and r['views'] > 0]
-    statics = [r['views'] for r in sub if not r['is_reel'] and r['views'] > 0]
-    print(f'  REELS median={st.median(reels):.0f} n={len(reels)} | STATICS median={st.median(statics):.0f} n={len(statics)}')
-    print('  -- last 8 posts (newest first):')
-    for r in sorted(sub, key=lambda x: x['ts'], reverse=True)[:8]:
-        print(f"    {r['date']} {'REEL' if r['is_reel'] else 'STAT'} {r['theme']:12s} v={r['views']:5d} c={r['comments']:3d} er={r['er']:>5s}")
+rows = []
+with open(PATH) as f:
+    for r in csv.DictReader(f):
+        try:
+            r["_date"] = datetime.strptime(r["date"], "%Y-%m-%d")
+        except ValueError:
+            continue
+        rows.append(r)
 
-# grading: Drey ai_systems reel streak
-d = sorted([r for r in rows if r['account'] == 'drey_ig'], key=lambda x: x['ts'], reverse=True)
-streak = 0
-for r in d:
-    if r['theme'] == 'ai_systems':
-        streak += 1
-    else:
-        break
-print(f'\nDrey ai_systems streak: {streak} consecutive posts, views: {[r["views"] for r in d[:streak]]}')
-# Kevin comment rate on recent reels
-k = sorted([r for r in rows if r['account'] == 'kevin_ig' and r['is_reel']], key=lambda x: x['ts'], reverse=True)[:6]
-print('Kevin recent reels v/c:', [(r['date'], r['views'], r['comments'], r['theme']) for r in k])
-# Kevin static grading (Nov 7 8:11pm ET post)
-tgt = [r for r in rows if r['url'] == 'https://www.instagram.com/p/DfdgaVPSuLP/']
-print('Kevin identity static DfdgaVPSuLP now:', [(r['views'], r['comments'], r['likes']) for r in tgt])
+rows.sort(key=lambda r: r["_date"], reverse=True)
+latest = max(r["_date"] for r in rows)
+print("LATEST POST DATE IN CSV:", latest.date())
+
+cutoff = latest - timedelta(days=14)
+recent = [r for r in rows if r["_date"] >= cutoff]
+
+def summarize(subset, label):
+    views = [to_int(r["views"]) for r in subset if to_int(r["views"]) is not None]
+    if not views:
+        print(f"{label}: no data")
+        return
+    print(f"{label}: n={len(views)} median_views={statistics.median(views):.0f} max={max(views)}")
+
+summarize(recent, "ALL recent-14d")
+
+for acct in ["drey_ig", "drey_tt", "kevin_ig", "kevin_tt"]:
+    sub = [r for r in recent if r["account"] == acct]
+    summarize(sub, acct)
+    sub_sorted = sorted([r for r in sub if to_int(r["views"]) is not None],
+                        key=lambda r: to_int(r["views"]), reverse=True)
+    for r in sub_sorted[:3]:
+        c = " ".join(r["content"].split())[:90]
+        print(f"   {r['date']} [{r['theme']}] views={r['views']} comments={r['comments']} likes={r['likes']} reel={r['is_reel']} :: {c}")
+
+print("\nTHEME MEDIANS (full history, IG views):")
+for acct in ["drey_ig", "kevin_ig"]:
+    themes = defaultdict(list)
+    for r in rows:
+        if r["account"] == acct and to_int(r["views"]) is not None:
+            themes[r["theme"]].append(to_int(r["views"]))
+    tstat = sorted(((t, len(v), statistics.median(v)) for t, v in themes.items() if len(v) >= 2),
+                   key=lambda x: -x[2])
+    for t, n, m in tstat:
+        print(f"  {acct} {t}: n={n} median={m:.0f}")
+
+allv = [to_int(r["views"]) for r in rows if to_int(r["views"]) is not None]
+print(f"\nALL-TIME median views across all posts: {statistics.median(allv):.0f}")

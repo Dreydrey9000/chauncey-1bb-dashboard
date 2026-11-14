@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify live inspire.js deploy on Cloudflare Pages (browser UA). Markers: 2026-11-13 PM edition."""
+"""Verify live inspire.js deploy on Cloudflare Pages (browser UA). Markers: 2026-11-14 AM edition."""
 import urllib.request
 
 url = 'https://1bb-dashboard.pages.dev/inspire.js'

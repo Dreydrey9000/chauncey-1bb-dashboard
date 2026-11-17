@@ -12,9 +12,13 @@ try:
 except Exception as e:
     print("data.js read fail:", e)
 
-# follower baseline from current followers.json
+# follower baseline from current followers.json (compact summary — raw JSON
+# is inflated by CDN profile-pic URLs, so a byte-truncated dump would drop
+# later accounts like 1bbownersclub)
 try:
     d = json.load(open("raw/followers.json"))
-    print(json.dumps(d, indent=None)[:2000])
+    for a in d.get("accounts", []):
+        print(f"prev_followers: {a.get('username')} {a.get('currentFollowers')} "
+              f"(updated {str(a.get('lastUpdated'))[:10]})")
 except Exception as e:
     print("followers.json read fail:", e)

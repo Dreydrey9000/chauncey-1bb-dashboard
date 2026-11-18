@@ -11,6 +11,15 @@ Format: date | prediction | confidence | status
 - 2026-10-15 PM | Kevin's 10/15 identity static (DehfzxhDSVc) settles at or above his 1,721 static median by 10/22 | confidence: medium (55%) — 1,326 in <5h, needs +30% more | status: open
 - 2026-10-15 PM | Standing rule: Kevin's identity/standards lines ship as statics; reels reserved for room recaps (static-vs-reel split now a 5-post pattern: 1,326/1,721 statics vs 399/167 identity reels) | confidence: high | status: standing rule
 
+## 2026-11-18 PM (Chauncey)
+- [x] GRADED 11-18 PM: 11-18 AM DREY question-reel as room/confession frame, 12–2p slot — SHIPPED 12:07p ET (Df4_8azk422, first-ever noon post) but as ai_systems frame, not room/confession → frame MISSED as specified; slot experiment live, graded below.
+- [x] GRADED 11-18 PM: 11-18 AM KEVIN sub-35s identity reel + same-day identity static — reel shipped ~7:35p ET Nov 17 (Df3OsgJFJOh) but at 67s, NOT sub-35s; static did NOT ship (only a 9:27a story) → MISSED as specified. Reel itself 338 at ~23h vs 856 median → tracking MISS.
+- [ ] DREY: noon reel Df4_8azk422 ≥300 views at the 24h mark (~12p Thu) → noon slot graduates to standing regardless of frame; <300 → tomorrow’s noon reel MUST flip to specific-person frame. Confidence: medium. Grade: P1.
+- [ ] DREY: next reel led by a specific real person (Kevin/client/mom) clears 400 in 48h — story-led ai_systems reels ran 722/1,352 vs 102–383 (median ~170) for the 11 tool-first/generic-famous ones. Confidence: medium. Grade: P1.
+- [ ] KEVIN: identity static ships 9a ET tomorrow → ≥1,924 (static median n=79) in 48h; identity statics median 2,888 (n=12) vs identity reels 778 (n=7). Confidence: medium-high. Grade: P1.
+- [x] Correction logged: 11-18 AM claimed "Kevin identity theme #1 (2,384 n=19)" — mixed formats. Correct: identity leads STATICS (2,888, n=12); identity REELS are 778 (n=7). Lane rule updated: identity ships as statics.
+- Scan note 11-18 PM: all four handles full-dated. rowan fresh TODAY 4:31p ET (10,957 @90min, baseline 19–37k, Nov 13 spike settled 366k); liam silent day 7; bedros dark since Nov 16, due Thu by ~1.8-day rhythm; meltzer 2 today on the 9a/2p machine (1,522 + 5,974). Data flag: the AM "63.4 completion" figure sits in the SKIP column of posts_all.csv — reconcile watch metrics in Sunday review.
+
 ## 2026-11-11 AM (Chauncey)
 - [x] GRADED 11-11 AM: 11-10 AM DREY prediction (confession reel ships by 3p ET → ≥5 comments in 48h) — NOT shipped; the 3p–10p window produced only stories (18:18Z, 221 v). Noon went to an AI reel (DfkZY4hCnQi) that settled 124 v / 0 c vs his 232.5 reel median → MISSED on ship, 4th straight. Deadline rolls to #4: ship by 3p ET today (11-11).
 - [x] GRADED 11-11 AM: 11-10 AM KEVIN recap prediction — deadline is TODAY AM; as of the 6:31a refresh Kevin is 45h dark (last post Nov 9 static, 530 v / 2 c) → still OPEN, closes noon. Overnight static prediction (ship before 9a) also still open — nothing shipped yet.

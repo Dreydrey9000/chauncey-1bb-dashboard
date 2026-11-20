@@ -8,11 +8,11 @@ window.INSPIRE = {
       who: 'liamottley',
       views: 12109,
       comments: 299,
-      why: 'His best of the window (12,109 views, 234 likes, 299 comments), and the comment tell is extreme on his grid: his comment-leaders 299/290/105 are his view-leaders 12.1k/10.1k/5.6k. He earns ~2.5 comments per 100 views — two orders of magnitude above Bedros/Rowan. Also new: he returned from 8 days dark on Nov 19 and his first reel back did 10,811 in ~12h, 2nd-best of the window. Caption not returned (PUBLIC_PROXY).'
+      why: 'His best of the window (12,109 views, 234 likes, 299 comments), and the comment tell is extreme on his grid: his comment-leaders 299/290/105 are his view-leaders 12.1k/10.1k/5.6k. He earns ~1.5 comments per 100 views — roughly 50x Bedros’ rate and 60x Rowan’s. Also new: he returned from 9 days dark on Nov 19 and his first reel back did 10,811 in ~17h, 2nd-best of the window. Caption not returned (PUBLIC_PROXY).'
     },
     tweak: 'Build his question-engine, but load it with your proof: ONE real operator’s Tuesday (the dials turned, the hours it returned), one plain analogy, end on ONE question — “what’s the one task you’d hand off first?” — then work the comments yourself. His reel earns its views in the comments; your lane adds the receipts.',
     postIdeas: [
-      'TODAY’S ONE DECISION (12p): the person-led noon reel was specified again yesterday and shipped as a first-date listicle (143) — three straight ai_systems listicles at 121/139/143 vs your 232 all-time reel median (n=48). Today it ships as specified (person, pain, one question) or noon reels end and reels move to the Tuesday 7p anchor (1,865 last run). Gate: under 232 at Sunday noon = move. (OFFICIAL_API: posts_all.csv.)',
+      'TODAY’S ONE DECISION (12p): the person-led noon reel was specified again yesterday and shipped as a first-date listicle (143) — three straight ai_systems listicles at 121/139/143 vs your 232 all-time reel median (n=48). Today it ships as specified (person, pain, one question) or noon reels end and reels move to the Tuesday 7p anchor slot. Gate: under 232 at Sunday noon = move. (OFFICIAL_API: posts_all.csv.)',
       'Weekend room/confession reel from a real moment this week: room median 1,387 (n=11), confession 3,494 (n=2) vs ai_systems 232 (n=36) all-time on your sheet. No invented proof — hold a [verified result] slot until the real source exists. Sunday noon: 48h grades for the Nov 18–19 reels.'
     ]
   },
@@ -22,13 +22,13 @@ window.INSPIRE = {
       who: 'davidmeltzer',
       views: 50434,
       comments: 45,
-      why: 'A ~25x outlier on a grid whose recent median is ~2.0k — 50,434 views, 310 likes, his only window post over 7.1k, and his comment high (45 vs 2–30 elsewhere). Numbers-only read (caption not returned, PUBLIC_PROXY): the outlier broke his own pattern — a solo 10a post between his usual 9a batch installments, not another batch installment.'
+      why: 'A ~25x outlier on a grid whose other-nine median is 2,030 — 50,434 views, 310 likes, the only window post over 7.1k besides his Nov 13 breakout (30,788), and his comment high (45 vs 2–30 elsewhere). Numbers-only read (caption not returned, PUBLIC_PROXY): the outlier broke his own pattern — a solo 10a post between his usual 9a batch installments, not another batch installment.'
     },
     tweak: 'Break your own pattern once today: one solo post, off the batch clock, in your register — one calm line on identity/faith/family, one clear next step, end with the honest question. His outlier carried his comment high; yours should invite the reply, not chase it.',
     postIdeas: [
       'TODAY’S ONE DECISION (9:00a sharp): yesterday’s confession static slipped to 10:23a and closed 480 — worst feed static on your sheet vs the 1,983 static median (n=73). Today ships 9:00a sharp, back on identity: median 3,211 (n=9), 8 of 9 at/above your static median, Nov 15’s did 5,333. (OFFICIAL_API: posts_all.csv.)',
-      'Keep the ~6p machine-transparency static as a fixed beat — yesterday’s closed 2,811, +42% over your static median. Sunday: grade the 9:56p room reel at 48h (221 @ ~9h early vs 855 reel median; your Aug room reels ran 1,073/1,781/7,783 — your best reel lane).'
+      'Keep the ~6p machine-transparency static as a fixed beat — yesterday’s closed 2,811, +42% over your static median. Sunday: grade the 9:56p room reel at 48h (221 @ ~9h early vs 855 reel median; your Aug room reels ran 1,073/1,781/7,783 — best reel theme on your sheet (n=3)).'
     ]
   },
-  note: 'AM edition. Scan: gerardadams is BACK — first full pull since Oct 20 (9 of his last 12 reels at 98k–158k views, 79–122 comments); he re-enters Kevin’s rotation next run. Also: Rowan’s climber closed at 101,958; Bedros posted again (185.5k); Liam broke an 8-day silence straight into 10.8k. The comment-count-ranks-views law held on every grid again (Liam 299→12.1k, Meltzer 45→50.4k, Gerard 122→136k). Provenance: lookalike stats PUBLIC_PROXY (TokScript pull this run, all handles full-dated, captions not returned); founder stats OFFICIAL_API (posts_all.csv 6:30a refresh; sub-24h figures are early reads).'
+  note: 'AM edition. Scan: gerardadams is BACK — first full pull since Oct 20 (9 of his last 12 reels at 98k–158k views, 79–122 comments); he re-enters Kevin’s rotation next run. Also: Rowan’s climber closed at 101,958; Bedros posted again (185.5k); Liam broke a 9-day silence straight into 10.8k. The comment-count-ranks-views law held on every grid again (Liam 299→12.1k, Meltzer 45→50.4k, Gerard 122→136k). Provenance: lookalike stats PUBLIC_PROXY (TokScript pull this run, all handles full-dated, captions not returned); founder stats OFFICIAL_API (posts_all.csv 6:30a refresh; sub-24h figures are early reads).'
 };

@@ -12,7 +12,12 @@ def series(obj):
     return out
 
 cur = series(new)
-old_raw = subprocess.run(['git', 'show', 'HEAD~1:raw/followers.json'], capture_output=True, text=True).stdout
+# Previous snapshot = last commit BEFORE the current one that touched raw/followers.json
+# (plain HEAD~1 breaks whenever a non-refresh commit lands on top)
+hashes = subprocess.run(['git', 'log', '--format=%H', '-n', '2', '--', 'raw/followers.json'],
+                        capture_output=True, text=True).stdout.split()
+prev_ref = f'{hashes[1]}:raw/followers.json' if len(hashes) > 1 else 'HEAD~1:raw/followers.json'
+old_raw = subprocess.run(['git', 'show', prev_ref], capture_output=True, text=True).stdout
 old = series(json.loads(old_raw)) if old_raw.strip() else {}
 
 print('latest points (username: prev -> last, date):')

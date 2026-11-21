@@ -1,45 +1,52 @@
 #!/opt/homebrew/bin/python3
-"""Morning inspire brief 2026-11-10: founder stats from posts_all.csv."""
-import pandas as pd
+"""AM inspire brief 2026-11-21: read founder own-data (posts_all.csv) and print the
+rows + medians needed for the brief. Read-only; prints only."""
+import csv, statistics, datetime, json
 
-df = pd.read_csv('/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/posts_all.csv')
-df['ts'] = pd.to_datetime(df['ts'])
-df['date'] = pd.to_datetime(df['date'])
+CSV = '/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/posts_all.csv'
+rows = []
+with open(CSV, newline='', encoding='utf-8') as f:
+    for r in csv.DictReader(f):
+        rows.append(r)
 
-print("MAX DATE:", df['date'].max().date(), "| rows:", len(df))
+def num(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return None
 
-# --- Drey IG: the 8am confession reel prediction from last night ---
-print("\n=== DREY IG reels: last 8 ===")
-drey_reels = df[(df['account'] == 'drey_ig') & (df['is_reel'] == True)].sort_values('ts').tail(8)
-for _, r in drey_reels.iterrows():
-    print(f"{r['date'].date()} {str(r['ts'])[:16]} views={r['views']:.0f} likes={r['likes']:.0f} cmts={r['comments']:.0f} theme={r['theme']} | {str(r['content'])[:60]}")
+def dt(r):
+    try:
+        return datetime.datetime.fromisoformat(r['ts'])
+    except Exception:
+        try:
+            return datetime.datetime.fromisoformat(r['date'])
+        except Exception:
+            return None
 
-print("\n=== DREY IG: last 6 posts any type ===")
-for _, r in df[df['account'] == 'drey_ig'].sort_values('ts').tail(6).iterrows():
-    print(f"{r['date'].date()} {str(r['ts'])[:16]} views={r['views']:.0f} cmts={r['comments']:.0f} reel={r['is_reel']} theme={r['theme']} | {str(r['content'])[:60]}")
-
-# Drey medians
-d30 = df[(df['account'] == 'drey_ig') & (df['date'] >= df['date'].max() - pd.Timedelta(days=30))]
-print("\nDrey IG 30d by theme:")
-print(d30.groupby('theme')['views'].agg(['count', 'median', 'max']).sort_values('median', ascending=False).to_string())
-d_statics = d30[d30['is_reel'] == False]['views']
-d_reels = d30[d30['is_reel'] == True]['views']
-print(f"Drey statics median (30d): {d_statics.median():.1f} (n={len(d_statics)}) | reels median: {d_reels.median():.1f} (n={len(d_reels)})")
-
-# --- Kevin IG: ceiling static graded at 7am ---
-print("\n=== KEVIN IG: last 8 posts ===")
-for _, r in df[df['account'] == 'kevin_ig'].sort_values('ts').tail(8).iterrows():
-    print(f"{r['date'].date()} {str(r['ts'])[:16]} views={r['views']:.0f} likes={r['likes']:.0f} cmts={r['comments']:.0f} reel={r['is_reel']} theme={r['theme']} | {str(r['content'])[:60]}")
-
-k30 = df[(df['account'] == 'kevin_ig') & (df['date'] >= df['date'].max() - pd.Timedelta(days=30))]
-print("\nKevin IG 30d by theme:")
-print(k30.groupby('theme')['views'].agg(['count', 'median', 'max']).sort_values('median', ascending=False).to_string())
-k_statics = k30[k30['is_reel'] == False]['views']
-k_reels = k30[k30['is_reel'] == True]['views']
-print(f"Kevin statics median (30d): {k_statics.median():.1f} (n={len(k_statics)}) | reels median: {k_reels.median():.1f} (n={len(k_reels)})")
-# Kevin engagement rate on statics
-k_statics_er = k30[k30['is_reel'] == False]['er']
-print(f"Kevin statics ER median (30d): {k_statics_er.median():.2f}%")
-# Kevin reels completion/watch
-k_reels_watch = k30[(k30['is_reel'] == True) & (k30['watch_ms'] > 0)]
-print(f"Kevin reels watch_ms median: {k_reels_watch['watch_ms'].median():.0f}ms over n={len(k_reels_watch)}")
+for acct in ('drey', 'kevin'):
+    for plat, pf in [('IG', lambda r: 'instagram.com' in r['url']), ('TT', lambda r: 'tiktok.com' in r['url'])]:
+        sub = [r for r in rows if r['account'].lower().startswith(acct) and pf(r)]
+        if not sub:
+            continue
+        sub.sort(key=lambda r: dt(r) or datetime.datetime.min, reverse=True)
+        print(f"=== {acct} [{plat}]: {len(sub)} posts, 6 latest ===")
+        for r in sub[:6]:
+            print(f"{r['ts']} | reel={r['is_reel']} | theme={r['theme']} | views={r['views']} | likes={r['likes']} | comments={r['comments']} | {r['content'][:60]!r} | {r['url']}")
+        for label, filt in [
+            ('reels', lambda r: r['is_reel'].strip().lower() in ('1','true','yes')),
+            ('statics', lambda r: r['is_reel'].strip().lower() not in ('1','true','yes')),
+        ]:
+            s = [num(r['views']) for r in sub if filt(r) and num(r['views']) is not None]
+            if s:
+                print(f"[{plat}] median views {label}: {statistics.median(s):.1f} (n={len(s)})")
+        themes = {}
+        for r in sub:
+            t = (r['theme'] or '').strip()
+            v = num(r['views'])
+            if t and v is not None:
+                themes.setdefault(t, []).append(v)
+        for t, vs in sorted(themes.items(), key=lambda kv: -statistics.median([x for x in kv[1] if x is not None])):
+            if len(vs) >= 2:
+                print(f"[{plat}] theme {t}: median {statistics.median(vs):.1f} (n={len(vs)})")
+        print()

@@ -111,3 +111,8 @@ Format: date | prediction | confidence | status
 - [ ] DREY: Ryan installment 3 ships within 7 days → clears 1,658 (7d reel median, n=6). Confidence: medium-high (prior installments at 2,342/2,377 and still climbing). Grade: P2.
 - [ ] KEVIN: the asking static ("Opportunities don’t run out. Most people just stop asking too soon.") ships today → ≥1,712 within 48h (holding the 10-29 bar for continuity; fresh all-time static median 1,751, n=89). Confidence: medium (3 of last 4 statics cleared 1,658+; identity 2,761/room 1,602 theme medians). Grade: P1.
 - [ ] KEVIN standing: scripture-framed reels are the only reel lane above par (645 "feel blessed" + 542 ask-and-it-will-be-given vs 425 7d reel median, n=11) — any filmed reel this week runs scripture-framed or doesn’t run. Confidence: high (observed). Grade: P2.
+
+## 2026-11-21 AM (Chauncey)
+- [ ] DREY: standalone app-look test images paused 7 days; ONE consolidated Proof post from the app testing ships within 7d → clears 450 views in 48h (recent carousel best: 416; per-post reach 150–250). Confidence: medium (65%). Grade: P1.
+- [ ] KEVIN: family-moment carousel + one identity line ships within 5 days → ≥1,300 reach in 48h (Nov 15 family carousel hit 2,447 reach, ~4x baseline). Confidence: medium-high (70%). Grade: P1.
+- [ ] KEVIN: "how I run my week" systems series (off Nov 18 carousel, 3,042 views, 7 saves) → first installment within 10 days, ≥600 reach. Confidence: medium. Grade: P2.

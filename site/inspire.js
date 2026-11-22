@@ -1,34 +1,34 @@
-// Daily inspiration brief — study → imitate → tweak (PM edition)
-// Generated 2026-11-21 evening (6:00p ET run) by Chauncey. Provenance: lookalike stats = PUBLIC_PROXY (TokScript), founder stats = OFFICIAL_API (Zernio REST).
+// Daily inspiration brief — study → imitate → tweak (AM edition)
+// Generated 2026-11-22 morning (7:00a ET run) by Chauncey. Provenance: lookalike stats = PUBLIC_PROXY (TokScript), founder stats = OFFICIAL_API (Zernio REST).
 window.INSPIRE = {
-  date: '2026-11-21 (PM)',
+  date: '2026-11-22 (AM)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/Df5ejpsugWO/',
-      who: 'rowancheung',
-      views: 108928,
-      comments: 65,
-      why: 'Rowan’s Wednesday 9:31p reel is his only 100k+ of the last 10 — the outlier. Meanwhile his fixed 5:00–6:00p slot (29.5k, 27.6k, 14.7k) is just his floor. The breakout came off his usual time, not on it.'
+      url: 'https://www.instagram.com/reel/Df7yGe-I5XM/',
+      who: 'liamottley',
+      views: 13591,
+      comments: 8,
+      why: 'Liam posts to two fixed slots (8:04a and 12:08p ET); those 11 reels median 4,873 views. His one OFF-clock post — 2:00p on Nov 19 — did 13,591, 2.8x his on-slot median. The schedule is his floor; breaking it is where his ceiling showed up.'
     },
-    tweak: 'His breakout is an off-schedule post. Yours: your last five reels all went up 5:00–5:07p — same slot as his floor. Make tomorrow’s reel but post it in the MORNING (before 10a, your winning window). Same content discipline, new clock.',
+    tweak: 'Your mirror of Liam’s clock-lock: your last 6 AI-tool reels all went up on your 12:05p/7:00p auto-slots and closed 105–146 (reel median 146, 14d). Your room reels median 2,724 (n=3, 30d) vs 223 for AI-tool reels (n=26). Tonight: film the room reel — one plain analogy about the operator drowning, then who belongs in the room — and post it 7:30p–3a ET. Correction from yesterday’s PM brief: your winning room reels went up LATE (11:29p, 7:35p, 10:36p, 3:02a ET), not morning. Night is your slot.',
     postIdeas: [
-      'Drey room reel — the 5 people in the room. Your room reels median 2,234 views vs 174 for AI-tool reels (n=8 vs 31). One plain analogy about why the operator is drowning, then name who belongs in the room.',
-      'Drey static proof card — your static ai_systems median 352 vs reels 174: text-over-proof outperforms your reels on the tool lane. Screenshot a real system, one sentence on hours saved, zero tool talk.'
+      'Room reel tonight (above) — 2,724 median vs 223 for the AI-tool lane, n=3 vs n=26. Your best reel of the last two weeks (1,352, Nov 12) shows the lane can still pop when the content is right.',
+      'Static proof card at midday: your ai_systems statics median 336 vs 223 for the same-lane reels (n=4). Screenshot a real system, one sentence on hours saved, zero tool talk.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/Df4q8KiKEXu/',
-      who: 'davidmeltzer',
-      views: 2541,
-      comments: 8,
-      why: 'Meltzer’s 14:00 scheduled slot hits 1.5k–2.5k like a metronome — 6 of his last 8. His breakouts (7.4k, 50.9k) came off-slot. His floor is real but the ceiling comes from spontaneity.'
+      url: 'https://www.instagram.com/reel/Dfpu21_h400/',
+      who: 'bedroskeuilian',
+      views: 362502,
+      comments: 88,
+      why: 'The ceiling of a machine: 12 reels since Oct 27, every single one 77k–364k views, ~3.5 posts a week, all between 8a–3:30p ET, all discipline-or-application register. No experiments, no cadence spikes — consistency of register is the engine.'
     },
-    tweak: 'Kevin’s lane: Meltzer’s 14:00 posts are a clock, not a strategy. Kevin’s Nov 19 3:56p room reel closed at 313 (vs his 851 reel median) — the second straight miss for late-afternoon. Tomorrow: post the room reel in the MORNING slot, keep the calm-coach register.',
+    tweak: 'Don’t copy his volume — copy the register consistency. Your room lane is your Bedros lane: 1,358 median (n=13), best 4,777 (Nov 4). Sunday move: skip the reel, ship the identity static at 9a — your statics beat reels 1,441 vs 756, and identity statics are your top lane at 3,984 median (n=2: 2,405 and 5,563 — small sample, direction only). One belief about who a founder becomes when they raise their standards, one clear next step. Calm coach register, no reel needed.',
     postIdeas: [
-      'Kevin static identity card — your statics beat reels 1,772 vs 851 median views; identity statics lead at 3,211 (n=11). One belief about who a founder becomes when they raise their standards, one clear next step.',
-      'Kevin confession reel — confession reels median 1,014 (n=6), your best reel theme. A past-driven confession about the moment you realized you were the bottleneck in your own business.'
+      'Identity static at 9a (above) — statics 1,441 vs reels 756 median; identity statics 3,984 (n=2).',
+      'Monday room reel 11a–12p: room reels 1,358 median (n=13). This week’s head-to-head: the 4:56p room reel closed 346, the next day’s 11:42a reel hit 1,017. Morning won; keep the room theme on the morning clock.'
     ]
   },
-  note: 'PM delta — Drey posted today 12:06p ET (clients/being-seen reel, 15 views at 1h: same-day views lag, no call yet; his last 5 reels 115–146 vs 227 median = 5 straight AI-tool misses — the lane is fading). Kevin: NO feed post today; last reel 981 vs 851 median = modest beat, 3rd straight reel ≥ median. Lookalike scan: Rowan + Meltzer posted today but nothing new — Rowan at his floor (29.5k), Meltzer at his (1.3k); gerardadams not scanned this run (rotation). One adjustment for tomorrow: BOTH founders post in the morning window — Drey a room reel (2,234 median lane), Kevin the room reel he deferred at 5p (0-for-2 late slot).'
+  note: 'Scan (all verified this run): Bedros — 12/12 reels 77k–364k at 3.5/week, zero off-register. Gerard — 3 reels in 30 hours and the newest collapsed to 1,439 vs 98k–130k for its siblings: cadence spikes kill. Liam — both breakouts came off his fixed slots. Two corrections to yesterday’s PM brief: your reel slots are 12:05p/7:00p ET (not 5p — I read UTC as ET), and the room-reel winning window is 7:30p–3a ET (not morning). Drey already posted an AI-tool reel 7:01p yesterday (123 views — 6th straight sub-150 in that lane). One decision each: Drey films the room reel for tonight’s late window; Kevin ships the identity static at 9a. Provenance: lookalike stats = PUBLIC_PROXY (TokScript public API, pulled 7:00a ET); founder stats = OFFICIAL_API (Zernio REST, posts_all.csv through Nov 22).'
 }

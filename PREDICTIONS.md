@@ -112,6 +112,12 @@ Format: date | prediction | confidence | status
 - [ ] KEVIN: the asking static ("Opportunities don’t run out. Most people just stop asking too soon.") ships today → ≥1,712 within 48h (holding the 10-29 bar for continuity; fresh all-time static median 1,751, n=89). Confidence: medium (3 of last 4 statics cleared 1,658+; identity 2,761/room 1,602 theme medians). Grade: P1.
 - [ ] KEVIN standing: scripture-framed reels are the only reel lane above par (645 "feel blessed" + 542 ask-and-it-will-be-given vs 425 7d reel median, n=11) — any filmed reel this week runs scripture-framed or doesn’t run. Confidence: high (observed). Grade: P2.
 
+## 2026-11-22 PM (Chauncey)
+- [ ] DREY: room reel loads into Monday 11-23 12:05p auto-slot (or posts 7:30–8p ET Mon if filmed late) → clears 450 views in 48h (recent AI-lane band 109–146; room lane median 2,724, n=3, 30d). Confidence: medium (55%) — lane gap 12x but ship-deadline history is poor. Grade: P1.
+- [ ] DREY: 8th sub-150 AI-lane reel in a row posts before the room reel ships → standing recommendation escalates from briefs to a direct conversation about retiring the auto-slot. Confidence: medium. Grade: P1.
+- [ ] KEVIN: Monday 9a identity static ships → ≥1,887 (30d static median) in 48h; ≥3,000 = strong signal. Confidence: medium-high (65%) — statics 1,887 vs reels 756 median (30d); his one identity static did 5,573. Grade: P1.
+- [ ] KEVIN: Sunday-evening slot (his best-median weekday, 2,405 n=3) protected next week — a post ships 11-29 between 5–8p ET → beats 1,363 account median (n=156). Confidence: medium. Grade: P2.
+
 ## 2026-11-21 AM (Chauncey)
 - [ ] DREY: standalone app-look test images paused 7 days; ONE consolidated Proof post from the app testing ships within 7d → clears 450 views in 48h (recent carousel best: 416; per-post reach 150–250). Confidence: medium (65%). Grade: P1.
 - [ ] KEVIN: family-moment carousel + one identity line ships within 5 days → ≥1,300 reach in 48h (Nov 15 family carousel hit 2,447 reach, ~4x baseline). Confidence: medium-high (70%). Grade: P1.

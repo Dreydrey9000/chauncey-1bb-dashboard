@@ -1,34 +1,34 @@
 // Daily inspiration brief — study → imitate → tweak (AM edition)
-// Generated 2026-11-23 morning (7:00a ET run) by Chauncey. Provenance: lookalike stats = PUBLIC_PROXY (TokScript), founder stats = OFFICIAL_API (Zernio REST).
+// Generated 2026-11-24 morning (7:00a ET run) by Chauncey. Provenance: lookalike stats = PUBLIC_PROXY (TokScript), founder stats = OFFICIAL_API (Zernio REST).
 window.INSPIRE = {
-  date: '2026-11-23 (AM)',
+  date: '2026-11-24 (AM)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/Df7yGe-I5XM/',
-      who: 'liamottley',
-      views: 13865,
-      comments: 8,
-      why: 'Posted Thu 2:00p ET — his newest. 13,865 views = 2.8x his 4,919 November median (n=11). Same lane as Drey — systems proof — and his 10k+ breaks come when the reel IS the build, not talk about AI. Posts 1p+5p daily; the machine runs on the standard.'
+      url: 'https://www.instagram.com/reel/DgGPgbAxxU3/',
+      who: 'rowancheung',
+      views: 56468,
+      comments: 28,
+      why: 'New yesterday 3:30p ET — his first post since Nov 21. 56,468 views vs his 44,610 November median (n=10) on 2 posts/week. At 489k followers every reel is a product review, not a growth hack. Same pattern as his Nov 18 114k: when the reel IS the build, it clears 100k; news-talk clears 30–60k.'
     },
-    tweak: 'The 12:01a auto reel closed at 119 — the 12th straight AI-lane reel under 250 views (138 median, n=12, zero comments on all 12). Keep its hook (no money or time to hire help) but film it as a confession: operator pain in your own words first, one plain analogy, land on the room — who you sat with to get out. ‘AI systems instead of hiring an employee’ becomes the last line, not the frame. Your top 3 tracked reels are all room/confession: 13,178 / 4,575 / 3,871.',
+    tweak: 'Yesterday closed two more AI-lane reels at 254 and 111 — 13 straight under 1,000 views (n=13, 139 median, zero comments on all 13) while the room lane runs a 2,727 median (n=3). The last room-lane pair (Oct 27, straw-bites + burrito-pricing reels) did 2,742 and 2,727 on the SAME daily auto-slot. THE TWEAK: reprogram the 12:01a/12:05p auto-slot from AI-lane to room-lane — operator pain in your own words first, one plain analogy, the AI line LAST, not the frame. Do not delete the pipeline; re-aim it. This is the P1 call from yesterday: 30d room-lane median prediction is 900–1,200; under 700 means distribution problem, not content problem — grade it Sunday.',
     postIdeas: [
-      'Film the room reel tonight 7:30–8p ET and load it into the auto-slot — room lane 2,725 median (n=3, 30d) vs AI lane 138 (n=12, 14d). Twelve flat points say the AI lane is a floor, not a ladder.',
-      'Re-script tomorrow’s 12:05p auto post confession-first (pain in the first five words, AI line last) — zero confession reels in 30d; the last one tracked did 3,871 (Aug 30).'
+      'Rerun the Oct 27 format tonight on the 12:05p auto-slot: one specific client workaround (named, real), the plain-analogy version of the fix, AI mention as the last line. Its two predecessors: 2,742 and 2,727 views — 15x the current AI-lane median of 178 (n=28, 30d).',
+      'Ship one confession-style caption on the 12:01a slot: your only ranked-tool reel of the month (Nov 3, 1,905 views) proved the audience rewards you ranking/verdict-ing things — 14x the 14d AI-lane median. Verdict a category, not a tool: "I audited every follow-up system a solo operator can buy; here is the tier list."'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DgDSLjQv9ul/',
+      url: 'https://www.instagram.com/reel/DgGwHT0xwXY/',
       who: 'bedroskeuilian',
-      views: 226298,
-      comments: 44,
-      why: 'Posted yesterday 4:58p ET — new since the PM scan. 4th straight 180k+ (367k Nov 12, 226k Nov 16, 187k Nov 19, 226k Nov 22). Kevin’s register — standards, discipline, no gimmicks — clearing 200k weekly on cadence alone.'
+      views: 252763,
+      comments: 34,
+      why: 'New Monday 8:18p ET — 252,763 views. That is 5 straight reels over 180k (230k Sat, 187k Thu, 226k Mon, 372k Nov 12) on 3 posts/week. Kevin’s register — standards, discipline, no gimmicks — clearing 200k weekly on cadence alone. Note the cadence, not the views: Bedros ships 3x/week without a miss; the streak is the asset.'
     },
-    tweak: 'Friday’s 11:42a discipline reel settled at 1,060, +41% over your 750 reel median (30d) — second straight beat. Today: skip the reel. Write ONE identity static and post it 11a–12p ET. Your only identity static of the last 30d (Sun 11-15) did 5,608 — your biggest post of the month — and statics run 1,892 median (n=19) vs 750 for reels (n=23). One belief about who a founder becomes when they raise their standards, one clear next step, calm coach register — end on the ask.',
+    tweak: 'Yesterday’s volleyball reel (3,683) is your #2 post of the last 30d — 4.8x your 768 reel median (n=24) — and it worked because it was a confession-then-standard (a lie I told myself → what actually happens → the non-negotiable). That is Bedros’s exact structure, in your voice, with volleyball instead of business. THE TWEAK: keep the room/identity/faith rotation — do not chase volleyball. Film today’s reel as confession-then-standard on a family/room theme (the room lane is your top theme at 1,319 median, n=12): one honest admission, what changed, one clear next step, end on the ask.',
     postIdeas: [
-      'Identity static today 11a–12p ET (above) — statics 1,892 median (n=19) vs reels 750 (n=23); the one identity static did 5,608, your biggest of the last 30d.',
-      'Block Sunday evening to film next week’s reel — Sunday is your best median day (2,333, n=4, includes the 5,608). Meltzer pulls 32 comments on 5,167 views by ending on an explicit ask; add the ask to every post this week.'
+      'Ship the identity static today 11a–12p ET (still unposted from yesterday’s call): statics run 1,324 median (n=35) vs 768 reels (n=24), and your top 3 statics of the last 30d are 6,387 (Nov 6 worldview) and 5,697 (Nov 15 identity) — statics ARE your ceiling. One belief about who a founder becomes when they raise their standards; one ask at the end.',
+      'Batch-film Sunday evening for next week (your best median day, 2,333): three confession-then-standard reels — room, identity, faith. Meltzer is pulling 33–50 comments per post by ending every single one with an explicit question; add the ask to each of the three before you film.'
     ]
   },
-  note: 'Monday scan (liam, rowan, bedros, meltzer, gerard — all verified this run): ONE new post since yesterday PM — Bedros 4:58p ET, 226,298 (the imitation reel above; his 4th straight 180k+). Rowan, Meltzer, Gerard, Liam quiet since the weekend. Gerard’s streak holds: 9 of his last 12 reels at 98k–142k; the one off-register reel (Sat) did 1,749. Founder morning read: Drey’s 12:01a auto reel closed at 119 (12th straight sub-250 AI-lane reel); Kevin posted nothing since Friday 11:42a (settled 1,060, a beat). One filming decision each: Drey films the room reel tonight; Kevin skips the reel and ships the identity static late morning. Provenance: lookalike stats = PUBLIC_PROXY (TokScript public API, pulled 7:00a ET); founder stats = OFFICIAL_API (Zernio REST; posts_all.csv through the 6:30a refresh).'
+  note: 'Tuesday scan (rowan, liam, bedros, gerard, meltzer — all verified this run): TWO new posts since yesterday AM — Rowan Mon 3:30p ET (56,468) and Bedros Mon 8:18p ET (252,763, the Kevin imitation reel). Gerard added Mon 10:09a (128,259) — 10 of his last 12 reels now sit 98k–158k; the two off-format ones did 1,861 and 8,732. Meltzer posted 4x since Monday but small (1,169–5,464; his last 100k+ reel was 2024) — micro-clip cadence is a warning, not a model. Liam has not posted since Nov 19. Housekeeping: yesterday’s 6:00p PM brief never landed — no PM commit, no PM inspire.js on disk (a failed run, not a skipped one); today’s file replaces yesterday AM. Founder morning read: Drey closed 2 more AI-lane reels (254, 111) — 13 straight under 1,000; Kevin’s volleyball reel settled at 3,683, his #2 of the month, and he has posted nothing since. One filming decision each: Drey re-aims the auto-slot to the room lane tonight; Kevin films the identity static late morning and batch-films Sunday. Provenance: lookalike stats = PUBLIC_PROXY (TokScript public API, pulled 7:00a ET); founder stats = OFFICIAL_API (Zernio REST; posts_all.csv through the 6:30a refresh).'
 }

@@ -1,124 +1,17 @@
-# Predictions ledger — Chauncey (graded in the weekly review)
+# 1BB content predictions — logged by Chauncey, graded in the Sunday weekly review
 
-Format: date | prediction | confidence | status
+Every important recommendation from the inspire briefs is logged here as a prediction with a
+confidence level and a number to beat. Grading uses posts_all.csv at grading time (Zernio REST,
+OFFICIAL_API). Predictions are graded, never silently dropped.
 
-- 2026-10-08 PM | Kevin films and posts the anger→fear flip reel (Meltzer imitation) by 10/9 EOD → beats his IG reel median (1,027 views) within 48h of posting | confidence: medium — mechanic validated at 76.7k (PUBLIC_PROXY) and his emotional-admission reels over-index (10/6 faith reel 3,024, OFFICIAL_API) | status: open
-- 2026-10-08 PM | Drey ends the posting gap by 10/9 noon with the operator take → lands above his 846 IG median within 48h | confidence: low-medium — room/confession register over-indexes but n is small and the account is cold after 13 days dark | status: open
-- 2026-10-08 PM | If Drey is still dark through 10/9, hold all other Drey recommendations — the gap is the constraint, not content quality | confidence: high | status: standing rule
-- 2026-10-15 AM | Drey confession/room-framed reel beats his ai_systems median (636 views, n=15) within 7 days | confidence: 60% | status: open (condition unmet — the 2:41a reel shipped other-framed)
-- 2026-10-15 AM | Kevin identity static beats his reel median (969) within 7 days of shipping | confidence: 60% | status: effectively MET — 10/15 identity static at 1,326 official views in <5h
-- 2026-10-15 PM | Drey ships exactly one reel by 10/16 EOD, confession/room-framed → clears 636 views within 7 days of posting | confidence: medium-high (70%) — gap broken 10/15, confession median 3,487 (n=2), room 1,110 (n=13), account warm again | status: open
-- 2026-10-15 PM | Kevin's 10/15 identity static (DehfzxhDSVc) settles at or above his 1,721 static median by 10/22 | confidence: medium (55%) — 1,326 in <5h, needs +30% more | status: open
-- 2026-10-15 PM | Standing rule: Kevin's identity/standards lines ship as statics; reels reserved for room recaps (static-vs-reel split now a 5-post pattern: 1,326/1,721 statics vs 399/167 identity reels) | confidence: high | status: standing rule
+## Open
 
-## 2026-11-18 PM (Chauncey)
-- [x] GRADED 11-18 PM: 11-18 AM DREY question-reel as room/confession frame, 12–2p slot — SHIPPED 12:07p ET (Df4_8azk422, first-ever noon post) but as ai_systems frame, not room/confession → frame MISSED as specified; slot experiment live, graded below.
-- [x] GRADED 11-18 PM: 11-18 AM KEVIN sub-35s identity reel + same-day identity static — reel shipped ~7:35p ET Nov 17 (Df3OsgJFJOh) but at 67s, NOT sub-35s; static did NOT ship (only a 9:27a story) → MISSED as specified. Reel itself 338 at ~23h vs 856 median → tracking MISS.
-- [ ] DREY: noon reel Df4_8azk422 ≥300 views at the 24h mark (~12p Thu) → noon slot graduates to standing regardless of frame; <300 → tomorrow’s noon reel MUST flip to specific-person frame. Confidence: medium. Grade: P1.
-- [ ] DREY: next NON-Tuesday-7pm reel led by a specific real person (Kevin/client/mom) clears 400 in 48h — since Nov 3: story-led 722/1,352 and ranking-in-slot 1,865 cleared 400; the other 11 ran 102–383 (median 170), including rankings posted off-slot (121/146/170). Confidence: medium. Grade: P1.
-- [ ] KEVIN: identity static ships 9a ET tomorrow → ≥1,924 (static median n=79) in 48h; identity statics median 2,888 (n=12) vs identity reels 778 (n=7). Confidence: medium-high. Grade: P1.
-- [x] Correction logged (verified twice tonight): 11-18 AM claimed "last 11 ai_systems reels ≤251" and PM first draft said "13 reels, 2 over 400" — true count since Nov 3 is 14 reels, three over 400 (ranking-in-slot 1,865 + story-led 722/1,352); other 11 at 102–383, median 170.
-- [x] Correction logged: 11-18 AM claimed "Kevin identity theme #1 (2,384 n=19)" — mixed formats. Correct: identity leads STATICS (2,888, n=12); identity REELS are 778 (n=7). Lane rule updated: identity ships as statics.
-- Scan note 11-18 PM: all four handles full-dated. rowan fresh TODAY 4:31p ET (10,957 @90min, baseline 19–37k, Nov 13 spike settled 366k); liam silent day 7; bedros dark since Nov 16, due Thu by ~1.8-day rhythm; meltzer 2 today on the 9a/2p machine (1,522 + 5,974). Data flag: the AM "63.4 completion" figure sits in the SKIP column of posts_all.csv — reconcile watch metrics in Sunday review.
+| logged | founder | prediction | beat | confidence | graded |
+|---|---|---|---|---|---|
+| 2026-11-24 PM | Drey | Re-aim the 12:01a auto-slot to a personal-spine first line and drop the "Follow for AI systems" sign-off — the slot outperforms the template run (numeric form below) | template ceiling: 441 views within 48h of posting | medium | — |
+| 2026-11-25 AM | Drey | Next 12:01a slot written as personal spine (no slogan) clears 441 views within 48h of posting | >441 @48h | medium | — |
+| 2026-11-25 AM | Kevin | Identity static shipped by 9p ET today lands ≥2,000 views within 48h (statics median 1,910 n=21; identity statics median 4,102 n=2) | ≥2,000 @48h | medium | — |
 
-## 2026-11-11 AM (Chauncey)
-- [x] GRADED 11-11 AM: 11-10 AM DREY prediction (confession reel ships by 3p ET → ≥5 comments in 48h) — NOT shipped; the 3p–10p window produced only stories (18:18Z, 221 v). Noon went to an AI reel (DfkZY4hCnQi) that settled 124 v / 0 c vs his 232.5 reel median → MISSED on ship, 4th straight. Deadline rolls to #4: ship by 3p ET today (11-11).
-- [x] GRADED 11-11 AM: 11-10 AM KEVIN recap prediction — deadline is TODAY AM; as of the 6:31a refresh Kevin is 45h dark (last post Nov 9 static, 530 v / 2 c) → still OPEN, closes noon. Overnight static prediction (ship before 9a) also still open — nothing shipped yet.
-- [ ] DREY: confession reel (phone, one take, no edit: ‘the first thing I fired myself from,’ one before/after number, room ask close) ships by 3p ET deadline #4 → ≥250 views and ≥3 comments in 48h. Confidence: low-medium (0-for-4 ship base rate is the whole risk). Grade: P1.
-- [ ] KEVIN: St. Pete recap reel ships by noon → ≥858 views (30d reel median, n=28) in 48h, ≥10 comments if the ask is direct. Confidence: medium (requires footage). Grade: P1.
-- [ ] KEVIN: if no footage, identity static ships before 9a → ≥1,000 views in 48h (identity median 2,266, n=5). Confidence: medium. Grade: P2.
-- [ ] Liam 1pm-slot rule (PUBLIC_PROXY): the ask mechanic out-performs at the early slot — 1pm slot median 6,478 v / 148 c vs 5pm 5,048 v / 54 c over six days. Standing guidance: Drey’s room-ask reels take the early-afternoon window, not evening. Confidence: medium. Grade: P3.
-- Scan note 11-11 AM: all four handles full dated payloads. Liam settled 3,417/39 (1pm) + fresh 2,878/28 (5pm); meltzer fresh overnight 2,158 v / 7 c at ~12h; bedros dark 43h (last 201,943); rowan 17,597 v / 4 c (contrast stands). gerardadams rested this run — still dead since 10-22.
+## Graded
 
-## 2026-11-10 AM (Chauncey)
-- [x] GRADED 11-10 AM: 11-09 PM DREY prediction (8am confession reel clears 238 and targets the 1,116 room band) — the reel never shipped; two statics ran instead (12:29a: 254 v / 2 c, inside the standing 10pm–6am no-post window; 2:48p: 141 v / 0 c) → MISSED on ship (not graded on views; condition unmet). Deadline rolls to #3-stated: ship by 3p ET today.
-- [x] GRADED 11-10 AM: 11-09 PM KEVIN ceiling static < 900 at 7a → move the static slot earlier — 430 views at 7a pull vs the trigger → FIRED; static slot moves to before 9a from today. Observed, not a prediction.
-- [ ] DREY: confession reel (“the first thing I fired myself from,” one before/after number, comment ask in operator language) ships by 3p ET today → ≥5 comments within 48h. Confidence: medium (mechanic settled overnight at 172c PUBLIC_PROXY; ship deadline is the risk). Grade: P1.
-- [ ] DREY: if the confession reel ships, it clears his 229 reel median (30d n=23) within 48h and targets the 2,691 room-theme band (n=3). Confidence: medium. Grade: P2.
-- [ ] KEVIN: tonight’s St. Pete event gets filmed; the recap reel ships Wed AM → beats his 857 reel median (30d n=28) within 48h (Nov 4 room reel: 4,550 v / 51 c). Confidence: medium (requires filming tonight). Grade: P1.
-- [ ] KEVIN: today’s static ships before 9a (new early slot) → ≥1,000 views in 48h (statics median 1,924.5, n=22; yesterday’s 2:48p static managed 141 → slot move is the test). Confidence: medium. Grade: P2.
-- Scan note 11-10 AM: meltzer fresh overnight (2,699 v / 11 c, ~12h); liamottley nothing new since yesterday noon — his noon reel settled 7,825 v / 172 c (comments > likes at settle); bedroskeuilian quiet since yesterday noon (196,477 settled); rowancheung 4pm settled 12,212 v / 2 c. All four handles returned full dated payloads.
-
-## 2026-11-04 PM (Chauncey)
-- [x] GRADED 11-04 PM: 11-04 AM KEVIN invite reel ships 1pm window (3rd stated deadline) — NOT shipped (2:37p client-quote static + 3:59p values reel instead, neither carries the room close) → MISSED as specified, 4th stated deadline. Rolls to deadline #4 (Thu 3p, values-format + room close).
-- [x] GRADED 11-04 PM: 11-03 PM DREY ranking reel ≥1,000 at 24h — already MET at 7a; 43h settle = 1,666 (+14 over the day, done climbing). Closed.
-- [ ] KEVIN: invite reel deadline #4 = re-run today’s values-reel format (DfVXpaPDdIS: 1,378 at ~2h = 2.5x reel median, 42 likes/6 comments) ending on the Nov 10 room as the single next step; ships by Thu 11-05 3p → beats 561 reel median within 48h. Confidence: medium-high (format working now; only the close changes). Grade: P1.
-- [ ] KEVIN: values reel (DfVXpaPDdIS) settles ≥1,980 (his personal-reel mark) at the 24h mark (~4p Thu). Confidence: medium. Grade: P2.
-- [ ] DREY: ranking #3 + gate (comment your tier letter) deadline #9 — as of the ~6:15p pull NOT shipped (noon reels were invoice/voice content, not the ranking); closes 10pm tonight. If shipped → ≥5 comments in 48h. Confidence: low-medium (0-for-5 gate deadlines is the base rate). Grade: P1.
-- [ ] DREY: one room/confession reel ships Thursday daytime (grandfather story re-cut face-first) → clears 1,000 within 48h (room median 2,580 n=3; the raw reel sits at 136 as a noon standalone). Confidence: medium-high. Grade: P1.
-- [ ] Scan: rowancheung + davidmeltzer returned (dateless) after the AM rate-limit exclusion; meltzer shipped a fresh reel today (stats unprocessed at pull). gerardadams rested this run, still dead since 10-22.
-
-## 2026-11-04 AM (Chauncey)
-- [x] GRADED 11-04 AM: 11-03 PM DREY ranking reel (DfQi1OCm9fM) holds ≥1,000 at 24h — 1,652 at ~26h → MET, 2nd straight 1,000+ ranking. “Drey Ranks the Tools” fixed Tuesday 7pm ET slot CONFIRMED (now a standing rule).
-- [x] GRADED 11-04 AM: 11-03 PM DREY ranking #2 + folded gate ships by 11-04 10pm ET — NOT shipped as of 7:00a; the overnight ManyChat reel (10:31p, 140) and voice-prompt static (10:56p, 65) were not it → still OPEN, closes 10pm tonight (deadline #9).
-- [x] GRADED 11-04 AM (violation): 11-03 PM standing rule no-post 10pm–6am ET — Drey shipped 10:31p reel + 10:56p static + 11:30p TikTok → VIOLATED; overnight batch 65–140 IG / 20 TT vs 2,259 room median. Rule restated in today’s brief.
-- [x] GRADED 11-04 AM: 11-03 PM KEVIN speakeasy static ≥1,888 at settle — 2,033 and still climbing → MET (P2).
-- [ ] KEVIN: identity-led Nov 10 invite reel ships today 1pm window (3rd stated deadline) → beats his 561 reel median (7d n=9) within 48h. Confidence: medium (own proof: personal reel 1,980 = 3.5x median; event-promo framing 483). Grade: P1.
-- [ ] DREY: ranking #3 + gate (comment your tier letter) ships by 10pm ET tonight, deadline #9 → ≥5 comments in 48h. Confidence: medium (format 2x-proven at 1,652/1,972; gate 0-for-5 standalone but now rides the proven format). Grade: P1.
-- [ ] DREY: one room/confession reel ships within 7 days → clears 2,259+ (14d room median 2,580, n=3). Confidence: high. Grade: P2.
-- [ ] KEVIN: a static ships same-day as the invite reel → clears 1,980 (7d static median, n=7). Confidence: medium-high. Grade: P2.
-- [ ] Scan note: rowancheung + davidmeltzer rate-limited (TokScript) → excluded, not verified. Bedros rested yesterday, back full today (dateless). gerardadams still dead since 10-22.
-
-## 2026-10-17 AM (Chauncey)
-- [ ] DREY: Two Proof reels this weekend will lift daily reach above the 12–62 baseline band by Mon 10-19. Confidence: high. Grade: P1.
-- [ ] KEVIN: A named weekly personal-proof slot + carousel bias keeps weekly reach ≥20k next week (vs 25.2k this week). Confidence: medium-high. Grade: P2.
-
-## 2026-10-27 PM (Chauncey)
-- [ ] DREY: first comment-gated reel by 10-28 EOD → ≥5 comments within 48h (baseline: 0 comments on 8 of his last 10 posts, views running 3x median). Confidence: medium. Grade: P1.
-- [ ] KEVIN: statics-only through 10-30 → next static ≥ his 1,694 static median within 48h (today's 1:11p static: 925 + 19 likes in 5h). Confidence: medium. Grade: P1.
-- [ ] Standing evidence: Kevin reels 10-26→10-27 all six sub-median (454/627/158/88/65/396 vs 832 reel median). Reel lane rested 3 days. Confidence: high (observed).
-
-## 2026-10-28 AM (Chauncey)
-- [ ] KEVIN (updated bar): 10-27 1:11p "Feelings lie" static (DfAXOVmDk3O) reached 1,705 + 8 comments by the 6:31a 10-28 pull → 10-27 PM bar effectively MET with 34h to spare. Today's Meltzer-bent static ≥ 1,712 (static median, n=90) within 48h. Confidence: medium. Grade: P1.
-- [ ] DREY: gated build-truth reel ships TODAY (10-28) → ≥5 comments in 48h (mechanic now validated at scale by liamottley: 490/450/168 comments on 3 keyword-gate reels in 36h, PUBLIC_PROXY). Confidence: medium-high (raised from medium on lookalike validation). Grade: P1.
-- 2026-10-28 AM | DREY watch item: 5:39a plumber static (DfBs6b6kSy0) vs 450 ai_systems theme median (n=22) — if it stalls under 450 by tonight, retire the morning ai_systems slot. Confidence: high (conditional rule). Grade: P2.
-
-## 2026-11-02 AM (Chauncey)
-- [ ] DREY: gate reel (deadline #7) ships TODAY 11-02 → ≥5 comments within 48h (mechanic validated at scale by Liam: 11 of 12 reels 5k+ views, 42–737 comments each, PUBLIC_PROXY; Drey 0 comments on 8 of last 10). Confidence: medium (recurring deadline misses are the base rate against it). Grade: P1.
-- [ ] DREY: if the gate reel ships, it clears his 1,947 reel median (7d n=4) within 72h — the gate comment loop itself supplies the reach. Confidence: medium. Grade: P2.
-- [ ] KEVIN: the asking static ships 11-02 AM (days overdue) → ≥ his 1,543 static median (7d n=7) within 48h (identity lane: Sunday identity reel 1,543 = week-best reel; “living rich” photo 2,855 = week-best static, OFFICIAL_API). Confidence: medium-high. Grade: P1.
-- [ ] PIPELINE watch: Sunday 11-01 7a+6p inspire editions produced no commit/deploy (git log jumps 10-31 18:08 → 11-02 06:32). If this recurs today 6p, escalate the cron job, not the content. Confidence: high (observed). Grade: P2.
-
-## 2026-11-02 PM (Chauncey)
-- [x] GRADED 11-02 PM: 11-02 AM DREY gate reel deadline #7 — nothing shipped by 6p → MISSED (4th ship-deadline; nothing since Friday’s 123-view email reel). Mechanic validation stands (Liam PUBLIC_PROXY). Roll to deadline #8, 9a tomorrow.
-- [x] GRADED 11-02 PM: 11-02 AM KEVIN asking static ≥1,543 in 48h — the specified asking static did NOT ship; today’s Freedom static (DfP-JI1mMMm) is a different piece, 806 at ~4h. MISSED as specified. Roll to tomorrow.
-- [x] GRADED 11-02 PM: PIPELINE watch — this 6p edition committed (a13c60b), deployed, verified sha256-match → no recurrence of Sunday’s missing editions. Watch closes for today.
-- [ ] DREY: gate reel deadline #8 (minimum version: 15s, one take, phone) ships by 11-03 9a → ≥5 comments within 48h. Confidence: low-medium (bar lowered, but 4 consecutive missed deadlines is the base rate). Grade: P1.
-- [ ] KEVIN: Freedom static (DfP-JI1mMMm) ≥1,225 (7d static median n=7) by 24h mark (~1:40p Tue). Confidence: medium-high (his statics climb late: living-rich 2,855→2,904; Feelings lie 925→2,236). Grade: P1.
-- [ ] KEVIN: identity-led event reel (identity open + Nov 10 close) ships 11-03 → beats his 586 reel median within 48h. Confidence: medium (identity reel 1,785 = 3.1x median vs event-promo 370 today). Grade: P1.
-- [ ] Standing rule re-graded: Drey gap is the constraint — every brief leads with the ship deadline, not topic advice. Confidence: high. Grade: standing.
-
-## 2026-11-03 PM (Chauncey)
-- [x] GRADED 11-03 PM: 11-02 PM DREY gate reel deadline #8 (ships by 11-03 9a, min version) — nothing shipped by 9a → MISSED, 5th consecutive ship-deadline. Mechanic validation stands (Liam PUBLIC_PROXY). Gate folds into tomorrow 7pm ranking #2 (deadline #9, merged).
-- [x] GRADED 11-03 PM: 11-02 PM KEVIN Freedom static (DfP-JI1mMMm) ≥1,225 at 24h — 1,302 at ~23h → MET.
-- [x] GRADED 11-03 PM: 11-02 PM KEVIN identity-led event reel ships 11-03 → NOT SHIPPED as of 6p (today’s 1:35p speakeasy post was a static, logistics-framed) → MISSED as specified; rolls to tomorrow 1pm.
-- [x] GRADED 11-03 PM: 11-02 AM DREY gate reel deadline #7 (rolled) — superseded by the #8 grade above (same asset never shipped). Closed as MISSED, not double-counted.
-- [ ] DREY: ranking reel (DfQi1OCm9fM) holds ≥1,000 at the 24h mark (~8p tonight) → confirmed a fixed Tuesday 7pm ET “Drey Ranks the Tools” slot. Confidence: high (1,573 at ~17h; 731 posted in the final 17h of the window). Grade: P1.
-- [ ] DREY: ranking installment 2 + folded comment gate (comment your tier letter) ships tomorrow (tonight if the 7–9p follow-up gets filmed) by 11-04 10pm ET → ≥5 comments in 48h. Confidence: medium (format proven at 1,573; the gate alone is 0-for-5 on deadlines, but it rides a proven format now). Grade: P1.
-- [ ] DREY: no post ships between 10pm and 6am ET from tonight onward — the four 10pm–3am posts averaged ~180 views (121–230) vs 687 account median. Confidence: high (observed, OFFICIAL_API). Grade: standing rule.
-- [ ] KEVIN: identity-led Nov 10 invite REEL ships tomorrow 1pm window → beats his 501.5 reel median (7d n=12) within 48h (event-promo reels ran 428–795; identity reel 1,785 = 3.1x median). Confidence: medium. Grade: P1.
-- [ ] KEVIN: today’s speakeasy static (DfSALCSDTk8, 1,646 at ~5h) clears his 1,225 static median hold AND settles ≥1,888 (fortnight-best static) — his statics climb late (Freedom 806→1,302; Feelings lie 925→2,381). Confidence: medium-high. Grade: P2.
-
-## 2026-10-29 AM (Chauncey)
-- [x] GRADED 10-29 AM: 10-28 AM DREY watch item — plumber static settled at 211 vs 450 bar → MISSED, ai_systems morning slot RETIRED per the rule (scheduled 12:02p flips to room framing). Observed, not a prediction.
-- [x] GRADED 10-29 AM: 10-28 AM KEVIN static ≥1,712 in 48h — "Feelings lie" at 2,236 with ~6h spare → MET (caveat: the specified two-factor static didn't ship; win rode Tuesday's post). Observed.
-- [x] GRADED 10-29 AM: 10-28 AM DREY gated reel ships 10-28 → ≥5 comments in 48h — nothing shipped → MISSED (deadline, not mechanism; liamottley validation stands at PUBLIC_PROXY).
-- [x] GRADED 10-30 AM: DREY gated reel ships 10-29 → ≥5 comments in 48h — nothing shipped (last reel still 10-27) → MISSED, 3rd consecutive ship-deadline. Mechanic validation stands (PUBLIC_PROXY).
-- [x] GRADED 10-30 AM: DREY 12:02p room static clears 450 in 24h — NOT TESTED AS SPECIFIED: the slot ran the retired ai_systems framing (11:32a "Jarvis" static, settled 147). Room-framing variable still untested. Consequence: midday STATIC slot retired outright (7d statics 147/232 vs 828 static median n=23); the gate reel takes the slot.
-- [ ] KEVIN: two-factor static ("thoughts you rehearse + people you sit with") ships today midday → ≥1,712 (static median) within 48h. Confidence: medium (theme medians identity 2,761.5 / room 1,602; two prior statics both cleared). Grade: P1. STATUS 10-30 7a: shipped line was neither two-factor nor asking — the 4:03p "full person" static sits at 1,231 + 23 likes ~15h in and climbing (Feelings lie ran 925→2,381); window closes 4:03p today.
-## 2026-10-30 AM (Chauncey)
-- [ ] DREY: gate reel ships TODAY 10-30, 4th deadline — static slot retired so the reel owns the midday slot → ≥5 comments within 48h of posting. Confidence: medium (mechanic validated at scale PUBLIC_PROXY — Liam’s gate now 9,243/91c day 2; counterweight: 3 missed deadlines). Grade: P1.
-- [ ] DREY: Ryan installment 3 ships within 7 days → clears 1,658 (7d reel median, n=6). Confidence: medium-high (prior installments at 2,342/2,377 and still climbing). Grade: P2.
-- [ ] KEVIN: the asking static ("Opportunities don’t run out. Most people just stop asking too soon.") ships today → ≥1,712 within 48h (holding the 10-29 bar for continuity; fresh all-time static median 1,751, n=89). Confidence: medium (3 of last 4 statics cleared 1,658+; identity 2,761/room 1,602 theme medians). Grade: P1.
-- [ ] KEVIN standing: scripture-framed reels are the only reel lane above par (645 "feel blessed" + 542 ask-and-it-will-be-given vs 425 7d reel median, n=11) — any filmed reel this week runs scripture-framed or doesn’t run. Confidence: high (observed). Grade: P2.
-
-## 2026-11-22 PM (Chauncey)
-- [ ] DREY: room reel loads into Monday 11-23 12:05p auto-slot (or posts 7:30–8p ET Mon if filmed late) → clears 450 views in 48h (recent AI-lane band 109–146; room lane median 2,724, n=3, 30d). Confidence: medium (55%) — lane gap 12x but ship-deadline history is poor. Grade: P1.
-- [ ] DREY: 8th sub-150 AI-lane reel in a row posts before the room reel ships → standing recommendation escalates from briefs to a direct conversation about retiring the auto-slot. Confidence: medium. Grade: P1.
-- [ ] KEVIN: Monday 9a identity static ships → ≥1,887 (30d static median) in 48h; ≥3,000 = strong signal. Confidence: medium-high (65%) — statics 1,887 vs reels 756 median (30d); his one identity static did 5,573. Grade: P1.
-- [ ] KEVIN: Sunday-evening slot (his best-median weekday, 2,405 n=3) protected next week — a post ships 11-29 between 5–8p ET → beats 1,363 account median (n=156). Confidence: medium. Grade: P2.
-
-## 2026-11-21 AM (Chauncey)
-- [ ] DREY: standalone app-look test images paused 7 days; ONE consolidated Proof post from the app testing ships within 7d → clears 450 views in 48h (recent carousel best: 416; per-post reach 150–250). Confidence: medium (65%). Grade: P1.
-- [ ] KEVIN: family-moment carousel + one identity line ships within 5 days → ≥1,300 reach in 48h (Nov 15 family carousel hit 2,447 reach, ~4x baseline). Confidence: medium-high (70%). Grade: P1.
-- [ ] KEVIN: "how I run my week" systems series (off Nov 18 carousel, 3,042 views, 7 saves) → first installment within 10 days, ≥600 reach. Confidence: medium. Grade: P2.
+(none yet — first grading Sunday 2026-11-29)

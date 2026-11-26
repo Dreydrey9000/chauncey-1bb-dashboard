@@ -26,6 +26,7 @@ Data honesty rules: unavailable metrics are reported as unavailable, never as ze
 5. Deploy to Cloudflare Pages (PRIMARY LINK — https://1bb-dashboard.pages.dev/):
    `NODE_OPTIONS="--no-network-family-autoselection" wrangler pages deploy site --project-name=1bb-dashboard --commit-dirty=true`
    (The NODE_OPTIONS flag is required 2026-10-10+: Node 22 fetch times out reaching api.cloudflare.com when IPv6 is dead locally; flag forces sequential-family connect and fixes it. git push keeps history + the legacy GitHub Pages mirror; wrangler updates the live Cloudflare site.)
+   2026-11-26+: wrangler's cached OAuth refresh token 400s ("Failed to fetch auth token: 400 Bad Request") in cron runs, so the command above fails. Fallback: `/opt/homebrew/bin/python3 cf_deploy.py` — same deploy, driven with the CLOUDFLARE_API_TOKEN from ~/.claude/key-cache.json (read at runtime, never stored in the repo). Step 6 verification is still mandatory either way.
 6. Verify the live site with `/opt/homebrew/bin/python3 verify_deploy.py` (must show HTTP 200 + `fresh: True` + today's generation stamp; allow a minute for deploy). Plain `curl` is blocked in cron runs.
 
 ## Final reply format (max 4 lines)

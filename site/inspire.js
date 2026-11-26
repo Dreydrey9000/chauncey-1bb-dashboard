@@ -26,7 +26,7 @@ window.INSPIRE = {
     },
     tweak: 'THE DECISION — film the sequel to your all-time #1 today. Tuesday morning’s room reel passed the volleyball reel overnight: 6,686 vs 6,619 — new #1, and your two best reels ever are now your last two, both on-camera, both pulled from your real week. The #1’s caption already wrote the sequel’s hook: “What rooms are you not in that you should be in?” Film the answer: the room you almost didn’t join (or the one you left), one line on who is in it now, same calm register, close by turning the question outward. Post it 3–7p ET — that window medians 1,379 (n=13) vs 852 the rest of the day. Leave the identity static alone: 615 views at ~13h (+47% overnight); the open ≥2,000 @48h prediction needs tonight’s climb, not a 2p panic read.',
     postIdeas: [
-      'Next static goes 4–9p ET, not 1–4p: that window medians 2,983 (n=16) vs 1,955 (n=18) — same content, better window. The identity static shipped at 2p, the weak one.',
+      'Next static goes 4–9p ET, not 1–4p: that window medians 2,983.5 (n=16) vs 1,955 (n=18) — same content, better window. The identity static shipped at 2p, the weak one.',
       'Sunday batch-film, three reels in the can (room, identity, faith): your Sunday median is your best day — 2,427 (n=9) — and Bedros’s Sunday-noon release finished at 233,220.'
     ]
   },

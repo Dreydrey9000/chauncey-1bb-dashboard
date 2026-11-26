@@ -1,89 +1,104 @@
-import csv, statistics as st
-from collections import defaultdict
-from datetime import datetime, timezone, timedelta
+# Morning inspire-brief stats (2026-11-26 AM) — quotes must come from THIS script only
+import json, csv, statistics
 
-ET = timezone(timedelta(hours=-5))
-rows = []
-with open('/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/posts_all.csv') as f:
-    for r in csv.DictReader(f):
-        rows.append(r)
+# 1) Lookalike medians from THIS run's pull (stdout already saved by cron operator)
+# Manually transcribed from tokscript_pull.py output of this run (2026-11-26 07:00 ET):
+pull = {
+    'liamottley': [
+        ('2026-11-19', 14408), ('2026-10-31', 19045), ('2026-10-29', 12561),
+        ('2026-10-21', 13640), ('2026-10-11', 30107), ('2026-10-07', 12688),
+        ('2026-10-04', 11062), ('2026-10-03', 17329), ('2026-10-02', 13954),
+        ('2026-09-27', 10691), ('2026-09-26', 21657), ('2026-09-25', 31820),
+    ],
+    'rowancheung': [
+        ('2026-11-25', 29191), ('2026-11-24', 64793), ('2026-11-23', 82107),
+        ('2026-11-21', 63661), ('2026-11-20', 34059), ('2026-11-19', 17075),
+        ('2026-11-18', 117037), ('2026-11-17', 39082), ('2026-11-13', 426044),
+    ],
+    'bedroskeuilian': [
+        ('2026-11-24', 256031), ('2026-11-22', 233220), ('2026-11-19', 187912),
+        ('2026-11-16', 227156), ('2026-11-12', 387801), ('2026-11-11', 183675),
+        ('2026-11-09', 214557), ('2026-11-06', 77298), ('2026-11-04', 167511),
+        ('2026-11-03', 157014), ('2026-11-02', 364093), ('2026-10-30', 206579),
+    ],
+    'gerardadams': [
+        ('2026-11-24', 135335), ('2026-11-23', 128473), ('2026-11-21', 1982),
+        ('2026-11-20', 128258), ('2026-11-20', 105316), ('2026-11-19', 111115),
+        ('2026-11-18', 123664), ('2026-11-18', 129895), ('2026-11-17', 98618),
+        ('2026-11-16', 136629), ('2026-11-14', 8822), ('2026-11-12', 965),
+    ],
+}
 
-def num(x):
-    try: return float(x)
-    except: return None
+print('== LOOKALIKE MEDIANS (this run) ==')
+for u, rows in pull.items():
+    views = [v for _, v in rows]
+    last7 = [v for d, v in rows if d >= '2026-11-19']
+    print(f'{u}: n={len(rows)} median_all={int(statistics.median(views)):,} '
+          f'fresh_n={len(last7)} median_fresh={int(statistics.median(last7)) if last7 else "n/a":,}')
 
-def parse_ts(ts):
-    try: return datetime.fromisoformat(ts)
-    except: return None
+# 2) Founder stats from posts_all.csv (feed only — no /stories/, no empty content)
+rows = list(csv.DictReader(open('/Users/andrethomas/.hermes/workspaces/chauncey/dashboard/posts_all.csv')))
 
-now = datetime(2026,11,18,12,1,tzinfo=timezone.utc)
+def feed(r):
+    return r['content'].strip() != '' and '/stories/' not in r['url']
 
-print("=== FOUNDER POSTS SINCE Nov 16 12:00 UTC ===")
-for r in rows:
-    ts = parse_ts(r['ts'])
-    if ts and ts >= datetime(2026,11,16,12,0,tzinfo=timezone.utc):
-        age_h = round((now-ts).total_seconds()/3600,1)
-        print(f"{r['account'][:8]:8} {r['date']} {ts.strftime('%H:%M')}Z (~{age_h}h ago) reel={r['is_reel']:5} views={r['views']:>6} likes={r['likes']:>4} comm={r['comments']:>3} skip%={r.get('skip','') or '-'} dur={r['dur_s'] or '-'} theme={r['theme']} url={r['url'][-20:]}")
+def num(r, k):
+    try:
+        return float(r[k])
+    except (ValueError, TypeError):
+        return None
 
-print("\n=== DREY IG REELS: median views by theme (n) ===")
-d = defaultdict(list)
-all_drey_reels=[]
-for r in rows:
-    if r['account']=='drey_ig' and r['is_reel']=='True':
-        v=num(r['views'])
+drey = [r for r in rows if r['account'] == 'drey_ig' and feed(r)]
+kevin = [r for r in rows if r['account'] == 'kevin_ig' and feed(r)]
+print()
+print('== FOUNDER FEED POSTS ==')
+print(f'drey_ig feed n={len(drey)}, kevin_ig feed n={len(kevin)}')
+
+def top_theme(account_rows, label, n=3):
+    by_theme = {}
+    for r in account_rows:
+        t = r['theme']
+        v = num(r, 'views')
         if v is not None:
-            d[r['theme']].append(v); all_drey_reels.append(v)
-for k,v in sorted(d.items(), key=lambda x:-st.median(x[1])):
-    print(f"{k:12} median={st.median(v):>7.0f}  n={len(v)}")
-print(f"ALL         median={st.median(all_drey_reels):>7.0f}  n={len(all_drey_reels)}")
+            by_theme.setdefault(t, []).append(v)
+    stats = []
+    for t, vs in by_theme.items():
+        stats.append((t, len(vs), int(statistics.median(vs))))
+    stats.sort(key=lambda x: -x[2])
+    print(f'{label} theme medians (n, median views):')
+    for t, c, m in stats[:n]:
+        print(f'  {t}: n={c} median={m:,}')
 
-print("\n=== KEVIN IG: statics vs reels ===")
-ks, kr, kcomp = [], [], []
-ktheme = defaultdict(list)
-for r in rows:
-    if r['account']=='kevin_ig':
-        v=num(r['views'])
-        if v is None: continue
-        if r['is_reel']=='True':
-            kr.append(v)
-            c=num(r['skip'])
-            if c is not None and c>0: kcomp.append(c)
-        else:
-            ks.append(v)
-        ktheme[r['theme']].append(v)
-print(f"statics median={st.median(ks):.0f} n={len(ks)} | reels median={st.median(kr):.0f} n={len(kr)} | reel completion median={st.median(kcomp):.1f}% n={len(kcomp)}")
-print("top themes by median:", [(k, round(st.median(v)), len(v)) for k,v in sorted(ktheme.items(), key=lambda x:-st.median(x[1]))[:5]])
+top_theme(drey, 'DREY')
+print()
+top_theme(kevin, 'KEVIN')
 
-print("\n=== KEVIN REELS sorted by completion% (top 6, last 45 days) ===")
-kk=[]
-for r in rows:
-    if r['account']=='kevin_ig' and r['is_reel']=='True':
-        c=num(r['skip']); v=num(r['views'])
-        ts=parse_ts(r['ts'])
-        if c and c>0 and v is not None and ts and ts>=datetime(2026,10,4,tzinfo=timezone.utc):
-            kk.append((c,v,r['date'],r['theme']))
-for c,v,dt,th in sorted(kk,reverse=True)[:6]:
-    print(f"compl={c:>5.1f}% views={v:>6.0f} {dt} {th}")
+def last7_rows(account_rows):
+    return [r for r in account_rows if r['date'] >= '2026-11-19']
 
-print("\n=== DREY IG REELS: median views by ET posting hour (n>=2) ===")
-h = defaultdict(list)
-for r in rows:
-    if r['account']=='drey_ig' and r['is_reel']=='True':
-        ts=parse_ts(r['ts']); v=num(r['views'])
-        if ts and v is not None:
-            h[ts.astimezone(ET).hour].append(v)
-for k,v in sorted(h.items()):
-    if len(v)>=2:
-        print(f"{k:>2}:00 ET median={st.median(v):>6.0f} n={len(v)}")
+for label, ars in (('DREY', drey), ('KEVIN', kevin)):
+    recent = last7_rows(ars)
+    print(f'{label} last-7d posts (since 11-19): n={len(recent)}')
+    for r in sorted(recent, key=lambda r: -num(r, 'views') or 0):
+        print(f"  {r['date']} views={int(float(r['views'])):,} likes={r['likes']} com={r['comments']} "
+              f"reel={r['is_reel']} theme={r['theme']} | {r['url']}")
+        print(f"    {r['content'][:100].replace(chr(10),' ')}")
+    print()
 
-liam_1pm = [(10338,354),(9987,288),(4663,80),(4301,52),(5417,99),(4621,92)]
-liam_5pm = [(5495,76),(8714,69),(3658,29),(11732,294),(4250,63),(3481,30)]
-v1=sum(x[0] for x in liam_1pm); c1=sum(x[1] for x in liam_1pm)
-v5=sum(x[0] for x in liam_5pm); c5=sum(x[1] for x in liam_5pm)
-print(f"\n=== LIAM 1pm vs 5pm UTC (6 days, today's pull) ===")
-print(f"1pm: {c1} comments / {v1} views = {100*c1/v1:.2f}%  |  5pm incl outlier: {100*c5/v5:.2f}% | 5pm excl 294-outlier reel: {100*(c5-294)/(v5-11732):.2f}%")
+# Kevin reels vs statics (all-time, feed only)
+kr = [r for r in kevin if r['is_reel'] == 'True']
+ks = [r for r in kevin if r['is_reel'] == 'False']
+if kr and ks:
+    print(f"KEVIN reels median={int(statistics.median([num(r,'views') for r in kr if num(r,'views') is not None])):,} (n={len(kr)}) "
+          f"vs statics median={int(statistics.median([num(r,'views') for r in ks if num(r,'views') is not None])):,} (n={len(ks)})")
 
-# Bedros cadence math (12 reels pulled)
-print("\n=== BEDROS cadence: 12 reels span ===")
-print("Nov 16 18:13Z back to Oct 26 16:15Z = 21.1 days, 12 reels = ~1 reel / 1.76 days")
-print("views range: 76137 - 363810; median of 12:", st.median([220123,339733,182879,209807,76137,167355,156901,363810,206459,243483,137928,219018]))
+# All-time top per founder (feed)
+for label, ars in (('DREY', drey), ('KEVIN', kevin)):
+    best = max(ars, key=lambda r: num(r, 'views') or 0)
+    print(f'{label} all-time top feed post: {int(float(best["views"])):,} views | {best["theme"]} | {best["url"]}')
+
+# Drey confession/room vs ai-tool anchors
+conf_room = [r for r in drey if r['theme'] in ('confession', 'room')]
+ai_sys = [r for r in drey if r['theme'] == 'ai_systems']
+print(f"DREY confession+room median={int(statistics.median([num(r,'views') for r in conf_room if num(r,'views') is not None])):,} (n={len(conf_room)}) "
+      f"vs ai_systems median={int(statistics.median([num(r,'views') for r in ai_sys if num(r,'views') is not None])):,} (n={len(ai_sys)})")

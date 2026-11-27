@@ -1,34 +1,34 @@
-// Daily inspiration brief — study → imitate → tweak (PM edition, 6:00p ET)
-// Generated 2026-11-26 evening by Chauncey. Provenance: lookalike stats = PUBLIC_PROXY (TokScript public API, pulled ~6:05p ET); founder stats = OFFICIAL_API (Zernio REST pulled ~6:05p ET; posts_all.csv through the 6:31a refresh).
+// Daily inspiration brief — study → imitate → tweak (AM edition, 7:00a ET)
+// Generated 2026-11-27 morning by Chauncey. Provenance: lookalike stats = PUBLIC_PROXY (TokScript public API, pulled ~7:00a ET); founder stats = OFFICIAL_API (Zernio REST pulled ~7:03a ET; posts_all.csv through the 6:31a refresh).
 window.INSPIRE = {
-  date: '2026-11-26 (PM)',
+  date: '2026-11-27 (AM)',
   drey: {
     reel: {
-      url: 'https://www.instagram.com/reel/DgNbVQPsDyk/',
-      who: 'bedroskeuilian',
-      views: 173160,
-      comments: 53,
-      why: 'New from him at 10:31a ET today — 173,160 views in ~7.5h, 53 comments: a plain told-story with a real number at the center, 8th straight reel ≥170k (streak verified this run). Compare: your noon reel (12:07p ET, same rough window) has 108 views in ~6h, skip 61.4%, avg watch 4.6s of 28s — the auto-posted template isn’t holding people the way a story does.'
+      url: 'https://www.instagram.com/reel/Df5ejpsugWO/',
+      who: 'rowancheung',
+      views: 118403,
+      comments: 69,
+      why: 'A mechanism reel, Tue: opens on the impossible image (a welding robot that walks on ceilings), names the mechanism in plain words (electropermanent magnet — a pulse sticks it on, no continuous power), then why it matters: robots take the dangerous welding work, already in trials at three Korean shipbuilders. 118,403 views, 69 comments — 3.1x his newest reel (38,140, Tue night). That is your lane: real machine, plain explanation, why an operator cares.'
     },
-    tweak: 'THE ADJUSTMENT — the noon A/B never ran. Both of today’s reels shipped with the slogan (“Follow for AI systems instead of hiring an employee”): streak now 17 of your last 19. The 7p slot missed: 152 views — 95% of your last-30 reel median (159.5, n=30) — and noon is your weakest launch window (noon slot median 151, n=19, vs 441, n=7, for 6-8p on mature posts). The slot can’t save the template; the spine carries it — yesterday’s compute-math noon reel is at 995 (+293 since the 6:31a snapshot, 5.6x the all-time reel median 179, n=53) because it has a real number in it. Bedros’s new reel is the same pattern: story + number. Prediction (medium): tomorrow’s noon reel ships slogan-intact — the poster is 17-for-18 — and lands under 500 at 48h; 995 only happens with the real-number spine.',
+    tweak: 'THE TWEAK — same structure, your stack. Your own line from Wednesday: “I get around a thousand emails a day.” Open on the impossible image (“I have an intern who reads 1,000 emails a day and never gets tired”), name the mechanism in plain words (what the agent actually does: triage, drafts, flags what matters), close on the operator pain (you’re the bottleneck — also your words this week). One real number in the first line. No slogan. End on a question. FILMING DECISION: today’s noon auto-slot ships as that mechanism reel — number in line 1, NO “Follow for AI systems” sign-off, question close. The A/B has still never run once: 17 of your last 19 feed posts carry the slogan, zero comments across all 17; the last three auto reels did 152 → 127 → 169. The spine carries, the slot doesn’t: your compute-math reel sits at 995 (4.8x your ai-systems median 207, n=44) and confession/room runs a 1,432 median (n=8) — 6.9x — while the noon slot median is 162.5 (n=16). Prediction (medium): noon mechanism reel, no slogan, clears 441 @48h.',
     postIdeas: [
-      '17 of your last 19 reels carry the slogan and all 19 drew zero comments. Kill the slogan manually tomorrow noon — one variable, and watch for the first comment in three weeks.',
-      'Statics median 414.0 (n=8) vs reels 179 (n=53): if the mid-day slot must fire, a static photo with one real number from your stack outperforms a template reel (2.3x).'
+      'Statics median 420 (n=8) vs reels 179 (n=51) — 2.4x. If the noon reel can’t be re-cut before the slot fires, a static with one real number from your stack beats the template reel anyway.',
+      'Confession/room is 6.9x your ai-systems median (1,432 vs 207, n=8/44) and holds your all-time #1 (3,871, confession). Schedule ONE on-camera confession/room reel this weekend — it’s your proven lane, not a new bet.'
     ]
   },
   kevin: {
     reel: {
-      url: 'https://www.instagram.com/reel/DgNbVQPsDyk/',
-      who: 'bedroskeuilian',
-      views: 173160,
-      comments: 53,
-      why: 'Same new Bedros reel, Kevin lens: released mid-morning (10:31a ET), not 3-7p, and still 173,160 views in ~7.5h. Your reel median is 874.0 (n=68); your two best reels ever — room (6,859) and volleyball (6,686) — are story reels pulled from your real week. His reel: 53 comments on 173,160 (0.03%); your room reel: 7 on 6,859 (0.10%) — your room story out-talks his per viewer.'
+      url: 'https://www.instagram.com/reel/DgISjnjB8zk/',
+      who: 'gerardadams',
+      views: 135404,
+      comments: 92,
+      why: 'The room-craving reel, Tue: “My spirit is craving rooms where I can grow closer to God alongside other men who want the same thing” → who’s at the table → break bread, get honest, pray for each other → one comment-keyword CTA: “comment BROTHERHOOD to request an invitation.” 135,404 views, 92 comments. Your all-time #1 reel is the room reel (7,055, 7 comments) and the sequel question is already sitting in its caption.'
     },
-    tweak: 'THE ADJUSTMENT — no feed post today; the room-sequel window keeps sliding. Your 3-7p ET reel window medians 1,379 (n=13) vs 852 (n=55) elsewhere: same content, better timing. The room reel is 6,859 (+192 since the 6:31a snapshot, ~55h old) — still your all-time #1 and still climbing; the sequel question is already in its caption: “What rooms are you not in that you should be in?” Film the answer as the room-you-joined/room-you-left story, calm register, question turned outward at the close. New prediction (medium): room-sequel filmed and posted 3-7p ET tomorrow clears ≥2,000 at 48h. If the identity static (669, +59 since 6:31a) misses 2,000 by ~2p tomorrow, the 2p static slot stops being a no-brainer.',
+    tweak: 'THE TWEAK — the room-sequel, your calm register: the room you almost didn’t join (or left), one line on who sits at that table now. Then borrow the one mechanic worth copying: close with a comment word instead of a question — “comment ROOM.” Your room reel already out-talks Gerard per viewer (7 comments on 7,055 = 0.10% vs his 92 on 135,404 = 0.07%); your audience is readier to speak than his, they just need one word to say. FILMING DECISION: film it TODAY and post 3–7p ET — your reels in that window median 1,380 (n=13) vs 843 elsewhere; the sequel has slid two days and the room reel is still #1 at 7,055. Prediction (medium): room-sequel with the comment-ROOM close clears 2,000 @48h AND draws ≥5 comments.',
     postIdeas: [
-      'Identity static at 2p: 669 views at ~28h — 34% of your statics median 1,984 (n=67); not a miss yet, but tomorrow’s static goes 4-9p ET where your median is 2,983.5 (n=14) vs 1,955.0 (n=18) for 1-4p.',
-      'The room story compounds while you sleep: +192 views since the 6:31a snapshot at ~55h of age. Sequel = the room you almost didn’t join (or left), one line on who is in it now — pulled from your real week, same as the #1.'
+      'Tuesday’s identity static is 800 at ~36h — 40% of your statics median 2,024 (n=69); the ≥2,000@48h call from Wednesday likely misses by 7p tonight. Statics posted 4–9p ET median 2,984.5 (n=16) vs 1,795 at other times — today’s static goes in that window, not 2p.',
+      'Identity is your top theme (median 2,207.5, n=18) and room is second (1,763, n=35) — the sequel touches both. One on-camera take, no re-shoot loop.'
     ]
   },
-  note: 'Delta: Bedros new today 10:31a ET — 173,160 views in ~7.5h, 53 comments, 8th straight ≥170k. Drey missed both slots (noon 108 @ ~6h with 61.4% skip; 7p 152, 95% of last-30 median) — slogan test still hasn’t run, 17 of 19 carry it. Kevin posted no feed content today (stories only); room reel 6,859 (+192) holds #1. Nothing else new: rowan still yesterday 1:15p (35,792, +22.6% since 7a); liam silent 7 days; gerard last post Nov 24; meltzer 3 low reels since yesterday 7p ET, max 3,640. Lookalike stats = PUBLIC_PROXY (TokScript, pulled ~6:05p ET); founder stats = OFFICIAL_API (Zernio REST pulled ~6:05p ET; posts_all.csv through the 6:31a refresh).'
+  note: 'Scan: Bedros posted again yesterday 10:28a ET — 174,587 (+1,427 since the 6p pull), 8th straight reel ≥170k. Meltzer’s 8 reels since Monday median 3,030.5. Liam still silent, 8 days. Rowan’s Tue reel at 38,140 (+6.6% overnight). Nothing else new. Lookalike stats = PUBLIC_PROXY (TokScript, ~7:00a ET); founder stats = OFFICIAL_API (Zernio REST ~7:03a ET; posts_all.csv through the 6:31a refresh).'
 }

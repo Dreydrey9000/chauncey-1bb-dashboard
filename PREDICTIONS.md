@@ -17,6 +17,8 @@ OFFICIAL_API). Predictions are graded, never silently dropped.
 | 2026-11-25 PM | Kevin | Next static posted 5–8p ET beats 1,500 views @48h (5–8p statics median 3,466 n=5) | >1,500 @48h | medium | — |
 | 2026-11-26 AM | Drey | Noon A/B: same compute-math spine, a new real number, ends on a question — no slogan — beats the template ceiling and draws a comment (16 of last 17 reels ended the slogan, 0 comments across all 17; the same spine WITH the slogan already did 728) | >441 @48h AND ≥1 comment | medium | — |
 | 2026-11-26 AM | Kevin | Room-sequel reel (the room you almost didn't join / left) posted 3–7p ET lands above the 30d reel median ×2 (reels 3–7p window median 1,379 n=13; his two best reels ever are the last two on-camera room/life reels at 6,686 and 6,619) | >2,000 @48h | medium | — |
+| 2026-11-27 AM | Drey | Noon auto-slot ships as a mechanism reel (impossible image → plain-mechanism → operator pain, one real number in line 1) with NO slogan and a question close — beats the template ceiling that every slogan reel hits | >441 @48h | medium | — |
+| 2026-11-27 AM | Kevin | Room-sequel reel filmed and posted 3–7p ET TODAY with the comment-ROOM close (Gerard's 11-24 mechanic) clears 2,000 @48h and draws ≥5 comments | >2,000 @48h AND ≥5 comments | medium | — |
 
 ## Graded
 

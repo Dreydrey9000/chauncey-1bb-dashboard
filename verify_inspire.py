@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify live inspire.js deploy on Cloudflare Pages (browser UA). Markers: 2026-11-27 PM edition."""
+"""Verify live inspire.js deploy on Cloudflare Pages (browser UA). Markers: 2026-11-28 AM edition."""
 import urllib.request
 
 url = 'https://1bb-dashboard.pages.dev/inspire.js'
@@ -7,9 +7,9 @@ req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Macintosh
 with urllib.request.urlopen(req, timeout=30) as r:
     body = r.read().decode('utf-8', 'replace')
 print('HTTP', r.status, '| bytes:', len(body))
-print('edition live:', '2026-11-27 (PM)' in body)
+print('edition live:', '2026-11-28 (AM)' in body)
 print('drey reel live (rowan 11-27):', 'DgQD3Yxxlz9' in body)
-print('kevin reel live (bedros 11-24):', 'DgGwHT0xwXY' in body)
+print('kevin reel live (bedros 11-26):', 'DgNbVQPsDyk' in body)
 print('window.INSPIRE shape ok:', body.lstrip().startswith('// Daily inspiration brief'))
 import hashlib, os
 local = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'site', 'inspire.js'), 'rb').read()
